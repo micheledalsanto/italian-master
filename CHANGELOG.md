@@ -2,6 +2,13 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.1.0] - 2026-10-07
+
+### Aggiunto
+
+- **Installazione con npx.** `npx github:micheledalsanto/italian-master` copia la skill nella cartella delle skill di Claude Code (`~/.claude/skills`, oppure `.claude/skills` del progetto con `--project`), la aggiorna se c'è già e la toglie con `rimuovi`. Lo script non ha dipendenze e non sovrascrive una cartella che non riconosce come questa skill, a meno di `--force`.
+- `package.json`, con i metadati per un'eventuale pubblicazione su npm.
+
 ## [1.0.0] - 2026-10-07
 
 Prima versione pubblica.
@@ -48,4 +55,5 @@ Prima versione pubblica.
 - Lo script segnala indizi e non giudica: un testo senza segnalazioni può essere mediocre.
 - I casi di prova sono scritti ma non ancora eseguiti in modo sistematico con e senza la skill.
 
+[1.1.0]: https://github.com/micheledalsanto/italian-master/releases/tag/v1.1.0
 [1.0.0]: https://github.com/micheledalsanto/italian-master/releases/tag/v1.0.0

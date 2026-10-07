@@ -57,6 +57,22 @@ Claude legge sempre `SKILL.md` e apre gli altri file solo quando servono.
 
 ## Installazione
 
+### Con npx
+
+È il modo più rapido, e non richiede di clonare la repo. Serve Node 18 o successivo.
+
+```bash
+npx github:micheledalsanto/italian-master
+```
+
+Il comando copia la skill in `~/.claude/skills/italian-master`, dove Claude Code la trova da solo. Rilanciato, la aggiorna.
+
+```bash
+npx github:micheledalsanto/italian-master --project   # solo nel progetto corrente (.claude/skills)
+npx github:micheledalsanto/italian-master rimuovi     # la toglie
+npx github:micheledalsanto/italian-master --help      # tutte le opzioni
+```
+
 ### Claude Code, come plugin
 
 Dentro una sessione di Claude Code:
@@ -156,7 +172,7 @@ Segnalazioni, correzioni e nuovi esempi sono benvenuti. Vedi [`CONTRIBUTING.md`]
 
 ## Versioni
 
-La versione corrente è la 1.0.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
+La versione corrente è la 1.1.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
 
 ## Licenza
 

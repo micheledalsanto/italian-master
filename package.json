@@ -1,0 +1,38 @@
+{
+  "name": "italian-master",
+  "version": "1.1.0",
+  "description": "Skill per Claude che scrive, riscrive e corregge testi in italiano naturale, contro la sbobba artificiale (AI slop). Si installa con npx.",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "claude-skill",
+    "agent-skills",
+    "italian",
+    "italiano",
+    "writing",
+    "scrittura",
+    "copywriting",
+    "ai-slop"
+  ],
+  "homepage": "https://github.com/micheledalsanto/italian-master#readme",
+  "bugs": {
+    "url": "https://github.com/micheledalsanto/italian-master/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micheledalsanto/italian-master.git"
+  },
+  "license": "MIT",
+  "author": "Michele Dal Santo <info@micheledalsanto.it> (https://www.micheledalsanto.it)",
+  "bin": {
+    "italian-master": "bin/italian-master.js"
+  },
+  "files": [
+    "bin",
+    "skills",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -44,6 +44,8 @@ Nei file di riferimento molte segnalazioni sono inevitabili, perché contengono 
 
 ```
 .claude-plugin/          manifest del plugin e del marketplace
+bin/italian-master.js    installatore per npx
+package.json             metadati del pacchetto npm
 skills/italian-master/
   SKILL.md               principi e metodo
   references/            approfondimenti, letti quando servono
