@@ -1,0 +1,15 @@
+{
+  "name": "italian-master",
+  "description": "Skill per scrivere in italiano naturale con Claude",
+  "owner": {
+    "name": "micheledalsanto",
+    "url": "https://github.com/micheledalsanto"
+  },
+  "plugins": [
+    {
+      "name": "italian-master",
+      "source": "./",
+      "description": "Scrive, riscrive e corregge testi in italiano naturale: grammatica, sintassi, tono, modi di dire, titoli. Contro la sbobba artificiale."
+    }
+  ]
+}

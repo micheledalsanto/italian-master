@@ -1,0 +1,47 @@
+{
+  "skill_name": "italian-master",
+  "evals": [
+    {
+      "id": 1,
+      "name": "riscrittura-landing",
+      "prompt": "Mi sistemi questo testo per la home del sito? Suona finto ma non so dire perché. Siamo uno studio di tre commercialisti a Vicenza, aperto dal 2009, seguiamo circa 200 partite IVA.\n\n\"Nel panorama fiscale odierno, sempre più complesso, il nostro studio rappresenta molto più di un semplice consulente: è un vero e proprio partner strategico. Che tu sia un libero professionista o una PMI, offriamo una vasta gamma di soluzioni personalizzate, garantendo competenza, affidabilità e trasparenza. Non si tratta solo di numeri — si tratta di persone. Assicurati di contattarci per sbloccare il pieno potenziale della tua attività!\"",
+      "expected_output": "Testo riscritto in italiano naturale che usa i fatti forniti (tre commercialisti, Vicenza, 2009, 200 partite IVA), senza le formule dell'originale, con tu coerente, più una breve nota su che cosa è cambiato. Nessun dato inventato.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "titoli-newsletter",
+      "prompt": "Ho scritto un pezzo per la newsletter del mio negozio di biciclette a Bologna: da gennaio il Comune dà fino a 500 euro a chi compra una cargo bike e rottama la seconda auto. Mi servono dei titoli per l'articolo sul blog e l'oggetto dell'email. Voglio che la gente apra ma niente clickbait.",
+      "expected_output": "Più varianti di titolo da angoli diversi, in minuscolo normale (maiuscola solo iniziale e nomi propri), senza punto finale, con il dato dei 500 euro e Bologna, senza formule da esca; oggetti email brevi; una scelta consigliata con motivazione breve.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "email-formale-sollecito",
+      "prompt": "Scrivimi una mail per sollecitare il pagamento di una fattura. Fattura n. 47 del 12 giugno, 1840 euro, scaduta il 12 luglio. Il cliente è l'architetto Paolo Ferraris, ci diamo del lei, è la prima volta che ritarda e ci tengo a non rovinare il rapporto.",
+      "expected_output": "Email breve con oggetto preciso, apertura «Gentile architetto Ferraris,» o simile, lei coerente, richiesta chiara con i dati della fattura in formato italiano (1.840 euro o 1.840,00 €, date all'italiana), tono fermo e cortese, chiusura «Cordiali saluti» o simile, senza formule burocratiche né calchi.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "name": "traduzione-post-linkedin",
+      "prompt": "Translate this into Italian for our LinkedIn page, it should sound like an Italian wrote it, not a translation:\n\n\"We're thrilled to announce that our team has grown! At the end of the day, it's not just about hiring great people — it's about building a culture where everyone can thrive. Make sure to check out our open roles and feel free to reach out. Stay tuned for more exciting news!\"",
+      "expected_output": "Post in italiano che rende il senso senza calchi («alla fine della giornata», «assicurati di», «sentiti libero», «resta sintonizzato», «eccitati»), senza lineette lunghe, senza falso contrasto meccanico, con un registro credibile per LinkedIn in Italia.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "name": "correzione-bozze",
+      "prompt": "Correggimi solo gli errori, non cambiare lo stile:\n\n\"Qual'è il problema? Un pò di tutto. Se avrei saputo che il progetto era cosi complicato non avrei accettato, perchè non c'è n'è bisogno. Gli ho detto a Maria che domani ci sentiamo ed io gli mando il file. E' un'altro discorso, sopratutto per i managers.\"",
+      "expected_output": "Testo con i soli errori corretti: qual è, un po', se avessi saputo, così, perché, ce n'è, le ho detto / ho detto a Maria, e io, le mando, È, un altro, soprattutto, i manager. Stile invariato. Elenco breve delle correzioni.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "name": "articolo-da-appunti",
+      "prompt": "Scrivimi un articolo di 400 parole circa per il blog della nostra associazione, da questi appunti. Sabato 3 ottobre abbiamo riaperto la biblioteca di quartiere di via Bixio a Parma, chiusa da marzo 2024 per l'allagamento del seminterrato. I lavori sono costati 180mila euro, 120mila dal Comune e 60mila raccolti con una sottoscrizione tra 900 abitanti. All'inaugurazione c'erano circa 300 persone e l'assessora alla cultura Marta Ferrari, che ha detto: \"Questa biblioteca l'ha salvata il quartiere, noi abbiamo solo firmato\". Si sono persi 2.400 libri su 11.000, ne sono stati ricomprati o donati 1.900. Nuovo orario: dal martedì al sabato, 9-19. La presidente dell'associazione è Lucia Gatti, bibliotecaria in pensione.",
+      "expected_output": "Articolo in prosa italiana da leggere: attacco con il fatto, la data e il luogo; periodi articolati (media sopra le 18 parole per frase, qualche frase oltre le 30), verbi al passato, la citazione dell'assessora riportata e attribuita, tutti i numeri degli appunti e nessun dato inventato; connettivi e parole di misura; nessuna apertura sul valore della cultura, nessuna chiusura con morale, nessuna raffica di frasi brevi né due punti a effetto.",
+      "files": []
+    }
+  ]
+}

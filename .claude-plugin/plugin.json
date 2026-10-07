@@ -1,0 +1,22 @@
+{
+  "name": "italian-master",
+  "description": "Scrive, riscrive e corregge testi in italiano naturale: grammatica, sintassi, tono, modi di dire, titoli. Contro la sbobba artificiale.",
+  "version": "1.0.0",
+  "author": {
+    "name": "micheledalsanto",
+    "url": "https://github.com/micheledalsanto"
+  },
+  "homepage": "https://github.com/micheledalsanto/italian-master",
+  "repository": "https://github.com/micheledalsanto/italian-master",
+  "license": "MIT",
+  "keywords": [
+    "italiano",
+    "italian",
+    "scrittura",
+    "writing",
+    "copywriting",
+    "grammatica",
+    "ai-slop",
+    "titoli"
+  ]
+}
