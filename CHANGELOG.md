@@ -2,6 +2,12 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.5.2] - 2026-10-08
+
+### Aggiunto
+
+- In `descrivere-e-raccontare.md`, **le cose che arrivano da sole**: «Le interfacce sono arrivate nel 2017», in una presentazione di sé, non dice che cosa ha fatto chi scrive. La segnalazione viene da una frase finita sul sito dell'autore della skill. Lo script la segnala tra le cose da guardare.
+
 ## [1.5.1] - 2026-10-08
 
 `grammatica.md` e `punteggiatura-tipografia.md` riletti sulle risposte della consulenza della Crusca e sulle pagine di Treccani.

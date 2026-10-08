@@ -55,6 +55,8 @@ Raccontare un percorso, che sia quello di una persona, di un'azienda o di un pro
 
 **Persone che fanno cose.** Soggetti con un nome, verbi d'azione. «Il fondatore fu tra i primi, nella zona, ad alternare le coltivazioni» si ricorda, «l'azienda vanta una lunga tradizione di innovazione» no.
 
+**Le cose non arrivano da sole.** «Ho cominciato nel 2015 come web designer. Le interfacce sono arrivate nel 2017.» La seconda frase mette come soggetto una cosa e le fa compiere un movimento, e chi legge non sa che cosa sia successo: se nel 2017 le interfacce sono state inventate, se sono arrivate in ufficio, o se chi scrive ha cominciato a progettarle. È un modo di dire che la narrativa usa per quello che capita a qualcuno («poi arrivò la guerra»), e che in una presentazione di sé nasconde l'unica informazione che conta, cioè che cosa ha fatto la persona. Di solito è anche una frase breve messa in fondo al capoverso per fare effetto (vedi `slop-asciutto.md`). Al suo posto va il verbo con il suo soggetto: «Dal 2017 progetto interfacce», «Nel 2017 ho cominciato a occuparmi di interfacce».
+
 **La prima persona, senza cerimonie.** In una presentazione di sé si dice «io» e si evita di parlare del «mio percorso» come di un oggetto. «Il mio percorso è iniziato con» è una formula, mentre «Ho cominciato con» è una persona che parla.
 
 **Niente bilancio finale.** Il racconto di un percorso finisce dove si è arrivati, cioè su quello che si fa adesso. Non serve una frase che ne ricavi il senso.
