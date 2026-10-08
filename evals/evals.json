@@ -390,6 +390,34 @@
           "^[^\\w\\n]*Ecco\\b"
         ]
       }
+    },
+    {
+      "id": 14,
+      "name": "microcopy-eliminazione-account",
+      "prompt": "Mi servono i testi per la schermata di eliminazione dell'account della nostra app. Si chiama Rete e serve a prenotare campi da padel. Chi elimina l'account perde lo storico delle prenotazioni e il credito residuo, e le prenotazioni future vengono annullate. Mi servono titolo, testo, i due pulsanti e il messaggio di errore se l'eliminazione non riesce.",
+      "expected_output": "Stringhe consegnate con il nome dell'elemento accanto: titolo in forma di domanda con il verbo dell'azione («Vuoi eliminare il tuo account?»), testo che dice le tre conseguenze fornite, due pulsanti che ripetono i verbi («Elimina l'account», «Annulla» o «Torna indietro») e non «Sì» e «No», errore che dice che l'account non è stato eliminato e che cosa fare. Tu coerente, maiuscola solo alla prima parola, nessun punto esclamativo, nessun «Sei sicuro», «Ops», «per favore», «con successo». Il credito è una variabile, non una cifra inventata.",
+      "files": {},
+      "controlli": {
+        "deve_leggere": [
+          "references/microcopy.md"
+        ],
+        "deve": [
+          "\\bElimina\\b",
+          "credito",
+          "prenotazioni"
+        ],
+        "non_deve": [
+          "—",
+          "!",
+          "\\bsei sicur",
+          "\\bo+ps\\b",
+          "\\bper favore\\b",
+          "con successo",
+          "^[^\\w\\n]*Ecco\\b",
+          "(?-i:Elimina (Il|L'|Account)\\b)",
+          "\\d+ ?(€|euro)"
+        ]
+      }
     }
   ]
 }

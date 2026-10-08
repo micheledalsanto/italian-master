@@ -34,6 +34,7 @@ Le misure e i passi commentati in `periodo.md`, `connettivi.md`, `impronte.md`, 
 - **Dodici siti di agenzie digitali e di marketing**, estratti a caso da un elenco di trentotto e letti a ottobre 2026: home, pagine di presentazione, casi studio e articoli del blog, circa 78.000 parole. Sono descritti in `agenzie-digitali.md`, senza nomi e senza citazioni.
 - **Circa cinquanta comunicazioni formali** pubblicate in rete e lette a ottobre 2026: avvisi di studi professionali, lettere di aziende a clienti e fornitori, comunicazioni di banche, avvisi di comuni e uffici pubblici, circolari scolastiche, lettere di medici e di ordini professionali. Sono descritte in `corrispondenza-formale.md`, senza nomi e senza citazioni.
 - **Dodici siti che spiegano o accompagnano**, letti a ottobre 2026 per descrivere il tono accogliente: guide pratiche, divulgazione scientifica per adulti e per ragazzi, educazione finanziaria, informazione sanitaria, un fornitore di energia, servizi di psicologia online, un'associazione di consumatori, una fondazione per la ricerca. Circa ottantamila parole, senza nomi e senza citazioni. Vedi `tono-accogliente.md`.
+- **Le stringhe di otto applicazioni a codice aperto**, scaricate a ottobre 2026 dai file di lingua italiani: tre nate in italiano, di servizi pubblici digitali, e cinque tradotte dall'inglese (un browser, un programma di messaggistica, un social network, un servizio di archiviazione, un sistema per costruire siti). Circa quindicimila stringhe e centomila parole, descritte in `microcopy.md` senza nomi e senza citazioni.
 - **Testi generati**, per il confronto: gli articoli e le lezioni di un sito di divulgazione scritti con un modello, come ha confermato chi lo cura (circa 14.600 parole), e un testo scritto con la prima versione di questa skill (circa 2.000).
 
 In tutto è circa un milione e mezzo di parole, di cui 129.000 di giornalismo contemporaneo. Le misure sono fatte con conteggi semplici ed espressioni regolari, e il campione di testi generati è piccolo e viene da due sole fonti. Bastano a vedere la differenza tra la prosa italiana e quella generata, non a stabilire una norma. Chi vuole allargare il campione trova molti testi liberi su Wikisource e su Liber Liber (liberliber.it).
@@ -77,7 +78,8 @@ Se le fonti divergono, dillo all'utente e proponi la forma più diffusa nello sc
 - **Annamaria Testa, *Farsi capire*** (2000) e *La parola immaginata* (1988). Comunicazione e scrittura pubblicitaria. Il blog Nuovo e utile.
 - **Michele Cortelazzo e Federica Pellegrino, *Guida alla scrittura istituzionale*** (2003). Riscrivere il burocratese.
 - **Alfredo Fioritto (a cura di), *Manuale di stile*** (1997) e la **Direttiva sulla semplificazione del linguaggio dei testi amministrativi** (2002).
-- **Designers Italia, Guida al linguaggio della Pubblica Amministrazione.** Linee guida pubbliche per i servizi digitali. docs.italia.it
+- **Designers Italia, Guida al linguaggio della Pubblica Amministrazione.** Linee guida pubbliche per i servizi digitali, che chiedono forme dirette in seconda persona e verbi attivi. docs.italia.it
+- **Mozilla, guida di stile per la localizzazione italiana.** Le convenzioni del software tradotto: imperativo sui pulsanti, forma impersonale nelle spiegazioni, niente formule di cortesia né punti esclamativi. mozilla-l10n.github.io/styleguides/it
 - **REI, Rete per l'eccellenza dell'italiano istituzionale.** Promossa dai traduttori italiani delle istituzioni europee: materiali sulla chiarezza e sui calchi dall'inglese nei testi istituzionali.
 
 ## Giornalismo e titoli

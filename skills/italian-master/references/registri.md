@@ -113,8 +113,10 @@ Come scrivono davvero dieci siti italiani di settori diversi, con le misure e gl
 
 ## 6. Microcopy e interfacce
 
-- Tu quasi sempre, coerente in tutta l'interfaccia. Lei in banche, assicurazioni, sanità, pubblica amministrazione.
-- Imperativo per i comandi («Salva», «Annulla», «Continua»), infinito nelle istruzioni generiche e nei menu («Salvare con nome», «Per accedere, inserire il codice») se è la convenzione del prodotto. Non mescolarli.
+Le misure su otto applicazioni, le formule per errori, conferme e stati vuoti e il lessico sono in `microcopy.md`. Qui l'essenziale.
+
+- Tu, coerente in tutta l'interfaccia, anche nei servizi digitali della pubblica amministrazione, dove le linee guida lo chiedono e le applicazioni lo usano. Il lei resta nelle lettere e nei documenti, e in un'interfaccia solo se il committente lo vuole.
+- Imperativo per i comandi («Salva», «Annulla», «Continua»). Nelle spiegazioni il tu oppure la forma impersonale («Per accedere, inserire il codice»), se è la convenzione del prodotto, senza mescolarli.
 - Messaggi di errore: che cosa è successo e che cosa fare. «La password deve avere almeno 8 caratteri», non «Ops! Qualcosa è andato storto».
 - Niente entusiasmo d'ufficio: «Evviva!», «Fantastico!», «Ce l'hai fatta!» per un modulo compilato.
 - L'italiano è più lungo dell'inglese di un quinto circa: non comprimere eliminando gli articoli. Cerca la parola più corta: «Invia», non «Procedi all'invio».

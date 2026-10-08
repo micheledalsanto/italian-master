@@ -105,6 +105,8 @@ Nessuna di queste liste è un elenco di divieti, perché ognuna di queste forme 
 
 **Scrivere per i bambini.** Per chi ha tra i sei e gli undici anni le regole sul periodo si rovesciano: una frase, un'idea, parole di tutti i giorni, molte domande. Le misure, l'indice di leggibilità e un esempio sono in `references/scrivere-per-bambini.md`.
 
+**Scrivere i testi di un'interfaccia.** Pulsanti, etichette, messaggi di errore, conferme e stati vuoti sono testi di poche parole che si leggono mentre si fa altro: tu, imperativo sui comandi, nessun punto sulle etichette, e negli errori che cosa è successo e che cosa fare. Le formule che le applicazioni italiane usano davvero e i calchi da evitare sono in `references/microcopy.md`.
+
 **Rivedere o "umanizzare" un testo.** Si conservano il contenuto, i fatti e la voce dell'autore, compresa la persona con cui si rivolge al lettore, che cambia solo se nell'originale è mescolata o se la richiesta lo chiede. Sotto il testo rivisto vanno poche righe su che cosa è cambiato e perché, scritte in prosa e raggruppate per tipo di intervento. Se una frase è vuota conviene dirlo e proporre di toglierla, o chiedere il dato che manca, perché riscrivere il vuoto con parole migliori produce solo un vuoto più elegante. Vale anche per le sentenze dello slop asciutto: «La risposta è semplice. Fiducia.» allungata in un periodo resta una sentenza, e al suo posto vanno i fatti che l'utente ha dato.
 
 **Correggere le bozze.** Si toccano solo gli errori veri (ortografia, accenti, concordanze, punteggiatura, reggenze) e si lascia stare lo stile, a meno che la richiesta lo comprenda. Vedi `references/grammatica.md` e `references/punteggiatura-tipografia.md`.
@@ -162,6 +164,7 @@ Le sue segnalazioni sono indizi da valutare, e un testo che non ne riceve può e
 | `references/grammatica.md` | Per un dubbio di ortografia, accenti, congiuntivo, pronomi, reggenze, femminili professionali |
 | `references/punteggiatura-tipografia.md` | Per virgole, virgolette, lineette, maiuscole, numeri, date |
 | `references/siti.md` | Per la pagina di un sito: home, chi siamo, valori, schede, avvisi. Con esempi da dieci siti italiani |
+| `references/microcopy.md` | Per i testi di un'interfaccia: pulsanti, etichette, messaggi di errore, conferme, stati vuoti, notifiche |
 | `references/agenzie-digitali.md` | Per il sito, i casi studio o il blog di un'agenzia, di uno studio, di un consulente o di un'azienda di servizi digitali |
 | `references/narrativa-fantastica.md` | Per un racconto, una scena o un attacco di genere fantastico: fantasy, fiaba, fantastico di paese o urbano |
 | `references/scrivere-per-bambini.md` | Quando chi legge ha tra i sei e gli undici anni: lezioni, spiegazioni, storie da leggere da soli |

@@ -213,8 +213,8 @@ Le interfacce e le email tradotte dall'inglese hanno un'aria riconoscibile. L'it
 | --- | --- |
 | Per favore inserisci la tua password | Inserisci la password |
 | Per favore nota che | Nota: / Attenzione: |
-| Sei sicuro di voler eliminare? | Vuoi eliminare? / Eliminare il file? |
-| Ops! Qualcosa è andato storto | Si è verificato un errore. Riprova |
+| Sei sicuro di voler eliminare? | Vuoi eliminare il file? / Confermi di voler eliminare il file? |
+| Ops! Qualcosa è andato storto | Che cosa è successo e che cosa fare: «Non siamo riusciti a salvare. Riprova» |
 | Siamo spiacenti per l'inconveniente | Ci scusiamo per il disagio |
 | Grazie per la tua pazienza | Grazie dell'attesa / Grazie per la pazienza |
 | Grazie per averci contattato | Grazie per averci scritto / Grazie del messaggio |
@@ -231,4 +231,4 @@ Le interfacce e le email tradotte dall'inglese hanno un'aria riconoscibile. L'it
 | Abbiamo ricevuto la tua richiesta e ti risponderemo il prima possibile | Abbiamo ricevuto la richiesta. Rispondiamo entro due giorni (se è vero) |
 | Buona giornata! (a chiusura di ogni email) | Cordiali saluti / Un saluto / A presto, secondo il registro |
 
-Tre abitudini inglesi da lasciare cadere: ringraziare in ogni frase, scusarsi in ogni frase, congratularsi con l'utente perché ha compilato un modulo.
+Le formule che le interfacce italiane usano davvero, contate su quindicimila stringhe, sono in `microcopy.md`. Tre abitudini inglesi da lasciare cadere: ringraziare in ogni frase, scusarsi in ogni frase, congratularsi con l'utente perché ha compilato un modulo.

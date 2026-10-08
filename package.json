@@ -1,6 +1,6 @@
 {
   "name": "italian-master",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "description": "Skill per Claude che scrive, riscrive e corregge testi in italiano naturale, contro l'AI slop. Si installa con npx.",
   "keywords": [
     "claude",

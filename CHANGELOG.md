@@ -2,6 +2,19 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.4.0] - 2026-10-08
+
+### Aggiunto
+
+- **`microcopy.md`**: i testi delle interfacce. Parte dalle stringhe di otto applicazioni a codice aperto, tre nate in italiano e cinque tradotte (circa quindicimila stringhe e centomila parole), e da due guide di stile pubbliche. Copre la persona, i pulsanti, i messaggi di errore, le conferme, gli stati vuoti, la punteggiatura, il lessico su cui le applicazioni sono d'accordo e i calchi che nelle interfacce vere non compaiono, con un esempio di riscrittura.
+- Un caso di prova sui testi di una schermata, che passa in due esecuzioni su due.
+
+### Modificato
+
+- **Il tu anche nelle interfacce dei servizi pubblici.** `registri.md` indicava il lei per banche, sanità e pubblica amministrazione. Nelle otto applicazioni lette il lei non compare, comprese le tre dei servizi pubblici, e le linee guida per i servizi digitali della pubblica amministrazione chiedono la seconda persona. Il lei resta nelle lettere e nei documenti.
+- In `calchi.md`, le alternative a «Sei sicuro di voler eliminare?» e a «Ops! Qualcosa è andato storto» sono quelle che le applicazioni italiane usano.
+- «Assicurati di» nelle istruzioni di un'interfaccia non è più indicato come calco: si trova in sei applicazioni su otto, dove c'è una condizione da verificare.
+
 ## [1.3.1] - 2026-10-08
 
 ### Aggiunto
