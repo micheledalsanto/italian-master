@@ -9,7 +9,7 @@ Il file va in `.claude/italian-master.md` dentro il progetto, oppure in `~/.clau
 Chi legge i tuoi testi e quanto ne sa dell'argomento.
 
 - **Chi legge:**
-- **Quanto ne sa:** (esperti | del settore ma non tecnici | non esperti | misto)
+- **Quanto ne sa:** (esperti | del settore ma non tecnici | non esperti | misto | bambini, e di che età)
 
 Esempi di «chi legge»: titolari di piccole aziende manifatturiere; clienti di uno studio di commercialisti; sviluppatori; genitori degli alunni di una scuola media; lettori curiosi che partono da zero.
 

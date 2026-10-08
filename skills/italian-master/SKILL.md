@@ -90,6 +90,10 @@ Nessuna di queste liste è un elenco di divieti, perché ognuna di queste forme 
 
 **Scrivere da zero, descrivere, raccontare.** Prima di scrivere si elencano i fatti disponibili e quelli che mancano, e si decide qual è la cosa principale. Una descrizione dice nella prima frase che cos'è la cosa, e un racconto tiene lo stesso tempo verbale finché non arriva a oggi. Vedi `references/descrivere-e-raccontare.md`. Il testo si consegna senza premesse del tipo «Ecco il testo richiesto» e senza commenti in coda, salvo quando c'è da segnalare un dato mancante o una scelta che l'utente deve confermare.
 
+**Scrivere narrativa.** Un racconto ha un passo diverso da un articolo: frasi di una quindicina di parole in media, dialoghi, passato remoto, poche similitudini. Per il fantasy, la fiaba e il fantastico quotidiano vedi `references/narrativa-fantastica.md`, che dice come cominciare, come far capire un mondo dalle cose e quali stampi evitare.
+
+**Scrivere per i bambini.** Per chi ha tra i sei e gli undici anni le regole sul periodo si rovesciano: una frase, un'idea, parole di tutti i giorni, molte domande. Le misure, l'indice di leggibilità e un esempio sono in `references/scrivere-per-bambini.md`.
+
 **Rivedere o "umanizzare" un testo.** Si conservano il contenuto, i fatti e la voce dell'autore, e si corregge la lingua. Sotto il testo rivisto vanno poche righe su che cosa è cambiato e perché, scritte in prosa e raggruppate per tipo di intervento. Se una frase è vuota conviene dirlo e proporre di toglierla, o chiedere il dato che manca, perché riscrivere il vuoto con parole migliori produce solo un vuoto più elegante.
 
 **Correggere le bozze.** Si toccano solo gli errori veri (ortografia, accenti, concordanze, punteggiatura, reggenze) e si lascia stare lo stile, a meno che la richiesta lo comprenda. Vedi `references/grammatica.md` e `references/punteggiatura-tipografia.md`.
@@ -143,6 +147,8 @@ Le sue segnalazioni sono indizi da valutare, e un testo che non ne riceve può e
 | `references/punteggiatura-tipografia.md` | Per virgole, virgolette, lineette, maiuscole, numeri, date |
 | `references/siti.md` | Per la pagina di un sito: home, chi siamo, valori, schede, avvisi. Con esempi da dieci siti italiani |
 | `references/agenzie-digitali.md` | Per il sito, i casi studio o il blog di un'agenzia, di uno studio, di un consulente o di un'azienda di servizi digitali |
+| `references/narrativa-fantastica.md` | Per un racconto, una scena o un attacco di genere fantastico: fantasy, fiaba, fantastico di paese o urbano |
+| `references/scrivere-per-bambini.md` | Quando chi legge ha tra i sei e gli undici anni: lezioni, spiegazioni, storie da leggere da soli |
 | `references/registri.md` | Per scegliere il tono di email, post, comunicazioni pubbliche, messaggi a un cliente |
 | `references/titoli.md` | Per titoli, sottotitoli, oggetti di email, attacchi |
 | `references/modi-di-dire.md` | Per usare un proverbio o un'espressione idiomatica, o tradurne una |

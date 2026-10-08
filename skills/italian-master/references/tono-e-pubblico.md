@@ -92,6 +92,9 @@ La voce «quanto ne sa» decide che cosa si può dare per conosciuto.
 | del settore ma non tecnici | Quelli del loro lavoro sì, quelli degli specialisti spiegati alla prima occorrenza | Di come funziona, in breve | Dal loro lavoro |
 | non esperti | Parole comuni, e il termine tecnico solo dopo la spiegazione | Di ogni passaggio, senza saltarne | Dalla vita di tutti i giorni |
 | misto | Come per i non esperti | In un inciso, che l'esperto salta senza fatica | Uno comune e uno del mestiere |
+| bambini | Quelle che un bambino dice, una parola nuova per volta | Un'idea per frase e un'idea per lezione | Da quello che il bambino sa fare o ha visto |
+
+Per i bambini cambiano anche le regole sulla frase, che diventa corta: l'età va indicata nella configurazione, e il resto è in `scrivere-per-bambini.md`.
 
 La voce «chi legge» serve a scegliere gli esempi e a decidere che cosa interessa. A un titolare d'azienda di un nuovo obbligo fiscale importano la scadenza e il costo, al suo commercialista importano l'articolo di legge e i casi di esclusione.
 

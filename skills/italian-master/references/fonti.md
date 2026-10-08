@@ -27,6 +27,7 @@ Le misure e i passi commentati in `periodo.md`, `connettivi.md`, `impronte.md`, 
   - Paolo Mantegazza, *Elogio della vecchiaia* (1895)
   - Alberto Savinio, *Ascolto il tuo cuore, città* (1944) e *Maupassant e «l'Altro»* (1944)
   - Vitaliano Brancati, *I fascisti invecchiano* (1946) e *Gli anni perduti* (1941)
+- **Narrativa fantastica**, letta a ottobre 2026 e descritta in `narrativa-fantastica.md`: ventisei racconti di autori italiani pubblicati per intero da una rivista online del settore (circa 68.000 parole, senza nomi e senza citazioni), e da Liber Liber Luigi Capuana, *Tutte le fiabe* e *Il drago e cinque altre novelle pei fanciulli*, Emma Perodi, *Le novelle della nonna* (1892-1893), Arrigo Boito, le novelle (circa 437.000 parole).
 - **Antonio Gramsci, *Lettere dal carcere*** (1926-1937), lette in una scansione disponibile in rete. Sono servite per le misure, su circa novantaseimila parole, e non sono riportate.
 - **Giornali e riviste di oggi**, letti online tra settembre e ottobre 2026: ottantasei articoli di otto testate italiane (un quotidiano online, un quotidiano di opinione, un sito di giornalismo civico, due riviste culturali, una rivista di saggi, una di tecnologia, il blog di un collettivo di scrittori), più otto pagine di un sito di ricette. Sono serviti per le misure e per descrivere le forme ricorrenti. Le testate non sono nominate e nessuna frase è riportata.
 - **Dieci siti di aziende ed enti italiani**, uno per settore, estratti a caso da un elenco di venti settori. Di ciascuno la home e fino a sette pagine interne, circa quarantamila parole in tutto. Sono descritti in `siti.md`, senza nomi.
@@ -34,7 +35,7 @@ Le misure e i passi commentati in `periodo.md`, `connettivi.md`, `impronte.md`, 
 - **Dodici siti che spiegano o accompagnano**, letti a ottobre 2026 per descrivere il tono accogliente: guide pratiche, divulgazione scientifica per adulti e per ragazzi, educazione finanziaria, informazione sanitaria, un fornitore di energia, servizi di psicologia online, un'associazione di consumatori, una fondazione per la ricerca. Circa ottantamila parole, senza nomi e senza citazioni. Vedi `tono-accogliente.md`.
 - **Testi generati**, per il confronto: gli articoli e le lezioni di un sito di divulgazione scritti con un modello, come ha confermato chi lo cura (circa 14.600 parole), e un testo scritto con la prima versione di questa skill (circa 2.000).
 
-In tutto è quasi un milione di parole, di cui 129.000 di giornalismo contemporaneo. Le misure sono fatte con conteggi semplici ed espressioni regolari, e il campione di testi generati è piccolo e viene da due sole fonti. Bastano a vedere la differenza tra la prosa italiana e quella generata, non a stabilire una norma. Chi vuole allargare il campione trova molti testi liberi su Wikisource e su Liber Liber (liberliber.it).
+In tutto è circa un milione e mezzo di parole, di cui 129.000 di giornalismo contemporaneo. Le misure sono fatte con conteggi semplici ed espressioni regolari, e il campione di testi generati è piccolo e viene da due sole fonti. Bastano a vedere la differenza tra la prosa italiana e quella generata, non a stabilire una norma. Chi vuole allargare il campione trova molti testi liberi su Wikisource e su Liber Liber (liberliber.it).
 
 ## Per risolvere un dubbio
 

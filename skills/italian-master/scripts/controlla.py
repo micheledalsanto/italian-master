@@ -309,6 +309,9 @@ def statistiche(testo_pulito, grassetti, prosa):
         brevi = 100 * sum(1 for x in lunghezze if x <= 6) / len(lunghezze)
         lunghe = 100 * sum(1 for x in lunghezze if x >= 30) / len(lunghezze)
         testo_prosa = " ".join(frasi)
+        lettere = sum(len(p) for p in re.findall(r"[A-Za-zÀ-ÿ]+", testo_prosa))
+        # Indice Gulpease: sopra 80 facile per chi ha finito le elementari, sopra 60 le medie, sopra 40 le superiori.
+        dati["gulpease"] = max(0, min(100, round(89 + (300 * len(frasi) - 10 * lettere) / n_prosa)))
         virgole = testo_prosa.count(",") / len(lunghezze)
         duepunti = ogni_mille(testo_prosa.count(":"), n_prosa)
         dati.update({"parole_per_frase": round(media, 1), "variazione": round(dev / media, 2) if media else 0,
@@ -425,6 +428,7 @@ def stampa(nome, esito, dati):
         riepilogo += (f"\nPasso: {dati['parole_per_frase']} parole per frase, {dati['frasi_fino_a_6_parole_pct']}% fino a 6 parole, "
                       f"{dati['frasi_da_30_parole_pct']}% da 30 in su, {dati['virgole_per_frase']} virgole per frase, "
                       f"{dati['due_punti_ogni_mille']} due punti ogni mille parole"
+                      f"\nLeggibilità: indice Gulpease {dati['gulpease']} (sopra 80 facile per le elementari, sopra 60 per le medie, sopra 40 per le superiori)"
                       f"\nImpronte: «può» {dati['puo_ogni_mille']} e «che» {dati['che_ogni_mille']} ogni mille parole, "
                       f"{dati['frasi_che_cominciano_con_un_una_pct']}% di frasi che cominciano con «Un/Una», "
                       f"{dati['parole_di_misura_ogni_10000']} parole di legame e misura ogni diecimila")
