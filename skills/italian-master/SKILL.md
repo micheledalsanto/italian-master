@@ -139,6 +139,7 @@ Le sue segnalazioni sono indizi da valutare, e un testo che non ne riceve può e
 | `references/grammatica.md` | Per un dubbio di ortografia, accenti, congiuntivo, pronomi, reggenze, femminili professionali |
 | `references/punteggiatura-tipografia.md` | Per virgole, virgolette, lineette, maiuscole, numeri, date |
 | `references/siti.md` | Per la pagina di un sito: home, chi siamo, valori, schede, avvisi. Con esempi da dieci siti italiani |
+| `references/agenzie-digitali.md` | Per il sito, i casi studio o il blog di un'agenzia, di uno studio, di un consulente o di un'azienda di servizi digitali |
 | `references/registri.md` | Per scegliere il tono di email, post, comunicazioni pubbliche, messaggi a un cliente |
 | `references/titoli.md` | Per titoli, sottotitoli, oggetti di email, attacchi |
 | `references/modi-di-dire.md` | Per usare un proverbio o un'espressione idiomatica, o tradurne una |

@@ -8,7 +8,9 @@ Le modifiche rilevanti di questa skill, versione per versione. Il formato segue 
 
 - **`tono-accogliente.md`**: come accompagnare lettori non esperti. Parte dal confronto tra dodici siti italiani di guide, divulgazione e servizi e un sito di divulgazione generato, che dà del tu una volta ogni mille parole contro le sette-diciannove dei primi. Copre l'attacco dalla situazione del lettore, la voce di chi spiega, le domande anticipate, i paragoni con le cose di casa, il termine tecnico dopo la spiegazione, i titoli che si direbbero a voce e gli eccessi da evitare.
 - In `descrivere-e-raccontare.md`, i titoli calcati dall'inglese.
-- **Dieci libri di saggistica letti su Liber Liber** (Gobetti, Croce, Panzini, Mantegazza, Savinio, Brancati, circa 425.000 parole), che portano il campione a circa novecentomila parole. In `modelli.md` ci sono tre pagine nuove: il ritratto di una persona (Gobetti), la spiegazione di un'idea (Croce), il diario di chi divaga (Panzini). In `periodo.md` e in `connettivi.md` ci sono le misure della prosa saggistica.
+- **Dieci libri di saggistica letti su Liber Liber** (Gobetti, Croce, Panzini, Mantegazza, Savinio, Brancati, circa 425.000 parole), che con i siti delle agenzie portano il campione a quasi un milione di parole. In `modelli.md` ci sono tre pagine nuove: il ritratto di una persona (Gobetti), la spiegazione di un'idea (Croce), il diario di chi divaga (Panzini). In `periodo.md` e in `connettivi.md` ci sono le misure della prosa saggistica.
+- In `controlla.py`, due controlli nuovi: la fila di frasi che cominciano con un verbo in «-iamo» e le formule «risultati concreti e misurabili» e «ciò che conta davvero».
+- **`agenzie-digitali.md`**: come scrivono dodici agenzie digitali e di marketing italiane, estratte a caso e lette nelle pagine di presentazione, nei casi studio e nel blog (circa 78.000 parole). Copre la fila di frasi in «-iamo», le parole che promettono concretezza, i difetti dei casi studio, i due tipi di articolo dei blog, i titoli e l'inglese del mestiere, con un esempio di riscrittura.
 
 ### Modificato
 

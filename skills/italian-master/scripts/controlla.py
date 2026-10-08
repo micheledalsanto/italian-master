@@ -58,6 +58,8 @@ FORMULE = {
         (r"\bnavig\w+ (le|la|il|i|tra le|tra i|nelle|in questo) (complessità|sfid\w+|incertezz\w+|cambiament\w+|panorama|scenario)", "«affrontare», «orientarsi»"),
         (r"\babbracci\w+ (il|la|l'|le|i|nuov\w+) ?(cambiament\w+|innovazion\w+|futuro|sfid\w+|tecnologi\w+|digitale)", "«accettare», «adottare»"),
         (r"\b(fare|fa|fanno|farà) leva su\b", "«usare»"),
+        (r"\brisultati (concreti|misurabili|tangibili|reali)\b|\bconcret[oiae] e (misurabil[ei]|tangibil[ei])\b", "quale risultato, e di quanto? Con il numero l'aggettivo non serve"),
+        (r"\b(ciò|quello) che conta davvero\b", "di' che cosa conta"),
         (r"\b(portare|porta|portano|porterà|portalo|portala) .{0,25}al livello successivo\b", "«migliorare», e come"),
         (r"\b(cambia|cambiano|cambiare|cambierà) le regole del gioco\b|\bgame[- ]changer\b", "di' che cosa cambia"),
         (r"\bfa(re|nno)? la differenza\b", "di' quale differenza"),
@@ -348,6 +350,11 @@ def statistiche(testo_pulito, grassetti, prosa):
         if un_una > 6:
             trovati.append({"riga": 0, "testo": f"{un_una:.0f}% delle frasi comincia con «Un» o «Una» (nei giornali il 2-3%)",
                             "nota": "soggetti generici: parti da una persona, un luogo, una data"})
+        iamo = 100 * sum(1 for f in frasi if re.match(r"[«“\"]?[A-ZÀ-Ý][a-zà-ù]+iamo\b", f)) / len(frasi)
+        dati["frasi_che_cominciano_con_verbo_in_iamo_pct"] = round(iamo)
+        if iamo > 25:
+            trovati.append({"riga": 0, "testo": f"{iamo:.0f}% delle frasi comincia con un verbo in «-iamo» (nei siti delle agenzie il 13%)",
+                            "nota": "fila di «noi»: a metà di quelle frasi dai un altro soggetto, il cliente, il progetto, un numero (references/agenzie-digitali.md)"})
         if che < 17 and n_prosa >= 300:
             trovati.append({"riga": 0, "testo": f"{che:.0f} «che» ogni mille parole (nei giornali 22-26)",
                             "nota": "poche relative e poche subordinate (nelle pagine di un sito è normale)"})

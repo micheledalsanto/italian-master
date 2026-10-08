@@ -2,6 +2,8 @@
 
 I riferimenti sul periodo e sui connettivi sono costruiti su giornali e libri, cioè su testi che argomentano o raccontano. Un sito aziendale o istituzionale fa un altro mestiere, perché presenta, informa e vende, e chi lo visita scorre più di quanto legga. Per capire come è fatto davvero ho letto dieci siti italiani di settori diversi, e questo file riporta quello che ho trovato: che cosa funziona, che cosa no, e in che cosa la lingua dei siti differisce da quella dei giornali.
 
+I siti delle agenzie digitali e di marketing, che hanno una lingua loro, sono descritti a parte in `agenzie-digitali.md`.
+
 I siti non sono nominati e le frasi di esempio non sono citazioni. Sono scritte apposta sul modello di quelle lette, con nomi, date e numeri inventati.
 
 ## Indice
