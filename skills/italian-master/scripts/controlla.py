@@ -185,7 +185,7 @@ TIPOGRAFIA = [
 ]
 
 GRAMMATICA_DA_GUARDARE = [
-    (r"(^|[.!?] )(Poi |E poi )?(Il|La|Lo|Le|I|Gli) \w+(?: \w+)? (è|sono) arrivat[oaie] (nel \d{4}|dopo|poi|più tardi|qualche anno dopo)\b", "una cosa che «arriva»: chi ha fatto che cosa? («Dal 2017 progetto interfacce»)"),
+    (r"(^|[.!?] )(Poi |E poi )?(Il|La|Lo|Le|I|Gli) \w+(?: \w+)? (è|sono) arrivat[oaie] (nel \d{4}|dopo|poi|più tardi|qualche anno dopo)\b", "una cosa che «arriva»: chi ha fatto che cosa? («Dal 2017 mi occupo anche di…»)"),
     (r"\bpiuttosto che\b", "corretto solo se vale «anziché», non «oppure»"),
     (r"(?<![\w'’])(Esso|Essa|Essi|Esse|Egli|Ella)\b", "pronome soggetto in disuso: ripeti il nome o sottintendi"),
     (r"(^|[.!?] )(Noi|Tu|Voi) (?!stess|che |e |o |per |non )\w+", "soggetto espresso: serve davvero?"),

@@ -2,6 +2,12 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.5.3] - 2026-10-08
+
+### Modificato
+
+- In `descrivere-e-raccontare.md`, la correzione di «Le interfacce sono arrivate nel 2017» è quella dell'autore: il mestiere si nomina con il nome della disciplina («mi occupo anche di UX design») e l'oggetto viene dopo, a precisare. La versione di prima, «progetto interfacce», era chiara e non era il modo in cui un designer parla del proprio lavoro.
+
 ## [1.5.2] - 2026-10-08
 
 ### Aggiunto
