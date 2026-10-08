@@ -2,7 +2,7 @@
 
 Questo file serve quando uno studio, un'azienda, un ente o un professionista scrive a clienti, fornitori, pazienti, iscritti o utenti: un avviso di chiusura, un cambio di sede, un adeguamento dei prezzi, un sollecito, la risposta a un reclamo. È il genere in cui il registro formale è quello giusto, e in cui l'errore di chi scrive con un modello è doppio: gonfiarlo, oppure toglierlo.
 
-Viene dalla lettura di una cinquantina di comunicazioni vere e da sette lettere modello, una scritta e sei approvate da un lettore madrelingua che fa questo lavoro. Le comunicazioni lette non sono nominate né citate.
+Viene dalla lettura di una cinquantina di comunicazioni vere e da sei lettere modello, una scritta e cinque approvate da un lettore madrelingua. Le comunicazioni lette non sono nominate né citate.
 
 ## Indice
 
@@ -12,7 +12,7 @@ Viene dalla lettura di una cinquantina di comunicazioni vere e da sette lettere 
 4. Le formule, per funzione
 5. A chi ci si rivolge
 6. Grassetti, date, numeri
-7. Sette modelli
+7. Sei modelli
 8. I difetti ricorrenti
 9. In pratica
 
@@ -45,7 +45,7 @@ Il registro formale non coincide con l'antilingua descritta in `sintassi-stile.m
 7. **Il ringraziamento e i saluti**, in una riga o due.
 8. **La firma**: la persona, l'ufficio o «Lo Staff dello Studio».
 
-Le sette lettere modello hanno da tre a cinque capoversi e stanno in una schermata. Le frasi hanno in media una ventina di parole, e quelle che tengono insieme l'invito, la scadenza e la ragione superano le trenta: è il periodo di `periodo.md`, in registro alto.
+Le sei lettere modello hanno da tre a cinque capoversi e stanno in una schermata. Le frasi hanno in media una ventina di parole, e quelle che tengono insieme l'invito, la scadenza e la ragione superano le trenta: è il periodo di `periodo.md`, in registro alto.
 
 ## 4. Le formule, per funzione
 
@@ -81,7 +81,7 @@ In una comunicazione di questo tipo il grassetto serve, perché il destinatario 
 
 Le date si scrivono per esteso («dall'11 al 24 agosto», «entro il 31 luglio»), con «compresi» quando può esserci un dubbio. Gli importi hanno due decimali e la valuta («1.850,00 euro»), le fatture il numero e la data.
 
-## 7. Sette modelli
+## 7. Sei modelli
 
 Nomi, date e importi sono inventati.
 
@@ -180,20 +180,6 @@ Nomi, date e importi sono inventati.
 > Cordiali saluti
 >
 > Dott.ssa Elena Ferri
-
-**Passaggio alla fattura per email**
-
-> **Oggetto: Invio delle fatture in formato elettronico dal 1° marzo**
->
-> Gentili Clienti,
->
-> desideriamo informarvi che dal **1° marzo** le fatture saranno trasmesse esclusivamente in formato elettronico, all'indirizzo di posta indicato in anagrafica.
->
-> Vi invitiamo a verificarne la correttezza e a comunicarci eventuali variazioni entro il **20 febbraio**.
->
-> Cordiali saluti
->
-> Ufficio Amministrazione
 
 Nel reclamo la risposta ammette l'errore e dice di chi è stato («un errore del nostro magazzino»), poi dà la data della consegna e un risarcimento preciso. Nel sollecito la prima cosa prevista è che il cliente abbia già pagato, ed è questo a renderlo cortese senza togliergli chiarezza.
 

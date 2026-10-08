@@ -151,7 +151,7 @@ Le sue segnalazioni sono indizi da valutare, e un testo che non ne riceve può e
 | `references/agenzie-digitali.md` | Per il sito, i casi studio o il blog di un'agenzia, di uno studio, di un consulente o di un'azienda di servizi digitali |
 | `references/narrativa-fantastica.md` | Per un racconto, una scena o un attacco di genere fantastico: fantasy, fiaba, fantastico di paese o urbano |
 | `references/scrivere-per-bambini.md` | Quando chi legge ha tra i sei e gli undici anni: lezioni, spiegazioni, storie da leggere da soli |
-| `references/corrispondenza-formale.md` | Per avvisi, lettere e comunicazioni a clienti, fornitori, pazienti, utenti: struttura, formule, sette modelli |
+| `references/corrispondenza-formale.md` | Per avvisi, lettere e comunicazioni a clienti, fornitori, pazienti, utenti: struttura, formule, sei modelli |
 | `references/registri.md` | Per scegliere il tono di email, post, comunicazioni pubbliche, messaggi a un cliente |
 | `references/titoli.md` | Per titoli, sottotitoli, oggetti di email, attacchi |
 | `references/modi-di-dire.md` | Per usare un proverbio o un'espressione idiomatica, o tradurne una |
