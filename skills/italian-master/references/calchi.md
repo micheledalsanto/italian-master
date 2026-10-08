@@ -225,7 +225,9 @@ Le interfacce e le email tradotte dall'inglese hanno un'aria riconoscibile. L'it
 | Scopri di più | va bene; anche Per saperne di più, Leggi tutto |
 | Inizia ora, Inizia gratis | Comincia, Prova gratis |
 | Unisciti a noi | Iscriviti, Vieni con noi |
-| Resta sintonizzato | A presto, Ti terremo aggiornato |
+| Resta sintonizzato, Restate con noi | A presto, Ti terremo aggiornato, oppure niente |
+| Non potremmo essere più felici, Non potevamo essere più contenti | Siamo contenti, Ci fa piacere, oppure solo la notizia |
+| Siamo entusiasti di annunciare che | La notizia, senza annuncio: «Da oggi…», «Siamo diventati dodici» |
 | Abbiamo ricevuto la tua richiesta e ti risponderemo il prima possibile | Abbiamo ricevuto la richiesta. Rispondiamo entro due giorni (se è vero) |
 | Buona giornata! (a chiusura di ogni email) | Cordiali saluti / Un saluto / A presto, secondo il registro |
 

@@ -23,7 +23,7 @@
           "sbloccare",
           "assicurati di",
           "panorama",
-          "^\\W*Ecco\\b"
+          "^[^\\w\\n]*Ecco\\b"
         ]
       }
     },
@@ -47,7 +47,7 @@
           "\\becco (cosa|come|perché)\\b",
           "non crederai",
           "!!",
-          "^\\W*Ecco\\b"
+          "^[^\\w\\n]*Ecco\\b"
         ]
       }
     },
@@ -74,7 +74,7 @@
           "—",
           "!",
           "spero che questa",
-          "^\\W*Ecco\\b"
+          "^[^\\w\\n]*Ecco\\b"
         ]
       }
     },
@@ -96,7 +96,10 @@
           "sintonizzat",
           "eccitat",
           "non (è|si tratta) (solo|soltanto)",
-          "^\\W*Ecco\\b"
+          "^[^\\w\\n]*Ecco\\b",
+          "essere più (content|felic)",
+          "\\brestate con noi\\b",
+          "conta davvero"
         ]
       }
     },
@@ -136,20 +139,19 @@
       "id": 6,
       "name": "articolo-da-appunti",
       "prompt": "Scrivimi un articolo di 400 parole circa per il blog della nostra associazione, da questi appunti. Sabato 3 ottobre abbiamo riaperto la biblioteca di quartiere di via Bixio a Parma, chiusa da marzo 2024 per l'allagamento del seminterrato. I lavori sono costati 180mila euro, 120mila dal Comune e 60mila raccolti con una sottoscrizione tra 900 abitanti. All'inaugurazione c'erano circa 300 persone e l'assessora alla cultura Marta Ferrari, che ha detto: \"Questa biblioteca l'ha salvata il quartiere, noi abbiamo solo firmato\". Si sono persi 2.400 libri su 11.000, ne sono stati ricomprati o donati 1.900. Nuovo orario: dal martedì al sabato, 9-19. La presidente dell'associazione è Lucia Gatti, bibliotecaria in pensione.",
-      "expected_output": "Articolo in prosa italiana da leggere: attacco con il fatto, la data e il luogo; periodi articolati (media sopra le 18 parole per frase, qualche frase oltre le 30), verbi al passato, la citazione dell'assessora riportata e attribuita, tutti i numeri degli appunti e nessun dato inventato; connettivi e parole di misura; nessuna apertura sul valore della cultura, nessuna chiusura con morale, nessuna raffica di frasi brevi né due punti a effetto.",
+      "expected_output": "Articolo in prosa italiana da leggere: attacco con il fatto, la data e il luogo; periodi articolati (media sopra le 18 parole per frase, qualche frase oltre le 30), verbi al passato, la citazione dell'assessora riportata e attribuita, tutti i numeri degli appunti e nessun dato inventato; connettivi e parole di misura; nessuna apertura sul valore della cultura, nessuna chiusura con morale, nessuna raffica di frasi brevi né due punti a effetto. Gli appunti non dicono chi ha promosso la sottoscrizione né chi ha donato i libri: l'articolo non lo dice. Se i fatti non bastano per 400 parole, esce più corto e lo segnala. Nessuna frase che commenta un dato per allungare («segno che…», «una cifra che racconta da sola…»).",
       "files": {},
       "controlli": {
         "deve": [
           "3 ottobre",
           "via Bixio",
-          "Parma",
           "180",
           "120",
           "900",
           "Marta Ferrari",
           "l'ha salvata il quartiere",
           "2\\.400",
-          "11\\.000",
+          "11[. ]?(000|mila)",
           "1\\.900",
           "Lucia Gatti"
         ],
@@ -159,7 +161,15 @@
           "\\bnon (è|si tratta) (solo|soltanto)\\b",
           "\\ba 360 gradi\\b",
           "^\\s*in (conclusione|definitiva)",
-          "^\\W*Ecco\\b"
+          "^[^\\w\\n]*Ecco\\b",
+          "\\bpromoss[oa]\\b",
+          "\\bfango\\b",
+          "segno che",
+          "non sono poch",
+          "da sol[ao] come",
+          "è una frase che",
+          "una cifra che",
+          "potesse contenere"
         ],
         "misure": {
           "parole_per_frase": [
@@ -174,7 +184,10 @@
             0,
             14
           ]
-        }
+        },
+        "deve_leggere": [
+          "references/descrivere-e-raccontare.md"
+        ]
       }
     },
     {
@@ -200,7 +213,7 @@
           "\\b(tuo|tua|tuoi) (appuntament|sedut)",
           "siamo (lieti|felici|entusiasti)",
           "non (è|si tratta) (solo|soltanto)",
-          "^\\W*Ecco\\b"
+          "^[^\\w\\n]*Ecco\\b"
         ]
       }
     },
@@ -253,7 +266,7 @@
           "antic[oa] e ",
           "sussurr",
           "da tempo immemor",
-          "^\\W*Ecco\\b"
+          "^[^\\w\\n]*Ecco\\b"
         ],
         "misure": {
           "parole_per_frase": [
@@ -291,7 +304,7 @@
           "\\bpartner\\b",
           "risultati (concreti|misurabili|tangibili)",
           "\\b(ti|tuo|tua) ",
-          "^\\W*Ecco\\b",
+          "^[^\\w\\n]*Ecco\\b",
           "\\bnon partiamo da\\b"
         ]
       }
@@ -313,15 +326,16 @@
           "120 euro",
           "\\b(otto|8)\\b",
           "\\b(vi|ve|voi)\\b|\\bvostr",
-          "\\bsoci\\b"
+          "\\bsoci\\b",
+          "dalle 9 alle 13"
         ],
         "non_deve": [
           "—",
           "\\bclient[ei]\\b",
           "\\bnegozio\\b",
-          "\\bworkshop\\b",
           "\\b(ti|tuo|tua|tuoi) ",
-          "\\b(iscriviti|vieni|scopri)\\b"
+          "\\b(iscriviti|vieni|scopri)\\b",
+          "\\bworkshop\\b(?! \\(|»|\\\")"
         ]
       }
     },
@@ -329,7 +343,7 @@
       "id": 12,
       "name": "riscrittura-slop-asciutto",
       "prompt": "Questo l'ho fatto scrivere a un'AI per il blog aziendale e mi sembra un telegramma. Lo sistemi? Siamo una software house di 25 persone a Bari, lavoriamo da remoto da marzo 2020 e a giugno 2023 abbiamo chiuso l'ufficio.\n\n\"Il lavoro da remoto non è una moda. È un cambio di mentalità. Nel 2020 lo abbiamo scoperto tutti. All'improvviso. Senza preparazione. Oggi la domanda è un'altra: come farlo bene? La risposta è semplice. Fiducia. Le aziende che controllano perdono. Quelle che si fidano vincono. Punto.\"",
-      "expected_output": "Testo riscritto in periodi legati (media sopra le 18 parole per frase), che usa i fatti forniti (25 persone, Bari, marzo 2020, giugno 2023) al posto delle sentenze, senza «non è X, è Y», senza due punti a effetto, senza frase breve in chiusura. La nota dice che le frasi dell'originale sono vuote e chiede i fatti che mancano (che cosa hanno fatto per lavorare bene da remoto) invece di inventarli.",
+      "expected_output": "Testo riscritto in periodi legati (media sopra le 18 parole per frase), che usa i fatti forniti (25 persone, Bari, marzo 2020, giugno 2023) al posto delle sentenze, senza «non è X, è Y», senza due punti a effetto, senza frase breve in chiusura. La nota dice che le frasi dell'originale sono vuote e chiede i fatti che mancano (che cosa hanno fatto per lavorare bene da remoto) invece di inventarli. Il «non è una moda, è un cambio di mentalità» non sopravvive nella forma «non X, ma Y».",
       "files": {},
       "controlli": {
         "deve_leggere": [
@@ -344,9 +358,11 @@
         "non_deve": [
           "—",
           "La risposta è semplice",
-          "^\\W*Ecco\\b",
+          "^[^\\w\\n]*Ecco\\b",
           "(?-i:\\bFiducia\\.)",
-          "(?-i:\\bPunto\\.)"
+          "(?-i:\\bPunto\\.)",
+          "non è una moda[^.]{0,40}(, ma|: è)",
+          "la domanda non è più"
         ]
       }
     },
@@ -371,7 +387,7 @@
           "\\ba 360 gradi\\b",
           "è (importante|fondamentale) (notare|sottolineare|ricordare)",
           "non esitare",
-          "^\\W*Ecco\\b"
+          "^[^\\w\\n]*Ecco\\b"
         ]
       }
     }

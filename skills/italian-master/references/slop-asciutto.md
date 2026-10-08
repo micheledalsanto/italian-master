@@ -63,6 +63,8 @@ C'è poi un equivoco sul concreto. Calvino chiedeva parole che significassero qu
 
 ## 3. Come uscirne
 
+**Separare i fatti dalle sentenze.** Prima di unire conviene chiedersi, per ogni frase, se dice un fatto oppure un'opinione generale che starebbe in qualunque testo sullo stesso argomento, come «Le aziende che controllano perdono». Le frasi del secondo tipo non migliorano fondendole, perché unite danno un periodo che scorre e che continua a non dire niente, e il «non è X, è Y» sopravvive alla fusione nella forma «non X, ma Y». Si tolgono, oppure si sostituiscono con i fatti di chi firma il testo. In una revisione si dice all'utente quali frasi erano vuote e quale informazione servirebbe al loro posto, e se quell'informazione non c'è il testo rivisto esce più corto dell'originale.
+
 **Unire.** Rileggi cercando le coppie di frasi brevi che si possono fondere in una con un «che», un «perché», un «anche se», un «e». Se due frasi parlano della stessa cosa, quasi sempre la seconda era una subordinata della prima.
 
 **Togliere i due punti.** Per ognuno chiediti se introduce davvero un elenco, una citazione o una conseguenza. Se serve solo a staccare la seconda metà della frase, va sostituito con una virgola, con un connettivo oppure riscrivendo la frase.

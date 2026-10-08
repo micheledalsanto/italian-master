@@ -48,6 +48,12 @@ FORMULE = {
         (r"\be indovina( un po')?\b", "taglia"),
         (r"\becco la verità\b|\bla verità è che\b|\bil punto è (questo|che)\b|\buna cosa è certa\b", "di' la cosa"),
     ],
+    "Commento al fatto": [
+        (r"\b(è|sono) (il |un )?segno che\b|, segno che\b", "se spiega un dato appena letto, taglia: il lettore ci arriva da solo"),
+        (r"\b(raccont\w+|parl\w+|dic\w+) (già )?da sol[oaie]\b|\bla dic\w+ lunga\b", "di' il fatto, senza dire che parla"),
+        (r"\bnon (è|sono|era|erano) poc(o|a|hi|he)\b|\be non di poco\b", "di' quanto, e lascia giudicare chi legge"),
+        (r"\bè una (frase|cifra|scelta|storia|data|parola|immagine) che (\w+ )?(racconta|ribalta|riassume|spiega|dice|restituisce|fotografa)\b", "commento al fatto: taglia"),
+    ],
     "Lessico gonfiato": [
         (r"\b(svolg\w+|gioc\w+|ricopr\w+|riveste?\w*) un ruolo (chiave|cruciale|fondamentale|centrale|determinante|essenziale|di primo piano)", "di' che cosa fa"),
         (r"\b(rappresenta|costituisce|si configura come|si pone come|si presenta come)\b", "quasi sempre «è»"),
@@ -94,6 +100,7 @@ FORMULE = {
     "Voce da assistente": [
         (r"^\s*(certamente|certo|assolutamente|ottima domanda|ottima idea|volentieri)[!,.]", "togli"),
         (r"\becco (il|la|un|una|i|le|a te|qui) .{0,40}(che hai (richiesto|chiesto)|rivist[oa]|aggiornat[oa]|migliorat[oa])", "consegna il testo e basta"),
+        (r"^\s*ecco (il|la|l'|lo|i|gli|le|un|una|qui|a te)\b[^.!?]{0,60}[:.]\s*$", "riga di annuncio: consegna il testo e basta"),
         (r"\bspero (che )?(questo|ti|vi|le) (ti |vi |le )?(sia|possa|aiut)", "togli"),
         (r"\b(fammi|fatemi|mi faccia) sapere se\b", "togli, salvo in una vera email"),
         (r"\bse hai (altre|ulteriori) domande\b|\bnon esitare a (chiedere|contattarmi)\b", "togli, salvo in una vera email"),
@@ -122,7 +129,9 @@ FORMULE = {
         (r"\b(sono|siamo) eccitat[oaie] (di|per)\b", "«contento», «entusiasta»"),
         (r"\bper favore,? (nota|notate|clicca|cliccate|inserisci|inserite|seleziona|compila)", "nelle istruzioni niente «per favore»"),
         (r"\bops!? qualcosa è andato storto\b", "di' che cosa è successo e che cosa fare"),
-        (r"\b(resta|restate|rimani|rimanete) sintonizzat[oi]\b", "«a presto», «ti aggiorniamo»"),
+        (r"\b(resta|restate|rimani|rimanete) (sintonizzat[oi]|con noi)\b", "«a presto», «ti aggiorniamo»"),
+        (r"\bnon (potrei|potremmo|potevo|potevamo|avrei potuto|avremmo potuto) essere più (felic[ei]|content[oaie]|orgoglios[oaie]|entusiast[aie])\b", "«siamo contenti», oppure solo la notizia"),
+        (r"\b(sono|siamo) (entusiast[aie]|felic[ei]|liet[oaie]|orgoglios[oaie]) di (annunciar|comunicar|condivider|presentar)", "da' la notizia senza annunciarla (in una lettera formale «siamo lieti di comunicare» è normale)"),
         (r"\bultimo ma non (meno importante|ultimo)\b", "«infine»"),
         (r"\b(prendere|prendi|prendo|preso) una (doccia|foto|pausa)\b", "«fare»"),
         (r"\bpag\w+ attenzione\b", "«fare attenzione», «prestare attenzione»"),

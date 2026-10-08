@@ -5,6 +5,7 @@ Uso:
     python evals/esegui.py                      # tutti i casi
     python evals/esegui.py --solo 3,7           # solo alcuni, per id o per nome
     python evals/esegui.py --rivaluta           # non riesegue: rivaluta le risposte già salvate
+    python evals/esegui.py --solo 6 --ripeti 3  # lo stesso caso tre volte
     python evals/esegui.py --modello sonnet --paralleli 4 --uscita evals/risultati
 
 Ogni caso parte in una sessione nuova di Claude Code (`claude -p`) con la skill
@@ -16,6 +17,10 @@ dalla repo, così la sessione non eredita memoria e istruzioni di questo progett
 I controlli automatici dicono se una risposta è sbagliata, non se è buona: le
 risposte restano in <uscita>/<nome>/risposta.md e vanno lette confrontandole
 con «expected_output».
+
+Lo stesso caso può passare in un'esecuzione e fallire in quella dopo. Prima di
+concludere che una modifica alla skill ha funzionato conviene ripetere i casi
+interessati con --ripeti, e guardare quante volte passano su quante.
 
 Solo libreria standard, Python 3.8 o successivo. Serve `claude` nel PATH.
 """
@@ -112,6 +117,7 @@ def main():
     parser.add_argument("--paralleli", type=int, default=4, help="sessioni in parallelo (predefinito: 4)")
     parser.add_argument("--uscita", default=str(REPO / "evals" / "risultati"), help="cartella dei risultati")
     parser.add_argument("--rivaluta", action="store_true", help="rivaluta le risposte già salvate senza rieseguire")
+    parser.add_argument("--ripeti", type=int, default=1, help="quante volte eseguire ogni caso (predefinito: 1)")
     args = parser.parse_args()
 
     casi = json.loads((REPO / "evals" / "evals.json").read_text(encoding="utf-8"))["evals"]
@@ -120,8 +126,9 @@ def main():
         casi = [c for c in casi if str(c["id"]) in scelti or c["name"] in scelti]
     uscita = Path(args.uscita)
 
-    def lavora(caso):
-        cartella = uscita / caso["name"]
+    def lavora(coppia):
+        caso, giro = coppia
+        cartella = uscita / caso["name"] if args.ripeti == 1 else uscita / caso["name"] / str(giro)
         cartella.mkdir(parents=True, exist_ok=True)
         try:
             if args.rivaluta:
@@ -136,7 +143,7 @@ def main():
         return (caso, falliti, note, dati, strumenti, costo)
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, args.paralleli)) as gruppo:
-        risultati = list(gruppo.map(lavora, casi))
+        risultati = list(gruppo.map(lavora, [(c, g) for c in casi for g in range(1, args.ripeti + 1)]))
 
     riepilogo = []
     for caso, falliti, note, dati, strumenti, costo in risultati:
@@ -153,9 +160,14 @@ def main():
                           "segnalazioni": note, "misure": dati, "riferimenti": aperti, "costo": costo})
     uscita.mkdir(parents=True, exist_ok=True)
     (uscita / "esito.json").write_text(json.dumps(riepilogo, ensure_ascii=False, indent=2), encoding="utf-8")
+    if args.ripeti > 1:
+        print()
+        for caso in casi:
+            esiti = [r["passa"] for r in riepilogo if r["id"] == caso["id"]]
+            print(f"{caso['id']:>3}. {caso['name']}: passa {sum(esiti)} volte su {len(esiti)}")
     passati = sum(r["passa"] for r in riepilogo)
     spesa = sum(r["costo"] or 0 for r in riepilogo)
-    print(f"\n{passati} casi su {len(riepilogo)} passano i controlli automatici. "
+    print(f"\n{passati} esecuzioni su {len(riepilogo)} passano i controlli automatici. "
           f"Segnalazioni dello script: {sum(len(r['segnalazioni']) for r in riepilogo)}. Costo: {spesa:.2f} $.")
     print(f"Le risposte sono in {uscita}: vanno lette.")
     return 0 if passati == len(riepilogo) else 1

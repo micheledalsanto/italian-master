@@ -11,6 +11,14 @@ Un testo generato si riconosce in due modi, e bisogna guardarsi da entrambi. Il 
 
 Tra le due c'è l'italiano che si legge sui giornali fatti bene e nei libri che durano, e che è fatto in buona parte di periodi di venti o trenta parole, legati tra loro da un «perché», da un «anche se», da un «però» messo al posto giusto.
 
+## Tre regole che valgono sempre
+
+Valgono per qualunque testo e con qualunque tono, e sono quelle che si perdono più facilmente.
+
+1. **Nel testo entrano solo i fatti che l'utente ha dato.** Non si aggiungono numeri, nomi, orari o citazioni, e nemmeno circostanze verosimili: come si è svolto un lavoro, perché una cosa è successa, chi l'ha voluta, come lavora chi firma («conosciamo ogni cliente per nome»). Se i fatti sono pochi il testo esce corto, e sotto si dice che cosa servirebbe per allungarlo.
+2. **Prima di scrivere si apre il riferimento del genere**, anche per un testo di poche righe. Quale sia lo dicono la sezione «Che cosa ti viene chiesto» e la tabella in fondo.
+3. **Si consegna il testo, e sotto poche righe.** Nessuna frase che lo annunci («Ecco la mail»), nessuna lineetta lunga né nel testo né nelle note, che sono in prosa e danno del tu a chi ha dato del tu.
+
 ## Prima di scrivere
 
 **Cerca la configurazione di chi usa la skill.** Il tono e il pubblico li decide l'utente, in un file `italian-master.md` che sta nella cartella `.claude/` del progetto oppure in quella della sua home (`~/.claude/`). Se c'è, leggilo prima di ogni altra cosa: dice chi legge e quanto ne sa, quale tono usare (formale, cordiale, accogliente, giornalistico, tecnico, commerciale), se dare del tu, del lei o del voi, e quali testi prendere a modello. Quello che dice la richiesta vale più della configurazione, e la configurazione vale più di quello che dedurresti da solo. Se il file manca, deduci tono e pubblico dal contesto e, sotto un testo breve, di' in una riga che cosa hai assunto. I sei toni, lo stesso avviso scritto in ciascuno e che cosa cambia secondo il pubblico sono in `references/tono-e-pubblico.md`.
@@ -19,7 +27,7 @@ Conviene poi avere chiare quattro cose, e se la richiesta non le dice si deducon
 
 1. **Chi legge**, perché da questo dipendono il registro e le parole che si possono dare per conosciute.
 2. **Che cosa deve capire o fare alla fine.** Se non si riesce a dirlo in una frase, il testo non è ancora pronto per essere scritto.
-3. **Tu, lei o voi**, scelti una volta e mantenuti fino in fondo, dato che mescolarli è l'errore più tipico di chi traduce «you» (vedi `references/registri.md`).
+3. **Tu, lei o voi**, scelti una volta e mantenuti fino in fondo, dato che mescolarli è l'errore più tipico di chi traduce «you» (vedi `references/registri.md`). Lo stesso vale per chi scrive, che dice «io» oppure «noi» e non passa da «La preghiamo» a «resto a disposizione».
 4. **Se il testo si legge o si consulta.** Un articolo, una newsletter, una pagina di presentazione o una lettera si leggono dall'inizio alla fine e vogliono una prosa che accompagni. Un avviso, una pagina di istruzioni, un'interfaccia o una scheda si consultano, e lì servono frasi brevi, elenchi e titoletti. Le pagine di un sito stanno a metà strada, con frasi di una ventina di parole e pochi connettivi (vedi `references/siti.md`).
 
 ## Come si scrive in italiano
@@ -46,7 +54,7 @@ Conviene poi avere chiare quattro cose, e se la richiesta non le dice si deducon
 
 **Accompagna chi non è del mestiere.** Quando il testo spiega qualcosa a persone non esperte, si comincia dalla situazione o dal dubbio del lettore, gli si dà del tu, ci si fa vedere con un «vediamo» o un «ti spiego», si mettono le sue domande nei punti in cui gli verrebbero e il termine tecnico arriva dopo la spiegazione. Anche i titoli devono essere frasi che si direbbero a voce. Vedi `references/tono-accogliente.md`.
 
-**Non inventare.** Un numero, un nome, un orario o una citazione che l'utente non ha fornito non si aggiungono per rendere il testo più vivo, e lo stesso vale per le circostanze verosimili, che sono le invenzioni più difficili da vedere: come si è svolto un lavoro, perché una cosa è successa, chi l'ha voluta, entro quando si deve pagare. Si può invece ricavare un dato da quelli forniti, come la differenza tra due numeri o il tempo passato tra due date, purché il conto torni. Se serve un dato che manca, lo si chiede, oppure si scrive la frase senza. Quando il testo senza quel dato non sta in piedi, come un sollecito senza la scadenza, al suo posto va un segnaposto tra parentesi quadre, segnalato sotto il testo.
+**Non inventare.** È la prima delle tre regole, e le circostanze verosimili sono le invenzioni più difficili da vedere, perché legano bene due fatti veri e nessuno le ha dette. Si può invece ricavare un dato da quelli forniti, come la differenza tra due numeri o il tempo passato tra due date, purché il conto torni e non richieda a sua volta un dato che manca, come l'anno di una data che ne è priva. Se serve un dato che manca, lo si chiede, oppure si scrive la frase senza. Quando il testo senza quel dato non sta in piedi, come un sollecito senza la scadenza, al suo posto va un segnaposto tra parentesi quadre, segnalato sotto il testo.
 
 Per i passi d'autore da cui prendere il ritmo, `references/modelli.md`. Per lo scioglimento di frasi burocratiche e nominali, `references/sintassi-stile.md`.
 
@@ -58,6 +66,7 @@ I segnali dello slop gonfio, il cui catalogo completo con le alternative è in `
 - il falso contrasto («Non è solo X, è Y»)
 - la triade automatica di aggettivi, vantaggi o verbi
 - la coda di gerundi («…, garantendo qualità e contribuendo a…»)
+- il commento che spiega al lettore il fatto appena letto («segno che…», «una cifra che racconta da sola…»), messo per allungare
 - i verbi da brochure (sbloccare, potenziare, navigare, abbracciare, immergersi)
 - le chiusure che riassumono («In conclusione», «In definitiva»)
 - la voce da assistente («Ecco…», «Certamente!», «Spero ti sia utile»)
@@ -88,7 +97,7 @@ Nessuna di queste liste è un elenco di divieti, perché ognuna di queste forme 
 
 ## Che cosa ti viene chiesto
 
-**Scrivere da zero, descrivere, raccontare.** Prima di scrivere si elencano i fatti disponibili e quelli che mancano, e si decide qual è la cosa principale. Una descrizione dice nella prima frase che cos'è la cosa, e un racconto tiene lo stesso tempo verbale finché non arriva a oggi. Vedi `references/descrivere-e-raccontare.md`.
+**Scrivere da zero, descrivere, raccontare.** Prima di scrivere si elencano i fatti disponibili e quelli che mancano, e si decide qual è la cosa principale. Una descrizione dice nella prima frase che cos'è la cosa, e un racconto tiene lo stesso tempo verbale finché non arriva a oggi. Se i fatti non bastano per la lunghezza richiesta, il testo esce più corto e lo si dice, perché l'alternativa è allungarlo con frasi che non informano. Vedi `references/descrivere-e-raccontare.md` e, per il passo delle frasi, `references/periodo.md`.
 
 **Scrivere una comunicazione formale.** Un avviso ai clienti, un sollecito, la risposta a un reclamo vogliono il registro formale per intero, con le sue formule di cortesia, e in mezzo soltanto fatti: che cosa cambia, da quando, che cosa deve fare chi legge. Togliere le formule non rende il testo più naturale. Vedi `references/corrispondenza-formale.md`.
 
@@ -102,13 +111,13 @@ Nessuna di queste liste è un elenco di divieti, perché ognuna di queste forme 
 
 **Titoli, oggetti, attacchi.** Vedi `references/titoli.md`. Si propongono più varianti da angoli diversi, indicando quale si sceglierebbe, e ogni titolo promette solo quello che il testo mantiene.
 
-**Tradurre verso l'italiano.** Si traduce il senso, ricostruendo i periodi come li costruirebbe chi scrive in italiano, dato che la sintassi a frasi brevi dell'originale inglese è la prima cosa che tradisce una traduzione. Vedi `references/calchi.md` e, per le espressioni idiomatiche, `references/modi-di-dire.md`.
+**Tradurre verso l'italiano.** Si traduce il senso, ricostruendo i periodi come li costruirebbe chi scrive in italiano, dato che la sintassi a frasi brevi dell'originale inglese è la prima cosa che tradisce una traduzione. Le formule di entusiasmo e di congedo («we're thrilled», «couldn't be happier», «stay tuned») non hanno un equivalente da cercare: in italiano al loro posto c'è la notizia, detta con un tono più basso. Vedi `references/calchi.md` e, per le espressioni idiomatiche, `references/modi-di-dire.md`.
 
 **Imparare una voce.** Quando l'utente indica dei testi di riferimento, vanno letti prima di scrivere, ricavandone una scheda di stile secondo `references/imparare-una-voce.md`. La voce dell'utente prevale sulle preferenze di questa skill.
 
 ## Come si consegna
 
-Il testo viene per primo, senza una riga che lo annunci («Ecco la mail», «Ecco il testo riscritto») e senza il racconto di come ci si è arrivati. Quello che c'è da dire all'utente va sotto, ed è poco: un dato che mancava, una scelta che deve confermare e, nelle revisioni, che cosa è cambiato. Anche queste righe sono italiano scritto e seguono le stesse regole del testo, quindi sono in prosa, senza etichette in grassetto e senza lineette lunghe. All'utente ci si rivolge come lui si è rivolto a te, di solito con il tu, anche quando il testo consegnato dà del lei a qualcun altro.
+Il testo viene per primo, senza una riga che lo annunci e senza il racconto di come ci si è arrivati. Quello che c'è da dire all'utente va sotto, ed è poco: un dato che mancava, una scelta che deve confermare e, nelle revisioni, che cosa è cambiato. Anche queste righe sono italiano scritto e seguono le stesse regole del testo, quindi sono in prosa e senza etichette in grassetto. Non dicono che il testo è riuscito e non ne spiegano i pregi. All'utente ci si rivolge come lui si è rivolto a te: a chi ha scritto «scrivimi una mail» si risponde con il tu, anche quando la mail dà del lei al suo destinatario.
 
 ## Rilettura finale
 
@@ -118,21 +127,21 @@ Prima di consegnare un testo da leggere conviene controllare, nell'ordine:
 - se ci sono coppie di frasi brevi che andrebbero fuse in una
 - se ogni «due punti» introduce davvero un elenco, una citazione o una conseguenza
 - se l'ultima frase di ogni capoverso è lì per dire qualcosa o per fare effetto
-- se tu, lei e voi sono coerenti dall'inizio alla fine
-- accenti e apostrofi («perché», «è», «È», «un po'», «qual è»), maiuscole solo a inizio titolo, numeri e date all'italiana
+- se tu, lei e voi sono coerenti dall'inizio alla fine, e così «io» e «noi»
+- accenti e apostrofi («perché», «è», «È», «un po'», «qual è»), maiuscole solo a inizio titolo, numeri e date all'italiana, con date, ore, prezzi e misure sempre in cifre («120 euro», «dalle 9 alle 13»)
 - se ogni dato e ogni circostanza presenti nel testo vengono dall'utente o da una fonte
 - se i fatti accaduti sono raccontati al passato, con soggetti determinati e senza salti di tempo verbale
 - se ogni frase riscritta si capisce da sola, e se gli accostamenti di parole sono di quelli che si sentono dire
 - se, letto ad alta voce, sembra detto da qualcuno
 - se le righe per l'utente stanno sotto il testo e sono scritte con la stessa cura
 
-Lo script `scripts/controlla.py`, dove è possibile eseguirlo, segnala le formule più comuni e misura il passo delle frasi confrontandolo con quello dei testi veri:
+Lo script `scripts/controlla.py` segnala le formule più comuni, le lineette lunghe e le frasi di annuncio, e misura il passo delle frasi confrontandolo con quello dei testi veri. Dove è possibile eseguirlo va lanciato sulla risposta intera, note comprese, perché le righe aggiunte dopo il controllo sono quelle in cui tornano le lineette e le frasi di annuncio:
 
 ```bash
-python scripts/controlla.py testo.md
+python scripts/controlla.py risposta.md
 ```
 
-Le sue segnalazioni sono indizi da valutare, e un testo che non ne riceve può essere comunque mediocre.
+Le sue segnalazioni sono indizi da valutare, e un testo che non ne riceve può essere comunque mediocre. Lo script non vede i fatti inventati, che si controllano rileggendo il testo con la richiesta dell'utente accanto.
 
 ## Quando leggere i riferimenti
 

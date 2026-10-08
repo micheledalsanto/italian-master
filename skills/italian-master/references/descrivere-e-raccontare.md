@@ -21,6 +21,8 @@ Un testo generato male nasce quasi sempre prima della prima riga, quando si comi
 
 **I fatti che mancano.** Se per scrivere una frase sensata servirebbe un'informazione che non c'è (da quando, per chi, quanto costa, che cosa è successo dopo), la si chiede, oppure si scrive il testo senza quella frase. Non si riempie il buco con un aggettivo e nemmeno con un dettaglio plausibile. I dettagli plausibili più frequenti sono le circostanze che legano due fatti veri: da appunti che dicono «abbiamo rifatto il sito» e «gli ordini sono triplicati» viene spontaneo scrivere che cosa è stato rifatto e come, e da «1.900 libri ricomprati o donati» chi li ha donati. Sono frasi che scorrono bene e che nessuno ha detto.
 
+**La lunghezza.** Quando la richiesta indica una misura e i fatti ne riempiono poco più della metà, il testo si ferma dove finiscono i fatti, e sotto si dice quanto è lungo e che cosa servirebbe per arrivare alla misura chiesta. L'alternativa è il commento, cioè una frase che dopo ogni dato spiega che cosa significa («segno che in tanti ci tenevano», «una cifra che racconta da sola come sono andate le cose»), e a quel punto mezzo articolo è l'opinione di chi lo ha scritto.
+
 **La cosa principale.** Di tutti i fatti, uno o due sono quelli che il lettore deve ricordare. Vanno detti presto e in modo piano, e il resto si ordina intorno.
 
 **L'ordine.** In una descrizione si parte da che cos'è la cosa e si arriva ai particolari. In un racconto si segue il tempo. In un testo pratico viene prima quello che serve per agire.

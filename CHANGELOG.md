@@ -2,6 +2,28 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.3.1] - 2026-10-08
+
+### Aggiunto
+
+- In `SKILL.md`, **tre regole in testa alla pagina**: nel testo entrano solo i fatti forniti, prima di scrivere si apre il riferimento del genere, si consegna il testo con poche righe sotto. Sono le indicazioni che nelle prove si perdevano più spesso quando stavano in mezzo alle altre.
+- **Il commento al fatto** tra i segnali dello slop gonfio: la frase che dopo ogni dato ne spiega il significato («segno che in tanti ci tenevano», «una cifra che racconta da sola…»), e che compare quando c'è una lunghezza da raggiungere e i fatti sono finiti. È descritto in `ai-slop.md`, e `descrivere-e-raccontare.md` dice che cosa fare quando i fatti non bastano per la misura richiesta.
+- In `slop-asciutto.md`, il primo passo per uscirne: **separare i fatti dalle sentenze** prima di unire le frasi, perché una sentenza fusa in un periodo continua a non dire niente.
+- In `calchi.md`, le formule di entusiasmo e di congedo dei post tradotti: «non potevamo essere più contenti», «restate con noi», «siamo entusiasti di annunciare».
+- In `controlla.py`, la categoria «Commento al fatto», i tre calchi qui sopra e la riga di annuncio («Ecco il testo riscritto:»).
+- In `evals/esegui.py`, l'opzione `--ripeti`, che esegue lo stesso caso più volte e dice quante volte passa.
+
+### Modificato
+
+- **Chi scrive dice «io» oppure «noi»**, e non passa dall'uno all'altro nella stessa lettera.
+- **Date, ore, prezzi e misure sempre in cifre**: nelle prove uscivano «centoventi euro» e «dalle nove all'una».
+- Lo script si lancia sulla risposta intera, note comprese.
+
+### Limiti noti
+
+- Le prove sono fatte con Sonnet, un'esecuzione per caso o tre per i casi più difficili, e lo stesso caso passa in un'esecuzione e fallisce in quella dopo. Con la 1.3.0 passano i controlli automatici otto o nove casi su tredici, e con questa versione il numero non è cresciuto in modo misurabile. Della 1.2.0 non c'è una misura pulita, perché il primo giro è stato eseguito dentro la repo e le sessioni di prova ne leggevano la memoria.
+- Negli articoli scritti da appunti il commento ai fatti è sparito e il testo esce più corto della misura richiesta, dichiarandolo, in tre esecuzioni su tre. Restano due difetti che le modifiche di questa versione non hanno tolto: la lineetta lunga nelle note per l'utente, in circa metà delle esecuzioni, e qualche circostanza inventata negli stessi articoli, più piccola di prima ma presente in quasi tutte.
+
 ## [1.3.0] - 2026-10-08
 
 ### Aggiunto

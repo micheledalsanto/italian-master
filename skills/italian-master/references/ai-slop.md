@@ -56,6 +56,8 @@ Sono gli stampi in cui il testo generato cola qualunque contenuto.
 
 **La coda di gerundi.** «L'azienda ha lanciato una nuova piattaforma, migliorando l'esperienza degli utenti, garantendo maggiore sicurezza e contribuendo alla crescita del settore.» È il calco di una costruzione inglese in *-ing* che aggiunge significati mai dimostrati. Spezza: una frase per ogni affermazione che sei in grado di sostenere, e taglia le altre.
 
+**Il commento al fatto.** Dopo ogni dato arriva una frase che ne spiega il significato: «segno che il quartiere ci teneva davvero», «una cifra che racconta da sola come sono andate le cose», «novecento persone, per un solo quartiere, non sono poche», «è una frase che ribalta l'ordine consueto». Compare soprattutto quando c'è una lunghezza da raggiungere e i fatti sono finiti. Il fatto detto bene basta, perché le conclusioni il lettore le tira da solo, e se il materiale manca il testo esce più corto.
+
 **I due punti rivelatori.** «Ecco la verità: …», «Il punto è questo: …», «Una cosa è certa: …». Di' la cosa.
 
 **Il parallelismo a ogni costo.** Capoversi tutti della stessa lunghezza, tutti con la stessa apertura, elenchi in cui ogni voce ha lo stesso numero di parole. La simmetria perfetta non è umana. Lascia che un punto sia più lungo se ha più cose da dire.
