@@ -46,7 +46,7 @@ L'inglese ha *you*. L'italiano deve scegliere, e la scelta dice che rapporto c'�
 | Colloquiale | social, chat, newsletter personali | tu, frasi spezzate, qualche espressione del parlato, ironia |
 | Familiare, gergale | messaggi tra amici, dialoghi | regionalismi, parolacce, abbreviazioni |
 
-Quasi tutta la sbobba sta in una terra di nessuno: lessico da brochure, entusiasmo da venditore, sintassi da manuale. Nessun italiano parla o scrive così in nessuno dei sei registri. Prima di scrivere, scegli un gradino e restaci.
+Quasi tutto l'AI slop sta in una terra di nessuno: lessico da brochure, entusiasmo da venditore, sintassi da manuale. Nessun italiano parla o scrive così in nessuno dei sei registri. Prima di scrivere, scegli un gradino e restaci.
 
 Segnali di registro alto: «pertanto», «tuttavia», «qualora», «si prega di», «in allegato», passato remoto, congiuntivo sempre, «egli».
 
@@ -90,7 +90,7 @@ Formule da evitare: «In attesa di un Suo cortese riscontro, porgo distinti salu
 
 Non esiste «lo stile social»: esistono piattaforme e comunità.
 
-- **LinkedIn.** Il luogo dove la sbobba italiana è più fitta: «Sono entusiasta di annunciare», «Onorato di», «Un nuovo capitolo», la storiella con la morale, una frase per riga, tre hashtag generici. Un post che funziona racconta un fatto preciso (che cosa è successo, a chi, con che numeri) e dice una cosa che l'autore pensa davvero. «Sono contento di dirvi che da lunedì lavoro in X» batte qualsiasi annuncio entusiasta. La domanda finale «E voi cosa ne pensate?» si mette solo se la risposta ti interessa.
+- **LinkedIn.** Il luogo dove l'AI slop italiano è più fitto: «Sono entusiasta di annunciare», «Onorato di», «Un nuovo capitolo», la storiella con la morale, una frase per riga, tre hashtag generici. Un post che funziona racconta un fatto preciso (che cosa è successo, a chi, con che numeri) e dice una cosa che l'autore pensa davvero. «Sono contento di dirvi che da lunedì lavoro in X» batte qualsiasi annuncio entusiasta. La domanda finale «E voi cosa ne pensate?» si mette solo se la risposta ti interessa.
 - **Instagram, TikTok.** Didascalie brevi, la cosa importante nella prima riga perché il resto viene tagliato. Tono parlato. Il linguaggio cambia in fretta: non imitare lo slang giovanile se chi scrive non lo usa di suo, perché niente invecchia peggio.
 - **Facebook.** Pubblico più adulto, molte pagine locali. Tono diretto, informazioni pratiche in evidenza: dove, quando, quanto costa.
 - **X, Threads, Bluesky.** Una frase, un'idea. L'ironia secca è la moneta.

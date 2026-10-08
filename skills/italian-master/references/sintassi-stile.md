@@ -76,7 +76,7 @@ Come si costruisce un periodo che regga venti o trenta parole senza perdere il l
 
 **La subordinazione è una risorsa.** L'italiano è una lingua che subordina volentieri, e una frase con un «perché» o un «anche se» dice più di due frasette accostate, perché esplicita il rapporto tra le idee. Chi scrive solo frasi brevi coordinate per punti scrive un telegramma. Il limite pratico è il secondo livello: una subordinata che dipende da una subordinata che dipende da una subordinata va sciolta.
 
-**Il ritmo si sente.** Un testo riletto ad alta voce rivela subito se le frasi hanno tutte lo stesso passo. Una frase breve fa effetto quando arriva dopo due periodi lunghi, mentre tre frasi brevi di fila, o una in fondo a ogni capoverso, sono il segno più comune della prosa generata che vuole sembrare asciutta (vedi `sbobba-asciutta.md`).
+**Il ritmo si sente.** Un testo riletto ad alta voce rivela subito se le frasi hanno tutte lo stesso passo. Una frase breve fa effetto quando arriva dopo due periodi lunghi, mentre tre frasi brevi di fila, o una in fondo a ogni capoverso, sono il segno più comune della prosa generata che vuole sembrare asciutta (vedi `slop-asciutto.md`).
 
 **L'informazione nuova va in fondo.** In italiano la fine della frase è la posizione di rilievo. «Il contratto lo firmiamo martedì» mette l'accento su martedì. «Martedì firmiamo il contratto» lo mette sul contratto. Sfrutta l'ordine delle parole, che in italiano è molto più libero che in inglese.
 

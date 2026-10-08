@@ -1,13 +1,13 @@
 ---
 name: italian-master
-description: Scrive, riscrive e corregge testi in italiano naturale, come li scriverebbe un italiano che sa scrivere, eliminando la "sbobba artificiale" (AI slop), i calchi dall'inglese, il burocratese e le frasi fatte. Copre grammatica, ortografia, punteggiatura, sintassi, logica del testo, tono e registro (tu/lei/voi), modi di dire e proverbi, titoli giornalistici, titoli web e social, oggetti di email e newsletter. Usa questa skill ogni volta che l'output finale è un testo in italiano destinato a essere letto da persone: articoli, post, newsletter, email, landing page, copy, microcopy, comunicati, descrizioni prodotto, discorsi, traduzioni verso l'italiano, revisioni e "umanizzazioni" di testi che suonano finti, anche quando l'utente non nomina la skill e anche quando scrive in inglese ma vuole un testo italiano. Use it for any Italian-language writing, editing, proofreading, headline or translation-into-Italian task.
+description: Scrive, riscrive e corregge testi in italiano naturale, come li scriverebbe un italiano che sa scrivere, eliminando l'AI slop, i calchi dall'inglese, il burocratese e le frasi fatte. Copre grammatica, ortografia, punteggiatura, sintassi, logica del testo, tono e registro (tu/lei/voi), modi di dire e proverbi, titoli giornalistici, titoli web e social, oggetti di email e newsletter. Usa questa skill ogni volta che l'output finale è un testo in italiano destinato a essere letto da persone: articoli, post, newsletter, email, landing page, copy, microcopy, comunicati, descrizioni prodotto, discorsi, traduzioni verso l'italiano, revisioni e "umanizzazioni" di testi che suonano finti, anche quando l'utente non nomina la skill e anche quando scrive in inglese ma vuole un testo italiano. Use it for any Italian-language writing, editing, proofreading, headline or translation-into-Italian task.
 ---
 
 # Italian master
 
 Questa skill serve a scrivere in italiano come scrive una persona che la lingua la conosce bene e che ha in mente qualcuno a cui rivolgersi.
 
-Un testo generato si riconosce in due modi, e bisogna guardarsi da entrambi. Il primo è la sbobba che tutti conoscono, quella gonfia, fatta di «in un mondo sempre più», di triadi di aggettivi e di conclusioni che ripetono quanto si è appena detto. Il secondo viene fuori proprio quando si cerca di evitare il primo, ed è una prosa a frasi corte e nette, piena di due punti a effetto e di sentenze in fondo ai capoversi, che un lettore italiano riconosce altrettanto in fretta perché nessuno, in Italia, scrive un articolo o una lettera così. Chiamiamola sbobba asciutta.
+Un testo generato si riconosce in due modi, e bisogna guardarsi da entrambi. Il primo è l'AI slop che tutti conoscono, quello gonfio, fatto di «in un mondo sempre più», di triadi di aggettivi e di conclusioni che ripetono quanto si è appena detto. Il secondo viene fuori proprio quando si cerca di evitare il primo, ed è una prosa a frasi corte e nette, piena di due punti a effetto e di sentenze in fondo ai capoversi, che un lettore italiano riconosce altrettanto in fretta perché nessuno, in Italia, scrive un articolo o una lettera così. Chiamiamola slop asciutto.
 
 Tra le due c'è l'italiano che si legge sui giornali fatti bene e nei libri che durano, e che è fatto in buona parte di periodi di venti o trenta parole, legati tra loro da un «perché», da un «anche se», da un «però» messo al posto giusto.
 
@@ -28,7 +28,7 @@ Conviene avere chiare quattro cose, e se la richiesta non le dice si deducono da
 
 **Lega i fatti tra loro.** Quando due frasi vicine parlano della stessa cosa, quasi sempre la seconda è una subordinata della prima, e conviene scriverla come tale. I connettivi che servono sono quelli comuni e che impegnano a un rapporto preciso («perché», «quindi», «anche se», «però», «invece», «infatti», «anzi»), e in italiano stanno più spesso dentro la frase, dopo il primo elemento e tra due virgole, che in testa. «Inoltre», «infine» e «in conclusione» in apertura di capoverso non collegano niente. Il repertorio, con le frequenze misurate sui giornali, è in `references/connettivi.md`.
 
-**Pensa la frase in italiano.** Molta sbobba nasce da frasi inglesi rivestite di parole italiane, come «assicurati di», «quando si tratta di», «fare la differenza», «portare al livello successivo». La domanda utile è come direbbe la stessa cosa una persona a voce, e la risposta di solito ha un verbo diverso. L'elenco dei calchi è in `references/calchi.md`. Questo non vuol dire tradurre tutto: i termini che chi fa un mestiere dice in inglese (landing page, call to action, brand, packaging) restano in inglese quando si scrive per chi quel mestiere lo conosce.
+**Pensa la frase in italiano.** Molto AI slop nasce da frasi inglesi rivestite di parole italiane, come «assicurati di», «quando si tratta di», «fare la differenza», «portare al livello successivo». La domanda utile è come direbbe la stessa cosa una persona a voce, e la risposta di solito ha un verbo diverso. L'elenco dei calchi è in `references/calchi.md`. Questo non vuol dire tradurre tutto: i termini che chi fa un mestiere dice in inglese (landing page, call to action, brand, packaging) restano in inglese quando si scrive per chi quel mestiere lo conosce.
 
 **Usa accostamenti che esistono.** Una coppia di parole può essere corretta e non essere italiano, come «una comunicazione gridata». Se un accostamento non lo si è mai sentito, va preso quello più comune, oppure lasciata la parola dell'originale. Tra una ripetizione e un sinonimo che non si usa, è meglio la ripetizione.
 
@@ -42,13 +42,15 @@ Conviene avere chiare quattro cose, e se la richiesta non le dice si deducono da
 
 **Comincia dal fatto e finisci quando hai finito.** Negli articoli veri la prima frase contiene già una data, un nome o un numero, e l'ultima è quasi sempre un'informazione in più, non una morale. Vedi `references/attacchi-e-chiusure.md`.
 
+**Accompagna chi non è del mestiere.** Quando il testo spiega qualcosa a persone non esperte, si comincia dalla situazione o dal dubbio del lettore, gli si dà del tu, ci si fa vedere con un «vediamo» o un «ti spiego», si mettono le sue domande nei punti in cui gli verrebbero e il termine tecnico arriva dopo la spiegazione. Anche i titoli devono essere frasi che si direbbero a voce. Vedi `references/tono-accogliente.md`.
+
 **Non inventare.** Un numero, un nome, un orario o una citazione che l'utente non ha fornito non si aggiungono per rendere il testo più vivo. Se serve un dato che manca, lo si chiede, oppure si scrive la frase senza.
 
 Per i passi d'autore da cui prendere il ritmo, `references/modelli.md`. Per lo scioglimento di frasi burocratiche e nominali, `references/sintassi-stile.md`.
 
 ## Che cosa rileggere
 
-I segnali della sbobba gonfia, il cui catalogo completo con le alternative è in `references/sbobba.md`:
+I segnali dello slop gonfio, il cui catalogo completo con le alternative è in `references/ai-slop.md`:
 
 - aperture che partono dal mondo o dall'epoca («In un mondo sempre più…», «Nel panorama odierno…»)
 - il falso contrasto («Non è solo X, è Y»)
@@ -60,7 +62,7 @@ I segnali della sbobba gonfia, il cui catalogo completo con le alternative è in
 - la vaghezza autorevole («studi dimostrano», «secondo gli esperti»)
 - la tipografia inglese: Maiuscole A Ogni Parola, lineette lunghe, virgola prima di «e» negli elenchi, grassetti sparsi
 
-I segnali della sbobba asciutta, descritti in `references/sbobba-asciutta.md`:
+I segnali dello slop asciutto, descritti in `references/slop-asciutto.md`:
 
 - frasi quasi tutte sotto le quindici parole, e nessun periodo lungo
 - due punti usati per fare effetto, tre volte più frequenti che in un giornale
@@ -125,12 +127,13 @@ Le sue segnalazioni sono indizi da valutare, e un testo che non ne riceve può e
 | --- | --- |
 | `references/periodo.md` | Prima di ogni testo da leggere più lungo di poche righe |
 | `references/descrivere-e-raccontare.md` | Per descrivere un progetto o un prodotto, raccontare un percorso, scrivere partendo da appunti |
-| `references/sbobba-asciutta.md` | Quando il testo esce a frasette, o dopo aver ripulito un testo dalle formule |
+| `references/tono-accogliente.md` | Quando il testo deve guidare lettori non esperti: divulgazione, guide, lezioni, titoli di sezioni |
+| `references/slop-asciutto.md` | Quando il testo esce a frasette, o dopo aver ripulito un testo dalle formule |
 | `references/modelli.md` | Prima di un testo lungo, per prendere il passo da pagine vere |
 | `references/connettivi.md` | Quando le frasi stanno una accanto all'altra senza legarsi, o il testo è tutto ugualmente sicuro |
 | `references/attacchi-e-chiusure.md` | Per la prima e l'ultima frase di un articolo, di un post, di una newsletter |
 | `references/impronte.md` | In rilettura, per i segni che restano dopo aver tolto le formule, e per non proibire cose normali |
-| `references/sbobba.md` | Per rivedere un testo che suona artificiale |
+| `references/ai-slop.md` | Per rivedere un testo che suona artificiale |
 | `references/sintassi-stile.md` | Per sciogliere frasi burocratiche, nominali, passive |
 | `references/calchi.md` | Per tradurre dall'inglese, o se il testo parla di tecnologia, lavoro, marketing |
 | `references/grammatica.md` | Per un dubbio di ortografia, accenti, congiuntivo, pronomi, reggenze, femminili professionali |

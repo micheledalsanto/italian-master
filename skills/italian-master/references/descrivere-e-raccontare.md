@@ -93,6 +93,8 @@ Tre casi veri, tutti corretti da un lettore:
 
 Il metodo per accorgersene è chiedersi se quella coppia di parole la si è mai sentita o letta. Se la risposta è incerta, ci sono due uscite sicure. Una è prendere l'accostamento più comune, anche se sembra banale: «toni sopra le righe» è una frase fatta, ed è italiano. L'altra è lasciare la parola dell'originale, quando l'originale era corretto e si stava solo cercando una variante più elegante.
 
+Vale anche per i titoli. «Agenti con confini» ricalca un titolo inglese parola per parola, e in italiano non vuol dire niente, perché «con confini» non si dice di un programma. Un titolo va provato a voce, come se lo si dicesse a qualcuno (vedi `tono-accogliente.md`).
+
 Vale in particolare per i sinonimi cercati per non ripetere. Tra una ripetizione e un sinonimo che non si usa, la ripetizione è sempre la scelta migliore.
 
 ## 7. Quando la frase di partenza non ha senso

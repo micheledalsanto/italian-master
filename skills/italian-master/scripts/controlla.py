@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Segnala i sospetti più comuni di "sbobba artificiale" in un testo italiano.
+"""Segnala i sospetti più comuni di AI slop in un testo italiano.
 
 Uso:
     python controlla.py testo.md
@@ -10,7 +10,7 @@ Uso:
 
 È un aiuto alla rilettura, non un giudice: un testo senza segnalazioni può
 essere pessimo, e una segnalazione può essere un falso allarme. Le spiegazioni
-e le alternative sono in references/sbobba.md e negli altri riferimenti.
+e le alternative sono in references/ai-slop.md e negli altri riferimenti.
 
 Solo libreria standard, Python 3.8 o successivo.
 """
@@ -444,7 +444,7 @@ def main():
             flusso.reconfigure(encoding="utf-8")
         except (AttributeError, ValueError):
             pass
-    parser = argparse.ArgumentParser(description="Segnala i sospetti di sbobba artificiale in un testo italiano.")
+    parser = argparse.ArgumentParser(description="Segnala i sospetti di AI slop in un testo italiano.")
     parser.add_argument("file", nargs="*", help="file di testo o markdown; senza argomenti legge da stdin")
     parser.add_argument("--json", action="store_true", help="stampa il risultato in JSON")
     parser.add_argument("--strict", action="store_true", help="esce con codice 1 se ci sono segnalazioni")

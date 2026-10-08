@@ -1,12 +1,12 @@
-# La sbobba artificiale: catalogo dei segnali
+# L'AI slop: catalogo dei segnali
 
-«Sbobba artificiale» è una delle traduzioni italiane di *AI slop* che circolano. Questo file elenca i segnali che fanno riconoscere un testo come generato, nella forma che prendono in italiano, e dice come uscirne.
+*AI slop* è il nome che in inglese si dà ai testi generati in serie e senza cura, e in italiano si usa così com'è. Questo file elenca i segnali che fanno riconoscere un testo come generato, nella forma che prendono in italiano, e dice come uscirne.
 
 Tre avvertenze prima dell'elenco.
 
 La prima: nessuna di queste espressioni è vietata. Sono tutte italiano legittimo, e le persone le usano. Diventano un segnale quando si accumulano e quando stanno lì senza fare niente. Il test è sempre lo stesso: se tolgo questa parola, la frase perde qualcosa?
 
-La seconda riguarda quello che succede dopo. Un testo a cui sono state tolte tutte queste formule non è ancora un testo scritto bene, e spesso cade nel difetto opposto, cioè in una prosa a frasette secche, con i due punti a effetto e una sentenza in fondo a ogni capoverso, che si riconosce altrettanto facilmente. È descritta in `sbobba-asciutta.md`, che va letto insieme a questo file.
+La seconda riguarda quello che succede dopo. Un testo a cui sono state tolte tutte queste formule non è ancora un testo scritto bene, e spesso cade nel difetto opposto, cioè in una prosa a frasette secche, con i due punti a effetto e una sentenza in fondo a ogni capoverso, che si riconosce altrettanto facilmente. È descritta in `slop-asciutto.md`, che va letto insieme a questo file.
 
 La terza: sostituire un tic con un sinonimo non risolve. «Nel panorama attuale» al posto di «nel panorama odierno» è lo stesso vuoto. Quasi sempre la correzione giusta è tagliare, oppure mettere al posto della formula il fatto che la formula stava nascondendo.
 
@@ -199,4 +199,4 @@ Dopo:
 >
 > Ci trovate al numero 12, tutti i giorni fino alle sette di sera tranne il lunedì.
 
-Nella riscrittura sono sparite l'apertura sul mondo frenetico, la triade di aggettivi, il falso contrasto e la coda di gerundi, e al loro posto ci sono le informazioni che un cliente cerca, dette con il voi di un barista e legate tra loro in tre periodi. Tutti i dati (gli orari, il burro, la torrefazione, l'indirizzo) vengono dal proprietario, perché un dettaglio inventato per dare colore è peggio della formula che sostituisce. In `sbobba-asciutta.md` c'è la versione sbagliata di questa stessa riscrittura, quella a frasette, messa a confronto con questa.
+Nella riscrittura sono sparite l'apertura sul mondo frenetico, la triade di aggettivi, il falso contrasto e la coda di gerundi, e al loro posto ci sono le informazioni che un cliente cerca, dette con il voi di un barista e legate tra loro in tre periodi. Tutti i dati (gli orari, il burro, la torrefazione, l'indirizzo) vengono dal proprietario, perché un dettaglio inventato per dare colore è peggio della formula che sostituisce. In `slop-asciutto.md` c'è la versione sbagliata di questa stessa riscrittura, quella a frasette, messa a confronto con questa.

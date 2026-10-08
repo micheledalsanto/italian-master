@@ -1,6 +1,6 @@
 # Le impronte grammaticali, e i falsi allarmi
 
-Le formule si vedono a occhio, e chi ha letto `sbobba.md` le riconosce subito. Più difficili da vedere sono le abitudini grammaticali che restano anche quando le formule sono state tolte tutte: quali tempi verbali compaiono, come comincia la frase, quante relative ci sono. Questo file le elenca, con i conteggi fatti sugli stessi testi di `connettivi.md` (ottantasei articoli di giornali e riviste, un campione di testi generati, le lettere di Gramsci).
+Le formule si vedono a occhio, e chi ha letto `ai-slop.md` le riconosce subito. Più difficili da vedere sono le abitudini grammaticali che restano anche quando le formule sono state tolte tutte: quali tempi verbali compaiono, come comincia la frase, quante relative ci sono. Questo file le elenca, con i conteggi fatti sugli stessi testi di `connettivi.md` (ottantasei articoli di giornali e riviste, un campione di testi generati, le lettere di Gramsci).
 
 Nella seconda parte c'è il rovescio, cioè l'elenco delle cose che la prima versione di questa skill indicava come segnali di scrittura artificiale e che i giornalisti italiani usano tranquillamente tutti i giorni.
 

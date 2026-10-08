@@ -1,4 +1,4 @@
-# La sbobba asciutta
+# Lo slop asciutto
 
 Quando a un modello si chiede di evitare le formule della scrittura artificiale, non comincia a scrivere come una persona. Passa a un secondo stile, più difficile da nominare e altrettanto riconoscibile: frasi corte e nette, due punti a effetto, un dettaglio concreto per riga, una sentenza in fondo a ogni capoverso. Ha l'aria della prosa «pulita» dei manuali di scrittura americani e del copywriting minimalista, e un lettore italiano lo fiuta quanto il primo, perché nessuno in Italia scrive un articolo o una lettera in quel modo.
 
@@ -27,7 +27,7 @@ Gli esempi di questo file vengono in buona parte dalla prima versione di questa 
 >
 > Un buon finale è spesso solo il punto in cui hai smesso di avere cose da dire.
 
-**La negazione che corregge, in formato ridotto.** Il «non è X, è Y» della sbobba classica sopravvive accorciato, e spesso proprio nella sentenza finale.
+**La negazione che corregge, in formato ridotto.** Il «non è X, è Y» dello slop classico sopravvive accorciato, e spesso proprio nella sentenza finale.
 
 > Non è un errore, è un modo di legare.
 >
@@ -57,7 +57,7 @@ Gli esempi di questo file vengono in buona parte dalla prima versione di questa 
 
 ## 2. Perché succede
 
-Le istruzioni contro la sbobba sono quasi tutte divieti: non gonfiare, non girarci intorno, non usare quel verbo. Un modello che le rispetta toglie, e quello che resta dopo aver tolto è una prosa scarna che somiglia ai consigli da cui è partita. In più quei consigli vengono dalla tradizione del *plain English*, che prescrive frasi brevi e parole semplici per una lingua in cui la subordinazione pesa più che in italiano. Applicati alla lettera, producono un italiano che ha la sintassi dell'inglese e il lessico dell'italiano, cioè un calco, solo più difficile da vedere perché non sta nelle parole.
+Le istruzioni contro l'AI slop sono quasi tutte divieti: non gonfiare, non girarci intorno, non usare quel verbo. Un modello che le rispetta toglie, e quello che resta dopo aver tolto è una prosa scarna che somiglia ai consigli da cui è partita. In più quei consigli vengono dalla tradizione del *plain English*, che prescrive frasi brevi e parole semplici per una lingua in cui la subordinazione pesa più che in italiano. Applicati alla lettera, producono un italiano che ha la sintassi dell'inglese e il lessico dell'italiano, cioè un calco, solo più difficile da vedere perché non sta nelle parole.
 
 C'è poi un equivoco sul concreto. Calvino chiedeva parole che significassero qualcosa, e non di disseminare in ogni frase un orario e un nome di via. Il dettaglio serve quando è quello che il lettore vuole sapere, e in un testo normale la maggior parte delle frasi non ne contiene nessuno.
 
@@ -77,7 +77,7 @@ C'è poi un equivoco sul concreto. Calvino chiedeva parole che significassero qu
 
 **Contare.** Lo script `scripts/controlla.py` misura parole per frase, frasi brevi, periodi lunghi, virgole e due punti, e li confronta con le misure dei testi veri. In un testo da leggere la media deve stare sopra le diciotto parole e le frasi sotto le sei devono essere poche.
 
-Un'avvertenza per evitare il difetto opposto. Uscire dalla prosa asciutta non vuol dire tornare al periodo gonfio della sbobba classica, con i suoi «inoltre» e i suoi «svolge un ruolo fondamentale». La frase lunga che serve è quella che lega dei fatti, e il modello da tenere in mente è un buon articolo di giornale, non una circolare.
+Un'avvertenza per evitare il difetto opposto. Uscire dalla prosa asciutta non vuol dire tornare al periodo gonfio dello slop classico, con i suoi «inoltre» e i suoi «svolge un ruolo fondamentale». La frase lunga che serve è quella che lega dei fatti, e il modello da tenere in mente è un buon articolo di giornale, non una circolare.
 
 ## 4. Un esempio
 

@@ -1,6 +1,6 @@
 # Italian master
 
-Una skill per Claude che scrive in italiano come scrive un italiano bravo. Contro la sbobba artificiale.
+Una skill per Claude che scrive in italiano come scrive un italiano bravo. Contro l'AI slop.
 
 *A Claude skill for natural Italian writing: grammar, syntax, tone, idioms, headlines. The skill and its documentation are in Italian. [English summary below](#english).*
 
@@ -26,21 +26,22 @@ Con la skill:
 >
 > Ci trovate al numero 12, tutti i giorni fino alle sette di sera tranne il lunedì.
 
-C'è anche un secondo modo di sbagliare, che la skill tratta a parte: la prosa «asciutta» a frasette da dieci parole, con i due punti a effetto, che i modelli producono quando gli si chiede di non fare sbobba. Un articolo di giornale ha in media ventisei parole per frase, e la skill insegna a costruire periodi di quella misura.
+C'è anche un secondo modo di sbagliare, che la skill tratta a parte: la prosa «asciutta» a frasette da dieci parole, con i due punti a effetto, che i modelli producono quando gli si chiede di evitare l'AI slop. Un articolo di giornale ha in media ventisei parole per frase, e la skill insegna a costruire periodi di quella misura.
 
 ## Che cosa contiene
 
 | File | Contenuto |
 | --- | --- |
-| [`SKILL.md`](skills/italian-master/SKILL.md) | I principi, i dieci segnali più frequenti, il metodo di lavoro |
+| [`SKILL.md`](skills/italian-master/SKILL.md) | I principi, i segnali da rileggere, il metodo di lavoro |
 | [`references/periodo.md`](skills/italian-master/references/periodo.md) | Come sono fatte le frasi italiane, con misure prese da giornali e libri |
 | [`references/descrivere-e-raccontare.md`](skills/italian-master/references/descrivere-e-raccontare.md) | Descrivere un progetto, raccontare un percorso, scrivere da appunti: tempi verbali, grado di precisione, gergo di mestiere, accostamenti di parole |
-| [`references/sbobba-asciutta.md`](skills/italian-master/references/sbobba-asciutta.md) | Lo stile a frasette che nasce quando si evita la sbobba |
+| [`references/tono-accogliente.md`](skills/italian-master/references/tono-accogliente.md) | Come accompagnare lettori non esperti: da dove cominciare, il tu, le domande, i paragoni, i titoli |
+| [`references/slop-asciutto.md`](skills/italian-master/references/slop-asciutto.md) | Lo stile a frasette che nasce quando si evita l'AI slop |
 | [`references/modelli.md`](skills/italian-master/references/modelli.md) | Pagine di Svevo, Pirandello, Collodi, Artusi, Serao e Vamba annotate, e modelli di attacco |
 | [`references/connettivi.md`](skills/italian-master/references/connettivi.md) | I connettivi e le parole che misurano, con le frequenze nei giornali e nei testi generati |
 | [`references/attacchi-e-chiusure.md`](skills/italian-master/references/attacchi-e-chiusure.md) | Come cominciano e come finiscono gli articoli veri, con esempi costruiti |
 | [`references/impronte.md`](skills/italian-master/references/impronte.md) | I segni grammaticali che restano dopo aver tolto le formule, e i falsi allarmi |
-| [`references/sbobba.md`](skills/italian-master/references/sbobba.md) | Catalogo dei segnali di scrittura artificiale in italiano, con le alternative |
+| [`references/ai-slop.md`](skills/italian-master/references/ai-slop.md) | Catalogo dei segnali di scrittura artificiale in italiano, con le alternative |
 | [`references/sintassi-stile.md`](skills/italian-master/references/sintassi-stile.md) | Antilingua, nominalizzazioni, frase, capoverso, logica |
 | [`references/calchi.md`](skills/italian-master/references/calchi.md) | Calchi dall'inglese, falsi amici, anglicismi |
 | [`references/grammatica.md`](skills/italian-master/references/grammatica.md) | Accenti, apostrofi, congiuntivo, pronomi, reggenze, femminili professionali |
@@ -163,7 +164,7 @@ La skill non contiene testi altrui. Giornali e siti non sono nominati e nessuna 
 
 - È italiano d'Italia. Non copre l'italiano della Svizzera né le varietà regionali, se non per qualche cenno.
 - La lingua cambia: quello che oggi è un calco domani sarà nei dizionari. Dove l'uso è in movimento la skill lo dice.
-- I segnali della sbobba cambiano con i modelli. Il catalogo va tenuto aggiornato, ed è il motivo per cui la repo è pubblica.
+- I segnali dell'AI slop cambiano con i modelli. Il catalogo va tenuto aggiornato, ed è il motivo per cui la repo è pubblica.
 - Nessuna regola sostituisce l'avere qualcosa da dire.
 
 ## Contribuire

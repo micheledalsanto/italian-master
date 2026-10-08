@@ -9,7 +9,7 @@ I siti non sono nominati e le frasi di esempio non sono citazioni. Sono scritte 
 1. I dieci siti
 2. Le misure
 3. Che cosa funziona
-4. La sbobba che c'era già
+4. Lo slop che c'era già
 5. Chi parla, e a chi
 6. Pagina per pagina
 7. In pratica
@@ -61,7 +61,7 @@ Ne viene un'avvertenza per l'uso delle misure. I controlli sulle parole di legam
 
 **La notizia di un ospedale.** L'ospedale titola le sue notizie con il fatto e senza enfasi aggiunta: che cosa è stato fatto, dove, e se è la prima volta.
 
-## 4. La sbobba che c'era già
+## 4. Lo slop che c'era già
 
 Gran parte di quello che oggi si attribuisce ai modelli stava nei siti aziendali molto prima, scritto da persone, e i modelli l'hanno imparato da lì. Gli esempi che seguono riproducono, con parole diverse, formule trovate nei dieci siti.
 
@@ -79,11 +79,11 @@ Gran parte di quello che oggi si attribuisce ai modelli stava nei siti aziendali
 
 **Il burocratese societario.** «Gestisce il servizio a seguito di aggiudicazione delle relative procedure ad evidenza pubblica.» È un'informazione vera e utile, ma è scritta per un funzionario.
 
-**Le anafore del software.** «Zero carta, zero errori, zero tempo perso.» «Niente allegati, niente telefonate, niente "te lo mando dopo".» È lo stampo che in `sbobba-asciutta.md` compare tra i segnali della prosa generata, e qui si vede che viene dal copywriting dei prodotti digitali. In una home, usato una volta, è una convenzione del genere. Portato in un articolo o in una lettera diventa un tic.
+**Le anafore del software.** «Zero carta, zero errori, zero tempo perso.» «Niente allegati, niente telefonate, niente "te lo mando dopo".» È lo stampo che in `slop-asciutto.md` compare tra i segnali della prosa generata, e qui si vede che viene dal copywriting dei prodotti digitali. In una home, usato una volta, è una convenzione del genere. Portato in un articolo o in una lettera diventa un tic.
 
 **Il legalese.** Le note obbligatorie di una banca sono scritte in un linguaggio normativo, fatto di definizioni a catena e di rinvii a regolamenti, per ragioni che non dipendono da chi cura il sito. Non vanno prese a modello per nient'altro.
 
-Da tutto questo ricavo che la sbobba non è un'invenzione dei modelli. È la lingua che le organizzazioni usano quando parlano di sé senza avere niente di preciso da dire, e un modello la riproduce perché ne ha letta moltissima. Chi scrive per un'azienda deve guardarsene comunque, che usi o no un modello.
+Da tutto questo ricavo che l'AI slop non è un'invenzione dei modelli. È la lingua che le organizzazioni usano quando parlano di sé senza avere niente di preciso da dire, e un modello la riproduce perché ne ha letta moltissima. Chi scrive per un'azienda deve guardarsene comunque, che usi o no un modello.
 
 ## 5. Chi parla, e a chi
 

@@ -107,7 +107,7 @@ La voce dell'utente vince sulle preferenze di stile di questa skill. Se il march
 Restano ferme due cose:
 
 1. **La correttezza.** Un errore di ortografia o di grammatica non è uno stile. Se i testi di riferimento ne contengono di sistematici («qual'è», «un pò», «perchè»), non riprodurli e segnalalo all'utente con tatto.
-2. **La sbobba.** Se i testi di riferimento ne sono pieni, non imitarla alla cieca. Di' all'utente che cosa hai notato e chiedi se vuole mantenere quel tono o approfittarne per ripulirlo.
+2. **L'AI slop.** Se i testi di riferimento ne sono pieni, non imitarlo alla cieca. Di' all'utente che cosa hai notato e chiedi se vuole mantenere quel tono o approfittarne per ripulirlo.
 
 ## Imparare leggendo, in generale
 

@@ -4,7 +4,7 @@ Questa skill migliora se chi scrive in italiano per mestiere ci mette le mani.
 
 ## Che cosa serve di più
 
-- **Nuovi segnali di sbobba.** Formule che vedi comparire nei testi generati e che qui mancano. Cambiano a ogni generazione di modelli.
+- **Nuovi segnali di AI slop.** Formule che vedi comparire nei testi generati e che qui mancano. Cambiano a ogni generazione di modelli.
 - **Calchi e falsi amici** non ancora elencati.
 - **Correzioni.** Se una regola è sbagliata, troppo rigida o superata dall'uso, segnalalo con una fonte.
 - **Casi di prova.** Richieste reali in cui la skill ha prodotto un testo debole.
