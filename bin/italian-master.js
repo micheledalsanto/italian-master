@@ -18,6 +18,7 @@ Skill per Claude che scrive, riscrive e corregge testi in italiano naturale.
 Uso:
   npx ${NOME} [installa] [opzioni]   installa o aggiorna la skill
   npx ${NOME} rimuovi [opzioni]      toglie la skill
+  npx ${NOME} configura [opzioni]    crea il file in cui scegli tono e pubblico
   npx ${NOME} dove [opzioni]         mostra la cartella di destinazione
 
 Opzioni:
@@ -31,6 +32,7 @@ Opzioni:
 Esempi:
   npx ${NOME}
   npx ${NOME} --project
+  npx ${NOME} configura --project
   npx ${NOME} rimuovi
 `;
 
@@ -49,6 +51,7 @@ function leggiArgomenti(argv) {
     } else if (['installa', 'install', 'aggiorna', 'update'].includes(a)) o.comando = 'installa';
     else if (['rimuovi', 'remove', 'uninstall'].includes(a)) o.comando = 'rimuovi';
     else if (['dove', 'where'].includes(a)) o.comando = 'dove';
+    else if (['configura', 'config', 'configure'].includes(a)) o.comando = 'configura';
     else throw new Error(`Argomento non riconosciuto: ${a}`);
   }
   return o;
@@ -111,12 +114,28 @@ function rimuovi(o) {
   console.log(`Skill tolta: ${dest}`);
 }
 
+// Copia il modello di configurazione accanto alla cartella delle skill, dove un aggiornamento non lo tocca.
+function configura(o) {
+  const modello = path.join(SORGENTE, 'assets', `${NOME}.md`);
+  const dest = path.join(path.dirname(cartellaSkill(o)), `${NOME}.md`);
+  if (fs.existsSync(dest) && !o.force) {
+    console.log(`La configurazione esiste già: ${dest}`);
+    console.log('Aprila e modificala. Per ripartire dal modello vuoto usa --force.');
+    return;
+  }
+  fs.mkdirSync(path.dirname(dest), { recursive: true });
+  fs.copyFileSync(modello, dest);
+  console.log(`Configurazione creata: ${dest}`);
+  console.log('Aprila e scrivi per chi scrivi e con che tono. Le voci lasciate vuote le decide la skill dal contesto.');
+}
+
 function main() {
   const o = leggiArgomenti(process.argv.slice(2));
   if (o.comando === 'aiuto') return void console.log(AIUTO);
   if (o.comando === 'versione') return void console.log(pkg.version);
   if (o.comando === 'dove') return void console.log(path.join(cartellaSkill(o), NOME));
   if (o.comando === 'rimuovi') return rimuovi(o);
+  if (o.comando === 'configura') return configura(o);
   return installa(o);
 }
 

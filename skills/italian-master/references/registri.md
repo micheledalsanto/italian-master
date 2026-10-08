@@ -69,7 +69,7 @@ Mescolarli senza volerlo produce stonature: «Ciao, con la presente ti comunico�
 
 «Gentile» è la scelta sicura. «Egregio» è invecchiato. «Caro» in italiano è affettuoso: non è l'equivalente di *Dear* in una lettera d'affari. «Salve» è neutro ma a molti suona sbrigativo: meglio «Buongiorno». «Buongiorno a tutti» per un gruppo.
 
-**Corpo.** La prima riga dice perché scrivi. Niente «Spero che questa email La trovi bene». Niente «Con la presente si comunica che»: comunica. Niente «Come da oggetto»: se l'oggetto è chiaro, vai avanti. Un'idea per capoverso, capoversi di due o tre righe. Se chiedi qualcosa, mettilo in una riga a sé, con la scadenza.
+**Corpo.** La prima riga dice perché scrivi. Niente «Spero che questa email La trovi bene». In un messaggio a una persona che conosci, niente «Con la presente si comunica che»: comunica. Niente «Come da oggetto»: se l'oggetto è chiaro, vai avanti. Un'idea per capoverso, capoversi di due o tre righe. Se chiedi qualcosa, mettilo in una riga a sé, con la scadenza.
 
 **Chiusura.**
 
@@ -80,9 +80,11 @@ Mescolarli senza volerlo produce stonature: «Ciao, con la presente ti comunico�
 | Cordiale | Un saluto / Buona giornata / Buon lavoro / Grazie e a presto |
 | Informale | A presto / Ciao / Un abbraccio |
 
-Formule da evitare: «In attesa di un Suo cortese riscontro, porgo distinti saluti» (basta «Resto in attesa di una Sua risposta. Cordiali saluti»), «RingraziandoLa anticipatamente», «Resto a disposizione per qualsiasi chiarimento» come riflesso automatico (se è vero, «Per qualsiasi dubbio mi scriva pure»), «Cordialità» da solo, «Saluti» da solo (freddo).
+**Le formule della lettera formale.** In una comunicazione a tutti i clienti, ai fornitori, ai pazienti o agli iscritti il registro è formale per intero, e le sue formule sono la cortesia del genere: «desideriamo informarvi che», «con la presente», «al fine di», «vi invitiamo a», «vi ringraziamo per la collaborazione», «restiamo a disposizione per ogni chiarimento», «cogliamo l'occasione per», «cordiali saluti». Una comunicazione che ne è priva suona sbrigativa, e chi la riceve da uno studio o da un'azienda se ne accorge. Il difetto da evitare in questo registro è gonfiarlo: i capoversi sulla «meritata pausa» e sulle «sfide che ci attendono» prima di arrivare alle date.
 
-**Tono.** Un'email italiana di lavoro è più breve e meno cerimoniosa di quanto suggeriscano i modelli scolastici, e meno espansiva di quelle americane. Un grazie, non tre. Nessuna scusa preventiva per il disturbo, salvo una: «Mi scusi se la disturbo» all'inizio di una richiesta a freddo è normale.
+In un'email a una sola persona, soprattutto se la conosci, le stesse formule pesano: al posto di «In attesa di un Suo cortese riscontro, porgo distinti saluti» basta «Resto in attesa di una Sua risposta. Cordiali saluti». Da evitare in ogni caso «Cordialità» da solo e «Saluti» da solo, che è freddo.
+
+**Tono.** Un'email italiana di lavoro tra due persone è più breve e meno cerimoniosa di quanto suggeriscano i modelli scolastici, e meno espansiva di quelle americane. Un grazie, non tre. Nessuna scusa preventiva per il disturbo, salvo una: «Mi scusi se la disturbo» all'inizio di una richiesta a freddo è normale.
 
 **PEC e comunicazioni ufficiali.** Registro formale, dati completi (nome, riferimenti, numero di pratica), richiesta esplicita, riferimenti normativi solo se servono.
 

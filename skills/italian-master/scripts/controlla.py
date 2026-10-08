@@ -71,7 +71,7 @@ FORMULE = {
         (r"\b(arazzo|mosaico|sinfonia|crocevia) (di|del|della|dell')", "metafora da generatore"),
         (r"\bun (vero )?(viaggio|percorso) (di|verso|attraverso|alla scoperta|nel|nella)", "metafora da generatore, se figurata"),
         (r"\b(soluzion[ei]) (su misura|personalizzat[ae]|innovativ[ae]|integrat[ae]|complet[ae])", "quale soluzione?"),
-        (r"\bal fine di\b|\ballo scopo di\b", "«per»"),
+        (r"\bal fine di\b|\ballo scopo di\b", "«per», se non è una comunicazione formale (lì è normale)"),
         (r"\b(potenziare|ottimizzare|massimizzare|valorizzare|elevare)\b", "«migliorare», «aumentare», e di quanto"),
     ],
     "Connettivi e riempitivi": [
@@ -118,7 +118,7 @@ FORMULE = {
         (r"\bfa(re|nno|ceva)? senso\b", "«avere senso»"),
         (r"\bnel lungo termine\b|\bnel breve termine\b", "«a lungo termine», «a breve»"),
         (r"\bgrazie per aver condiviso\b", "«grazie»"),
-        (r"\bspero che questa (email|mail|e-mail) (ti|la|vi) trovi bene\b", "togli"),
+        (r"\bsper(o|iamo) che questa (email|mail|e-mail) (ti|la|vi) trovi bene\b", "togli"),
         (r"\b(sono|siamo) eccitat[oaie] (di|per)\b", "«contento», «entusiasta»"),
         (r"\bper favore,? (nota|notate|clicca|cliccate|inserisci|inserite|seleziona|compila)", "nelle istruzioni niente «per favore»"),
         (r"\bops!? qualcosa è andato storto\b", "di' che cosa è successo e che cosa fare"),

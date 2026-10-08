@@ -10,10 +10,13 @@ Le modifiche rilevanti di questa skill, versione per versione. Il formato segue 
 - In `descrivere-e-raccontare.md`, i titoli calcati dall'inglese.
 - **Dieci libri di saggistica letti su Liber Liber** (Gobetti, Croce, Panzini, Mantegazza, Savinio, Brancati, circa 425.000 parole), che con i siti delle agenzie portano il campione a quasi un milione di parole. In `modelli.md` ci sono tre pagine nuove: il ritratto di una persona (Gobetti), la spiegazione di un'idea (Croce), il diario di chi divaga (Panzini). In `periodo.md` e in `connettivi.md` ci sono le misure della prosa saggistica.
 - In `controlla.py`, due controlli nuovi: la fila di frasi che cominciano con un verbo in «-iamo» e le formule «risultati concreti e misurabili» e «ciò che conta davvero».
+- **Tono e pubblico li decide chi usa la skill.** Un file `italian-master.md`, nella cartella `.claude/` del progetto o in quella personale, dice chi legge, quanto ne sa, quale tono usare (formale, cordiale, accogliente, giornalistico, tecnico, commerciale) e come rivolgersi al lettore. La skill lo legge prima di scrivere. Il modello si crea con `npx italian-master configura`, e il nuovo riferimento `tono-e-pubblico.md` descrive i sei toni con lo stesso avviso scritto in ciascuno.
 - **`agenzie-digitali.md`**: come scrivono dodici agenzie digitali e di marketing italiane, estratte a caso e lette nelle pagine di presentazione, nei casi studio e nel blog (circa 78.000 parole). Copre la fila di frasi in «-iamo», le parole che promettono concretezza, i difetti dei casi studio, i due tipi di articolo dei blog, i titoli e l'inglese del mestiere, con un esempio di riscrittura.
 
 ### Modificato
 
+- **Il registro formale non è più trattato come un difetto.** Nelle comunicazioni a clienti, fornitori e utenti le formule di cortesia e forme come «al fine di» sono indicate come normali, e il difetto da evitare è gonfiarle. Cambiano `registri.md`, `sintassi-stile.md`, `ai-slop.md` e il suggerimento dello script.
+- **Nuovo esempio nel README**: una mail di chiusura estiva in tre versioni al posto della presentazione del bar.
 - **«AI slop» al posto di «sbobba artificiale».** La skill usa ora il termine originale in tutti i file. Di conseguenza `sbobba.md` è diventato `ai-slop.md` e `sbobba-asciutta.md` è diventato `slop-asciutto.md`: chi aveva un link ai vecchi nomi deve aggiornarlo.
 - **Due segnali ridimensionati.** «Soltanto» e il numero basso di «che» non bastano da soli: Gobetti usa il primo quasi quanto i testi generati e ha pochi «che» in frasi di trenta parole. `connettivi.md` e `impronte.md` ora lo dicono.
 

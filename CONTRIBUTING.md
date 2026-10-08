@@ -49,6 +49,7 @@ package.json             metadati del pacchetto npm
 skills/italian-master/
   SKILL.md               principi e metodo
   references/            approfondimenti, letti quando servono
+  assets/                modello del file di configurazione (tono e pubblico)
   scripts/controlla.py   controllo automatico
 evals/evals.json         casi di prova
 ```

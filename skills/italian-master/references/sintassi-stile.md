@@ -21,6 +21,8 @@ Calvino chiamò questa lingua «antilingua» e la sua causa «terrore semantico�
 
 L'antilingua di oggi ha tre dialetti. Si riconoscono e si traducono allo stesso modo.
 
+La tabella vale per gli articoli, le pagine di un sito, le istruzioni e i messaggi tra persone che si conoscono. In una comunicazione formale a clienti, fornitori o utenti alcune forme della prima colonna («al fine di», «qualora», «in merito a», «provvedere a») sono il registro atteso e non vanno tradotte: vedi `registri.md`.
+
 | Burocratese | Aziendalese | Italiano |
 | --- | --- | --- |
 | recarsi | effettuare una visita | andare |

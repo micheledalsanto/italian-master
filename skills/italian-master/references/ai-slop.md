@@ -94,7 +94,7 @@ Parole che in italiano esistono e funzionano, ma che nel testo generato compaion
 | fare la differenza | *make a difference* | di' quale differenza |
 | un vero e proprio, autentico, a tutti gli effetti | intensificatori | toglili |
 | una vasta gamma di, un'ampia varietà di, numerosi, molteplici | *a wide range of* | molti, oppure quanti e quali |
-| al fine di, allo scopo di, con l'obiettivo di | *in order to* | per |
+| al fine di, allo scopo di, con l'obiettivo di | *in order to* | per (in una comunicazione formale «al fine di» è normale) |
 
 Gli avverbi fanno lo stesso gioco: «semplicemente», «letteralmente», «assolutamente», «incredibilmente», «estremamente», «davvero», «veramente», «profondamente», «particolarmente». Uno ogni tanto rafforza. Uno per frase toglie forza a tutti.
 

@@ -13,7 +13,9 @@ Tra le due c'è l'italiano che si legge sui giornali fatti bene e nei libri che 
 
 ## Prima di scrivere
 
-Conviene avere chiare quattro cose, e se la richiesta non le dice si deducono dal contesto, lasciando all'utente solo le domande da cui dipende davvero il testo.
+**Cerca la configurazione di chi usa la skill.** Il tono e il pubblico li decide l'utente, in un file `italian-master.md` che sta nella cartella `.claude/` del progetto oppure in quella della sua home (`~/.claude/`). Se c'è, leggilo prima di ogni altra cosa: dice chi legge e quanto ne sa, quale tono usare (formale, cordiale, accogliente, giornalistico, tecnico, commerciale), se dare del tu, del lei o del voi, e quali testi prendere a modello. Quello che dice la richiesta vale più della configurazione, e la configurazione vale più di quello che dedurresti da solo. Se il file manca, deduci tono e pubblico dal contesto e, sotto un testo breve, di' in una riga che cosa hai assunto. I sei toni, lo stesso avviso scritto in ciascuno e che cosa cambia secondo il pubblico sono in `references/tono-e-pubblico.md`.
+
+Conviene poi avere chiare quattro cose, e se la richiesta non le dice si deducono dal contesto, lasciando all'utente solo le domande da cui dipende davvero il testo.
 
 1. **Chi legge**, perché da questo dipendono il registro e le parole che si possono dare per conosciute.
 2. **Che cosa deve capire o fare alla fine.** Se non si riesce a dirlo in una frase, il testo non è ancora pronto per essere scritto.
@@ -125,6 +127,7 @@ Le sue segnalazioni sono indizi da valutare, e un testo che non ne riceve può e
 
 | File | Quando |
 | --- | --- |
+| `references/tono-e-pubblico.md` | Per applicare la configurazione dell'utente, o per scegliere tono e pubblico quando manca |
 | `references/periodo.md` | Prima di ogni testo da leggere più lungo di poche righe |
 | `references/descrivere-e-raccontare.md` | Per descrivere un progetto o un prodotto, raccontare un percorso, scrivere partendo da appunti |
 | `references/tono-accogliente.md` | Quando il testo deve guidare lettori non esperti: divulgazione, guide, lezioni, titoli di sezioni |
