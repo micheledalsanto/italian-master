@@ -154,6 +154,8 @@ FORMULE = {
 
 ORTOGRAFIA = [
     (r"\b(perch|poich|affinch|bench|finch|giacch|sicch|cosicch|purch|nonch|granch|anzich)è\b", "accento acuto: -ché"),
+    (r"\bc'è l'(ho|hai|ha|abbiamo|avete|hanno)\b", "«ce l'ho», «ce l'hai»"),
+    (r"\b(il|al|dal|del|nel|sul|col) (8|11|8\d|8\d\d)\b(?![.,]?\d)", "davanti a 8, 11, 80 l'articolo si elide: «l'8», «dell'11», «l'80%»"),
     (r"\b(n|s)è\b(?! stess)", "«né», «sé» con l'accento acuto (se non è un nome)"),
     (r"\b(ventitr|trentatr|quarantatr|cinquantatr|sessantatr|settantatr|ottantatr|novantatr)[eè]\b", "«-tré» con l'accento acuto"),
     (r"\bun pò\b|\bun po\b(?!')", "«un po'» con l'apostrofo"),

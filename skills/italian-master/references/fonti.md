@@ -52,6 +52,8 @@ Quando una regola non è in questi file, o è contestata, le fonti da cercare so
 
 Se le fonti divergono, dillo all'utente e proponi la forma più diffusa nello scritto curato.
 
+A ottobre 2026 `grammatica.md` e `punteggiatura-tipografia.md` sono stati riletti sulle risposte della consulenza della Crusca e sulle pagine di Treccani. Le regole corrette o aggiunte in quell'occasione vengono da queste voci: l'articolo e il possessivo con i nomi di parentela, la sequenza di preposizione e articolo partitivo, «sia… sia» e «sia… che», i pronomi di cortesia e l'accordo, l'articolo con le date e le cifre, i verbi di moto usati con un oggetto («Siedi il bambino! No, fallo sedere!»), la voce «Trattino» dell'*Enciclopedia dell'italiano* e l'articolo di Treccani sul condizionale dopo «se».
+
 ## Sulla lingua chiara
 
 - **Italo Calvino, «L'antilingua»**, *Il Giorno*, 3 febbraio 1965, poi in *Una pietra sopra*. Il brigadiere, i fiaschi, il «terrore semantico». Tre pagine che contengono metà di questa skill.

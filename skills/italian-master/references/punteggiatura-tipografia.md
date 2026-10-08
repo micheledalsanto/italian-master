@@ -62,18 +62,18 @@ Regole:
 - Scegli un sistema e tienilo. Gerarchia classica: «fuori le caporali, “dentro le alte”».
 - Se il testo dell'utente usa già un tipo, continua con quello.
 - Sul web e nei messaggi le virgolette dritte " " sono accettabili. In un testo destinato alla stampa, no.
-- **La punteggiatura va fuori** dalle virgolette, a meno che appartenga alla citazione: «Ha detto “arrivo”, poi è sparito.» Il punto fermo si mette dopo la virgoletta di chiusura: Disse: «Non vengo». L'uso americano di mettere virgola e punto dentro le virgolette in italiano non vale.
+- **La punteggiatura va fuori** dalle virgolette, a meno che appartenga alla citazione: «Ha detto “arrivo”, poi è sparito.» Il punto fermo si mette di norma dopo la virgoletta di chiusura: Disse: «Non vengo». Alcuni editori lo mettono dentro quando la citazione è una frase intera che sta per conto suo, e un testo che segue questo uso con coerenza non si corregge. L'uso americano di mettere sempre virgola e punto dentro le virgolette in italiano non vale.
 - Punto interrogativo ed esclamativo della citazione restano dentro, e dopo non si aggiunge il punto: «Chi è?» chiese.
 - Non usare le virgolette per scusarti di una parola. Se è la parola giusta, scrivila. Se non lo è, cambiala.
 - I titoli di libri, film, opere vanno in corsivo. Dove il corsivo non c'è (social, email in testo semplice) vanno tra virgolette. I nomi di giornali e riviste: corsivo o niente, secondo la testata.
 
 ## 4. Lineette e trattini
 
-Tre segni diversi.
+La norma italiana distingue due segni, il trattino che unisce e la lineetta che separa. La lunghezza della lineetta cambia invece da un editore all'altro, ed è lì che entra il terzo segno.
 
 - **Trattino breve (-)**, senza spazi: unisce. Parole composte (italo-americano, socio-economico), intervalli (pagine 10-15, 2020-2024), coppie (la linea Milano-Roma). L'italiano usa meno trattini dell'inglese: «ex presidente», «vice sindaco» o «vicesindaco», «anti rughe» o «antirughe», non «ex-presidente».
 - **Lineetta (–)**, con uno spazio prima e uno dopo: apre e chiude un inciso, con più stacco delle virgole. «Il progetto – nato quasi per caso – oggi dà lavoro a trenta persone.» Si usa a coppie. Se l'inciso finisce con la frase, la seconda lineetta non si mette. In alcuni libri introduce il discorso diretto.
-- **Lineetta lunga (—)**, quella dell'inglese americano, attaccata alle parole: in italiano non si usa. Qualche editore la impiega per i dialoghi, ma in un testo corrente è il segnale più visibile di scrittura generata o tradotta.
+- **Lineetta lunga (—).** Alcuni editori italiani la usano al posto di quella media, per gli incisi e per i dialoghi, sempre con gli spazi: un libro o un testo che la impiega così, con coerenza, non va corretto. Quello che in italiano non esiste è l'uso dell'inglese americano, cioè la lineetta lunga attaccata alle parole e messa a ogni pausa. È il segnale più visibile di un testo generato o tradotto, e per questo nei testi che scrivi tu la lineetta, quando serve, è quella media con gli spazi.
 
 In pratica: quando ti viene da mettere una lineetta, prova prima la virgola, i due punti o le parentesi. Nove volte su dieci uno dei tre funziona meglio. Una lineetta singola usata per introdurre una conclusione a effetto («Aveva una sola scelta – andarsene») in italiano vuole i due punti.
 

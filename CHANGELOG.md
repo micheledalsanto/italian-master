@@ -2,6 +2,22 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.5.1] - 2026-10-08
+
+`grammatica.md` e `punteggiatura-tipografia.md` riletti sulle risposte della consulenza della Crusca e sulle pagine di Treccani.
+
+### Modificato
+
+- **Quattro regole erano più rigide della norma**, e avrebbero fatto correggere forme che non sono errori: «mia mamma» e «mio papà» (comuni fuori dalla Toscana, dove vale «la mia mamma»), il partitivo dopo una preposizione («con degli amici», sconsigliato ma ammesso), «anche se» con il congiuntivo quando introduce un'ipotesi («anche se piovesse»), e il condizionale dopo «se», che è corretto in più casi della sola interrogativa indiretta.
+- **La lineetta lunga.** `punteggiatura-tipografia.md` diceva che in italiano non si usa. La norma distingue solo il trattino dalla lineetta, e alcuni editori usano quella lunga, con gli spazi, per incisi e dialoghi. Quello che in italiano non esiste è la lineetta lunga attaccata alle parole e messa a ogni pausa. Nei testi scritti dalla skill la regola pratica non cambia.
+- Il punto fermo dopo le virgolette è la norma prevalente, e l'uso di alcuni editori di metterlo dentro non si corregge.
+
+### Aggiunto
+
+- In `grammatica.md`: l'accordo con il lei rivolto a un uomo («lei è stato gentile», ma «l'ho vista ieri»), l'articolo davanti alle cifre («l'8 marzo», «l'11», «l'80%»), «ce l'ho» e «gliel'ho», «sia… sia» e «sia… che», i verbi di moto usati con un oggetto («scendi il cane»), i saluti scritti uniti e alcune locuzioni che si scrivono staccate.
+- In `controlla.py`: «c'è l'ho» e l'articolo non eliso davanti a 8, 11 e 80.
+- In `fonti.md`, le voci consultate per la revisione.
+
 ## [1.5.0] - 2026-10-08
 
 ### Aggiunto
