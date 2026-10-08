@@ -1,11 +1,13 @@
 {
   "name": "italian-master",
-  "version": "1.5.4",
-  "description": "Skill per Claude che scrive, riscrive e corregge testi in italiano naturale, contro l'AI slop. Si installa con npx.",
+  "version": "1.6.0",
+  "description": "Skill per Claude, Codex e gli altri agenti che scrive, riscrive e corregge testi in italiano naturale, contro l'AI slop. Si installa con npx.",
   "keywords": [
     "claude",
     "claude-code",
     "claude-skill",
+    "codex",
+    "codex-skill",
     "agent-skills",
     "italian",
     "italiano",

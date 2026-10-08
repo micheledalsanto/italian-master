@@ -1,14 +1,14 @@
 # Italian master
 
-Una skill per Claude che scrive in italiano come scrive un italiano bravo. Contro l'AI slop.
+Una skill per scrivere in italiano come scrive un italiano bravo, contro l'AI slop. Funziona con Claude, con Codex e con gli altri agenti che leggono le Agent Skills.
 
-*A Claude skill for natural Italian writing: grammar, syntax, tone, idioms, headlines. The skill and its documentation are in Italian. [English summary below](#english).*
+*An agent skill (Claude, Codex) for natural Italian writing: grammar, syntax, tone, idioms, headlines. The skill and its documentation are in Italian. [English summary below](#english).*
 
 ## Il problema
 
 Chi chiede a un modello un testo in italiano riceve quasi sempre una pagina senza errori che nessun italiano scriverebbe. Comincia con «In un mondo sempre più», mette tre aggettivi dove ne basterebbe uno, ha le maiuscole a ogni parola del titolo e le lineette lunghe dell'inglese. Se poi gli si chiede di essere più asciutto, il modello passa a frasette di cinque parole con una battuta in fondo, e il testo si riconosce lo stesso.
 
-Questa skill dà a Claude quello che sa un buon redattore: dove si sbaglia davvero la grammatica, come si costruisce un periodo che non suona tradotto, quando dare del tu, del lei o del voi, come si fa un titolo. Le indicazioni vengono da testi veri, letti e contati: giornali, siti di aziende e di agenzie, saggi, lettere.
+Questa skill dà al modello quello che sa un buon redattore: dove si sbaglia davvero la grammatica, come si costruisce un periodo che non suona tradotto, quando dare del tu, del lei o del voi, come si fa un titolo. Le indicazioni vengono da testi veri, letti e contati: giornali, siti di aziende e di agenzie, saggi, lettere.
 
 ## Prima e dopo
 
@@ -83,7 +83,7 @@ Il primo testo dà del tu e del lei nella stessa frase e non dice le date. Il se
 | [`references/fonti.md`](skills/italian-master/references/fonti.md) | Bibliografia e fonti |
 | [`scripts/controlla.py`](skills/italian-master/scripts/controlla.py) | Script che segnala i sospetti più comuni in un testo |
 
-Claude legge sempre `SKILL.md` e apre gli altri file solo quando servono.
+L'agente legge sempre `SKILL.md` e apre gli altri file solo quando servono.
 
 ## Installazione
 
@@ -98,7 +98,9 @@ npx github:micheledalsanto/italian-master
 Il comando copia la skill in `~/.claude/skills/italian-master`, dove Claude Code la trova da solo. Rilanciato, la aggiorna.
 
 ```bash
-npx github:micheledalsanto/italian-master --project   # solo nel progetto corrente (.claude/skills)
+npx github:micheledalsanto/italian-master --codex     # per Codex (~/.agents/skills)
+npx github:micheledalsanto/italian-master --tutti     # per Claude Code e per Codex
+npx github:micheledalsanto/italian-master --project   # solo nel progetto corrente (.claude/skills, o .agents/skills con --codex)
 npx github:micheledalsanto/italian-master rimuovi     # la toglie
 npx github:micheledalsanto/italian-master --help      # tutte le opzioni
 ```
@@ -139,6 +141,24 @@ cp -r italian-master/skills/italian-master ~/.claude/skills/
 
 Per usarla solo in un progetto, copiala in `.claude/skills/` dentro il progetto.
 
+### Codex e altri agenti
+
+Codex cerca le skill in `.agents/skills`, nella cartella del progetto e nella home. Con npx:
+
+```bash
+npx github:micheledalsanto/italian-master --codex             # ~/.agents/skills/italian-master
+npx github:micheledalsanto/italian-master --codex --project   # ./.agents/skills/italian-master
+```
+
+Oppure a mano:
+
+```bash
+git clone https://github.com/micheledalsanto/italian-master.git
+mkdir -p ~/.agents/skills && cp -r italian-master/skills/italian-master ~/.agents/skills/
+```
+
+Riavvia Codex. La skill si attiva da sola quando chiedi un testo in italiano, e si chiama in modo esplicito con `$italian-master` oppure da `/skills`. La cartella `.agents/skills` è letta anche da altri agenti che seguono lo stesso formato, e per una cartella diversa c'è `--dir`.
+
 ### Claude.ai e app desktop
 
 1. Scarica la repo e crea uno zip della cartella `skills/italian-master` (lo zip deve contenere la cartella `italian-master` con dentro `SKILL.md`).
@@ -155,7 +175,7 @@ Non serve invocarla: si attiva da sola quando chiedi un testo in italiano. Qualc
 - «Traduci questo post in italiano, non deve sembrare una traduzione.»
 - «Leggi questi tre numeri della mia newsletter e scrivi il prossimo con la stessa voce.»
 
-In Claude Code puoi anche chiamarla in modo esplicito: `/italian-master:italian-master` se l'hai installata come plugin, `/italian-master` se l'hai copiata a mano.
+In Claude Code puoi anche chiamarla in modo esplicito: `/italian-master:italian-master` se l'hai installata come plugin, `/italian-master` se l'hai copiata a mano. In Codex si chiama con `$italian-master`.
 
 ## Tono e pubblico
 
@@ -164,6 +184,7 @@ Per chi scrivi e con che tono lo decidi tu, una volta, in un file di configurazi
 ```bash
 npx github:micheledalsanto/italian-master configura            # per tutti i tuoi progetti (~/.claude/italian-master.md)
 npx github:micheledalsanto/italian-master configura --project  # solo per il progetto corrente (.claude/italian-master.md)
+npx github:micheledalsanto/italian-master configura --codex    # per Codex (~/.agents/italian-master.md)
 ```
 
 Il comando crea un modello da compilare. Le voci sono queste, e quelle che lasci vuote la skill le decide dal contesto della richiesta.
@@ -231,7 +252,7 @@ Segnalazioni, correzioni e nuovi esempi sono benvenuti. Vedi [`CONTRIBUTING.md`]
 
 ## Versioni
 
-La versione corrente è la 1.5.4. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
+La versione corrente è la 1.6.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
 
 ## Licenza
 
@@ -243,7 +264,7 @@ La versione corrente è la 1.5.4. Le modifiche sono elencate nel [CHANGELOG](CHA
 
 ## English
 
-Italian master is a Claude skill that makes Claude write Italian the way a skilled native writer does. It targets the patterns that make generated Italian text instantly recognisable: English calques, Title Case headings, em dashes, automatic triads, «non è solo X, è Y» constructions, inflated vocabulary, bureaucratic phrasing.
+Italian master is an agent skill that makes Claude, Codex and other Agent Skills-compatible agents write Italian the way a skilled native writer does. It targets the patterns that make generated Italian text instantly recognisable: English calques, Title Case headings, em dashes, automatic triads, «non è solo X, è Y» constructions, inflated vocabulary, bureaucratic phrasing.
 
 It covers grammar and spelling doubts, punctuation and typography conventions, syntax and logic, register (tu/lei/voi), idioms and proverbs with their English equivalents, headlines and email subject lines, and a workflow for learning a voice from reference texts. A small Python linter flags the most common tells.
 
@@ -252,6 +273,12 @@ Install in Claude Code:
 ```
 /plugin marketplace add micheledalsanto/italian-master
 /plugin install italian-master@italian-master
+```
+
+Install in Codex (copies the skill to `~/.agents/skills`):
+
+```bash
+npx github:micheledalsanto/italian-master --codex
 ```
 
 The skill triggers on any request whose output is Italian text, including requests written in English.

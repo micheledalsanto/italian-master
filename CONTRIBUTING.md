@@ -30,6 +30,8 @@ Questa skill migliora se chi scrive in italiano per mestiere ci mette le mani.
 
 **Niente dati inventati negli esempi presentati come veri.** Se un esempio contiene un numero o un nome di fantasia, deve essere chiaro che è un esempio.
 
+**Niente che valga per un solo agente.** `SKILL.md` e i riferimenti non nominano Claude, Codex o i loro comandi, e i percorsi sono relativi alla cartella della skill. Quello che cambia da un agente all'altro (dove si installa, come si chiama) sta nel README e nell'installatore.
+
 **La skill deve fare quello che predica.** I file sono scritti in italiano chiaro: titoli con la sola iniziale maiuscola, niente lineette lunghe, niente grassetti a pioggia, niente triadi automatiche. Prima di aprire la pull request passa il tuo testo allo script:
 
 ```bash
@@ -38,7 +40,7 @@ python skills/italian-master/scripts/controlla.py skills/italian-master/SKILL.md
 
 Nei file di riferimento molte segnalazioni sono inevitabili, perché contengono gli esempi da evitare. In `SKILL.md` e nel `README.md` dovrebbero essere vicine a zero.
 
-**Tieni `SKILL.md` corto.** È il file che Claude legge ogni volta. I dettagli vanno nei riferimenti, e `SKILL.md` dice quando aprirli.
+**Tieni `SKILL.md` corto.** È il file che l'agente legge ogni volta. I dettagli vanno nei riferimenti, e `SKILL.md` dice quando aprirli.
 
 ## Struttura
 
@@ -50,6 +52,7 @@ skills/italian-master/
   SKILL.md               principi e metodo
   references/            approfondimenti, letti quando servono
   assets/                modello del file di configurazione (tono e pubblico)
+  agents/openai.yaml     nome e descrizione breve per l'interfaccia di Codex
   scripts/controlla.py   controllo automatico
 evals/evals.json         casi di prova, con i loro controlli
 evals/esegui.py          esegue i casi e valuta le risposte

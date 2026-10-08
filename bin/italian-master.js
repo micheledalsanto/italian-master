@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 'use strict';
 
-// Installa la skill Italian master nella cartella delle skill di Claude Code.
+// Installa la skill Italian master nella cartella delle skill di Claude Code, di Codex
+// e degli altri agenti che leggono le Agent Skills (.agents/skills).
 // Nessuna dipendenza: solo la libreria standard di Node.
 
 const fs = require('fs');
@@ -13,7 +14,7 @@ const SORGENTE = path.join(__dirname, '..', 'skills', NOME);
 const pkg = require('../package.json');
 
 const AIUTO = `Italian master ${pkg.version}
-Skill per Claude che scrive, riscrive e corregge testi in italiano naturale.
+Skill per Claude, Codex e gli altri agenti che scrive, riscrive e corregge testi in italiano naturale.
 
 Uso:
   npx ${NOME} [installa] [opzioni]   installa o aggiorna la skill
@@ -22,8 +23,11 @@ Uso:
   npx ${NOME} dove [opzioni]         mostra la cartella di destinazione
 
 Opzioni:
-  --project, -p     installa nel progetto corrente (./.claude/skills)
-  --global, -g      installa per il tuo utente (~/.claude/skills), è il default
+  --claude          per Claude Code (~/.claude/skills), è il default
+  --codex           per Codex e gli agenti che leggono .agents/skills (~/.agents/skills)
+  --tutti           per tutti e due
+  --project, -p     installa nel progetto corrente (./.claude/skills o ./.agents/skills)
+  --global, -g      installa per il tuo utente, è il default
   --dir <cartella>  installa in una cartella di skill a tua scelta
   --force, -f       sovrascrive anche una cartella che non sembra questa skill
   --help, -h        mostra questo aiuto
@@ -31,19 +35,23 @@ Opzioni:
 
 Esempi:
   npx ${NOME}
-  npx ${NOME} --project
+  npx ${NOME} --codex
+  npx ${NOME} --tutti --project
   npx ${NOME} configura --project
   npx ${NOME} rimuovi
 `;
 
 function leggiArgomenti(argv) {
-  const o = { comando: 'installa', ambito: 'global', dir: null, force: false };
+  const o = { comando: 'installa', ambito: 'global', agenti: ['claude'], dir: null, force: false };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--help' || a === '-h') o.comando = 'aiuto';
     else if (a === '--version' || a === '-v') o.comando = 'versione';
     else if (a === '--project' || a === '-p') o.ambito = 'project';
     else if (a === '--global' || a === '-g') o.ambito = 'global';
+    else if (a === '--claude') o.agenti = ['claude'];
+    else if (a === '--codex' || a === '--agents') o.agenti = ['agents'];
+    else if (a === '--tutti' || a === '--all') o.agenti = ['claude', 'agents'];
     else if (a === '--force' || a === '-f') o.force = true;
     else if (a === '--dir') {
       o.dir = argv[++i];
@@ -57,11 +65,18 @@ function leggiArgomenti(argv) {
   return o;
 }
 
-function cartellaSkill(o) {
-  if (o.dir) return path.resolve(o.dir);
-  if (o.ambito === 'project') return path.join(process.cwd(), '.claude', 'skills');
-  const base = process.env.CLAUDE_CONFIG_DIR || path.join(os.homedir(), '.claude');
-  return path.join(base, 'skills');
+// Le cartelle di skill in cui lavorare: una per agente scelto, oppure quella indicata con --dir.
+// Claude Code legge .claude/skills; Codex e gli altri agenti leggono .agents/skills.
+function cartelleSkill(o) {
+  if (o.dir) return [path.resolve(o.dir)];
+  return o.agenti.map((agente) => {
+    const nome = agente === 'claude' ? '.claude' : '.agents';
+    if (o.ambito === 'project') return path.join(process.cwd(), nome, 'skills');
+    const base = agente === 'claude' && process.env.CLAUDE_CONFIG_DIR
+      ? process.env.CLAUDE_CONFIG_DIR
+      : path.join(os.homedir(), nome);
+    return path.join(base, 'skills');
+  });
 }
 
 // Vero se la cartella contiene già questa skill (e quindi si può aggiornare o togliere senza --force).
@@ -86,54 +101,60 @@ function installa(o) {
   if (!fs.existsSync(path.join(SORGENTE, 'SKILL.md'))) {
     throw new Error('Non trovo i file della skill dentro il pacchetto.');
   }
-  const dest = path.join(cartellaSkill(o), NOME);
-  const esisteva = fs.existsSync(dest);
-  if (esisteva && !eQuestaSkill(dest) && !o.force) {
-    throw new Error(`${dest} esiste già e non sembra questa skill. Usa --force per sovrascriverla.`);
+  for (const cartella of cartelleSkill(o)) {
+    const dest = path.join(cartella, NOME);
+    const esisteva = fs.existsSync(dest);
+    if (esisteva && !eQuestaSkill(dest) && !o.force) {
+      throw new Error(`${dest} esiste già e non sembra questa skill. Usa --force per sovrascriverla.`);
+    }
+    if (esisteva) fs.rmSync(dest, { recursive: true, force: true });
+    fs.mkdirSync(dest, { recursive: true });
+    fs.cpSync(SORGENTE, dest, { recursive: true });
+    console.log(`${esisteva ? 'Skill aggiornata' : 'Skill installata'}: ${dest}`);
+    console.log(`Versione ${pkg.version}, ${contaFile(dest)} file.`);
   }
-  if (esisteva) fs.rmSync(dest, { recursive: true, force: true });
-  fs.mkdirSync(dest, { recursive: true });
-  fs.cpSync(SORGENTE, dest, { recursive: true });
-  console.log(`${esisteva ? 'Skill aggiornata' : 'Skill installata'}: ${dest}`);
-  console.log(`Versione ${pkg.version}, ${contaFile(dest)} file.`);
   console.log('');
-  console.log('Apri una nuova sessione di Claude Code: la skill si attiva da sola quando chiedi un testo in italiano,');
-  console.log('oppure la chiami con /italian-master.');
+  console.log('Apri una nuova sessione: la skill si attiva da sola quando chiedi un testo in italiano.');
+  console.log('Per chiamarla in modo esplicito: /italian-master in Claude Code, $italian-master in Codex.');
 }
 
 function rimuovi(o) {
-  const dest = path.join(cartellaSkill(o), NOME);
-  if (!fs.existsSync(dest)) {
-    console.log(`Niente da togliere: ${dest} non esiste.`);
-    return;
+  for (const cartella of cartelleSkill(o)) {
+    const dest = path.join(cartella, NOME);
+    if (!fs.existsSync(dest)) {
+      console.log(`Niente da togliere: ${dest} non esiste.`);
+      continue;
+    }
+    if (!eQuestaSkill(dest) && !o.force) {
+      throw new Error(`${dest} non sembra questa skill. Usa --force per toglierla comunque.`);
+    }
+    fs.rmSync(dest, { recursive: true, force: true });
+    console.log(`Skill tolta: ${dest}`);
   }
-  if (!eQuestaSkill(dest) && !o.force) {
-    throw new Error(`${dest} non sembra questa skill. Usa --force per toglierla comunque.`);
-  }
-  fs.rmSync(dest, { recursive: true, force: true });
-  console.log(`Skill tolta: ${dest}`);
 }
 
 // Copia il modello di configurazione accanto alla cartella delle skill, dove un aggiornamento non lo tocca.
 function configura(o) {
   const modello = path.join(SORGENTE, 'assets', `${NOME}.md`);
-  const dest = path.join(path.dirname(cartellaSkill(o)), `${NOME}.md`);
-  if (fs.existsSync(dest) && !o.force) {
-    console.log(`La configurazione esiste già: ${dest}`);
-    console.log('Aprila e modificala. Per ripartire dal modello vuoto usa --force.');
-    return;
+  for (const cartella of cartelleSkill(o)) {
+    const dest = path.join(path.dirname(cartella), `${NOME}.md`);
+    if (fs.existsSync(dest) && !o.force) {
+      console.log(`La configurazione esiste già: ${dest}`);
+      console.log('Aprila e modificala. Per ripartire dal modello vuoto usa --force.');
+      continue;
+    }
+    fs.mkdirSync(path.dirname(dest), { recursive: true });
+    fs.copyFileSync(modello, dest);
+    console.log(`Configurazione creata: ${dest}`);
+    console.log('Aprila e scrivi per chi scrivi e con che tono. Le voci lasciate vuote le decide la skill dal contesto.');
   }
-  fs.mkdirSync(path.dirname(dest), { recursive: true });
-  fs.copyFileSync(modello, dest);
-  console.log(`Configurazione creata: ${dest}`);
-  console.log('Aprila e scrivi per chi scrivi e con che tono. Le voci lasciate vuote le decide la skill dal contesto.');
 }
 
 function main() {
   const o = leggiArgomenti(process.argv.slice(2));
   if (o.comando === 'aiuto') return void console.log(AIUTO);
   if (o.comando === 'versione') return void console.log(pkg.version);
-  if (o.comando === 'dove') return void console.log(path.join(cartellaSkill(o), NOME));
+  if (o.comando === 'dove') return void cartelleSkill(o).forEach((c) => console.log(path.join(c, NOME)));
   if (o.comando === 'rimuovi') return rimuovi(o);
   if (o.comando === 'configura') return configura(o);
   return installa(o);

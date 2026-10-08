@@ -327,7 +327,6 @@
           "120 euro",
           "\\b(otto|8)\\b",
           "\\b(vi|ve|voi)\\b|\\bvostr",
-          "\\bsoci\\b",
           "dalle 9 alle 13"
         ],
         "non_deve": [

@@ -16,8 +16,10 @@ Il tono e il pubblico di un testo li decide chi lo firma. Questo file spiega dov
 
 Prima di scrivere cerca, in quest'ordine, un file `italian-master.md`:
 
-1. nella cartella `.claude/` del progetto in cui stai lavorando;
-2. nella cartella `.claude/` della home dell'utente (`~/.claude/italian-master.md`).
+1. nella cartella `.claude/` o `.agents/` del progetto in cui stai lavorando;
+2. nella stessa cartella dentro la home dell'utente (`~/.claude/italian-master.md`, `~/.agents/italian-master.md`).
+
+Le due cartelle valgono allo stesso modo: la prima è quella di Claude Code, la seconda quella di Codex e degli altri agenti. Se il file c'è in tutte e due, vale quello dell'agente con cui stai lavorando.
 
 Se ci sono tutti e due, per ogni voce vale quella del progetto, e quella personale copre le voci che il progetto lascia vuote. Il modello da compilare è in `assets/italian-master.md`, e si crea con `npx italian-master configura`.
 

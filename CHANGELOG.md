@@ -2,6 +2,22 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.6.0] - 2026-10-08
+
+### Aggiunto
+
+- **La skill si installa anche in Codex**, e negli altri agenti che leggono le Agent Skills dalla cartella `.agents/skills`. L'installatore ha tre opzioni nuove: `--codex` (in `~/.agents/skills`, o in `./.agents/skills` con `--project`), `--tutti` (Claude Code e Codex insieme) e `--claude`, che resta il comportamento predefinito. Valgono anche per `rimuovi`, `configura` e `dove`.
+- `agents/openai.yaml`, con il nome e la descrizione breve che Codex mostra nell'elenco delle skill.
+
+### Modificato
+
+- **Niente nella skill dipende più da un agente.** La configurazione di tono e pubblico si cerca nella cartella `.claude/` oppure `.agents/`, del progetto o della home. `SKILL.md` e i riferimenti non nominano comandi di un agente in particolare, e il README dice «l'agente» dove diceva «Claude».
+- In `CONTRIBUTING.md`, il criterio corrispondente per chi contribuisce.
+
+### Limiti noti
+
+- L'installazione è stata provata copiando la skill in una cartella `.agents/skills` e verificando la struttura sulla documentazione di Codex. I casi di prova girano ancora solo con Claude Code: la qualità dei testi prodotti dalla skill dentro Codex non è stata misurata.
+
 ## [1.5.4] - 2026-10-08
 
 ### Modificato

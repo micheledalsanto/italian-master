@@ -2,7 +2,7 @@
 
 Questo file dice alla skill per chi scrivi e con che tono. Compila le voci che ti servono e lascia vuote le altre: dove non c'è niente, la skill decide dal contesto della richiesta. Quello che scrivi qui vale per tutti i testi, finché una richiesta non dice diversamente.
 
-Il file va in `.claude/italian-master.md` dentro il progetto, oppure in `~/.claude/italian-master.md` se vuoi le stesse scelte ovunque. Se ci sono tutti e due, vale quello del progetto.
+Il file va nella cartella `.claude/` del progetto (o `.agents/`, se usi Codex o un altro agente), oppure nella stessa cartella dentro la tua home se vuoi le stesse scelte ovunque. Se ci sono tutti e due, vale quello del progetto.
 
 ## Pubblico
 
