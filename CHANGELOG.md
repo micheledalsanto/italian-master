@@ -2,6 +2,20 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.3.0] - 2026-10-08
+
+### Aggiunto
+
+- **`evals/esegui.py`**: esegue i casi di prova, ciascuno in una sessione nuova di Claude Code con la skill caricata dalla repo, e valuta le risposte. Controlla se la skill si è attivata, quali riferimenti ha aperto, le segnalazioni di `controlla.py` e i controlli dichiarati in ogni caso (che cosa deve esserci, che cosa non deve esserci, le misure del passo). Le risposte restano in `evals/risultati/`, perché i controlli automatici dicono se un testo è sbagliato e non se è buono.
+- **Sette casi di prova nuovi**, che coprono le parti aggiunte nella 1.2.0: l'avviso ai clienti chiesto alla buona, la spiegazione per una bambina, l'attacco di un racconto fantastico, la pagina di un'agenzia, la configurazione del progetto, la riscrittura di un testo a frasette, la guida per chi non è del mestiere. I casi sono ora tredici, e tutti hanno i loro controlli.
+- In `SKILL.md`, la sezione **«Come si consegna»**. Nelle prove quasi tutte le risposte cominciavano con «Ecco la mail» o «Ecco il testo», e le note per l'utente avevano le lineette lunghe e le etichette in grassetto che la skill toglie dai testi. Ora il testo viene per primo, e le righe che lo accompagnano seguono le stesse regole.
+
+### Modificato
+
+- **«Non inventare» comprende le circostanze.** Nelle prove i numeri venivano rispettati, ma tra un fatto e l'altro comparivano dettagli che nessuno aveva fornito: come si era svolto un lavoro, chi aveva promosso una raccolta, entro quando pagare una fattura. `SKILL.md` e `descrivere-e-raccontare.md` ora li nominano, dicono che un dato si può ricavare da quelli forniti se il conto torna, e che il dato indispensabile che manca diventa un segnaposto segnalato. `corrispondenza-formale.md` lo ripete per le scadenze.
+- **Nelle revisioni resta la persona dell'originale.** Un testo che dava del tu non passa al lei se nessuno lo chiede. E una sentenza dello slop asciutto allungata in un periodo resta una sentenza: al suo posto vanno i fatti forniti dall'utente.
+- La descrizione della skill nomina le correzioni di bozze di poche righe, per le quali nelle prove non si attivava.
+
 ## [1.2.0] - 2026-10-08
 
 ### Aggiunto

@@ -1,6 +1,6 @@
 ---
 name: italian-master
-description: Scrive, riscrive e corregge testi in italiano naturale, come li scriverebbe un italiano che sa scrivere, eliminando l'AI slop, i calchi dall'inglese, il burocratese e le frasi fatte. Copre grammatica, ortografia, punteggiatura, sintassi, logica del testo, tono e registro (tu/lei/voi), modi di dire e proverbi, titoli giornalistici, titoli web e social, oggetti di email e newsletter. Usa questa skill ogni volta che l'output finale è un testo in italiano destinato a essere letto da persone: articoli, post, newsletter, email, landing page, copy, microcopy, comunicati, descrizioni prodotto, discorsi, traduzioni verso l'italiano, revisioni e "umanizzazioni" di testi che suonano finti, anche quando l'utente non nomina la skill e anche quando scrive in inglese ma vuole un testo italiano. Use it for any Italian-language writing, editing, proofreading, headline or translation-into-Italian task.
+description: Scrive, riscrive e corregge testi in italiano naturale, come li scriverebbe un italiano che sa scrivere, eliminando l'AI slop, i calchi dall'inglese, il burocratese e le frasi fatte. Copre grammatica, ortografia, punteggiatura, sintassi, logica del testo, tono e registro (tu/lei/voi), modi di dire e proverbi, titoli giornalistici, titoli web e social, oggetti di email e newsletter. Usa questa skill ogni volta che l'output finale è un testo in italiano destinato a essere letto da persone: articoli, post, newsletter, email, landing page, copy, microcopy, comunicati, descrizioni prodotto, discorsi, traduzioni verso l'italiano, revisioni, correzioni di bozze anche di poche righe e "umanizzazioni" di testi che suonano finti, anche quando l'utente non nomina la skill e anche quando scrive in inglese ma vuole un testo italiano. Use it for any Italian-language writing, editing, proofreading, headline or translation-into-Italian task.
 ---
 
 # Italian master
@@ -46,7 +46,7 @@ Conviene poi avere chiare quattro cose, e se la richiesta non le dice si deducon
 
 **Accompagna chi non è del mestiere.** Quando il testo spiega qualcosa a persone non esperte, si comincia dalla situazione o dal dubbio del lettore, gli si dà del tu, ci si fa vedere con un «vediamo» o un «ti spiego», si mettono le sue domande nei punti in cui gli verrebbero e il termine tecnico arriva dopo la spiegazione. Anche i titoli devono essere frasi che si direbbero a voce. Vedi `references/tono-accogliente.md`.
 
-**Non inventare.** Un numero, un nome, un orario o una citazione che l'utente non ha fornito non si aggiungono per rendere il testo più vivo. Se serve un dato che manca, lo si chiede, oppure si scrive la frase senza.
+**Non inventare.** Un numero, un nome, un orario o una citazione che l'utente non ha fornito non si aggiungono per rendere il testo più vivo, e lo stesso vale per le circostanze verosimili, che sono le invenzioni più difficili da vedere: come si è svolto un lavoro, perché una cosa è successa, chi l'ha voluta, entro quando si deve pagare. Si può invece ricavare un dato da quelli forniti, come la differenza tra due numeri o il tempo passato tra due date, purché il conto torni. Se serve un dato che manca, lo si chiede, oppure si scrive la frase senza. Quando il testo senza quel dato non sta in piedi, come un sollecito senza la scadenza, al suo posto va un segnaposto tra parentesi quadre, segnalato sotto il testo.
 
 Per i passi d'autore da cui prendere il ritmo, `references/modelli.md`. Per lo scioglimento di frasi burocratiche e nominali, `references/sintassi-stile.md`.
 
@@ -88,7 +88,7 @@ Nessuna di queste liste è un elenco di divieti, perché ognuna di queste forme 
 
 ## Che cosa ti viene chiesto
 
-**Scrivere da zero, descrivere, raccontare.** Prima di scrivere si elencano i fatti disponibili e quelli che mancano, e si decide qual è la cosa principale. Una descrizione dice nella prima frase che cos'è la cosa, e un racconto tiene lo stesso tempo verbale finché non arriva a oggi. Vedi `references/descrivere-e-raccontare.md`. Il testo si consegna senza premesse del tipo «Ecco il testo richiesto» e senza commenti in coda, salvo quando c'è da segnalare un dato mancante o una scelta che l'utente deve confermare.
+**Scrivere da zero, descrivere, raccontare.** Prima di scrivere si elencano i fatti disponibili e quelli che mancano, e si decide qual è la cosa principale. Una descrizione dice nella prima frase che cos'è la cosa, e un racconto tiene lo stesso tempo verbale finché non arriva a oggi. Vedi `references/descrivere-e-raccontare.md`.
 
 **Scrivere una comunicazione formale.** Un avviso ai clienti, un sollecito, la risposta a un reclamo vogliono il registro formale per intero, con le sue formule di cortesia, e in mezzo soltanto fatti: che cosa cambia, da quando, che cosa deve fare chi legge. Togliere le formule non rende il testo più naturale. Vedi `references/corrispondenza-formale.md`.
 
@@ -96,7 +96,7 @@ Nessuna di queste liste è un elenco di divieti, perché ognuna di queste forme 
 
 **Scrivere per i bambini.** Per chi ha tra i sei e gli undici anni le regole sul periodo si rovesciano: una frase, un'idea, parole di tutti i giorni, molte domande. Le misure, l'indice di leggibilità e un esempio sono in `references/scrivere-per-bambini.md`.
 
-**Rivedere o "umanizzare" un testo.** Si conservano il contenuto, i fatti e la voce dell'autore, e si corregge la lingua. Sotto il testo rivisto vanno poche righe su che cosa è cambiato e perché, scritte in prosa e raggruppate per tipo di intervento. Se una frase è vuota conviene dirlo e proporre di toglierla, o chiedere il dato che manca, perché riscrivere il vuoto con parole migliori produce solo un vuoto più elegante.
+**Rivedere o "umanizzare" un testo.** Si conservano il contenuto, i fatti e la voce dell'autore, compresa la persona con cui si rivolge al lettore, che cambia solo se nell'originale è mescolata o se la richiesta lo chiede. Sotto il testo rivisto vanno poche righe su che cosa è cambiato e perché, scritte in prosa e raggruppate per tipo di intervento. Se una frase è vuota conviene dirlo e proporre di toglierla, o chiedere il dato che manca, perché riscrivere il vuoto con parole migliori produce solo un vuoto più elegante. Vale anche per le sentenze dello slop asciutto: «La risposta è semplice. Fiducia.» allungata in un periodo resta una sentenza, e al suo posto vanno i fatti che l'utente ha dato.
 
 **Correggere le bozze.** Si toccano solo gli errori veri (ortografia, accenti, concordanze, punteggiatura, reggenze) e si lascia stare lo stile, a meno che la richiesta lo comprenda. Vedi `references/grammatica.md` e `references/punteggiatura-tipografia.md`.
 
@@ -105,6 +105,10 @@ Nessuna di queste liste è un elenco di divieti, perché ognuna di queste forme 
 **Tradurre verso l'italiano.** Si traduce il senso, ricostruendo i periodi come li costruirebbe chi scrive in italiano, dato che la sintassi a frasi brevi dell'originale inglese è la prima cosa che tradisce una traduzione. Vedi `references/calchi.md` e, per le espressioni idiomatiche, `references/modi-di-dire.md`.
 
 **Imparare una voce.** Quando l'utente indica dei testi di riferimento, vanno letti prima di scrivere, ricavandone una scheda di stile secondo `references/imparare-una-voce.md`. La voce dell'utente prevale sulle preferenze di questa skill.
+
+## Come si consegna
+
+Il testo viene per primo, senza una riga che lo annunci («Ecco la mail», «Ecco il testo riscritto») e senza il racconto di come ci si è arrivati. Quello che c'è da dire all'utente va sotto, ed è poco: un dato che mancava, una scelta che deve confermare e, nelle revisioni, che cosa è cambiato. Anche queste righe sono italiano scritto e seguono le stesse regole del testo, quindi sono in prosa, senza etichette in grassetto e senza lineette lunghe. All'utente ci si rivolge come lui si è rivolto a te, di solito con il tu, anche quando il testo consegnato dà del lei a qualcun altro.
 
 ## Rilettura finale
 
@@ -116,10 +120,11 @@ Prima di consegnare un testo da leggere conviene controllare, nell'ordine:
 - se l'ultima frase di ogni capoverso è lì per dire qualcosa o per fare effetto
 - se tu, lei e voi sono coerenti dall'inizio alla fine
 - accenti e apostrofi («perché», «è», «È», «un po'», «qual è»), maiuscole solo a inizio titolo, numeri e date all'italiana
-- se ogni dato presente nel testo viene dall'utente o da una fonte
+- se ogni dato e ogni circostanza presenti nel testo vengono dall'utente o da una fonte
 - se i fatti accaduti sono raccontati al passato, con soggetti determinati e senza salti di tempo verbale
 - se ogni frase riscritta si capisce da sola, e se gli accostamenti di parole sono di quelli che si sentono dire
 - se, letto ad alta voce, sembra detto da qualcuno
+- se le righe per l'utente stanno sotto il testo e sono scritte con la stessa cura
 
 Lo script `scripts/controlla.py`, dove è possibile eseguirlo, segnala le formule più comuni e misura il passo delle frasi confrontandolo con quello dei testi veri:
 

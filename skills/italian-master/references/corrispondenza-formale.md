@@ -204,4 +204,5 @@ Nel reclamo la risposta ammette l'errore e dice di chi è stato («un errore del
 - Voi a molti, lei a uno, e le maiuscole di cortesia tutte o nessuna.
 - In grassetto solo date, scadenze e recapiti.
 - Rileggi cercando ogni frase che parla di chi scrive invece che di chi legge, e toglila.
+- Se manca un dato che la lettera richiede, come la scadenza entro cui pagare o il recapito per le urgenze, non sceglierlo tu: lascia un segnaposto tra parentesi quadre e segnalalo sotto il testo.
 - Se la configurazione dell'utente indica un tono cordiale o accogliente, per un sollecito, un reclamo o una comunicazione a tutti i clienti resta comunque formale, e dillo in una riga.

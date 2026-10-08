@@ -51,7 +51,8 @@ skills/italian-master/
   references/            approfondimenti, letti quando servono
   assets/                modello del file di configurazione (tono e pubblico)
   scripts/controlla.py   controllo automatico
-evals/evals.json         casi di prova
+evals/evals.json         casi di prova, con i loro controlli
+evals/esegui.py          esegue i casi e valuta le risposte
 ```
 
 ## Provare le modifiche
@@ -63,4 +64,12 @@ claude plugin validate .
 claude --plugin-dir .
 ```
 
-Poi prova le richieste in `evals/evals.json` e confronta il risultato con quello atteso.
+Poi esegui i casi di prova. Lo script apre una sessione nuova di Claude Code per ogni caso, in una cartella fuori dalla repo, e controlla le risposte:
+
+```bash
+python evals/esegui.py              # tutti i casi
+python evals/esegui.py --solo 3,7   # solo alcuni
+python evals/esegui.py --rivaluta   # rivaluta le risposte già salvate, senza rieseguire
+```
+
+I controlli automatici trovano gli errori certi (un dato che manca, una formula rimasta, la skill che non si è attivata). Se il testo è buono lo dice solo la lettura: le risposte sono in `evals/risultati/`, e vanno confrontate con il risultato atteso di ogni caso. Quando una prova mostra un difetto che si ripete, aggiungi il controllo al caso prima di correggere la skill, così la correzione si può verificare.

@@ -7,3 +7,6 @@ Thumbs.db
 italian-master-workspace/
 reports/
 .claude/settings.local.json
+
+# Risposte dei casi di prova
+evals/risultati/

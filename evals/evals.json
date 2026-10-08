@@ -6,42 +6,374 @@
       "name": "riscrittura-landing",
       "prompt": "Mi sistemi questo testo per la home del sito? Suona finto ma non so dire perché. Siamo uno studio di tre commercialisti a Vicenza, aperto dal 2009, seguiamo circa 200 partite IVA.\n\n\"Nel panorama fiscale odierno, sempre più complesso, il nostro studio rappresenta molto più di un semplice consulente: è un vero e proprio partner strategico. Che tu sia un libero professionista o una PMI, offriamo una vasta gamma di soluzioni personalizzate, garantendo competenza, affidabilità e trasparenza. Non si tratta solo di numeri — si tratta di persone. Assicurati di contattarci per sbloccare il pieno potenziale della tua attività!\"",
       "expected_output": "Testo riscritto in italiano naturale che usa i fatti forniti (tre commercialisti, Vicenza, 2009, 200 partite IVA), senza le formule dell'originale, con tu coerente, più una breve nota su che cosa è cambiato. Nessun dato inventato.",
-      "files": []
+      "files": {},
+      "controlli": {
+        "deve": [
+          "Vicenza",
+          "2009",
+          "\\b(200|duecento)\\b"
+        ],
+        "non_deve": [
+          "—",
+          "\\bin un mondo\\b",
+          "\\bnon (è|si tratta) (solo|soltanto)\\b",
+          "\\ba 360 gradi\\b",
+          "partner strategic",
+          "vasta gamma",
+          "sbloccare",
+          "assicurati di",
+          "panorama",
+          "^\\W*Ecco\\b"
+        ]
+      }
     },
     {
       "id": 2,
       "name": "titoli-newsletter",
       "prompt": "Ho scritto un pezzo per la newsletter del mio negozio di biciclette a Bologna: da gennaio il Comune dà fino a 500 euro a chi compra una cargo bike e rottama la seconda auto. Mi servono dei titoli per l'articolo sul blog e l'oggetto dell'email. Voglio che la gente apra ma niente clickbait.",
       "expected_output": "Più varianti di titolo da angoli diversi, in minuscolo normale (maiuscola solo iniziale e nomi propri), senza punto finale, con il dato dei 500 euro e Bologna, senza formule da esca; oggetti email brevi; una scelta consigliata con motivazione breve.",
-      "files": []
+      "files": {},
+      "controlli": {
+        "deve_leggere": [
+          "references/titoli.md"
+        ],
+        "deve": [
+          "500 euro",
+          "Bologna",
+          "cargo bike"
+        ],
+        "non_deve": [
+          "—",
+          "\\becco (cosa|come|perché)\\b",
+          "non crederai",
+          "!!",
+          "^\\W*Ecco\\b"
+        ]
+      }
     },
     {
       "id": 3,
       "name": "email-formale-sollecito",
       "prompt": "Scrivimi una mail per sollecitare il pagamento di una fattura. Fattura n. 47 del 12 giugno, 1840 euro, scaduta il 12 luglio. Il cliente è l'architetto Paolo Ferraris, ci diamo del lei, è la prima volta che ritarda e ci tengo a non rovinare il rapporto.",
-      "expected_output": "Email breve con oggetto preciso, apertura «Gentile architetto Ferraris,» o simile, lei coerente, richiesta chiara con i dati della fattura in formato italiano (1.840 euro o 1.840,00 €, date all'italiana), tono fermo e cortese, chiusura «Cordiali saluti» o simile, senza formule burocratiche né calchi.",
-      "files": []
+      "expected_output": "Email breve con oggetto preciso, apertura «Gentile architetto Ferraris,» o simile, lei coerente, richiesta chiara con i dati della fattura in formato italiano (1.840 euro o 1.840,00 €, date all'italiana), tono fermo e cortese, chiusura «Cordiali saluti» o simile, senza formule burocratiche né calchi. La scadenza per il pagamento non è stata indicata: non va inventata, ma lasciata come segnaposto e segnalata. Le note all'utente gli danno del tu.",
+      "files": {},
+      "controlli": {
+        "deve_leggere": [
+          "references/corrispondenza-formale.md"
+        ],
+        "deve": [
+          "^\\W*Oggetto",
+          "Gentile architetto Ferraris",
+          "1\\.840",
+          "12 giugno",
+          "12 luglio",
+          "(Cordiali|Distinti) saluti",
+          "\\bL[ae] (prego|preghiamo|chied|ringrazi|invit|sar)"
+        ],
+        "non_deve": [
+          "—",
+          "!",
+          "spero che questa",
+          "^\\W*Ecco\\b"
+        ]
+      }
     },
     {
       "id": 4,
       "name": "traduzione-post-linkedin",
       "prompt": "Translate this into Italian for our LinkedIn page, it should sound like an Italian wrote it, not a translation:\n\n\"We're thrilled to announce that our team has grown! At the end of the day, it's not just about hiring great people — it's about building a culture where everyone can thrive. Make sure to check out our open roles and feel free to reach out. Stay tuned for more exciting news!\"",
       "expected_output": "Post in italiano che rende il senso senza calchi («alla fine della giornata», «assicurati di», «sentiti libero», «resta sintonizzato», «eccitati»), senza lineette lunghe, senza falso contrasto meccanico, con un registro credibile per LinkedIn in Italia.",
-      "files": []
+      "files": {},
+      "controlli": {
+        "deve_leggere": [
+          "references/calchi.md"
+        ],
+        "non_deve": [
+          "—",
+          "alla fine della giornata",
+          "assicurat\\w+ di",
+          "sentit\\w+ liber",
+          "sintonizzat",
+          "eccitat",
+          "non (è|si tratta) (solo|soltanto)",
+          "^\\W*Ecco\\b"
+        ]
+      }
     },
     {
       "id": 5,
       "name": "correzione-bozze",
       "prompt": "Correggimi solo gli errori, non cambiare lo stile:\n\n\"Qual'è il problema? Un pò di tutto. Se avrei saputo che il progetto era cosi complicato non avrei accettato, perchè non c'è n'è bisogno. Gli ho detto a Maria che domani ci sentiamo ed io gli mando il file. E' un'altro discorso, sopratutto per i managers.\"",
-      "expected_output": "Testo con i soli errori corretti: qual è, un po', se avessi saputo, così, perché, ce n'è, le ho detto / ho detto a Maria, e io, le mando, È, un altro, soprattutto, i manager. Stile invariato. Elenco breve delle correzioni.",
-      "files": []
+      "expected_output": "Testo con i soli errori corretti: qual è, un po', se avessi saputo, così, perché, ce n'è, le ho detto / ho detto a Maria, le mando, È, un altro, soprattutto, i manager. «Ed io» non è un errore: si può lasciare, o segnalare senza correggere. Stile invariato. Elenco breve delle correzioni.",
+      "files": {},
+      "controlli": {
+        "deve": [
+          "Qual è",
+          "un po'",
+          "Se avessi saputo",
+          "così",
+          "perché",
+          "ce n'è",
+          "È un altro",
+          "soprattutto",
+          "i manager\\b"
+        ],
+        "non_deve": [
+          "qual'è",
+          "un pò",
+          "se avrei",
+          "managers",
+          "\\bcosi\\b",
+          "perchè",
+          "c'è n'è",
+          "un'altro",
+          "sopratutto",
+          "\\bE'"
+        ]
+      }
     },
     {
       "id": 6,
       "name": "articolo-da-appunti",
       "prompt": "Scrivimi un articolo di 400 parole circa per il blog della nostra associazione, da questi appunti. Sabato 3 ottobre abbiamo riaperto la biblioteca di quartiere di via Bixio a Parma, chiusa da marzo 2024 per l'allagamento del seminterrato. I lavori sono costati 180mila euro, 120mila dal Comune e 60mila raccolti con una sottoscrizione tra 900 abitanti. All'inaugurazione c'erano circa 300 persone e l'assessora alla cultura Marta Ferrari, che ha detto: \"Questa biblioteca l'ha salvata il quartiere, noi abbiamo solo firmato\". Si sono persi 2.400 libri su 11.000, ne sono stati ricomprati o donati 1.900. Nuovo orario: dal martedì al sabato, 9-19. La presidente dell'associazione è Lucia Gatti, bibliotecaria in pensione.",
       "expected_output": "Articolo in prosa italiana da leggere: attacco con il fatto, la data e il luogo; periodi articolati (media sopra le 18 parole per frase, qualche frase oltre le 30), verbi al passato, la citazione dell'assessora riportata e attribuita, tutti i numeri degli appunti e nessun dato inventato; connettivi e parole di misura; nessuna apertura sul valore della cultura, nessuna chiusura con morale, nessuna raffica di frasi brevi né due punti a effetto.",
-      "files": []
+      "files": {},
+      "controlli": {
+        "deve": [
+          "3 ottobre",
+          "via Bixio",
+          "Parma",
+          "180",
+          "120",
+          "900",
+          "Marta Ferrari",
+          "l'ha salvata il quartiere",
+          "2\\.400",
+          "11\\.000",
+          "1\\.900",
+          "Lucia Gatti"
+        ],
+        "non_deve": [
+          "—",
+          "\\bin un mondo\\b",
+          "\\bnon (è|si tratta) (solo|soltanto)\\b",
+          "\\ba 360 gradi\\b",
+          "^\\s*in (conclusione|definitiva)",
+          "^\\W*Ecco\\b"
+        ],
+        "misure": {
+          "parole_per_frase": [
+            18,
+            40
+          ],
+          "frasi_da_30_parole_pct": [
+            10,
+            60
+          ],
+          "due_punti_ogni_mille": [
+            0,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "avviso-clienti-chiesto-alla-buona",
+      "prompt": "devo avvisare i pazienti che lo studio si sposta (siamo uno studio di fisioterapia). dal 12 gennaio siamo in via Mazzini 8 a Treviso, prima eravamo in viale della Repubblica 22. telefono e mail restano uguali. gli appuntamenti già presi restano validi, cambia solo il posto. c'è il parcheggio nel cortile. buttami giù due righe da mandare via mail",
+      "expected_output": "Comunicazione in registro formale anche se la richiesta è scritta alla buona: oggetto con il fatto e la data, «Gentili Pazienti,», voi coerente, la notizia con la data nella prima frase, che cosa resta uguale (recapiti, appuntamenti), il parcheggio, ringraziamento e saluti in una riga, firma. Niente tu, niente punti esclamativi, niente premesse sullo studio che cresce, nessun dato inventato. Se c'è una nota per l'utente, è breve e gli dà del tu.",
+      "files": {},
+      "controlli": {
+        "deve_leggere": [
+          "references/corrispondenza-formale.md"
+        ],
+        "deve": [
+          "^\\W*Oggetto.*12 gennaio",
+          "Gentili Pazienti",
+          "via Mazzini 8",
+          "Treviso",
+          "(Cordiali|Distinti) saluti"
+        ],
+        "non_deve": [
+          "—",
+          "!",
+          "\\b(tuo|tua|tuoi) (appuntament|sedut)",
+          "siamo (lieti|felici|entusiasti)",
+          "non (è|si tratta) (solo|soltanto)",
+          "^\\W*Ecco\\b"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "spiegazione-per-bambina",
+      "prompt": "Mia figlia ha 8 anni e mi ha chiesto perché il mare è salato. Mi scrivi una spiegazione che possa leggere da sola? Una paginetta, non di più.",
+      "expected_output": "Testo per una bambina di otto anni: frasi corte, un'idea per frase, parole di tutti i giorni, domande rivolte a lei, un paragone con una cosa che conosce, indice Gulpease da 80 in su. Niente vezzeggiativi a pioggia né punti esclamativi in fila, niente morale finale. Il contenuto è corretto (i fiumi portano al mare i sali delle rocce, l'acqua evapora e il sale resta).",
+      "files": {},
+      "controlli": {
+        "deve_leggere": [
+          "references/scrivere-per-bambini.md"
+        ],
+        "bambini": true,
+        "deve": [
+          "\\?",
+          "\\bfium[ei]\\b",
+          "\\bsale\\b"
+        ],
+        "non_deve": [
+          "—",
+          "!!",
+          "\\bevaporazione\\b"
+        ],
+        "misure": {
+          "gulpease": [
+            78,
+            100
+          ],
+          "parole_per_frase": [
+            4,
+            12
+          ]
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "attacco-racconto-fantasy",
+      "prompt": "Scrivimi l'attacco di un racconto fantasy, 300 parole circa. La protagonista fa la traghettatrice su un fiume che un giorno all'anno scorre al contrario. Niente prologo epico.",
+      "expected_output": "Scena che comincia da un personaggio che fa una cosa, o dalla regola impossibile detta come un fatto. Il mondo si capisce dagli oggetti e dalle battute, senza capoverso di storia del mondo. Passato remoto o comunque un tempo solo, dialogo con «disse», al massimo una o due similitudini, nessun nome con l'apostrofo, nessuna maiuscola ai nomi comuni, nessuna frase a effetto in fondo a ogni capoverso, nessun «brivido lungo la schiena». Si consegna il testo senza commenti lunghi.",
+      "files": {},
+      "controlli": {
+        "deve_leggere": [
+          "references/narrativa-fantastica.md"
+        ],
+        "non_deve": [
+          "—",
+          "brivido",
+          "antic[oa] e ",
+          "sussurr",
+          "da tempo immemor",
+          "^\\W*Ecco\\b"
+        ],
+        "misure": {
+          "parole_per_frase": [
+            9,
+            24
+          ]
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "chi-siamo-agenzia",
+      "prompt": "Scrivi la pagina Chi siamo del nostro sito. Siamo Officina Nove, agenzia di Padova, sei persone, nata nel 2017. Facciamo siti ed e-commerce per aziende manifatturiere del Nord-Est, una quarantina di clienti seguiti finora. L'anno scorso abbiamo rifatto l'e-commerce di un'azienda di rubinetteria del bresciano: gli ordini online sono passati da 300 a 1.100 al mese in dieci mesi. Ai lettori diamo del voi.",
+      "expected_output": "Pagina di presentazione che dice nella prima frase che cos'è l'agenzia, per chi lavora e da dove; usa tutti i fatti forniti e il caso con i suoi numeri; alterna i soggetti invece di mettere in fila frasi in «-iamo»; voi coerente; i termini del mestiere restano in inglese; niente «soluzioni», «passione», «a 360 gradi», «partner», niente triadi di valori, nessun dato o cliente inventato; un invito finale preciso.",
+      "files": {},
+      "controlli": {
+        "deve_leggere": [
+          "references/agenzie-digitali.md"
+        ],
+        "deve": [
+          "Officina Nove",
+          "Padova",
+          "2017",
+          "\\b300\\b",
+          "1\\.100",
+          "e-commerce"
+        ],
+        "non_deve": [
+          "—",
+          "\\bin un mondo\\b",
+          "\\bnon (è|si tratta) (solo|soltanto)\\b",
+          "\\ba 360 gradi\\b",
+          "soluzioni (su misura|personalizzate|innovative|digitali)",
+          "\\bpassione\\b",
+          "\\bpartner\\b",
+          "risultati (concreti|misurabili|tangibili)",
+          "\\b(ti|tuo|tua) ",
+          "^\\W*Ecco\\b",
+          "\\bnon partiamo da\\b"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "configurazione-del-progetto",
+      "prompt": "Scrivi il pezzo di apertura della newsletter di ottobre. Da domenica 18 ottobre apriamo anche la domenica mattina, dalle 9 alle 13. E da giovedì 22 parte il corso serale di panificazione: quattro lezioni, 120 euro, otto posti.",
+      "expected_output": "La skill trova e applica .claude/italian-master.md: dà del voi ai lettori, li chiama soci e mai clienti, chi scrive dice noi, tono cordiale senza formule cerimoniose. Tutti i dati della richiesta, nessuno inventato. Non dichiara di avere assunto un tono, perché la configurazione c'è.",
+      "files": {
+        ".claude/italian-master.md": "# Italian master: configurazione\n\n## Pubblico\n\n- **Chi legge:** i soci di un forno cooperativo di quartiere, a Torino\n- **Quanto ne sa:** non esperti\n\n## Tono\n\n- **Tono:** cordiale\n\n## Persona\n\n- **Al lettore do del:** voi\n- **Chi scrive dice:** noi\n\n## Lingua\n\n- **Termini inglesi:** il meno possibile, e spiegati\n- **Parole da usare:** soci, forno\n- **Parole da evitare:** clienti, negozio, workshop\n"
+      },
+      "controlli": {
+        "deve_leggere": [
+          ".claude/italian-master.md"
+        ],
+        "deve": [
+          "domenica 18",
+          "120 euro",
+          "\\b(otto|8)\\b",
+          "\\b(vi|ve|voi)\\b|\\bvostr",
+          "\\bsoci\\b"
+        ],
+        "non_deve": [
+          "—",
+          "\\bclient[ei]\\b",
+          "\\bnegozio\\b",
+          "\\bworkshop\\b",
+          "\\b(ti|tuo|tua|tuoi) ",
+          "\\b(iscriviti|vieni|scopri)\\b"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "name": "riscrittura-slop-asciutto",
+      "prompt": "Questo l'ho fatto scrivere a un'AI per il blog aziendale e mi sembra un telegramma. Lo sistemi? Siamo una software house di 25 persone a Bari, lavoriamo da remoto da marzo 2020 e a giugno 2023 abbiamo chiuso l'ufficio.\n\n\"Il lavoro da remoto non è una moda. È un cambio di mentalità. Nel 2020 lo abbiamo scoperto tutti. All'improvviso. Senza preparazione. Oggi la domanda è un'altra: come farlo bene? La risposta è semplice. Fiducia. Le aziende che controllano perdono. Quelle che si fidano vincono. Punto.\"",
+      "expected_output": "Testo riscritto in periodi legati (media sopra le 18 parole per frase), che usa i fatti forniti (25 persone, Bari, marzo 2020, giugno 2023) al posto delle sentenze, senza «non è X, è Y», senza due punti a effetto, senza frase breve in chiusura. La nota dice che le frasi dell'originale sono vuote e chiede i fatti che mancano (che cosa hanno fatto per lavorare bene da remoto) invece di inventarli.",
+      "files": {},
+      "controlli": {
+        "deve_leggere": [
+          "references/slop-asciutto.md"
+        ],
+        "deve": [
+          "\\b(25|venticinque)\\b",
+          "Bari",
+          "2020",
+          "2023"
+        ],
+        "non_deve": [
+          "—",
+          "La risposta è semplice",
+          "^\\W*Ecco\\b",
+          "(?-i:\\bFiducia\\.)",
+          "(?-i:\\bPunto\\.)"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "name": "guida-accogliente-isee",
+      "prompt": "Scrivi per il sito del nostro CAF una spiegazione di che cos'è l'ISEE e a che cosa serve, per chi non l'ha mai fatto. 300 parole circa.",
+      "expected_output": "Spiegazione in tono accogliente: comincia dalla situazione o dal dubbio del lettore, gli dà del tu, spiega prima di nominare i termini tecnici (DSU dopo la spiegazione), anticipa una o due domande, titoli che si direbbero a voce. Niente «è importante sottolineare», niente rassicurazioni ripetute, nessuna soglia o importo inventato, un invito finale preciso al CAF.",
+      "files": {},
+      "controlli": {
+        "deve_leggere": [
+          "references/tono-accogliente.md"
+        ],
+        "deve": [
+          "\\bISEE\\b",
+          "\\b(ti|tuo|tua|puoi|devi|hai)\\b"
+        ],
+        "non_deve": [
+          "—",
+          "\\bin un mondo\\b",
+          "\\bnon (è|si tratta) (solo|soltanto)\\b",
+          "\\ba 360 gradi\\b",
+          "è (importante|fondamentale) (notare|sottolineare|ricordare)",
+          "non esitare",
+          "^\\W*Ecco\\b"
+        ]
+      }
     }
   ]
 }

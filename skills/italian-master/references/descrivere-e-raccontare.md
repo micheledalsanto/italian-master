@@ -19,7 +19,7 @@ Un testo generato male nasce quasi sempre prima della prima riga, quando si comi
 
 **I fatti che ci sono.** Si elencano quelli forniti dall'utente o presenti nel materiale: nomi, date, numeri, luoghi, che cosa fa la cosa di cui si parla. Tutto il testo deve uscire da questo elenco.
 
-**I fatti che mancano.** Se per scrivere una frase sensata servirebbe un'informazione che non c'è (da quando, per chi, quanto costa, che cosa è successo dopo), la si chiede, oppure si scrive il testo senza quella frase. Non si riempie il buco con un aggettivo e nemmeno con un dettaglio plausibile.
+**I fatti che mancano.** Se per scrivere una frase sensata servirebbe un'informazione che non c'è (da quando, per chi, quanto costa, che cosa è successo dopo), la si chiede, oppure si scrive il testo senza quella frase. Non si riempie il buco con un aggettivo e nemmeno con un dettaglio plausibile. I dettagli plausibili più frequenti sono le circostanze che legano due fatti veri: da appunti che dicono «abbiamo rifatto il sito» e «gli ordini sono triplicati» viene spontaneo scrivere che cosa è stato rifatto e come, e da «1.900 libri ricomprati o donati» chi li ha donati. Sono frasi che scorrono bene e che nessuno ha detto.
 
 **La cosa principale.** Di tutti i fatti, uno o due sono quelli che il lettore deve ricordare. Vanno detti presto e in modo piano, e il resto si ordina intorno.
 
