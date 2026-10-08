@@ -87,6 +87,8 @@ Un piccolo repertorio, con il rapporto che ciascuno esprime. Sono tutti comuni e
 - **Bilancio:** insomma, in fondo, alla fine, tutto sommato, comunque.
 - **Appello al senso comune:** del resto, d'altra parte, d'altronde, si sa, com'è noto.
 
+I saggisti del primo Novecento letti su Liber Liber (Gobetti, Croce, Savinio, Brancati, Panzini, Mantegazza, circa 370.000 parole) usano gli stessi connettivi, con qualche preferenza che dice come procede chi argomenta. «Perché» compare venticinque volte ogni diecimila parole, più che nei giornali. Gobetti, che scrive per distinguere e per contrapporre, ha «invece» quindici volte ogni diecimila parole, e «tuttavia» e «anzi» cinque o sei volte ciascuno. Croce, che scrive per definire, ha «cioè» e «ossia» ventidue volte in tutto. «Quindi» in questi libri quasi non c'è (una volta ogni diecimila parole, contro le sette dei giornali): la conseguenza passa per «dunque», «così» e «perciò». È una differenza d'epoca, e oggi «quindi» è la forma normale.
+
 «Poi» merita una nota a parte, perché è la parola con cui l'italiano introduce un altro argomento senza formalità («C'è poi la questione…», «Ci si aspetta poi che…»), ed è il sostituto naturale di «inoltre». Nei giornali compare quindici volte ogni diecimila parole, nei testi generati la metà.
 
 ## 5. Le parole che misurano
@@ -107,7 +109,7 @@ Usarle non rende il testo debole. Un lettore si fida di chi distingue quello che
 
 Poche parole vanno nella direzione opposta.
 
-**«Soltanto».** Nei testi generati è quasi cinque volte più frequente che nei giornali (13,9 contro 3,0), che preferiscono «solo». Gramsci, in novantaseimila parole, non lo usa mai. Si lega al tic della negazione («non è soltanto X»).
+**«Soltanto».** Nei testi generati è quasi cinque volte più frequente che nei giornali (13,9 contro 3,0), che preferiscono «solo». Gramsci, in novantaseimila parole, non lo usa mai. La parola in sé però non prova niente: nei saggisti letti su Liber Liber compare sei volte ogni diecimila parole, e Gobetti la usa dodici volte, quasi quanto i testi generati. Il segnale è lo schema a cui si lega, cioè la negazione che corregge («non è soltanto X»).
 
 **«Può» e «possono».** Nel sito generato esaminato compaiono 12,5 volte ogni mille parole, nel quotidiano preso a confronto 2,8. È una cautela diversa da quella di «forse»: non misura la certezza di chi scrive, ma trasforma ogni affermazione in una possibilità generica («un modello può aiutare a…»). Vedi `impronte.md`.
 

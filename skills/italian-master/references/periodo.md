@@ -2,7 +2,7 @@
 
 Il consiglio di scrivere frasi brevi viene dai manuali di scrittura in inglese, e in inglese funziona perché quella lingua ha poca morfologia e deve affidare all'ordine delle parole quasi tutto il lavoro. L'italiano ha le desinenze, il soggetto sottinteso, i pronomi che si attaccano al verbo e una gamma larga di subordinate, e la sua prosa espositiva, quella dei giornali ben fatti e dei saggi che si leggono volentieri, è fatta di periodi di venti o trenta parole in cui una principale regge una o due subordinate e qualche inciso. Un testo italiano composto solo di frasi da dieci parole non suona chiaro. Suona tradotto, oppure dettato da qualcuno che ha fretta.
 
-Questo file descrive come sono costruiti quei periodi, a partire da testi veri: ottantasei articoli usciti tra settembre e ottobre 2026 su otto testate, le lettere dal carcere di Gramsci e una quindicina di opere di pubblico dominio lette su Wikisource. L'elenco completo è in `fonti.md`.
+Questo file descrive come sono costruiti quei periodi, a partire da testi veri: ottantasei articoli usciti tra settembre e ottobre 2026 su otto testate, le lettere dal carcere di Gramsci e una ventina di opere di pubblico dominio lette su Wikisource e su Liber Liber. L'elenco completo è in `fonti.md`.
 
 ## Indice
 
@@ -33,12 +33,21 @@ Sono conteggi grezzi su un campione piccolo, e servono a orientarsi più che a f
 | Svevo, *Zeno* e *Senilità* | 16 | 20% | 10% | 0,8 | 8 |
 | Pavese, romanzi | 14 | 28% | 9% | 1,2 | 3 |
 | Collodi, *Pinocchio* | 12 | 40% | 9% | 1,0 | 12 |
+| Croce, *Breviario di estetica* | 60 | 1% | 86% | 6,9 | 5 |
+| Gobetti, *La rivoluzione liberale* | 31 | 1% | 47% | 1,6 | 5 |
+| Gobetti, *Matteotti* | 23 | 5% | 28% | 1,3 | 8 |
+| Mantegazza, *Elogio della vecchiaia* | 25 | 8% | 30% | 1,8 | 4 |
+| Savinio, due libri di saggi | 22 | 14% | 24% | 1,8 | 5 |
+| Brancati, *I fascisti invecchiano* | 22 | 24% | 26% | 2,1 | 8 |
+| Panzini, due diari di viaggio | 18 | 19% | 16% | 1,5 | 14 |
 | Sito di divulgazione generato | 15 | 5% | 3% | 0,6 | 7 |
 | Testo generato «asciutto» | 11 | 32% | 2% | 1,2 | 27 |
 
 La prosa giornalistica e saggistica di oggi sta tra le venti e le trenta parole per frase, e in tutte le testate lette almeno una frase su sei supera le trenta parole (nel quotidiano e nelle riviste di approfondimento una su tre o più). Le frasi sotto le sei parole sono poche nei giornali d'informazione e un po' di più nei pezzi d'autore e di opinione, dove chi scrive si concede la battuta. Perfino le ricette, che sono istruzioni, hanno frasi di diciannove parole in media.
 
 La narrativa ha medie più basse perché contiene dialoghi e battute, e lì il confronto sulla media dice poco: Pavese e Collodi hanno frasi corte quanto quelle del testo generato. La differenza sta nel fatto che in loro le frasi corte convivono con periodi di cinquanta o sessanta parole, e nei testi d'autore di tipo espositivo (le lettere di Gramsci, il reportage di Serao) una frase su quattro o su tre è lunga.
+
+I saggisti letti su Liber Liber, che scrivevano tra il 1895 e il 1946, confermano la misura dei giornali di oggi. Tolto Croce, i loro libri hanno in media ventidue parole per frase e una frase su quattro supera le trenta, cioè gli stessi numeri del quotidiano online e delle riviste. In mezzo secolo sono cambiati il lessico e la grafia, e il passo della prosa che ragiona è rimasto quello. Croce, con le sue sessanta parole per frase, mostra dove sta il limite, e di lui si parla in `modelli.md`. L'altra differenza con i giornali è il punto e virgola, che nei libri di Croce, Mantegazza e Panzini compare dieci volte ogni mille parole e in quelli di Gobetti, Savinio e Brancati tre o quattro, mentre nei giornali di oggi è raro.
 
 I due testi generati sbagliano in modi diversi. Quello «asciutto» ha la media più bassa di tutti, un terzo di frasi brevissime e il triplo dei due punti. Il sito di divulgazione non ha frasi brevi, ma non ne ha nemmeno di lunghe (tre su cento), e con 0,6 virgole per frase è il testo meno articolato di tutta la tabella: frasi tutte di quindici parole, una dopo l'altra. In entrambi i casi quello che manca è il periodo, e un lettore italiano lo avverte subito anche senza saperlo nominare.
 

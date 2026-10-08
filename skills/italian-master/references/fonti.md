@@ -20,13 +20,20 @@ Le misure e i passi commentati in `periodo.md`, `connettivi.md`, `impronte.md`, 
   - Vamba, *Il giornalino di Gian Burrasca* (1907), tre giornate
   - Carlo Collodi, *Le avventure di Pinocchio* (1883), capitoli I, III, XV e XXXVI
   - Pellegrino Artusi, *La scienza in cucina e l'arte di mangiar bene* (edizione 1895), prefazione e sezione degli arrosti
+- **Saggi, ritratti e diari, da Liber Liber** (liberliber.it), letti a ottobre 2026: circa 425.000 parole. Sono tutti di pubblico dominio in Italia. Quelli di Savinio e di Brancati non lo sono ancora in tutti i paesi, e sono stati usati solo per le misure:
+  - Piero Gobetti, *La rivoluzione liberale* (1924) e *Matteotti* (1924)
+  - Benedetto Croce, *Breviario di estetica* (1913), nell'edizione che comprende alcuni saggi successivi
+  - Alfredo Panzini, *La lanterna di Diogene* (1907) e *Viaggio di un povero letterato* (1919)
+  - Paolo Mantegazza, *Elogio della vecchiaia* (1895)
+  - Alberto Savinio, *Ascolto il tuo cuore, città* (1944) e *Maupassant e «l'Altro»* (1944)
+  - Vitaliano Brancati, *I fascisti invecchiano* (1946) e *Gli anni perduti* (1941)
 - **Antonio Gramsci, *Lettere dal carcere*** (1926-1937), lette in una scansione disponibile in rete. Sono servite per le misure, su circa novantaseimila parole, e non sono riportate.
 - **Giornali e riviste di oggi**, letti online tra settembre e ottobre 2026: ottantasei articoli di otto testate italiane (un quotidiano online, un quotidiano di opinione, un sito di giornalismo civico, due riviste culturali, una rivista di saggi, una di tecnologia, il blog di un collettivo di scrittori), più otto pagine di un sito di ricette. Sono serviti per le misure e per descrivere le forme ricorrenti. Le testate non sono nominate e nessuna frase è riportata.
 - **Dieci siti di aziende ed enti italiani**, uno per settore, estratti a caso da un elenco di venti settori. Di ciascuno la home e fino a sette pagine interne, circa quarantamila parole in tutto. Sono descritti in `siti.md`, senza nomi.
 - **Dodici siti che spiegano o accompagnano**, letti a ottobre 2026 per descrivere il tono accogliente: guide pratiche, divulgazione scientifica per adulti e per ragazzi, educazione finanziaria, informazione sanitaria, un fornitore di energia, servizi di psicologia online, un'associazione di consumatori, una fondazione per la ricerca. Circa ottantamila parole, senza nomi e senza citazioni. Vedi `tono-accogliente.md`.
 - **Testi generati**, per il confronto: gli articoli e le lezioni di un sito di divulgazione scritti con un modello, come ha confermato chi lo cura (circa 14.600 parole), e un testo scritto con la prima versione di questa skill (circa 2.000).
 
-In tutto sono circa mezzo milione di parole, di cui 129.000 di giornalismo contemporaneo. Le misure sono fatte con conteggi semplici ed espressioni regolari, e il campione di testi generati è piccolo e viene da due sole fonti. Bastano a vedere la differenza tra la prosa italiana e quella generata, non a stabilire una norma. Chi vuole allargare il campione trova molti testi liberi su Wikisource e su Liber Liber (liberliber.it).
+In tutto sono circa novecentomila parole, di cui 129.000 di giornalismo contemporaneo. Le misure sono fatte con conteggi semplici ed espressioni regolari, e il campione di testi generati è piccolo e viene da due sole fonti. Bastano a vedere la differenza tra la prosa italiana e quella generata, non a stabilire una norma. Chi vuole allargare il campione trova molti testi liberi su Wikisource e su Liber Liber (liberliber.it).
 
 ## Per risolvere un dubbio
 

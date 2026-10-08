@@ -2,7 +2,7 @@
 
 Le regole dicono che cosa evitare, ma l'orecchio si forma leggendo. Qui ci sono alcuni passi di prosa italiana di pubblico dominio, ciascuno con una nota su quello che se ne può imparare. Vanno letti prima di scrivere un testo lungo, per accordarsi sul passo, e non per imitarne le parole.
 
-I passi riportati sono di opere uscite prima del 1930 e ormai libere ovunque, e vengono da Wikisource. Di Pavese e di Gramsci, che sono liberi in Italia ma non ancora dappertutto, c'è solo la descrizione. La grafia è ammodernata dove quella originale distrarrebbe (accenti, apostrofi). Gli autori scrivevano tra il 1883 e il 1950, quindi alcune forme sono invecchiate e non vanno riprese: «ch'io», «de' miei», «donde», «giovine», «bastevole», l'uso largo del passato remoto. Quello che non è invecchiato è la costruzione delle frasi.
+I passi riportati sono di opere uscite prima del 1930 e ormai libere ovunque, e vengono da Wikisource e da Liber Liber. Di Pavese e di Gramsci, che sono liberi in Italia ma non ancora dappertutto, c'è solo la descrizione. La grafia è ammodernata dove quella originale distrarrebbe (accenti, apostrofi). Gli autori scrivevano tra il 1883 e il 1950, quindi alcune forme sono invecchiate e non vanno riprese: «ch'io», «de' miei», «donde», «giovine», «bastevole», l'uso largo del passato remoto. Quello che non è invecchiato è la costruzione delle frasi.
 
 ## Indice
 
@@ -14,8 +14,11 @@ I passi riportati sono di opere uscite prima del 1930 e ormai libere ovunque, e 
 6. Gramsci: scrivere a una persona
 7. Serao: indignarsi con i fatti
 8. Vamba: una voce che fa ridere
-9. I giornali di oggi
-10. Che cosa hanno in comune
+9. Gobetti: il ritratto di una persona
+10. Croce: spiegare un'idea, e fin dove può arrivare un periodo
+11. Panzini: il diario di chi divaga
+12. I giornali di oggi
+13. Che cosa hanno in comune
 
 ## 1. Pavese: il parlato che diventa pagina
 
@@ -117,7 +120,47 @@ La comicità viene dalla sintassi. Il bambino aggiunge una cosa dopo l'altra con
 
 Da tenere quando serve una voce, in un dialogo, in un post o in un testo pubblicitario: una voce si riconosce da come attacca le frasi tra loro prima che dalle parole che sceglie.
 
-## 9. I giornali di oggi
+## 9. Gobetti: il ritratto di una persona
+
+*Matteotti* (1924), scritto poche settimane dopo l'assassinio del deputato socialista, quando Gobetti aveva ventitré anni.
+
+> Matteotti non fu mai popolare. Tra i compagni era tenuto in sospetto per la ricchezza: gli avversari lo odiavano come si odia un transfuga.
+
+> Esemplificava nei particolari, proponeva modelli di statuti, di regolamento, parlando coi contadini come uno dei loro. Trattandosi di fondare una cooperativa pensava a tutto, consigliava, disponeva, dava l'esempio, dai modi di servire al banco alla contabilità dei registri. […] Nella Lotta di Rovigo, diretta da Parini e da Zanella si possono scorgere le sue preferenze di scrittore: articoli brevi, facili, semplici. Un'idea sola, con dati precisi, con numeri evidenti, preferibilmente senza polemiche, senza scandali.
+
+Il ritratto comincia con una data e con un comizio contro la guerra, a Rovigo, il 2 maggio 1915, e per tutta la sua lunghezza ogni giudizio sul carattere arriva insieme a un fatto che lo regge: il processo per disfattismo in cui Matteotti si difese da solo, il padre venuto dal Trentino che investiva i guadagni in terreni, la matita che teneva appesa con una catenella all'occhiello della giacca, le porte di una sala fatte sprangare perché la discussione finisse prima che i presenti andassero a banchetto. Gobetti scrive per ammirazione e dice lo stesso le cose scomode, cioè che Matteotti non era popolare, che i compagni diffidavano della sua ricchezza, che aveva una voce «urtante, irritante». L'ammirazione risulta credibile proprio per questo.
+
+Le frasi hanno in media ventitré parole e quelle sotto le sei parole sono una su venti. Quando una frase breve c'è, sta in testa al capoverso e ne annuncia il tema («Matteotti non fu mai popolare»), e il resto del capoverso la spiega.
+
+Da tenere per un profilo, una biografia, una pagina «chi siamo», un discorso di saluto: cominciare da un episodio che ha una data, mostrare il carattere in quello che la persona faceva, e non togliere i difetti.
+
+## 10. Croce: spiegare un'idea, e fin dove può arrivare un periodo
+
+*Breviario di estetica* (1913), l'attacco della prima lezione.
+
+> Alla domanda: — Che cosa è l'arte? — si potrebbe rispondere celiando (ma non sarebbe una celia sciocca): che l'arte è ciò che tutti sanno che cosa sia. E, veramente, se in qualche modo non si sapesse che cosa essa è, non si potrebbe neppure muovere quella domanda, perché ogni domanda importa una certa notizia della cosa di cui si domanda, designata nella domanda, e perciò qualificata e conosciuta.
+
+Croce deve spiegare un concetto astratto a un pubblico che non è di filosofi, e comincia dalla risposta che darebbe chiunque. La tratta con rispetto («non sarebbe una celia sciocca»), mostra che cosa ha di vero, e solo dopo dice perché non basta. È una mossa che serve ogni volta che si spiega una cosa difficile: partire da quello che il lettore sa già e dargli ragione fin dove ce l'ha.
+
+Il libro è anche il limite superiore di tutta la tabella di `periodo.md`. Le frasi hanno in media sessanta parole, quasi nove su dieci superano le trenta e più di quattro su dieci le sessanta. Si riesce a seguirle perché ogni periodo comincia con una parola che dice il rapporto con quello prima («E, veramente», «Il che», «Ma», «Ecco, dunque»), e più di un quarto delle frasi comincia con «E» o con «Ma». Oggi però nessuno scrive così, nemmeno nelle riviste di saggi, che si fermano a trentuno parole.
+
+Da tenere: la mossa di partenza e i connettivi in testa al periodo. Da lasciare: la misura. Un testo di oggi che supera le quaranta parole di media chiede al lettore una fatica che non è più abituato a fare.
+
+## 11. Panzini: il diario di chi divaga
+
+*La lanterna di Diogene* (1907), il racconto di un viaggio in bicicletta da Milano alla riviera romagnola.
+
+> Ora, quel giorno della partenza, il cielo era senza nubi, e per far piacere alla città che mi ospita da tanti anni, dirò che era anche azzurro: certo ne pioveva un'afa così ardente e greve, che in ogni altra città d'Italia gli uomini si sarebbero addormentati; e anche le motrici e le macchine si sarebbero fermate.
+
+> — Ma lei è un routier di prima categoria, — mi disse il giovane commesso, — e per un uomo di quarant'anni non è cosa comune.
+>
+> — Trentanove, signore! — corressi (oh, vanità!)
+
+Il libro comincia con un giorno, un'ora e un posto («L'undici di luglio, alle ore due del pomeriggio», al dazio di Porta Romana), e da lì in poi divaga quanto vuole, perché il lettore sa sempre dove si trova il ciclista. Chi scrive prende in giro prima di tutto sé stesso: concede a Milano un cielo azzurro «per far piacere» alla città, si toglie un anno davanti a un ragazzo e subito lo confessa tra parentesi. La parentesi è lo strumento di questa voce, ed è il posto dove l'autore commenta quello che ha appena scritto, come si fa a voce abbassando il tono.
+
+Da tenere per una newsletter personale, un post, un resoconto di viaggio: i dati concreti all'inizio, che tengono fermo il lettore mentre il testo si muove, e un «io» che si osserva con ironia anziché presentarsi bene.
+
+## 12. I giornali di oggi
 
 I testi d'autore insegnano il passo, ma la lingua di riferimento per chi scrive oggi è quella dei giornali e delle riviste fatti con cura. Qui sotto ci sono quattro attacchi scritti apposta sul modello di quelli letti, con fatti inventati.
 
@@ -147,9 +190,9 @@ Una data, una persona, un oggetto preciso, e subito la ragione per cui importa.
 
 Dagli articoli letti vengono anche alcune abitudini che valgono in generale. Le parole straniere o tecniche sono spiegate alla prima occorrenza con una parentesi o un inciso di poche parole. Le citazioni sono attribuite con nome, cognome e qualifica. I numeri arrivano insieme a quello che serve per pesarli («più di due miliardi», «in poco meno di cinque ore»). E le riserve sono dette apertamente, nella stessa frase dell'affermazione, con formule come «non sono vere previsioni, ma servono a mostrare che…».
 
-## 10. Che cosa hanno in comune
+## 13. Che cosa hanno in comune
 
-Messi in fila, un romanziere piemontese, uno triestino, un siciliano, un toscano dell'Ottocento, un romagnolo che scrive di cucina, un sardo in carcere, una giornalista napoletana e una redazione milanese di oggi non si somigliano quasi in niente. Hanno però alcune cose che nei testi generati mancano, sia in quelli gonfi sia in quelli asciutti.
+Messi in fila, un romanziere piemontese, uno triestino, un siciliano, un toscano dell'Ottocento, un romagnolo che scrive di cucina, un sardo in carcere, una giornalista napoletana, un saggista torinese di ventitré anni, un filosofo, un professore in bicicletta e una redazione milanese di oggi non si somigliano quasi in niente. Hanno però alcune cose che nei testi generati mancano, sia in quelli gonfi sia in quelli asciutti.
 
 In ognuno si sente chi parla, perché chi scrive dice «io» o «noi», dà del voi o del tu, esprime un parere e lo chiama parere. Le frasi hanno lunghezze molto diverse, e quelle lunghe sono la norma mentre quelle brevi sono l'eccezione che segnala qualcosa. I legami tra le frasi sono affidati a parole comuni («ma», «perché», «così», «però», «anzi», «magari») e non a formule. Chi scrive sa quanto è sicuro di quello che dice e lo fa capire. E nessuno ha paura di ripetere una parola quando è la parola giusta.
 

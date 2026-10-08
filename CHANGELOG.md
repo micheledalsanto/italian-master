@@ -8,10 +8,12 @@ Le modifiche rilevanti di questa skill, versione per versione. Il formato segue 
 
 - **`tono-accogliente.md`**: come accompagnare lettori non esperti. Parte dal confronto tra dodici siti italiani di guide, divulgazione e servizi e un sito di divulgazione generato, che dà del tu una volta ogni mille parole contro le sette-diciannove dei primi. Copre l'attacco dalla situazione del lettore, la voce di chi spiega, le domande anticipate, i paragoni con le cose di casa, il termine tecnico dopo la spiegazione, i titoli che si direbbero a voce e gli eccessi da evitare.
 - In `descrivere-e-raccontare.md`, i titoli calcati dall'inglese.
+- **Dieci libri di saggistica letti su Liber Liber** (Gobetti, Croce, Panzini, Mantegazza, Savinio, Brancati, circa 425.000 parole), che portano il campione a circa novecentomila parole. In `modelli.md` ci sono tre pagine nuove: il ritratto di una persona (Gobetti), la spiegazione di un'idea (Croce), il diario di chi divaga (Panzini). In `periodo.md` e in `connettivi.md` ci sono le misure della prosa saggistica.
 
 ### Modificato
 
 - **«AI slop» al posto di «sbobba artificiale».** La skill usa ora il termine originale in tutti i file. Di conseguenza `sbobba.md` è diventato `ai-slop.md` e `sbobba-asciutta.md` è diventato `slop-asciutto.md`: chi aveva un link ai vecchi nomi deve aggiornarlo.
+- **Due segnali ridimensionati.** «Soltanto» e il numero basso di «che» non bastano da soli: Gobetti usa il primo quasi quanto i testi generati e ha pochi «che» in frasi di trenta parole. `connettivi.md` e `impronte.md` ora lo dicono.
 
 ## [1.1.0] - 2026-10-07
 

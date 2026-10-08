@@ -69,6 +69,8 @@ Lo stesso vale, in misura minore, per «deve» e «bisogna», che nel testo gene
 
 «Che» compare 22-26 volte ogni mille parole nei giornali e 14 nel sito generato, e «cui» due o tre volte di più. È la traccia sintattica delle frasi corte: meno relative, meno oggettive, meno subordinate in genere. Vedi `periodo.md`, dove le relative sono il primo strumento per costruire un periodo.
 
+Il conteggio da solo però non basta. Gobetti, nei due libri letti, ha diciassette «che» ogni mille parole, poco più del sito generato, e le sue frasi sono lunghe trenta parole: costruisce il periodo con i participi, le apposizioni e i complementi, più che con le relative. Un numero basso di «che» è un indizio quando si accompagna a frasi corte e a poche virgole, e non lo è in una prosa densa.
+
 Anche il gerundio è tre volte più raro nel testo generato (1,3 contro 3,7-4,0), e gli avverbi in -mente quasi la metà. La prima versione di questa skill metteva in guardia da entrambi, e il risultato era un testo che ne aveva ancora meno.
 
 ## 6. Nessuno che parla, nessuno che viene citato

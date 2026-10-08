@@ -37,7 +37,7 @@ C'è anche un secondo modo di sbagliare, che la skill tratta a parte: la prosa �
 | [`references/descrivere-e-raccontare.md`](skills/italian-master/references/descrivere-e-raccontare.md) | Descrivere un progetto, raccontare un percorso, scrivere da appunti: tempi verbali, grado di precisione, gergo di mestiere, accostamenti di parole |
 | [`references/tono-accogliente.md`](skills/italian-master/references/tono-accogliente.md) | Come accompagnare lettori non esperti: da dove cominciare, il tu, le domande, i paragoni, i titoli |
 | [`references/slop-asciutto.md`](skills/italian-master/references/slop-asciutto.md) | Lo stile a frasette che nasce quando si evita l'AI slop |
-| [`references/modelli.md`](skills/italian-master/references/modelli.md) | Pagine di Svevo, Pirandello, Collodi, Artusi, Serao e Vamba annotate, e modelli di attacco |
+| [`references/modelli.md`](skills/italian-master/references/modelli.md) | Pagine di Svevo, Pirandello, Collodi, Artusi, Serao, Vamba, Gobetti, Croce e Panzini annotate, e modelli di attacco |
 | [`references/connettivi.md`](skills/italian-master/references/connettivi.md) | I connettivi e le parole che misurano, con le frequenze nei giornali e nei testi generati |
 | [`references/attacchi-e-chiusure.md`](skills/italian-master/references/attacchi-e-chiusure.md) | Come cominciano e come finiscono gli articoli veri, con esempi costruiti |
 | [`references/impronte.md`](skills/italian-master/references/impronte.md) | I segni grammaticali che restano dopo aver tolto le formule, e i falsi allarmi |
@@ -156,7 +156,7 @@ Non è un rilevatore di testi generati e non pretende di esserlo. Segnala abitud
 
 ## Da dove vengono le regole
 
-Dall'Accademia della Crusca e da Treccani per la norma, e dalla tradizione della scrittura chiara per lo stile (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). Le misure vengono da circa mezzo milione di parole lette e contate: articoli di otto testate italiane online, dieci siti di aziende ed enti, lettere e opere d'autore di pubblico dominio. L'elenco completo è in [`fonti.md`](skills/italian-master/references/fonti.md).
+Dall'Accademia della Crusca e da Treccani per la norma, e dalla tradizione della scrittura chiara per lo stile (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). Le misure vengono da circa novecentomila parole lette e contate: articoli di otto testate italiane online, dieci siti di aziende ed enti, lettere, saggi e opere d'autore di pubblico dominio. L'elenco completo è in [`fonti.md`](skills/italian-master/references/fonti.md).
 
 La skill non contiene testi altrui. Giornali e siti non sono nominati e nessuna loro frase è riportata: gli esempi sono scritti apposta, con fatti inventati. Le sole citazioni testuali sono brevi passi di opere uscite prima del 1930.
 
