@@ -143,7 +143,7 @@ Se il gioco non viene in dieci minuti, non viene: fai un titolo informativo.
 - **Niente tutto maiuscolo**, niente «!!!», niente «GRATIS», niente «RE:» finti. Oltre a sembrare spam, finiscono nello spam.
 - **Emoji**: una al massimo, se il marchio le usa.
 - **Il nome del destinatario** nell'oggetto funziona una volta. Dalla seconda sembra un trucco.
-- **Le newsletter d'autore** italiane più lette hanno oggetti sobri, spesso una frase semplice o il tema del numero. La voce conta più della formula.
+- **Le newsletter d'autore** italiane hanno oggetti sobri: su 136 titoli letti la mediana è di cinque parole e 35 caratteri, nessuno ha il punto esclamativo e uno su sette è una domanda. Il sottotitolo c'è sempre e dice che cosa c'è dentro. Vedi `newsletter.md`.
 
 Per le email di lavoro uno a uno, l'oggetto è un'etichetta precisa: «Contratto Rossi: bozza da rivedere entro giovedì».
 

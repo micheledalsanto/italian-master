@@ -98,7 +98,9 @@ Non esiste «lo stile social»: esistono piattaforme e comunità.
 - **X, Threads, Bluesky.** Una frase, un'idea. L'ironia secca è la moneta.
 - **WhatsApp e Telegram per aziende.** Messaggi brevi, un solo contenuto, tono da persona a persona.
 
-Regole comuni: prima riga con dentro il succo. Emoji secondo l'uso di chi scrive, mai a inizio di ogni riga. Hashtag pochi e specifici, in fondo. Niente «Link in bio 👆🔥» se non è nello stile dell'account. Guarda sempre due o tre post precedenti dell'utente prima di scrivere il quarto.
+**I canali di enti e aziende.** Tredici canali pubblici di messaggistica letti a ottobre 2026 (ministeri, comuni, forze dell'ordine, trasporti, un'università, un'associazione, un operatore telefonico, due testate) si dividono in due modi di scrivere. I due comuni e il quotidiano mandano testo piano, senza emoji, con il link in fondo. Sette canali mettono un'emoji in quasi ogni post, e in cinque su tredici almeno un terzo dei post ha tre o più righe che cominciano con un'emoji. Qui l'emoji a inizio riga è un uso del genere e non un segnale di testo generato: prima di scrivere si guarda che cosa fa il canale, e lo si segue. La lunghezza mediana dei post va da 10 a 160 parole secondo il canale, gli hashtag sono meno di uno a post in dodici canali su tredici, e nei canali che danno del tu lo fanno in un post su cinque.
+
+Regole comuni: prima riga con dentro il succo. Emoji secondo l'uso di chi scrive e del canale. Hashtag pochi e specifici, in fondo. Niente «Link in bio 👆🔥» se non è nello stile dell'account. Guarda sempre due o tre post precedenti dell'utente prima di scrivere il quarto.
 
 ## 5. Siti, landing page, testi commerciali
 

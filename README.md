@@ -71,6 +71,7 @@ Il primo testo dà del tu e del lei nella stessa frase e non dice le date. Il se
 | [`references/punteggiatura-tipografia.md`](skills/italian-master/references/punteggiatura-tipografia.md) | Virgole, virgolette, lineette, maiuscole, numeri, date |
 | [`references/siti.md`](skills/italian-master/references/siti.md) | Come scrivono dieci siti italiani di settori diversi, senza nomi: che cosa funziona e che cosa no |
 | [`references/microcopy.md`](skills/italian-master/references/microcopy.md) | I testi delle interfacce: misure su quindicimila stringhe di otto applicazioni, formule per errori, conferme e stati vuoti, lessico, calchi |
+| [`references/newsletter.md`](skills/italian-master/references/newsletter.md) | Come sono fatte tredici newsletter italiane: titolo e sottotitolo, aperture, persona, chiusure, e che cosa cambia per la newsletter di un'attività |
 | [`references/agenzie-digitali.md`](skills/italian-master/references/agenzie-digitali.md) | Come scrivono dodici agenzie digitali e di marketing: presentazioni, casi studio, blog, inglese del mestiere |
 | [`references/narrativa-fantastica.md`](skills/italian-master/references/narrativa-fantastica.md) | Fantasy, fiaba e fantastico quotidiano: misure su ventisei racconti e quattro raccolte di fiabe, attacchi, dialoghi, stampi da evitare |
 | [`references/scrivere-per-bambini.md`](skills/italian-master/references/scrivere-per-bambini.md) | Come si scrive per chi ha tra i sei e gli undici anni: frasi, parole, modo di spiegare, indice di leggibilità |
@@ -213,7 +214,7 @@ Non è un rilevatore di testi generati e non pretende di esserlo. Segnala abitud
 
 ## Da dove vengono le regole
 
-Dall'Accademia della Crusca e da Treccani per la norma, e dalla tradizione della scrittura chiara per lo stile (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). Le misure vengono da circa un milione e mezzo di parole lette e contate: articoli di otto testate italiane online, dieci siti di aziende ed enti, dodici siti di agenzie digitali, racconti fantastici, lettere, saggi, fiabe e opere d'autore di pubblico dominio. L'elenco completo è in [`fonti.md`](skills/italian-master/references/fonti.md).
+Dall'Accademia della Crusca e da Treccani per la norma, e dalla tradizione della scrittura chiara per lo stile (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). Le misure vengono da quasi due milioni di parole lette e contate: articoli di otto testate italiane online, dieci siti di aziende ed enti, dodici siti di agenzie digitali, tredici newsletter, le stringhe di otto applicazioni, racconti fantastici, lettere, saggi, fiabe e opere d'autore di pubblico dominio. L'elenco completo è in [`fonti.md`](skills/italian-master/references/fonti.md).
 
 La skill non contiene testi altrui. Giornali e siti non sono nominati e nessuna loro frase è riportata: gli esempi sono scritti apposta, con fatti inventati. Le sole citazioni testuali sono brevi passi di opere uscite prima del 1930.
 
@@ -230,7 +231,7 @@ Segnalazioni, correzioni e nuovi esempi sono benvenuti. Vedi [`CONTRIBUTING.md`]
 
 ## Versioni
 
-La versione corrente è la 1.4.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
+La versione corrente è la 1.5.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
 
 ## Licenza
 

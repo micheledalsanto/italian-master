@@ -313,13 +313,14 @@
       "id": 11,
       "name": "configurazione-del-progetto",
       "prompt": "Scrivi il pezzo di apertura della newsletter di ottobre. Da domenica 18 ottobre apriamo anche la domenica mattina, dalle 9 alle 13. E da giovedì 22 parte il corso serale di panificazione: quattro lezioni, 120 euro, otto posti.",
-      "expected_output": "La skill trova e applica .claude/italian-master.md: dà del voi ai lettori, li chiama soci e mai clienti, chi scrive dice noi, tono cordiale senza formule cerimoniose. Tutti i dati della richiesta, nessuno inventato. Non dichiara di avere assunto un tono, perché la configurazione c'è.",
+      "expected_output": "La skill trova e applica .claude/italian-master.md: dà del voi ai lettori, li chiama soci e mai clienti, chi scrive dice noi, tono cordiale senza formule cerimoniose. Tutti i dati della richiesta, nessuno inventato. Non dichiara di avere assunto un tono, perché la configurazione c'è. La prima frase è la notizia, una notizia per capoverso, nessun dettaglio di colore che la richiesta non contiene.",
       "files": {
         ".claude/italian-master.md": "# Italian master: configurazione\n\n## Pubblico\n\n- **Chi legge:** i soci di un forno cooperativo di quartiere, a Torino\n- **Quanto ne sa:** non esperti\n\n## Tono\n\n- **Tono:** cordiale\n\n## Persona\n\n- **Al lettore do del:** voi\n- **Chi scrive dice:** noi\n\n## Lingua\n\n- **Termini inglesi:** il meno possibile, e spiegati\n- **Parole da usare:** soci, forno\n- **Parole da evitare:** clienti, negozio, workshop\n"
       },
       "controlli": {
         "deve_leggere": [
-          ".claude/italian-master.md"
+          ".claude/italian-master.md",
+          "references/newsletter.md"
         ],
         "deve": [
           "domenica 18",
@@ -335,7 +336,10 @@
           "\\bnegozio\\b",
           "\\b(ti|tuo|tua|tuoi) ",
           "\\b(iscriviti|vieni|scopri)\\b",
-          "\\bworkshop\\b(?! \\(|»|\\\")"
+          "\\bworkshop\\b(?! \\(|»|\\\")",
+          "^[^\\w\\n]*Ecco\\b",
+          "!",
+          "\\b(mani|profumo|fragranz\\w+)\\b"
         ]
       }
     },

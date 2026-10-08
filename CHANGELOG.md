@@ -2,6 +2,23 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.5.0] - 2026-10-08
+
+### Aggiunto
+
+- **`newsletter.md`**: come sono fatte tredici newsletter italiane d'autore e di redazione (136 numeri, circa trecentomila parole). Copre il titolo e il sottotitolo, i quattro modi di cominciare un numero, la persona, il corpo con le rubriche fisse, il blocco di chiusura, e una sezione su come le stesse forme si applicano alla newsletter di un negozio o di uno studio, con i difetti dei numeri generati.
+- In `registri.md`, una nota sui **canali di enti e aziende**, da tredici canali pubblici di messaggistica: metà scrive testo piano, metà mette un'emoji in quasi ogni post.
+
+### Modificato
+
+- **L'emoji a inizio riga non è più indicata come sempre sbagliata**: in cinque canali su tredici è l'uso normale. Si guarda che cosa fa il canale.
+- In `titoli.md`, la frase sugli oggetti delle newsletter d'autore ha ora le misure.
+
+### Limiti noti
+
+- Le newsletter di negozi, studi e piccole aziende non hanno archivi pubblici da leggere in serie: la sezione che le riguarda applica le forme osservate nelle altre.
+- I post di LinkedIn e di Instagram richiedono l'accesso e non sono stati letti. Le indicazioni su quelle piattaforme restano quelle di prima, non misurate.
+
 ## [1.4.0] - 2026-10-08
 
 ### Aggiunto
