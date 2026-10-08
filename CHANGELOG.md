@@ -2,7 +2,7 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
-## [Non ancora pubblicato]
+## [1.2.0] - 2026-10-08
 
 ### Aggiunto
 
@@ -14,12 +14,14 @@ Le modifiche rilevanti di questa skill, versione per versione. Il formato segue 
 - **`narrativa-fantastica.md`**: fantasy, fiaba e fantastico quotidiano. Parte da ventisei racconti italiani contemporanei e da quattro raccolte di fiabe e novelle (Capuana, Perodi, Boito), e copre le misure del racconto, gli attacchi, il mondo mostrato dalle cose, i nomi, il dialogo, i tempi, con quattro attacchi di esempio e gli stampi da evitare.
 - **`scrivere-per-bambini.md`**: come si scrive per chi ha tra i sei e gli undici anni. Le regole sul periodo si rovesciano (una frase, un'idea), e il file dà le misure ricavate da tre lezioni per un bambino di otto anni, le indicazioni su parole, spiegazioni e voce, lo stesso capoverso scritto per due età e un esempio intero. «Bambini» entra tra i pubblici della configurazione.
 - In `controlla.py`, l'indice di leggibilità Gulpease.
+- **`corrispondenza-formale.md`**: avvisi, lettere e comunicazioni a clienti, fornitori, pazienti e utenti. Distingue il formale sobrio da quello gonfio e da quello tolto, descrive la struttura di una comunicazione, dà le formule per funzione e sette lettere modello (chiusura, cambio di sede, listino, sollecito, reclamo, nuovi orari, fattura per email).
+- In `controlla.py`, l'opzione `--bambini`.
 - **`agenzie-digitali.md`**: come scrivono dodici agenzie digitali e di marketing italiane, estratte a caso e lette nelle pagine di presentazione, nei casi studio e nel blog (circa 78.000 parole). Copre la fila di frasi in «-iamo», le parole che promettono concretezza, i difetti dei casi studio, i due tipi di articolo dei blog, i titoli e l'inglese del mestiere, con un esempio di riscrittura.
 
 ### Modificato
 
 - **Il registro formale non è più trattato come un difetto.** Nelle comunicazioni a clienti, fornitori e utenti le formule di cortesia e forme come «al fine di» sono indicate come normali, e il difetto da evitare è gonfiarle. Cambiano `registri.md`, `sintassi-stile.md`, `ai-slop.md` e il suggerimento dello script.
-- **Nuovo esempio nel README**: una mail di chiusura estiva in tre versioni al posto della presentazione del bar.
+- **Nuovo esempio di riscrittura**: una mail di chiusura estiva al posto della presentazione del bar, nel README, in `ai-slop.md` e in `slop-asciutto.md`.
 - **«AI slop» al posto di «sbobba artificiale».** La skill usa ora il termine originale in tutti i file. Di conseguenza `sbobba.md` è diventato `ai-slop.md` e `sbobba-asciutta.md` è diventato `slop-asciutto.md`: chi aveva un link ai vecchi nomi deve aggiornarlo.
 - **Due segnali ridimensionati.** «Soltanto» e il numero basso di «che» non bastano da soli: Gobetti usa il primo quasi quanto i testi generati e ha pochi «che» in frasi di trenta parole. `connettivi.md` e `impronte.md` ora lo dicono.
 

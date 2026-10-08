@@ -126,7 +126,7 @@ Una lezione per un bambino di otto anni, sul perché un'intelligenza artificiale
 
 - Chiedi l'età, o deducila: tra sei e undici anni due anni di differenza cambiano il testo.
 - Scrivi un'idea per frase, e conta le parole delle frasi più lunghe.
-- Passa il testo a `controlla.py` e guarda l'indice Gulpease: per le elementari deve stare sopra 80. Gli avvisi sulle frasi corte e sui pochi connettivi, in un testo per bambini, non contano.
+- Passa il testo a `controlla.py` con l'opzione `--bambini`, che toglie gli avvisi sulle frasi corte e sui pochi connettivi e controlla che l'indice Gulpease stia sopra 80.
 - Cerca le parole che un bambino non direbbe e sostituiscile, oppure spiegale e poi ripetile.
 - Controlla che ogni semplificazione sia ancora vera.
 - Leggilo ad alta voce, piano, come lo leggerebbe un bambino.

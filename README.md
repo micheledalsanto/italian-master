@@ -73,6 +73,7 @@ Il primo testo dà del tu e del lei nella stessa frase e non dice le date. Il se
 | [`references/agenzie-digitali.md`](skills/italian-master/references/agenzie-digitali.md) | Come scrivono dodici agenzie digitali e di marketing: presentazioni, casi studio, blog, inglese del mestiere |
 | [`references/narrativa-fantastica.md`](skills/italian-master/references/narrativa-fantastica.md) | Fantasy, fiaba e fantastico quotidiano: misure su ventisei racconti e quattro raccolte di fiabe, attacchi, dialoghi, stampi da evitare |
 | [`references/scrivere-per-bambini.md`](skills/italian-master/references/scrivere-per-bambini.md) | Come si scrive per chi ha tra i sei e gli undici anni: frasi, parole, modo di spiegare, indice di leggibilità |
+| [`references/corrispondenza-formale.md`](skills/italian-master/references/corrispondenza-formale.md) | Avvisi, lettere e comunicazioni a clienti e fornitori: struttura, formule per funzione, sette lettere modello |
 | [`references/registri.md`](skills/italian-master/references/registri.md) | Tu, lei, voi; email, social, siti, pubblica amministrazione, narrativa |
 | [`references/titoli.md`](skills/italian-master/references/titoli.md) | Titoli giornalistici e web, oggetti di email, attacchi, il titolese da evitare |
 | [`references/modi-di-dire.md`](skills/italian-master/references/modi-di-dire.md) | Modi di dire, proverbi, espressioni del parlato, equivalenti degli idiomi inglesi |
@@ -205,7 +206,7 @@ Tipografia (2)
 4 segnalazioni (65 ogni mille parole). Sono indizi: decide chi scrive.
 ```
 
-Opzioni: `--json` per l'uscita strutturata, `--strict` per uscire con codice 1 se ci sono segnalazioni (utile in una pipeline).
+Opzioni: `--json` per l'uscita strutturata, `--strict` per uscire con codice 1 se ci sono segnalazioni (utile in una pipeline), `--bambini` per i testi destinati ai bambini, dove le frasi corte sono giuste e si controlla la leggibilità.
 
 Non è un rilevatore di testi generati e non pretende di esserlo. Segnala abitudini di scrittura deboli, chiunque le abbia.
 
@@ -228,7 +229,7 @@ Segnalazioni, correzioni e nuovi esempi sono benvenuti. Vedi [`CONTRIBUTING.md`]
 
 ## Versioni
 
-La versione corrente è la 1.1.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
+La versione corrente è la 1.2.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
 
 ## Licenza
 

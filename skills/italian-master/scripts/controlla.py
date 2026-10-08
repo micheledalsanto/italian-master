@@ -280,7 +280,7 @@ def conta_parole(t):
     return len(re.findall(r"[A-Za-zÀ-ÿ]+(?:['’][A-Za-zÀ-ÿ]+)?", t))
 
 
-def statistiche(testo_pulito, grassetti, prosa):
+def statistiche(testo_pulito, grassetti, prosa, bambini=False):
     """Conteggi sul testo intero e misure del passo sulla sola prosa (senza titoli, elenchi, tabelle)."""
     trovati = []
     n_parole = conta_parole(testo_pulito)
@@ -392,10 +392,22 @@ def statistiche(testo_pulito, grassetti, prosa):
     if imperativi >= 5 and ogni_mille(imperativi) > 6:
         trovati.append({"riga": 0, "testo": f"{imperativi} imperativi secchi",
                         "nota": "il tono da istruttore va bene in una guida, non in un testo da leggere"})
+    if bambini:
+        # In un testo per bambini le frasi corte e i pochi connettivi sono la misura giusta: conta la leggibilità.
+        da_togliere = ("frasi corte in fila", "frasi fino a 6 parole", "arriva a 30 parole", "virgole per frase",
+                       "«che» ogni mille", "parola che lega o misura", "finiscono con una frase breve", "lunghezza molto uniforme",
+                       "due punti ogni mille", "punti esclamativi")
+        trovati = [t for t in trovati if not any(d in t["testo"] for d in da_togliere)]
+        if dati.get("gulpease", 100) < 80:
+            trovati.append({"riga": 0, "testo": f"indice Gulpease {dati['gulpease']}: per le elementari serve almeno 80",
+                            "nota": "accorcia le frasi e cambia le parole lunghe (references/scrivere-per-bambini.md)"})
+        if dati.get("parole_per_frase", 0) > 12:
+            trovati.append({"riga": 0, "testo": f"{dati['parole_per_frase']} parole per frase in media",
+                            "nota": "per un bambino di otto anni la media è di 6-7 parole: un'idea per frase"})
     return trovati, dati
 
 
-def analizza(testo):
+def analizza(testo, bambini=False):
     grezze = list(righe_utili(testo))
     pulite = [(n, senza_markup(r)) for n, r in grezze]
     testo_pulito = "\n".join(re.sub(r"^\s*(#{1,6}|[-*•>]|\d+[.)])\s+", "", r).replace("**", "").replace("*", "")
@@ -414,7 +426,7 @@ def analizza(testo):
             prosa.append("")
         else:
             prosa.append(re.sub(r"^\s*>\s?", "", r).replace("**", "").replace("*", ""))
-    di_ritmo, dati = statistiche(testo_pulito, grassetti, "\n".join(prosa))
+    di_ritmo, dati = statistiche(testo_pulito, grassetti, "\n".join(prosa), bambini)
     esito["Forma e ritmo"] = di_forma + di_ritmo
     esito = {k: v for k, v in esito.items() if v}
     return esito, dati
@@ -459,6 +471,7 @@ def main():
     parser.add_argument("file", nargs="*", help="file di testo o markdown; senza argomenti legge da stdin")
     parser.add_argument("--json", action="store_true", help="stampa il risultato in JSON")
     parser.add_argument("--strict", action="store_true", help="esce con codice 1 se ci sono segnalazioni")
+    parser.add_argument("--bambini", action="store_true", help="il testo è per bambini: frasi corte ammesse, si controlla la leggibilità")
     args = parser.parse_args()
 
     ingressi = []
@@ -483,7 +496,7 @@ def main():
     risultati = {}
     totale = 0
     for nome, testo in ingressi:
-        esito, dati = analizza(testo)
+        esito, dati = analizza(testo, args.bambini)
         risultati[nome] = {"statistiche": dati, "segnalazioni": esito}
         totale += sum(len(v) for v in esito.values())
         if not args.json:

@@ -90,6 +90,8 @@ Nessuna di queste liste è un elenco di divieti, perché ognuna di queste forme 
 
 **Scrivere da zero, descrivere, raccontare.** Prima di scrivere si elencano i fatti disponibili e quelli che mancano, e si decide qual è la cosa principale. Una descrizione dice nella prima frase che cos'è la cosa, e un racconto tiene lo stesso tempo verbale finché non arriva a oggi. Vedi `references/descrivere-e-raccontare.md`. Il testo si consegna senza premesse del tipo «Ecco il testo richiesto» e senza commenti in coda, salvo quando c'è da segnalare un dato mancante o una scelta che l'utente deve confermare.
 
+**Scrivere una comunicazione formale.** Un avviso ai clienti, un sollecito, la risposta a un reclamo vogliono il registro formale per intero, con le sue formule di cortesia, e in mezzo soltanto fatti: che cosa cambia, da quando, che cosa deve fare chi legge. Togliere le formule non rende il testo più naturale. Vedi `references/corrispondenza-formale.md`.
+
 **Scrivere narrativa.** Un racconto ha un passo diverso da un articolo: frasi di una quindicina di parole in media, dialoghi, passato remoto, poche similitudini. Per il fantasy, la fiaba e il fantastico quotidiano vedi `references/narrativa-fantastica.md`, che dice come cominciare, come far capire un mondo dalle cose e quali stampi evitare.
 
 **Scrivere per i bambini.** Per chi ha tra i sei e gli undici anni le regole sul periodo si rovesciano: una frase, un'idea, parole di tutti i giorni, molte domande. Le misure, l'indice di leggibilità e un esempio sono in `references/scrivere-per-bambini.md`.
@@ -149,6 +151,7 @@ Le sue segnalazioni sono indizi da valutare, e un testo che non ne riceve può e
 | `references/agenzie-digitali.md` | Per il sito, i casi studio o il blog di un'agenzia, di uno studio, di un consulente o di un'azienda di servizi digitali |
 | `references/narrativa-fantastica.md` | Per un racconto, una scena o un attacco di genere fantastico: fantasy, fiaba, fantastico di paese o urbano |
 | `references/scrivere-per-bambini.md` | Quando chi legge ha tra i sei e gli undici anni: lezioni, spiegazioni, storie da leggere da soli |
+| `references/corrispondenza-formale.md` | Per avvisi, lettere e comunicazioni a clienti, fornitori, pazienti, utenti: struttura, formule, sette modelli |
 | `references/registri.md` | Per scegliere il tono di email, post, comunicazioni pubbliche, messaggi a un cliente |
 | `references/titoli.md` | Per titoli, sottotitoli, oggetti di email, attacchi |
 | `references/modi-di-dire.md` | Per usare un proverbio o un'espressione idiomatica, o tradurne una |

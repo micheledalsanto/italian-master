@@ -15,7 +15,7 @@ Gli esempi di questo file vengono in buona parte dalla prima versione di questa 
 
 **Frasette in fila.** Soggetto, verbo, complemento, punto, per tutto il testo. La media sta intorno alle dodici parole per frase, quando un articolo di giornale ne ha in media ventisei, e quasi nessuna frase supera le trenta. Vedi le misure in `periodo.md`.
 
-> Il caffè è una miscela di una torrefazione di Trieste. C'è anche il salato. Siamo in via Roma 12.
+> Lo studio chiude l'11 agosto. Riapre il 25. Per le urgenze c'è Paola.
 
 **I due punti a effetto.** Usati per creare una piccola attesa prima della seconda metà della frase, anche dove basterebbe una virgola o un «perché». Nei giornali i due punti sono sette o otto ogni mille parole, nella prosa asciutta venticinque.
 
@@ -81,24 +81,36 @@ Un'avvertenza per evitare il difetto opposto. Uscire dalla prosa asciutta non vu
 
 ## 4. Un esempio
 
-Il compito era riscrivere la presentazione di un bar, a partire da un testo pieno di formule. Questi dati li aveva forniti il proprietario: i cornetti sono fatti in casa con il burro e sfornati alle 6:30, verso le dieci di solito sono finiti, il caffè viene da una torrefazione di Trieste, il bar è in via Roma 12 ed è aperto dalle 6 alle 19, chiuso il lunedì.
+Il compito era scrivere l'avviso con cui uno studio comunica ai clienti la chiusura estiva. Questi dati li aveva forniti lo studio: chiusura dall'11 al 24 agosto compresi, riapertura il 25, chi ha adempimenti in quel periodo deve farsi sentire entro il 31 luglio, per le urgenze risponde Paola al cellulare che sta in firma.
 
 Versione asciutta:
 
-> **I cornetti escono dal forno alle 6:30**
+> **Oggetto: Ad agosto chiudiamo. Ecco cosa cambia.**
 >
-> Li facciamo noi, ogni mattina, con il burro. Alle sei e mezza sono pronti e di solito alle dieci sono finiti: se ci tieni a quello alla crema, passa presto.
+> Chiudiamo. Due settimane. Dall'11 al 24 agosto.
 >
-> Il caffè è una miscela di una torrefazione di Trieste. C'è anche il salato, per chi la mattina il dolce non lo regge: toast, focaccia, uova.
+> Hai una scadenza in quei giorni? Scrivici entro il 31 luglio: ci pensiamo noi.
 >
-> Siamo in via Roma 12, aperti dalle 6 alle 19, chiusi il lunedì.
+> Niente panico: per le urgenze c'è Paola. Il resto può aspettare. Il 25 siamo di nuovo qui.
 
-Versione scritta come la scriverebbe il proprietario:
+Versione scritta come la scriverebbe lo studio:
 
-> **Il bar di via Roma**
+> **Oggetto: Chiusura estiva dello Studio dall'11 al 24 agosto**
 >
-> Siamo aperti dalle sei del mattino, e la prima cosa che facciamo è infornare i cornetti, che prepariamo noi con il burro e che verso le sei e mezza sono pronti. Di solito per le dieci non ne resta nessuno, quindi chi ci tiene a quello alla crema farebbe bene a non arrivare tardi. Per chi la mattina preferisce il salato ci sono toast, focaccia e uova, e il caffè è quello di una torrefazione di Trieste.
+> Gentili Clienti,
 >
-> Ci trovate al numero 12, tutti i giorni fino alle sette di sera tranne il lunedì.
+> desideriamo informarvi che lo Studio resterà **chiuso per la pausa estiva dall'11 al 24 agosto compresi**. Le attività riprenderanno regolarmente a partire dal **25 agosto**.
+>
+> Al fine di garantire una corretta gestione delle pratiche e il rispetto delle relative scadenze, invitiamo coloro che hanno adempimenti previsti durante il periodo di chiusura a **contattarci entro il 31 luglio**, così da consentirci di provvedere con il necessario anticipo.
+>
+> Per eventuali urgenze durante il periodo di chiusura, sarà possibile contattare Paola al numero di cellulare riportato in firma.
+>
+> Ringraziandovi per la collaborazione, cogliamo l'occasione per augurarvi una serena estate.
+>
+> **Cordiali saluti,**
+>
+> Lo Staff dello Studio
 
-La seconda versione contiene le stesse informazioni e nessuna in più, ma sembra detta da qualcuno. I fatti sono legati tra loro («e la prima cosa che facciamo», «quindi chi ci tiene»), c'è un voi rivolto ai clienti come lo userebbe un barista, e il titolo è il nome con cui il posto è conosciuto in paese. Non è un testo memorabile, e non deve esserlo: è la pagina di un bar.
+La seconda versione contiene le stesse informazioni e nessuna in più, ma è scritta nel registro che un cliente si aspetta da uno studio. I fatti sono legati tra loro («Al fine di garantire… invitiamo… così da consentirci»), i destinatari sono trattati con il voi e con le formule di cortesia del genere, e la scadenza arriva insieme alla sua ragione.
+
+La prima somiglia alla notifica di un'applicazione. Dà del tu a clienti che lo studio non conosce tutti di persona, trasforma l'avviso in uno slogan e liquida con una battuta («Niente panico») una cosa di cui un cliente con una scadenza potrebbe preoccuparsi davvero. Togliere le formule non ha reso il testo più naturale: lo ha portato fuori registro. Il genere è descritto in `corrispondenza-formale.md`.

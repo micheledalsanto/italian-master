@@ -181,22 +181,38 @@ Sono i segnali più difficili da vedere e i più rivelatori. I calchi di lessico
 
 ## 10. Un esempio completo
 
+Uno studio deve avvisare i clienti che ad agosto chiude due settimane.
+
 Prima:
 
-> **Scopri Il Segreto Di Una Colazione Perfetta**
+> **Oggetto: Aggiornamento Importante Sulla Nostra Chiusura Estiva**
 >
-> In un mondo sempre più frenetico, la colazione rappresenta molto più di un semplice pasto: è un vero e proprio rituale. Che tu sia un amante del dolce o del salato, il nostro bar offre un'ampia gamma di soluzioni pensate per soddisfare ogni esigenza.
+> Gentile Cliente,
 >
-> Non si tratta solo di caffè — si tratta di un'esperienza. I nostri cornetti sono freschi, fragranti e irresistibili, garantendo un momento di puro piacere e contribuendo a iniziare la giornata con il piede giusto.
+> speriamo che questa email ti trovi bene! In un periodo dell'anno in cui il riposo diventa fondamentale, desideriamo informarLa che il nostro team si prenderà una meritata pausa — per tornare più carico che mai. Non si tratta solo di una chiusura: è un'occasione per ricaricare le energie, rinnovarci e offrirti un servizio ancora migliore.
 >
-> In conclusione, vieni a trovarci e lasciati conquistare!
+> Che tu abbia una pratica urgente o una semplice domanda, il nostro studio resta al tuo fianco, garantendo continuità e contribuendo alla tua serenità.
+>
+> In conclusione, ti auguriamo un'estate indimenticabile!
 
 Dopo:
 
-> **Il bar di via Roma**
+> **Oggetto: Chiusura estiva dello Studio dall'11 al 24 agosto**
 >
-> Siamo aperti dalle sei del mattino, e la prima cosa che facciamo è infornare i cornetti, che prepariamo noi con il burro e che verso le sei e mezza sono pronti. Di solito per le dieci non ne resta nessuno, quindi chi ci tiene a quello alla crema farebbe bene a non arrivare tardi. Per chi la mattina preferisce il salato ci sono toast, focaccia e uova, e il caffè è quello di una torrefazione di Trieste.
+> Gentili Clienti,
 >
-> Ci trovate al numero 12, tutti i giorni fino alle sette di sera tranne il lunedì.
+> desideriamo informarvi che lo Studio resterà **chiuso per la pausa estiva dall'11 al 24 agosto compresi**. Le attività riprenderanno regolarmente a partire dal **25 agosto**.
+>
+> Al fine di garantire una corretta gestione delle pratiche e il rispetto delle relative scadenze, invitiamo coloro che hanno adempimenti previsti durante il periodo di chiusura a **contattarci entro il 31 luglio**, così da consentirci di provvedere con il necessario anticipo.
+>
+> Per eventuali urgenze durante il periodo di chiusura, sarà possibile contattare Paola al numero di cellulare riportato in firma.
+>
+> Ringraziandovi per la collaborazione, cogliamo l'occasione per augurarvi una serena estate.
+>
+> **Cordiali saluti,**
+>
+> Lo Staff dello Studio
 
-Nella riscrittura sono sparite l'apertura sul mondo frenetico, la triade di aggettivi, il falso contrasto e la coda di gerundi, e al loro posto ci sono le informazioni che un cliente cerca, dette con il voi di un barista e legate tra loro in tre periodi. Tutti i dati (gli orari, il burro, la torrefazione, l'indirizzo) vengono dal proprietario, perché un dettaglio inventato per dare colore è peggio della formula che sostituisce. In `slop-asciutto.md` c'è la versione sbagliata di questa stessa riscrittura, quella a frasette, messa a confronto con questa.
+Nella riscrittura sono spariti l'apertura sul periodo dell'anno, il tu mescolato al lei, il falso contrasto, la triade di verbi e la coda di gerundi, e al loro posto ci sono le tre cose che un cliente cerca: le date, la scadenza per le pratiche, il contatto per le urgenze. La prima versione non diceva nemmeno in quali giorni lo studio fosse chiuso.
+
+Il registro è rimasto formale, perché è uno studio che scrive ai suoi clienti, e le formule di cortesia ci sono. La differenza è che nella prima versione la cortesia occupava il posto dei fatti. Tutti i dati vengono dallo studio, perché un dettaglio inventato per dare concretezza è peggio della formula che sostituisce. In `slop-asciutto.md` c'è la versione sbagliata nell'altro senso, quella a frasette, e in `corrispondenza-formale.md` ci sono altri modelli dello stesso genere.

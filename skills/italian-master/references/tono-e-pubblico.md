@@ -41,7 +41,7 @@ La configurazione decide il tono e il pubblico. Le regole della lingua (grammati
 
 | Tono | Chi parla, e a chi | Com'è fatto | Da leggere |
 | --- | --- | --- | --- |
-| formale | Uno studio, un'azienda o un ente che scrive a clienti, fornitori, utenti. Lei o voi | Frasi complete, formule di cortesia in apertura e in chiusura, date e scadenze in evidenza, nessuna battuta | `registri.md` |
+| formale | Uno studio, un'azienda o un ente che scrive a clienti, fornitori, utenti. Lei o voi | Frasi complete, formule di cortesia in apertura e in chiusura, date e scadenze in evidenza, nessuna battuta | `corrispondenza-formale.md`, `registri.md` |
 | cordiale | Una persona che scrive a un'altra con cui lavora. Lei o tu secondo il rapporto | Diretto e breve, un saluto e un grazie, niente formule cerimoniose | `registri.md` |
 | accogliente | Chi spiega una cosa a chi non la conosce. Tu, e noi per chi scrive | Parte dalla situazione del lettore, spiega prima di nominare, anticipa le domande | `tono-accogliente.md` |
 | giornalistico | Una redazione che informa. Terza persona, o noi | La notizia in apertura, fatti con data e fonte, periodi di venti o trenta parole, nessun appello al lettore | `periodo.md`, `attacchi-e-chiusure.md`, `titoli.md` |
