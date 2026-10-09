@@ -46,6 +46,13 @@ import controlla  # noqa: E402
 LIMITE = re.compile(r"hit your (session|usage|weekly) limit|usage limit reached", re.IGNORECASE)
 limite_raggiunto = threading.Event()
 
+NEUTRA = """# Italian master: configurazione
+
+## Altre indicazioni
+
+- Questa cartella è una prova della skill. Non usare la configurazione personale che sta nella home: tono, pubblico e persona vanno dedotti dalla richiesta, come se nessuna configurazione esistesse.
+"""
+
 
 def esegui_caso(caso, cartella, modello, plugin=REPO):
     """Lancia una sessione nuova e restituisce (risposta, strumenti usati, costo)."""
@@ -55,6 +62,12 @@ def esegui_caso(caso, cartella, modello, plugin=REPO):
         destinazione = lavoro / percorso
         destinazione.parent.mkdir(parents=True, exist_ok=True)
         destinazione.write_text(contenuto, encoding="utf-8")
+    # Chi esegue le prove può avere una configurazione personale della skill nella propria home:
+    # una configurazione di progetto la esclude, così il risultato non dipende da chi lancia lo script.
+    neutra = lavoro / ".claude" / "italian-master.md"
+    if not neutra.exists():
+        neutra.parent.mkdir(parents=True, exist_ok=True)
+        neutra.write_text(NEUTRA, encoding="utf-8")
     comando = [shutil.which("claude") or "claude", "-p", "--plugin-dir", str(plugin), "--output-format", "stream-json",
                "--verbose", "--allowedTools", "Read,Glob,Grep,Skill,Write,Bash(python:*),Bash(python3:*)", "--model", modello]
     processo = subprocess.run(comando, input=caso["prompt"], capture_output=True, text=True, encoding="utf-8",
