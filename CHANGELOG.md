@@ -6,7 +6,7 @@ Le modifiche rilevanti di questa skill, versione per versione. Il formato segue 
 
 ### Aggiunto
 
-- `.claude-plugin/icon.png`, l'icona per la scheda nella directory dei plugin: le virgolette basse, verde e rossa su fondo chiaro.
+- L'icona per la scheda nella directory dei plugin, nella cartella del manifest: le virgolette basse, verde e rossa su fondo chiaro.
 
 ## [1.10.1] - 2026-10-09
 
