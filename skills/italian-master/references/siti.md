@@ -14,7 +14,8 @@ I siti non sono nominati e le frasi di esempio non sono citazioni. Sono scritte 
 4. Lo slop che c'era già
 5. Chi parla, e a chi
 6. Pagina per pagina
-7. In pratica
+7. Claim e hero section
+8. In pratica
 
 ## 1. I dieci siti
 
@@ -124,11 +125,53 @@ Una regola che esce dal confronto: il «noi» funziona quando è seguito da un v
 
 **Note legali e informative.** Hanno regole loro, e non si riscrivono senza un legale. Si può però mettere sopra due righe in italiano normale che dicano di che cosa si tratta.
 
-## 7. In pratica
+## 7. Claim e hero section
+
+Il titolo in cima a una home, con il suo sottotitolo e il pulsante, e il claim di una locandina o di un banner sono il punto in cui le regole di questo file si rovesciano. Le indicazioni che seguono non vengono dai dieci siti ma dai confronti alla cieca fatti dall'autore di questa skill su sedici testi, e dalle sue riscritture. In quei confronti i titoli costruiti con «i fatti al posto degli aggettivi» non hanno mai vinto.
+
+**Il titolo parla al cliente e dice che cosa trova.** «Sei persone, a Padova, dal 2017» è l'anagrafe dell'agenzia, e a chi arriva sulla pagina non dice perché dovrebbe restare. Il titolo nomina il servizio, come lo cercherebbe il cliente, e quello che il cliente ne ricava. Persone, città e anno vanno nel sottotitolo, a sostegno.
+
+**Nel titolo c'è il lettore.** «Per il tuo e-commerce», «al tuo fianco», «per la tua azienda». Il tu, o il voi se il sito dà del voi.
+
+**Le parole del genere qui sono ammesse.** «Il partner ideale», «al tuo fianco», «ti accompagniamo nel tuo percorso», «passione», «i segreti del buon pane» nel corpo di una pagina sono le frasi che ogni sito ha e che non distinguono nessuno (vedi la sezione 4). In un titolo o in un claim sono il registro che il lettore si aspetta, a una condizione: sotto ci deve essere una riga di fatti che le regga. Titolo caldo, sottotitolo concreto.
+
+**«Più di», non «circa».** «Seguiamo più di 150 partite IVA» promette, «circa 200» mette un limite. Il numero che si sceglie deve restare vero.
+
+**Non tutti i fatti forniti vanno nella hero.** Si mette quello che serve a far scegliere. «Da remoto» nel titolo di un designer suona forzato, perché al cliente non cambia niente.
+
+**Un claim deve avere una logica.** «Impasta il giovedì, porta a casa il pane» e «Il pane s'impara con le mani, non con le ricette» sono costruiti sul suono, e a rileggerli non dicono una cosa vera. Il claim secco funziona quando il vantaggio è reale e si capisce subito: «Cambia auto. Guadagna 500 euro.» Qui le frasi di tre parole, che in un articolo sono un difetto, sono la forma giusta.
+
+**Sotto il claim, prima l'invito e poi i dati.** Il testo accoglie («Ti aspettiamo nel nostro forno…»), dice che cosa si farà, e chiude con posti e prezzo in una riga a sé.
+
+Quattro riscritture dell'autore. I dati di partenza erano quelli delle richieste.
+
+> **Commercialisti a Vicenza dal 2009**
+>
+> Siamo tre commercialisti e seguiamo più di 150 partite IVA, tra liberi professionisti e piccole imprese.
+
+> **Il partner ideale per il tuo e-commerce**
+>
+> Siamo un'agenzia di sei persone a Padova: progettiamo siti ed e-commerce per aziende manifatturiere dal 2017.
+
+> **Fisioterapia a Treviso: quattro specialisti al tuo fianco**
+>
+> Ti accompagniamo nel tuo percorso di recupero, con un'attenzione particolare alla riabilitazione post-operatoria e al trattamento del mal di schiena.
+>
+> Riceviamo su appuntamento dal lunedì al sabato.
+
+> **Il pane buono nasce dalle mani, dalla pratica e dalla passione.**
+>
+> Ti aspettiamo nel nostro forno per quattro giovedì sera dedicati all'arte della panificazione. Un corso pratico, pensato per imparare insieme, mettere le mani in pasta e scoprire tutti i segreti del buon pane.
+>
+> Solo 8 posti disponibili, 120 € per l'intero corso.
+
+Il primo titolo è il più piano dei quattro, e va bene così: quando il servizio e la città sono quello che il cliente cerca, bastano quelli.
+
+## 8. In pratica
 
 Quando il testo da scrivere è per un sito, la prima cosa da stabilire è di quale pagina si tratta, perché una home e una pagina «chi siamo» chiedono scritture diverse. La seconda è chi parla e con quale pronome, da tenere uguale in tutto il sito.
 
-Poi, per ogni frase che loda (qualità, cura, passione, eccellenza, innovazione, attenzione al cliente), ci si può chiedere quale fatto la sostiene, e scrivere il fatto al posto della lode. Se il fatto non c'è, va chiesto al cliente, e non inventato.
+Poi, per ogni frase che loda (qualità, cura, passione, eccellenza, innovazione, attenzione al cliente), ci si può chiedere quale fatto la sostiene, e scrivere il fatto al posto della lode. Se il fatto non c'è, va chiesto al cliente, e non inventato. Fanno eccezione il titolo della hero e i claim, dove la frase calda è il genere e il fatto le sta sotto (sezione 7).
 
 Le frasi restano sulla ventina di parole anche qui. Le anafore («zero», «niente», «senza») e i frammenti si possono usare in una home o in una pubblicità, dove sono una convenzione, una volta per pagina.
 

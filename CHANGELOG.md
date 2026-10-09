@@ -2,6 +2,19 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.8.0] - 2026-10-08
+
+Seconda versione corretta sui voti dell'autore: otto coppie di claim e di hero section, 1.7.0 contro 1.6.1. La versione nuova non è stata preferita in nessuna coppia, quella precedente in quattro, e in tre nessuna delle due andava bene.
+
+### Aggiunto
+
+- In `siti.md`, la sezione **«Claim e hero section»**, ricavata dai voti e dalle riscritture dell'autore. Il titolo parla al cliente e dice che cosa trova, con il «tu» dentro, e i dati dell'attività stanno nel sottotitolo. Le parole calde del genere («il partner ideale», «al tuo fianco», «passione») sono ammesse nel titolo e nel claim se sotto c'è una riga di fatti. «Più di» al posto di «circa». Non tutti i fatti forniti vanno usati. Un claim deve avere una logica, e quello secco funziona quando il vantaggio è reale. Con quattro riscritture dell'autore come modelli.
+- I casi del terzo lotto di confronti, su otto attività diverse.
+
+### Modificato
+
+- La regola «il fatto al posto della lode» resta per il corpo delle pagine e per i «Chi siamo», e non vale più per il titolo della hero e per i claim. Nelle prove produceva titoli che erano l'anagrafe dell'attività («Sei persone, a Padova, dal 2017»).
+
 ## [1.7.1] - 2026-10-08
 
 ### Corretto
