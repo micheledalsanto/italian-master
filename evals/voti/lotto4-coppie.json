@@ -1,0 +1,61 @@
+{
+ "lotto": 4,
+ "coppie": [
+  {
+   "id": "l4-01",
+   "etichetta": "Richiesta",
+   "originale": "Scrivi la hero section della home del nostro sito. Siamo uno studio legale di Milano, due avvocate, dal 2012 ci occupiamo di diritto del lavoro e assistiamo sia lavoratori sia piccole aziende. Il primo colloquio è gratuito.",
+   "a": "#### Diritto del lavoro a Milano, al tuo fianco\n\nSiamo due avvocate e dal 2012 assistiamo lavoratori e piccole aziende in ogni questione di lavoro.\n\n*Pulsante:* Prenota il primo colloquio gratuito",
+   "b": "#### Avvocate del lavoro a Milano dal 2012\n\nAssistiamo lavoratori e piccole aziende in ogni questione di diritto del lavoro, e il primo colloquio è gratuito.\n\n*Pulsante:* Prenota il primo colloquio gratuito"
+  },
+  {
+   "id": "l4-02",
+   "etichetta": "Richiesta",
+   "originale": "Scrivi la hero section della home del sito della nostra falegnameria a Udine. Facciamo mobili su misura, soprattutto cucine e librerie, e siamo alla terza generazione: la bottega è aperta dal 1961.",
+   "a": "#### Cucine e librerie su misura, dal 1961\n\nLavoriamo il legno a Udine da tre generazioni e disegniamo ogni mobile su misura della casa che lo ospiterà.\n\n*Pulsante:* Richiedi un preventivo",
+   "b": "#### Cucine e librerie su misura, per casa tua\n\nLavoriamo il legno a Udine dal 1961: siamo arrivati alla terza generazione, e ogni mobile lo disegniamo su misura per lo spazio di chi lo userà.\n\n*Pulsante:* Richiedi un preventivo"
+  },
+  {
+   "id": "l4-03",
+   "etichetta": "Richiesta",
+   "originale": "Mi serve un claim per la vetrina e per il banner del sito del nostro negozio di ottica a Padova. Fino al 30 novembre chi compra un paio di occhiali da vista ha la seconda coppia di lenti in omaggio.",
+   "a": "#### Seconda coppia di lenti in omaggio, solo fino al 30 novembre.\n\nAcquista i tuoi occhiali da vista e porta a casa due paia di lenti al prezzo di uno.",
+   "b": "#### Due occhi, due coppie di lenti, un solo prezzo.\n\nFino al 30 novembre, con ogni paio di occhiali da vista la seconda coppia di lenti è in omaggio."
+  },
+  {
+   "id": "l4-04",
+   "etichetta": "Richiesta",
+   "originale": "Scrivi la hero section della pagina di presentazione del nostro servizio. Si chiama Conto ed è un programma di fatturazione elettronica per chi ha la partita IVA in regime forfettario: la fattura si compila in due minuti e viene inviata da sola all'Agenzia delle Entrate. Lo usano 12.000 professionisti.",
+   "a": "#### La fattura pronta in due minuti\n\nConto la compila e la invia da sola all'Agenzia delle Entrate: la usano già 12.000 professionisti in regime forfettario\n\n*Pulsante:* Inizia a fatturare",
+   "b": "#### La tua fattura elettronica, pronta in due minuti\n\nConto la compila e la invia da solo all'Agenzia delle Entrate: lo usano già 12.000 professionisti in regime forfettario.\n\n*Pulsante:* Fai la tua prima fattura"
+  },
+  {
+   "id": "l4-05",
+   "etichetta": "Richiesta",
+   "originale": "Scrivi la hero section della home del sito del nostro asilo nido a Bologna. Accogliamo bambini da zero a tre anni, abbiamo 24 posti, un giardino e la cucina interna, e siamo aperti dalle 7:30 alle 18.",
+   "a": "#### Il nido di Bologna, aperto dalle 7:30 alle 18\n\nVentiquattro posti per bambini da zero a tre anni, con giardino e cucina interna.\n\n*Pulsante:* Scopri il nido",
+   "b": "#### Il nido a Bologna per il tuo bambino\n\nAccogliamo bambini da zero a tre anni in 24 posti, con giardino e cucina interna, dalle 7:30 alle 18.\n\n*Pulsante:* Prenota una visita"
+  },
+  {
+   "id": "l4-06",
+   "etichetta": "Richiesta",
+   "originale": "Mi serve un claim per la locandina e per il post dell'abbonamento della nostra libreria indipendente, a Lecce. Ogni mese i librai scelgono un libro e lo spediscono a casa, costa 15 euro al mese e si può disdire quando si vuole.",
+   "a": "#### Un libro al mese, scelto per te, da chi li legge davvero.\n\nPer 15 euro al mese i librai di [nome libreria] scelgono un titolo e te lo spediscono a casa, a Lecce e ovunque tu sia: disdici quando vuoi.",
+   "b": "#### Un libro al mese, scelto da chi li legge davvero.\n\nTe lo spediamo noi dalla libreria, a 15 euro al mese: disdici quando vuoi."
+  },
+  {
+   "id": "l4-07",
+   "etichetta": "Richiesta",
+   "originale": "Scrivi la hero section della home del mio sito personale. Sono una psicologa psicoterapeuta, ricevo a Genova e online, lavoro dal 2016 e mi occupo soprattutto di ansia e di stress legato al lavoro.",
+   "a": "#### Psicoterapia per l'ansia e lo stress da lavoro\n\nSono psicologa psicoterapeuta a Genova, ricevo anche online e lavoro con le persone dal 2016.\n\n*Pulsante:* Richiedi un primo colloquio",
+   "b": "#### Psicoterapia per la tua ansia e lo stress\n\nSono psicologa psicoterapeuta, ricevo a Genova e online, e dal 2016 affianco soprattutto chi convive con l'ansia e con lo stress da lavoro.\n\n*Pulsante:* Prenota la tua prima seduta"
+  },
+  {
+   "id": "l4-08",
+   "etichetta": "Richiesta",
+   "originale": "Scrivi la hero section della home del nostro sito. Siamo un'azienda di Brescia che installa impianti fotovoltaici per case e capannoni: dal 2010 ne abbiamo installati 600, il sopralluogo è gratuito e ci occupiamo noi di tutte le pratiche.",
+   "a": "#### Fotovoltaico per casa e capannone, a Brescia\n\nDal 2010 abbiamo installato 600 impianti: il sopralluogo è gratuito e delle pratiche ci occupiamo noi.\n\n*Pulsante:* Prenota il sopralluogo gratuito",
+   "b": "#### Impianti fotovoltaici a Brescia dal 2010\n\nOltre 600 impianti installati su case e capannoni, con sopralluogo gratuito e tutte le pratiche a nostro carico.\n\n*Pulsante:* Richiedi il sopralluogo gratuito"
+  }
+ ]
+}
