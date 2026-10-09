@@ -2,13 +2,13 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
-## [1.9.1] - 2026-10-08
+## [1.9.1] - 2026-10-09
 
 ### Corretto
 
 - **Le prove non dipendono più dalla configurazione di chi le lancia.** La skill legge la configurazione personale dalla home, e quindi i casi di prova davano risultati diversi a seconda di chi eseguiva lo script. Ora `evals/esegui.py` mette in ogni cartella di prova una configurazione di progetto che la esclude, tranne nei casi che ne portano una propria.
 
-## [1.9.0] - 2026-10-08
+## [1.9.0] - 2026-10-09
 
 La sezione sulle hero e sui claim riscritta dopo il parere di un secondo lettore, che su alcuni punti dice il contrario dell'autore.
 
@@ -22,7 +22,7 @@ La sezione sulle hero e sui claim riscritta dopo il parere di un secondo lettore
 - Cinque precisazioni del secondo lettore: il testo non promette più di quello che la richiesta dice («la compila e la invia da solo», «scelto per te»), l'articolo dice quanti ce ne sono («il nido di Bologna» è l'unico della città), le formule a doppio senso si sciolgono («pratiche a nostro carico»), nel sottotitolo va una cosa per frase, e il nome del prodotto tiene il suo genere.
 - Nel modello di configurazione, un esempio di eccezione per titoli e claim.
 
-## [1.8.2] - 2026-10-08
+## [1.8.2] - 2026-10-09
 
 Quarto lotto di confronti alla cieca, valutato da un secondo lettore: otto claim e hero section, 1.8.1 contro 1.6.1. Quattro preferenze per parte.
 
@@ -30,7 +30,7 @@ Quarto lotto di confronti alla cieca, valutato da un secondo lettore: otto claim
 
 - **«Più di» vale solo per i dati approssimati.** La regola della 1.8.0 («più di», non «circa») ha fatto scrivere «oltre 600 impianti» dove la richiesta diceva 600, e il secondo lettore lo ha segnato come un dato non rispettato. Ora la sezione sulle hero dice che un dato esatto resta esatto.
 
-## [1.8.1] - 2026-10-08
+## [1.8.1] - 2026-10-09
 
 Terzo lotto di confronti alla cieca: otto claim e hero section su attività nuove, 1.8.0 contro 1.7.1. La versione nuova è stata preferita due volte, quella precedente quattro, e in due coppie nessuna delle due.
 
@@ -42,7 +42,7 @@ Terzo lotto di confronti alla cieca: otto claim e hero section su attività nuov
 
 - **Le regole ricavate dai voti non hanno ancora migliorato i risultati in modo misurabile.** Nei due lotti in cui una versione nuova è stata confrontata con quella precedente, sedici coppie in tutto, la nuova è stata preferita due volte e la precedente otto. Con un'esecuzione per caso può essere in parte caso, ma di certo non c'è la prova che la sezione sulle hero abbia fatto scrivere hero migliori.
 
-## [1.8.0] - 2026-10-08
+## [1.8.0] - 2026-10-09
 
 Seconda versione corretta sui voti dell'autore: otto coppie di claim e di hero section, 1.7.0 contro 1.6.1. La versione nuova non è stata preferita in nessuna coppia, quella precedente in quattro, e in tre nessuna delle due andava bene.
 
@@ -54,7 +54,7 @@ Seconda versione corretta sui voti dell'autore: otto coppie di claim e di hero s
 
 - La regola «il fatto al posto della lode» resta per il corpo delle pagine e per i «Chi siamo», e non vale più per il titolo della hero e per i claim. Nelle prove produceva titoli che erano l'anagrafe dell'attività («Sei persone, a Padova, dal 2017»).
 
-## [1.7.1] - 2026-10-08
+## [1.7.1] - 2026-10-09
 
 ### Corretto
 
@@ -64,7 +64,7 @@ Seconda versione corretta sui voti dell'autore: otto coppie di claim e di hero s
 
 - In `evals/esegui.py`, l'opzione `--casi`, per eseguire un file di casi diverso da `evals.json`.
 
-## [1.7.0] - 2026-10-08
+## [1.7.0] - 2026-10-09
 
 Prima versione corretta sui voti dell'autore: otto coppie di testi confrontate alla cieca, con la skill e senza. La skill è stata preferita quattro volte, ha perso due volte e ha pareggiato due.
 
@@ -83,7 +83,7 @@ Prima versione corretta sui voti dell'autore: otto coppie di testi confrontate a
 
 - Sull'articolo scritto da appunti i due testi sono stati giudicati pari, ma quelli senza skill contenevano una citazione inventata e una durata sbagliata. I confronti alla cieca misurano come suona un testo e non vedono i fatti inventati, che restano affidati ai controlli automatici.
 
-## [1.6.1] - 2026-10-08
+## [1.6.1] - 2026-10-09
 
 ### Aggiunto
 
