@@ -1,6 +1,6 @@
 # Italian master
 
-Una skill per scrivere in italiano come scrive un italiano bravo, contro l'AI slop. Funziona con Claude, con Codex e con gli altri agenti che leggono le Agent Skills.
+Una skill per scrivere in italiano come scrive chi la lingua la conosce bene, senza AI slop. Funziona con Claude, con Codex e con gli altri agenti che leggono le Agent Skills.
 
 *An agent skill (Claude, Codex) for natural Italian writing: grammar, syntax, tone, idioms, headlines. The skill and its documentation are in Italian. [English summary below](#english).*
 
@@ -8,11 +8,11 @@ Una skill per scrivere in italiano come scrive un italiano bravo, contro l'AI sl
 
 Chi chiede a un modello un testo in italiano riceve quasi sempre una pagina senza errori che nessun italiano scriverebbe. Comincia con «In un mondo sempre più», mette tre aggettivi dove ne basterebbe uno, ha le maiuscole a ogni parola del titolo e le lineette lunghe dell'inglese. Se poi gli si chiede di essere più asciutto, il modello passa a frasette di cinque parole con una battuta in fondo, e il testo si riconosce lo stesso.
 
-Questa skill dà al modello quello che sa un buon redattore: dove si sbaglia davvero la grammatica, come si costruisce un periodo che non suona tradotto, quando dare del tu, del lei o del voi, come si fa un titolo. Le indicazioni vengono da testi veri, letti e contati: giornali, siti di aziende e di agenzie, saggi, lettere.
+Questa skill dà al modello quello che sa un buon redattore: dove si sbaglia davvero la grammatica, come si costruisce un periodo che non suona tradotto, quando dare del tu, del lei o del voi, come si fa un titolo. Gli chiede anche di non aggiungere niente ai fatti che riceve, per cui un testo con pochi dati esce più corto e sotto dice che cosa manca. Le indicazioni vengono da testi veri, letti e contati: giornali, siti di aziende e di agenzie, saggi, lettere.
 
 ## Prima e dopo
 
-La richiesta è la stessa per tutti e tre i testi: una mail per dire ai clienti di uno studio che ad agosto si chiude due settimane.
+La richiesta è la stessa per tutti e tre i testi: una mail per dire ai clienti di uno studio che la chiusura estiva va dall'11 al 24 agosto, che chi ha adempimenti in quel periodo deve farsi sentire entro il 31 luglio e che per le urgenze risponde Paola al cellulare.
 
 Senza la skill:
 
@@ -36,54 +36,19 @@ Con la skill:
 >
 > Gentili Clienti,
 >
-> desideriamo informarvi che lo Studio resterà **chiuso per la pausa estiva dall’11 al 24 agosto compresi**. Le attività riprenderanno regolarmente a partire dal **25 agosto**.
+> desideriamo informarvi che lo Studio resterà **chiuso per la pausa estiva dall'11 al 24 agosto compresi**. Le attività riprenderanno regolarmente a partire dal **25 agosto**.
 >
 > Al fine di garantire una corretta gestione delle pratiche e il rispetto delle relative scadenze, invitiamo coloro che hanno adempimenti previsti durante il periodo di chiusura a **contattarci entro il 31 luglio**, così da consentirci di provvedere con il necessario anticipo.
 >
 > Per eventuali urgenze durante il periodo di chiusura, sarà possibile contattare Paola al numero di cellulare riportato in firma.
 >
-> Ringraziandovi per la collaborazione, cogliamo l’occasione per augurarvi una serena estate.
+> Ringraziandovi per la collaborazione, cogliamo l'occasione per augurarvi una serena estate.
 >
 > **Cordiali saluti,**
 >
 > Lo Staff dello Studio
 
-Il primo testo dà del tu e del lei nella stessa frase e non dice le date. Il secondo le dice, ma con il tono di uno slogan, e non spiega al cliente che cosa deve fare. Il terzo è la comunicazione che uno studio manda davvero ai suoi clienti: registro formale, date, scadenza per le pratiche, contatto per le urgenze.
-
-## Che cosa contiene
-
-| File | Contenuto |
-| --- | --- |
-| [`SKILL.md`](skills/italian-master/SKILL.md) | I principi, i segnali da rileggere, il metodo di lavoro |
-| [`references/tono-e-pubblico.md`](skills/italian-master/references/tono-e-pubblico.md) | I sei toni, lo stesso avviso scritto in ciascuno, che cosa cambia secondo il pubblico, e come si applica la configurazione |
-| [`references/periodo.md`](skills/italian-master/references/periodo.md) | Come sono fatte le frasi italiane, con misure prese da giornali e libri |
-| [`references/descrivere-e-raccontare.md`](skills/italian-master/references/descrivere-e-raccontare.md) | Descrivere un progetto, raccontare un percorso, scrivere da appunti: tempi verbali, grado di precisione, gergo di mestiere, accostamenti di parole |
-| [`references/tono-accogliente.md`](skills/italian-master/references/tono-accogliente.md) | Come accompagnare lettori non esperti: da dove cominciare, il tu, le domande, i paragoni, i titoli |
-| [`references/slop-asciutto.md`](skills/italian-master/references/slop-asciutto.md) | Lo stile a frasette che nasce quando si evita l'AI slop |
-| [`references/modelli.md`](skills/italian-master/references/modelli.md) | Pagine di Svevo, Pirandello, Collodi, Artusi, Serao, Vamba, Gobetti, Croce e Panzini annotate, e modelli di attacco |
-| [`references/connettivi.md`](skills/italian-master/references/connettivi.md) | I connettivi e le parole che misurano, con le frequenze nei giornali e nei testi generati |
-| [`references/attacchi-e-chiusure.md`](skills/italian-master/references/attacchi-e-chiusure.md) | Come cominciano e come finiscono gli articoli veri, con esempi costruiti |
-| [`references/impronte.md`](skills/italian-master/references/impronte.md) | I segni grammaticali che restano dopo aver tolto le formule, e i falsi allarmi |
-| [`references/ai-slop.md`](skills/italian-master/references/ai-slop.md) | Catalogo dei segnali di scrittura artificiale in italiano, con le alternative |
-| [`references/sintassi-stile.md`](skills/italian-master/references/sintassi-stile.md) | Antilingua, nominalizzazioni, frase, capoverso, logica |
-| [`references/calchi.md`](skills/italian-master/references/calchi.md) | Calchi dall'inglese, falsi amici, anglicismi |
-| [`references/grammatica.md`](skills/italian-master/references/grammatica.md) | Accenti, apostrofi, congiuntivo, pronomi, reggenze, femminili professionali |
-| [`references/punteggiatura-tipografia.md`](skills/italian-master/references/punteggiatura-tipografia.md) | Virgole, virgolette, lineette, maiuscole, numeri, date |
-| [`references/siti.md`](skills/italian-master/references/siti.md) | Come scrivono dieci siti italiani di settori diversi, senza nomi: che cosa funziona e che cosa no |
-| [`references/microcopy.md`](skills/italian-master/references/microcopy.md) | I testi delle interfacce: misure su quindicimila stringhe di otto applicazioni, formule per errori, conferme e stati vuoti, lessico, calchi |
-| [`references/newsletter.md`](skills/italian-master/references/newsletter.md) | Come sono fatte tredici newsletter italiane: titolo e sottotitolo, aperture, persona, chiusure, e che cosa cambia per la newsletter di un'attività |
-| [`references/agenzie-digitali.md`](skills/italian-master/references/agenzie-digitali.md) | Come scrivono dodici agenzie digitali e di marketing: presentazioni, casi studio, blog, inglese del mestiere |
-| [`references/narrativa-fantastica.md`](skills/italian-master/references/narrativa-fantastica.md) | Fantasy, fiaba e fantastico quotidiano: misure su ventisei racconti e quattro raccolte di fiabe, attacchi, dialoghi, stampi da evitare |
-| [`references/scrivere-per-bambini.md`](skills/italian-master/references/scrivere-per-bambini.md) | Come si scrive per chi ha tra i sei e gli undici anni: frasi, parole, modo di spiegare, indice di leggibilità |
-| [`references/corrispondenza-formale.md`](skills/italian-master/references/corrispondenza-formale.md) | Avvisi, lettere e comunicazioni a clienti e fornitori: struttura, formule per funzione, sei lettere modello |
-| [`references/registri.md`](skills/italian-master/references/registri.md) | Tu, lei, voi; email, social, siti, pubblica amministrazione, narrativa |
-| [`references/titoli.md`](skills/italian-master/references/titoli.md) | Titoli giornalistici e web, oggetti di email, attacchi, il titolese da evitare |
-| [`references/modi-di-dire.md`](skills/italian-master/references/modi-di-dire.md) | Modi di dire, proverbi, espressioni del parlato, equivalenti degli idiomi inglesi |
-| [`references/imparare-una-voce.md`](skills/italian-master/references/imparare-una-voce.md) | Come ricavare una scheda di stile dai testi di riferimento dell'utente |
-| [`references/fonti.md`](skills/italian-master/references/fonti.md) | Bibliografia e fonti |
-| [`scripts/controlla.py`](skills/italian-master/scripts/controlla.py) | Script che segnala i sospetti più comuni in un testo |
-
-L'agente legge sempre `SKILL.md` e apre gli altri file solo quando servono.
+Il primo testo dà del tu e del lei nella stessa frase e non riporta nessuno dei dati della richiesta. Il secondo dice le date, ma con il tono di uno slogan, e non spiega al cliente che cosa deve fare. Il terzo è la comunicazione che uno studio manda davvero ai suoi clienti: registro formale, date, scadenza per le pratiche, contatto per le urgenze.
 
 ## Installazione
 
@@ -95,7 +60,7 @@ L'agente legge sempre `SKILL.md` e apre gli altri file solo quando servono.
 npx github:micheledalsanto/italian-master
 ```
 
-Il comando copia la skill in `~/.claude/skills/italian-master`, dove Claude Code la trova da solo. Rilanciato, la aggiorna.
+Il comando copia la skill in `~/.claude/skills/italian-master`, dove Claude Code la trova da solo, e rilanciato la aggiorna.
 
 ```bash
 npx github:micheledalsanto/italian-master --codex     # per Codex (~/.agents/skills)
@@ -166,11 +131,12 @@ Riavvia Codex. La skill si attiva da sola quando chiedi un testo in italiano, e 
 
 ## Come si usa
 
-Non serve invocarla: si attiva da sola quando chiedi un testo in italiano. Qualche esempio.
+Non serve invocarla, perché si attiva da sola quando chiedi un testo in italiano, come in questi esempi.
 
 - «Riscrivi questa pagina "Chi siamo", suona finta.»
 - «Dammi dieci titoli per questo articolo, niente clickbait.»
 - «Scrivi una mail di sollecito all'architetto Ferraris, ci diamo del lei.»
+- «Scrivi la hero section della home: siamo una falegnameria di Udine, facciamo mobili su misura dal 1961.»
 - «Correggi solo gli errori, non toccare lo stile.»
 - «Traduci questo post in italiano, non deve sembrare una traduzione.»
 - «Leggi questi tre numeri della mia newsletter e scrivi il prossimo con la stessa voce.»
@@ -202,7 +168,7 @@ Quello che chiedi in una singola richiesta vale più della configurazione, e se 
 
 ## Lo script di controllo
 
-`controlla.py` cerca in un testo le formule, gli errori e i segnali tipografici più comuni, e ne misura il passo (parole per frase, frasi brevi, periodi lunghi, virgole, due punti) confrontandolo con quello di giornali e riviste. Calcola anche l'indice di leggibilità Gulpease. Solo libreria standard, Python 3.8 o successivo.
+`controlla.py` cerca in un testo le formule, gli errori e i segnali tipografici più comuni, e ne misura il passo (parole per frase, frasi brevi, periodi lunghi, virgole, due punti) confrontandolo con quello di giornali e riviste. Calcola anche l'indice di leggibilità Gulpease. Usa solo la libreria standard e richiede Python 3.8 o successivo.
 
 ```bash
 python skills/italian-master/scripts/controlla.py bozza.md
@@ -210,7 +176,7 @@ python skills/italian-master/scripts/controlla.py bozza.md
 
 ```
 == bozza.md ==
-62 parole, 4 frasi
+63 parole, 5 frasi
 
 Falso contrasto (1)
   riga   5  …r tornare più carico che mai. Non si tratta solo di una chiusura: è un'occasio…
@@ -226,12 +192,47 @@ Tipografia (2)
   riga   1  Aggiornamento Importante Sulla Nostra Chiusura Estiva
             → maiuscole a ogni parola: in italiano solo la prima e i nomi propri
 
-4 segnalazioni (65 ogni mille parole). Sono indizi: decide chi scrive.
+4 segnalazioni (63 ogni mille parole). Sono indizi: decide chi scrive.
 ```
 
 Opzioni: `--json` per l'uscita strutturata, `--strict` per uscire con codice 1 se ci sono segnalazioni (utile in una pipeline), `--bambini` per i testi destinati ai bambini, dove le frasi corte sono giuste e si controlla la leggibilità.
 
-Non è un rilevatore di testi generati e non pretende di esserlo. Segnala abitudini di scrittura deboli, chiunque le abbia.
+Lo script non riconosce i testi generati e non vede i fatti inventati. Segnala abitudini di scrittura deboli, chiunque le abbia, e un testo che non riceve segnalazioni può essere comunque mediocre.
+
+## Che cosa contiene
+
+| File | Contenuto |
+| --- | --- |
+| [`SKILL.md`](skills/italian-master/SKILL.md) | I principi, i segnali da rileggere, il metodo di lavoro |
+| [`references/tono-e-pubblico.md`](skills/italian-master/references/tono-e-pubblico.md) | I sei toni, lo stesso avviso scritto in ciascuno, che cosa cambia secondo il pubblico, e come si applica la configurazione |
+| [`references/periodo.md`](skills/italian-master/references/periodo.md) | Come sono fatte le frasi italiane, con misure prese da giornali e libri |
+| [`references/descrivere-e-raccontare.md`](skills/italian-master/references/descrivere-e-raccontare.md) | Descrivere un progetto, raccontare un percorso, scrivere da appunti: tempi verbali, grado di precisione, gergo di mestiere, accostamenti di parole |
+| [`references/tono-accogliente.md`](skills/italian-master/references/tono-accogliente.md) | Come accompagnare lettori non esperti: da dove cominciare, il tu, le domande, i paragoni, i titoli |
+| [`references/slop-asciutto.md`](skills/italian-master/references/slop-asciutto.md) | Lo stile a frasette che nasce quando si evita l'AI slop |
+| [`references/modelli.md`](skills/italian-master/references/modelli.md) | Pagine di Svevo, Pirandello, Collodi, Artusi, Serao, Vamba, Gobetti, Croce e Panzini annotate, e modelli di attacco |
+| [`references/connettivi.md`](skills/italian-master/references/connettivi.md) | I connettivi e le parole che misurano, con le frequenze nei giornali e nei testi generati |
+| [`references/attacchi-e-chiusure.md`](skills/italian-master/references/attacchi-e-chiusure.md) | Come cominciano e come finiscono gli articoli veri, con esempi costruiti |
+| [`references/impronte.md`](skills/italian-master/references/impronte.md) | I segni grammaticali che restano dopo aver tolto le formule, e i falsi allarmi |
+| [`references/ai-slop.md`](skills/italian-master/references/ai-slop.md) | Catalogo dei segnali di scrittura artificiale in italiano, con le alternative |
+| [`references/sintassi-stile.md`](skills/italian-master/references/sintassi-stile.md) | Antilingua, nominalizzazioni, frase, capoverso, logica |
+| [`references/calchi.md`](skills/italian-master/references/calchi.md) | Calchi dall'inglese, falsi amici, anglicismi |
+| [`references/grammatica.md`](skills/italian-master/references/grammatica.md) | Accenti, apostrofi, congiuntivo, pronomi, reggenze, femminili professionali |
+| [`references/punteggiatura-tipografia.md`](skills/italian-master/references/punteggiatura-tipografia.md) | Virgole, virgolette, lineette, maiuscole, numeri, date |
+| [`references/siti.md`](skills/italian-master/references/siti.md) | Come scrivono dieci siti italiani di settori diversi, senza nomi: che cosa funziona e che cosa no, e come si fanno un claim e una hero section |
+| [`references/microcopy.md`](skills/italian-master/references/microcopy.md) | I testi delle interfacce: misure su quindicimila stringhe di otto applicazioni, formule per errori, conferme e stati vuoti, lessico, calchi |
+| [`references/newsletter.md`](skills/italian-master/references/newsletter.md) | Come sono fatte tredici newsletter italiane: titolo e sottotitolo, aperture, persona, chiusure, e che cosa cambia per la newsletter di un'attività |
+| [`references/agenzie-digitali.md`](skills/italian-master/references/agenzie-digitali.md) | Come scrivono dodici agenzie digitali e di marketing: presentazioni, casi studio, blog, inglese del mestiere |
+| [`references/narrativa-fantastica.md`](skills/italian-master/references/narrativa-fantastica.md) | Fantasy, fiaba e fantastico quotidiano: misure su ventisei racconti e quattro raccolte di fiabe, attacchi, dialoghi, stampi da evitare |
+| [`references/scrivere-per-bambini.md`](skills/italian-master/references/scrivere-per-bambini.md) | Come si scrive per chi ha tra i sei e gli undici anni: frasi, parole, modo di spiegare, indice di leggibilità |
+| [`references/corrispondenza-formale.md`](skills/italian-master/references/corrispondenza-formale.md) | Avvisi, lettere e comunicazioni a clienti e fornitori: struttura, formule per funzione, sei lettere modello |
+| [`references/registri.md`](skills/italian-master/references/registri.md) | Tu, lei, voi; email, social, siti, pubblica amministrazione, narrativa |
+| [`references/titoli.md`](skills/italian-master/references/titoli.md) | Titoli giornalistici e web, oggetti di email, attacchi, il titolese da evitare |
+| [`references/modi-di-dire.md`](skills/italian-master/references/modi-di-dire.md) | Modi di dire, proverbi, espressioni del parlato, equivalenti degli idiomi inglesi |
+| [`references/imparare-una-voce.md`](skills/italian-master/references/imparare-una-voce.md) | Come ricavare una scheda di stile dai testi di riferimento dell'utente |
+| [`references/fonti.md`](skills/italian-master/references/fonti.md) | Bibliografia e fonti |
+| [`scripts/controlla.py`](skills/italian-master/scripts/controlla.py) | Script che segnala i sospetti più comuni in un testo |
+
+L'agente legge sempre `SKILL.md` e apre gli altri file solo quando servono.
 
 ## Da dove vengono le regole
 
@@ -244,7 +245,7 @@ La skill non contiene testi altrui. Giornali e siti non sono nominati e nessuna 
 - È italiano d'Italia. Non copre l'italiano della Svizzera né le varietà regionali, se non per qualche cenno.
 - La lingua cambia: quello che oggi è un calco domani sarà nei dizionari. Dove l'uso è in movimento la skill lo dice.
 - I segnali dell'AI slop cambiano con i modelli. Il catalogo va tenuto aggiornato, ed è il motivo per cui la repo è pubblica.
-- Nessuna regola sostituisce l'avere qualcosa da dire.
+- La skill lavora sui fatti che riceve. Se la richiesta ne dà pochi il testo esce corto, e nessuna regola lo riempie al posto di chi ha qualcosa da dire.
 
 ## Contribuire
 
@@ -252,7 +253,7 @@ Segnalazioni, correzioni e nuovi esempi sono benvenuti. Vedi [`CONTRIBUTING.md`]
 
 ## Versioni
 
-La versione corrente è la 1.9.1. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
+La versione corrente è la 1.9.2. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
 
 ## Licenza
 
@@ -266,9 +267,15 @@ La versione corrente è la 1.9.1. Le modifiche sono elencate nel [CHANGELOG](CHA
 
 Italian master is an agent skill that makes Claude, Codex and other Agent Skills-compatible agents write Italian the way a skilled native writer does. It targets the patterns that make generated Italian text instantly recognisable: English calques, Title Case headings, em dashes, automatic triads, «non è solo X, è Y» constructions, inflated vocabulary, bureaucratic phrasing.
 
-It covers grammar and spelling doubts, punctuation and typography conventions, syntax and logic, register (tu/lei/voi), idioms and proverbs with their English equivalents, headlines and email subject lines, and a workflow for learning a voice from reference texts. A small Python linter flags the most common tells.
+It covers grammar and spelling doubts, punctuation and typography conventions, syntax and logic, register (tu/lei/voi), idioms and proverbs with their English equivalents, headlines and email subject lines, website copy, interface microcopy, newsletters and formal letters, and a workflow for learning a voice from reference texts. It only uses the facts given in the request, and tone and audience can be set once in a configuration file. A small Python linter flags the most common tells.
 
-Install in Claude Code:
+Install with npx (copies the skill to `~/.claude/skills`):
+
+```bash
+npx github:micheledalsanto/italian-master
+```
+
+Or as a Claude Code plugin:
 
 ```
 /plugin marketplace add micheledalsanto/italian-master

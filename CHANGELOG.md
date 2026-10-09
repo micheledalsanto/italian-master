@@ -2,6 +2,20 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.9.2] - 2026-10-09
+
+Il README riletto con la skill e con `controlla.py`.
+
+### Corretto
+
+- **La richiesta dell'esempio «Prima e dopo» contiene i dati che il testo usa.** Diceva solo che lo studio chiude due settimane ad agosto, mentre la mail scritta con la skill riporta le date, la scadenza del 31 luglio e il contatto per le urgenze: letto così, l'esempio contraddiceva la regola di non aggiungere fatti.
+- L'uscita di esempio di `controlla.py` riporta i conteggi che lo script dà oggi.
+
+### Modificato
+
+- L'elenco dei file viene dopo l'installazione e l'uso, e la riga di `siti.md` nomina claim e hero section.
+- Il README dice che la skill non aggiunge fatti a quelli ricevuti e che lo script non li controlla. Il riassunto in inglese nomina l'installazione con npx e la configurazione.
+
 ## [1.9.1] - 2026-10-09
 
 ### Corretto
