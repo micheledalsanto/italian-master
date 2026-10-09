@@ -1,7 +1,7 @@
 {
   "name": "italian-master",
   "description": "Scrive, riscrive e corregge testi in italiano naturale: grammatica, sintassi, tono, modi di dire, titoli. Contro l'AI slop.",
-  "version": "1.10.1",
+  "version": "1.10.2",
   "author": {
     "name": "micheledalsanto",
     "url": "https://github.com/micheledalsanto"
