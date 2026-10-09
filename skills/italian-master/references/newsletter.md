@@ -105,7 +105,7 @@ Un esempio, dai dati forniti dal negozio: da gennaio il Comune rimborsa fino a 5
 
 > Da gennaio il Comune di Bologna rimborsa fino a 500 euro a chi compra una cargo bike e rottama la seconda auto. Il contributo si chiede dopo l'acquisto, e per averlo servono la fattura e il certificato di rottamazione.
 >
-> In negozio ne abbiamo tre modelli, e il sabato si possono provare. Se vuoi venire, rispondi a questa email e ti teniamo da parte quello che ti interessa.
+> In negozio ne abbiamo tre modelli, e il sabato si possono provare. Se vuoi venire, rispondi a questa email e ti terremo da parte quello che ti interessa.
 
 (La frase su come si chiede il contributo sta nell'esempio perché qui il dato è inventato insieme al resto. In un testo vero, senza quell'informazione, non andrebbe scritta.)
 

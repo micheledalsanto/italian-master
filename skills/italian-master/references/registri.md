@@ -100,6 +100,18 @@ Non esiste «lo stile social»: esistono piattaforme e comunità.
 
 **I canali di enti e aziende.** Tredici canali pubblici di messaggistica letti a ottobre 2026 (ministeri, comuni, forze dell'ordine, trasporti, un'università, un'associazione, un operatore telefonico, due testate) si dividono in due modi di scrivere. I due comuni e il quotidiano mandano testo piano, senza emoji, con il link in fondo. Sette canali mettono un'emoji in quasi ogni post, e in cinque su tredici almeno un terzo dei post ha tre o più righe che cominciano con un'emoji. Qui l'emoji a inizio riga è un uso del genere e non un segnale di testo generato: prima di scrivere si guarda che cosa fa il canale, e lo si segue. La lunghezza mediana dei post va da 10 a 160 parole secondo il canale, gli hashtag sono meno di uno a post in dodici canali su tredici, e nei canali che danno del tu lo fanno in un post su cinque.
 
+**La pagina di un'azienda.** Quello che vale per il post di una persona non vale per la pagina di un'azienda che annuncia una novità. Lì il calore fa parte del genere: il sentimento si dice, il punto esclamativo è ammesso, ci si rivolge al lettore con il tu al singolare e si chiude con un invito. Un post ripulito fino a non avere più un «siamo felici» né un punto esclamativo, nei confronti alla cieca fatti dall'autore di questa skill, ha perso due volte su due contro la versione con «Siamo entusiasti di annunciare» e «Restate sintonizzati», perché «non ha tono». Il compito era tradurre un post che annunciava nuove assunzioni, e questa è la versione scritta dall'autore:
+
+> Il nostro team si è allargato e siamo felici di condividere questa novità!
+>
+> Per noi, lavorare insieme significa molto più che trovare le persone giuste: significa creare un ambiente in cui ciascuno possa sentirsi a proprio agio, mettere a frutto le proprie capacità e continuare a crescere.
+>
+> E chissà, magari la prossima persona a unirsi al team potresti essere proprio tu! Dai un'occhiata alle posizioni aperte oppure scrivici direttamente.
+>
+> E continua a seguirci, perché le novità non finiscono qui!
+
+Da evitare restano i calchi parola per parola («restate sintonizzati», «non esitate a contattarci») e, nel senso opposto, le frasi che girano intorno al sentimento per non dirlo: «e non potevamo non dirlo», «è una notizia che ci fa davvero piacere».
+
 Regole comuni: prima riga con dentro il succo. Emoji secondo l'uso di chi scrive e del canale. Hashtag pochi e specifici, in fondo. Niente «Link in bio 👆🔥» se non è nello stile dell'account. Guarda sempre due o tre post precedenti dell'utente prima di scrivere il quarto.
 
 ## 5. Siti, landing page, testi commerciali

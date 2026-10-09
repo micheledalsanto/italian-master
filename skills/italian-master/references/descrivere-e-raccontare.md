@@ -87,13 +87,16 @@ Restano da correggere altre cose, che con il gergo non c'entrano. Sono calchi le
 
 Ogni lingua accoppia certe parole e non altre, e un accostamento grammaticalmente corretto può non essere italiano. È l'errore più difficile da vedere per chi genera testo, perché ogni parola presa da sola è giusta.
 
-Tre casi veri, tutti corretti da un lettore:
+Alcuni casi veri, tutti corretti da un lettore:
 
 | Scritto | Perché non va | Come si dice |
 | --- | --- | --- |
 | una comunicazione gridata | «gridato» non si usa come aggettivo per uno stile | chiassosa, rumorosa, sopra le righe, urlata |
 | il design favorisce il raccoglimento | «raccoglimento» appartiene alla preghiera | l'introspezione, la concentrazione |
 | la trattativa tra il designer e il modello | la trattativa si fa su un prezzo o su un contratto | il confronto, il dialogo, il tira e molla |
+| i nostri 25 remoti | «remoto» non è un nome di persona: è il calco di *remotes* | le 25 persone del nostro team, che lavorano da remoto |
+| le aziende che si sono trovate il cambiamento addosso | colloquiale forzato: nessuno lo scriverebbe in una pagina | come tante altre realtà, abbiamo iniziato senza sapere bene cosa aspettarci |
+| le aziende che controllano ogni ora | accostamento che non si usa | che controllano tutto, che tengono tutti sotto controllo |
 
 Il metodo per accorgersene è chiedersi se quella coppia di parole la si è mai sentita o letta. Se la risposta è incerta, ci sono due uscite sicure. Una è prendere l'accostamento più comune, anche se sembra banale: «toni sopra le righe» è una frase fatta, ed è italiano. L'altra è lasciare la parola dell'originale, quando l'originale era corretto e si stava solo cercando una variante più elegante.
 

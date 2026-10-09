@@ -2,6 +2,25 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.7.0] - 2026-10-08
+
+Prima versione corretta sui voti dell'autore: otto coppie di testi confrontate alla cieca, con la skill e senza. La skill è stata preferita quattro volte, ha perso due volte e ha pareggiato due. I voti e le riscritture sono in `evals/voti/`.
+
+### Modificato
+
+- **Le liste dei segnali valgono secondo il genere.** In un testo commerciale o in un post social il contrasto «non è solo X, ma Y», i due punti che portano alla parola chiave, una triade di qualità e qualche punto esclamativo sono forme normali, e toglierle tutte lascia un testo senza tono. Restano segnali in un articolo, in un saggio, in una guida, in una lettera. Nelle riscritture dell'autore queste forme ci sono, e la skill era più severa di lui.
+- **Nei post della pagina di un'azienda il calore resta.** Il post tradotto e ripulito ha perso due volte su due contro quello non ripulito, perché «non ha tono». La regola della 1.3.1, che sostituiva le formule di entusiasmo con la notizia «detta con un tono più basso», è tolta: si rendono con quelle che un'azienda italiana userebbe. `registri.md` ha la versione scritta dall'autore.
+
+### Aggiunto
+
+- **Il futuro per le promesse**: «scrivici, ti risponderemo», non «ti rispondiamo» o «ti diciamo come». In `grammatica.md`, nella rilettura finale e nello script. Corretti anche un esempio di `newsletter.md` e una riga di `calchi.md` che facevano il contrario.
+- **Il confronto con gli altri** tra le strutture da evitare: «a differenza di molti, noi…».
+- In `descrivere-e-raccontare.md`, tre accostamenti corretti dall'autore: «i nostri 25 remoti», «trovarsi il cambiamento addosso», «controllare ogni ora».
+
+### Limiti noti
+
+- Sull'articolo scritto da appunti i due testi sono stati giudicati pari, ma quelli senza skill contenevano una citazione inventata e una durata sbagliata. I confronti alla cieca misurano come suona un testo e non vedono i fatti inventati, che restano affidati ai controlli automatici.
+
 ## [1.6.1] - 2026-10-08
 
 ### Aggiunto

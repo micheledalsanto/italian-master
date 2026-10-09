@@ -60,6 +60,8 @@ Sono gli stampi in cui il testo generato cola qualunque contenuto.
 
 **I due punti rivelatori.** «Ecco la verità: …», «Il punto è questo: …», «Una cosa è certa: …». Di' la cosa.
 
+**Il confronto con gli altri.** «A differenza di molti, noi non siamo tornati indietro», «Mentre le altre aziende controllano, noi ci fidiamo». Chi si presenta dicendo che ha fatto meglio di qualcun altro mette il lettore sulla difensiva, e degli altri non sa niente. Si dice quello che si è fatto, e basta: «Non siamo tornati indietro».
+
 **Il parallelismo a ogni costo.** Capoversi tutti della stessa lunghezza, tutti con la stessa apertura, elenchi in cui ogni voce ha lo stesso numero di parole. La simmetria perfetta non è umana. Lascia che un punto sia più lungo se ha più cose da dire.
 
 **«Dal… al…».** «Dalle piccole botteghe alle grandi multinazionali», «dalla colazione alla cena». Va bene quando gli estremi significano qualcosa. Come formula per dire «tutti» o «sempre» è riempitivo.

@@ -225,10 +225,10 @@ Le interfacce e le email tradotte dall'inglese hanno un'aria riconoscibile. L'it
 | Scopri di più | va bene; anche Per saperne di più, Leggi tutto |
 | Inizia ora, Inizia gratis | Comincia, Prova gratis |
 | Unisciti a noi | Iscriviti, Vieni con noi |
-| Resta sintonizzato, Restate con noi | A presto, Ti terremo aggiornato, oppure niente |
-| Non potremmo essere più felici, Non potevamo essere più contenti | Siamo contenti, Ci fa piacere, oppure solo la notizia |
-| Siamo entusiasti di annunciare che | La notizia, senza annuncio: «Da oggi…», «Siamo diventati dodici» |
-| Abbiamo ricevuto la tua richiesta e ti risponderemo il prima possibile | Abbiamo ricevuto la richiesta. Rispondiamo entro due giorni (se è vero) |
+| Resta sintonizzato, Restate con noi | Continua a seguirci, A presto, Ti terremo aggiornato |
+| Non potremmo essere più felici, Non potevamo essere più contenti | Siamo felici di, Siamo contenti di |
+| Siamo entusiasti di annunciare che | Siamo felici di condividere questa novità; in un articolo o in una lettera, la notizia senza annuncio |
+| Abbiamo ricevuto la tua richiesta e ti risponderemo il prima possibile | Va bene così. Se c'è un tempo vero, meglio dirlo: «Ti risponderemo entro due giorni» |
 | Buona giornata! (a chiusura di ogni email) | Cordiali saluti / Un saluto / A presto, secondo il registro |
 
 Le formule che le interfacce italiane usano davvero, contate su quindicimila stringhe, sono in `microcopy.md`. Tre abitudini inglesi da lasciare cadere: ringraziare in ogni frase, scusarsi in ogni frase, congratularsi con l'utente perché ha compilato un modulo.

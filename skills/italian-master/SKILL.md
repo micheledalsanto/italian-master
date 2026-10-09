@@ -93,6 +93,8 @@ Le impronte che restano anche senza formule, misurate in `references/impronte.md
 - nessun «forse», «infatti», «però», «proprio», «quasi», «ormai»
 - nessuna persona citata con nome e parole sue
 
+**Le liste valgono secondo il genere.** In un testo commerciale o in un post social, cioè la home di un sito, un claim, la pagina di un'azienda su LinkedIn, il contrasto «non è solo X, ma Y», i due punti che portano alla parola chiave, una triade di qualità e qualche punto esclamativo sono forme normali del genere, e un testo a cui sono state tolte tutte resta senza tono. Nei confronti alla cieca fatti dall'autore di questa skill il post ripulito ha perso due volte su due contro quello non ripulito. In questi generi il difetto è l'accumulo, e resta fermo che i fatti non si inventano. Le stesse forme restano segnali in un articolo, in un saggio, in una guida, in una lettera.
+
 Nessuna di queste liste è un elenco di divieti, perché ognuna di queste forme ha i suoi usi legittimi, e diventano un segnale quando si accumulano. Vale anche il contrario: molte cose che passano per segnali («sempre più», il passivo, i gerundi, gli avverbi in -mente, «negli ultimi anni») nei giornali sono comunissime, e l'elenco di questi falsi allarmi è nello stesso `references/impronte.md`.
 
 ## Che cosa ti viene chiesto
@@ -115,7 +117,7 @@ Nessuna di queste liste è un elenco di divieti, perché ognuna di queste forme 
 
 **Titoli, oggetti, attacchi.** Vedi `references/titoli.md`. Si propongono più varianti da angoli diversi, indicando quale si sceglierebbe, e ogni titolo promette solo quello che il testo mantiene.
 
-**Tradurre verso l'italiano.** Si traduce il senso, ricostruendo i periodi come li costruirebbe chi scrive in italiano, dato che la sintassi a frasi brevi dell'originale inglese è la prima cosa che tradisce una traduzione. Le formule di entusiasmo e di congedo («we're thrilled», «couldn't be happier», «stay tuned») non hanno un equivalente da cercare: in italiano al loro posto c'è la notizia, detta con un tono più basso. Vedi `references/calchi.md` e, per le espressioni idiomatiche, `references/modi-di-dire.md`.
+**Tradurre verso l'italiano.** Si traduce il senso, ricostruendo i periodi come li costruirebbe chi scrive in italiano, dato che la sintassi a frasi brevi dell'originale inglese è la prima cosa che tradisce una traduzione. Le formule di entusiasmo e di congedo («we're thrilled», «stay tuned») non si traducono parola per parola e non si tolgono: si rendono con quelle che un'azienda italiana userebbe nello stesso posto («siamo felici di condividere questa novità», «continua a seguirci»), perché un post a cui è stato tolto il calore non ha più tono. Vedi `references/calchi.md` e, per le espressioni idiomatiche, `references/modi-di-dire.md`.
 
 **Imparare una voce.** Quando l'utente indica dei testi di riferimento, vanno letti prima di scrivere, ricavandone una scheda di stile secondo `references/imparare-una-voce.md`. La voce dell'utente prevale sulle preferenze di questa skill.
 
@@ -132,6 +134,7 @@ Prima di consegnare un testo da leggere conviene controllare, nell'ordine:
 - se ogni «due punti» introduce davvero un elenco, una citazione o una conseguenza
 - se l'ultima frase di ogni capoverso è lì per dire qualcosa o per fare effetto
 - se tu, lei e voi sono coerenti dall'inizio alla fine, e così «io» e «noi»
+- se quello che si promette al lettore è al futuro («scrivici, ti risponderemo»), e non al presente («ti rispondiamo», «ti diciamo come»)
 - accenti e apostrofi («perché», «è», «È», «un po'», «qual è»), maiuscole solo a inizio titolo, numeri e date all'italiana, con date, ore, prezzi e misure sempre in cifre («120 euro», «dalle 9 alle 13»)
 - se ogni dato e ogni circostanza presenti nel testo vengono dall'utente o da una fonte
 - se i fatti accaduti sono raccontati al passato, con soggetti determinati e senza salti di tempo verbale
