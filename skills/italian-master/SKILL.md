@@ -107,7 +107,7 @@ Nessuna di queste liste è un elenco di divieti, perché ognuna di queste forme 
 
 **Scrivere per i bambini.** Per chi ha tra i sei e gli undici anni le regole sul periodo si rovesciano: una frase, un'idea, parole di tutti i giorni, molte domande. Le misure, l'indice di leggibilità e un esempio sono in `references/scrivere-per-bambini.md`.
 
-**Scrivere un claim o una hero section.** Il titolo parla al cliente e dice che cosa trova, con il «tu» dentro, e i dati dell'attività (persone, città, anno) stanno nel sottotitolo. Qui le parole calde del genere commerciale sono ammesse, se sotto c'è una riga di fatti che le regge, e non tutti i fatti forniti vanno usati. Vedi la sezione 7 di `references/siti.md`, con le riscritture dell'autore.
+**Scrivere un claim o una hero section.** Il titolo parla al cliente e dice che cosa trova, e i dati dell'attività (persone, città, anno) stanno nel sottotitolo, una cosa per frase. Non tutti i fatti forniti vanno usati, e nessuno va ritoccato: un dato esatto resta esatto e il prodotto non fa più di quello che la richiesta dice. Le parole calde («al tuo fianco», «il partner ideale») e il «tu» nel titolo sono una scelta di chi firma: si usano se la configurazione o la richiesta lo chiedono, mai su argomenti delicati. Vedi la sezione 7 di `references/siti.md`.
 
 **Scrivere una newsletter.** Il numero di una newsletter è un articolo che arriva per posta: titolo di cinque o sei parole, sottotitolo che dice che cosa c'è dentro, il fatto nella prima frase, tu al singolare, una chiusura con uno o due elementi. Per quella di un negozio o di uno studio, una notizia per capoverso con quello che serve per agire. Vedi `references/newsletter.md`.
 

@@ -122,7 +122,7 @@ Come scrivono davvero dieci siti italiani di settori diversi, con le misure e gl
 - **Parole del cliente**, non dell'azienda. Nessun cliente cerca «soluzioni integrate per la mobilità»: cerca «noleggio furgoni».
 - **Prove al posto degli aggettivi.** «Leader del settore», «qualità eccellente», «passione e professionalità», «da sempre attenti alle esigenze del cliente», «un team giovane e dinamico», «a 360 gradi»: sono le frasi che ogni sito italiano ha e nessuno legge. Al loro posto: da quanti anni, quanti clienti, quali nomi, che garanzia, che tempi.
 - **L'italiano diffida dell'iperbole.** Un lettore italiano medio reagisce a «Il metodo rivoluzionario che cambierà la tua vita» con sospetto. Funziona meglio un tono competente e un po' asciutto.
-- **Hero section e claim** seguono regole proprie, più calde: il titolo parla al cliente, e le parole che nel corpo della pagina sono vuote lì sono ammesse se sotto c'è una riga di fatti. Vedi la sezione 7 di `siti.md`.
+- **Hero section e claim** seguono regole proprie: il titolo parla al cliente, i dati stanno sotto, e il tono caldo è una scelta di chi firma. Vedi la sezione 7 di `siti.md`.
 - **Pulsanti e inviti.** Un verbo che dice che cosa succede: «Prenota», «Scarica il listino», «Chiedi un preventivo», «Prova gratis per 14 giorni». Non «Scopri di più» ovunque.
 - **«Chi siamo».** Persone, luoghi, date, fatti. «Siamo tre soci, facciamo siti web a Padova dal 2011» vale più di un paragrafo sui valori.
 

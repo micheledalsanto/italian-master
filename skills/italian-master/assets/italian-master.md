@@ -38,7 +38,7 @@ Percorsi o indirizzi di testi che rappresentano la tua voce. La skill li legge p
 
 ## Tipi di testo
 
-Se scrivi cose diverse per pubblici diversi, indica qui le eccezioni. Per esempio: «newsletter: accogliente, tu», «comunicazioni ai clienti: formale, voi», «blog: giornalistico, noi».
+Se scrivi cose diverse per pubblici diversi, indica qui le eccezioni. Per esempio: «newsletter: accogliente, tu», «comunicazioni ai clienti: formale, voi», «blog: giornalistico, noi», «titoli e claim: caldi, con il tu, ammessi "al tuo fianco" e "il partner ideale"».
 
 -
 

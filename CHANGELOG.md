@@ -2,6 +2,20 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.9.0] - 2026-10-08
+
+La sezione sulle hero e sui claim riscritta dopo il parere di un secondo lettore, che su alcuni punti dice il contrario dell'autore.
+
+### Modificato
+
+- **Regole e gusto sono separati.** Dove i due lettori sono d'accordo la sezione dà una regola. Dove la pensano in modo opposto dice che è una scelta di chi firma. Le parole calde nel titolo («al tuo fianco», «il partner ideale») e il «tu» rivolto al cliente non sono più indicati come il registro giusto: la skill non li aggiunge di sua iniziativa e li usa quando la configurazione o la richiesta li chiedono.
+- **Il «tu» nel titolo non si usa su argomenti delicati**: salute, psicologia, questioni legali. «Psicoterapia per la tua ansia» era uscito dalla regola della 1.8.0.
+
+### Aggiunto
+
+- Cinque precisazioni del secondo lettore: il testo non promette più di quello che la richiesta dice («la compila e la invia da solo», «scelto per te»), l'articolo dice quanti ce ne sono («il nido di Bologna» è l'unico della città), le formule a doppio senso si sciolgono («pratiche a nostro carico»), nel sottotitolo va una cosa per frase, e il nome del prodotto tiene il suo genere.
+- Nel modello di configurazione, un esempio di eccezione per titoli e claim.
+
 ## [1.8.2] - 2026-10-08
 
 Quarto lotto di confronti alla cieca, valutato da un secondo lettore: otto claim e hero section, 1.8.1 contro 1.6.1. Quattro preferenze per parte. Le sue risposte sono in `evals/voti/lotto4-voti-secondo-lettore.md`.

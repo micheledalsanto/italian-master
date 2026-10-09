@@ -127,13 +127,13 @@ Una regola che esce dal confronto: il «noi» funziona quando è seguito da un v
 
 ## 7. Claim e hero section
 
-Il titolo in cima a una home, con il suo sottotitolo e il pulsante, e il claim di una locandina o di un banner sono il punto in cui le regole di questo file si rovesciano. Le indicazioni che seguono non vengono dai dieci siti ma dai confronti alla cieca fatti dall'autore di questa skill su sedici testi, e dalle sue riscritture. In quei confronti i titoli costruiti con «i fatti al posto degli aggettivi» non hanno mai vinto.
+Il titolo in cima a una home, con il suo sottotitolo e il pulsante, e il claim di una locandina o di un banner sono il punto in cui le regole di questo file si rovesciano. Le indicazioni che seguono non vengono dai dieci siti ma da trentadue coppie di testi confrontate alla cieca, ventiquattro dall'autore di questa skill e otto da un secondo lettore esperto, e dalle loro riscritture. Su alcune cose i due lettori sono d'accordo, e quelle sono regole. Su altre la pensano in modo opposto, e quelle sono gusto: decide chi firma il testo.
 
 **Il titolo parla al cliente e dice che cosa trova.** «Sei persone, a Padova, dal 2017» è l'anagrafe dell'agenzia, e a chi arriva sulla pagina non dice perché dovrebbe restare. Il titolo nomina il servizio, come lo cercherebbe il cliente, e quello che il cliente ne ricava. Persone, città e anno vanno nel sottotitolo, a sostegno.
 
-**Nel titolo c'è il lettore.** «Per il tuo e-commerce», «al tuo fianco», «per la tua azienda». Il tu, o il voi se il sito dà del voi.
+**Il lettore nel titolo, con misura.** «Per il tuo e-commerce», «per la tua azienda» portano il cliente dentro il titolo, e l'autore li preferisce. Non si usano quando l'argomento è delicato, cioè salute, psicologia, questioni legali, soldi che mancano: «Psicoterapia per la tua ansia» è troppo diretto, e «Psicoterapia per l'ansia e lo stress da lavoro» dice la stessa cosa senza puntare il dito.
 
-**Le parole del genere qui sono ammesse.** «Il partner ideale», «al tuo fianco», «ti accompagniamo nel tuo percorso», «passione», «i segreti del buon pane» nel corpo di una pagina sono le frasi che ogni sito ha e che non distinguono nessuno (vedi la sezione 4). In un titolo o in un claim sono il registro che il lettore si aspetta, a una condizione: sotto ci deve essere una riga di fatti che le regga. Titolo caldo, sottotitolo concreto.
+**Le parole calde sono una scelta di chi firma.** «Il partner ideale», «al tuo fianco», «ti accompagniamo nel tuo percorso», «passione», «i segreti del buon pane»: l'autore le usa nei titoli e le preferisce al titolo fatto di soli dati, il secondo lettore le trova generiche e scrive titoli sobri. Sono tutte e due posizioni di chi sa scrivere, quindi la skill non le aggiunge di sua iniziativa e non le toglie a chi le vuole. Si usano quando la configurazione dell'utente o la richiesta chiedono un tono caldo, e in quel caso sotto ci deve essere una riga di fatti che le regga. Senza indicazioni, il titolo nomina il servizio e il luogo, o il vantaggio, con parole piane.
 
 **«Più di», non «circa», quando il dato è approssimato.** Se la richiesta dice «circa 200 partite IVA», «seguiamo più di 150 partite IVA» promette, mentre «circa 200» mette un limite. Vale solo per i dati che sono già una stima, e il numero scelto deve restare vero. Un dato esatto resta esatto: da «600 impianti installati» non si ricava «oltre 600», che è un impianto in più di quelli veri. Un secondo lettore, a cui la skill aveva dato proprio «oltre 600», lo ha segnato come un dato non rispettato.
 
@@ -143,11 +143,21 @@ Il titolo in cima a una home, con il suo sottotitolo e il pulsante, e il claim d
 
 **Il verbo dice che cosa si fa con la cosa.** Una sala pesi nuova si prova, non si va a vedere: «vieni a provarla». È il controllo sugli accostamenti di `descrivere-e-raccontare.md`, e in una riga sola un verbo sbagliato si nota di più.
 
+**Il testo non promette più di quello che la richiesta dice.** In una riga è facile attribuire al prodotto una cosa in più. Se la richiesta dice che un programma invia da solo la fattura, «la compila e la invia da solo» gli fa fare anche la compilazione. Se i librai scelgono un libro al mese per tutti gli abbonati, «scelto per te» fa pensare a una scelta su misura. È la regola sui fatti inventati, nella forma che prende nei testi corti.
+
+**L'articolo dice quanti ce ne sono.** «Il nido di Bologna» è l'unico nido della città. «Un nido a Bologna» è uno dei tanti, ed è quello vero.
+
+**Le formule a doppio senso si sciolgono.** «Pratiche a nostro carico» può voler dire che l'azienda le sbriga o che ne paga i costi. «Ci occupiamo noi di tutte le pratiche» dice una cosa sola.
+
+**Una cosa per frase, nel sottotitolo.** Il colloquio gratuito, il sopralluogo, l'orario vanno in una frase loro, e non in coda a quella sui servizi: «Siamo due avvocate e assistiamo lavoratori e piccole aziende. Il primo colloquio è gratuito.» Due frasi brevi, qui, si leggono meglio di un periodo.
+
+**Il nome del prodotto ha un genere, e lo si tiene.** Un programma che si chiama Conto è maschile: «Conto la invia da solo», «lo usano già 12.000 professionisti», e non «da sola» e «la usano» per attrazione di «la fattura».
+
 **Un claim deve avere una logica.** «Impasta il giovedì, porta a casa il pane» e «Il pane s'impara con le mani, non con le ricette» sono costruiti sul suono, e a rileggerli non dicono una cosa vera. Il claim secco funziona quando il vantaggio è reale e si capisce subito: «Cambia auto. Guadagna 500 euro.» Qui le frasi di tre parole, che in un articolo sono un difetto, sono la forma giusta.
 
 **Sotto il claim, prima l'invito e poi i dati.** Il testo accoglie («Ti aspettiamo nel nostro forno…»), dice che cosa si farà, e chiude con posti e prezzo in una riga a sé.
 
-Quattro riscritture dell'autore. I dati di partenza erano quelli delle richieste.
+Quattro riscritture dell'autore, che mostrano il registro caldo. I dati di partenza erano quelli delle richieste.
 
 > **Commercialisti a Vicenza dal 2009**
 >
@@ -169,7 +179,7 @@ Quattro riscritture dell'autore. I dati di partenza erano quelli delle richieste
 >
 > Solo 8 posti disponibili, 120 € per l'intero corso.
 
-Il primo titolo è il più piano dei quattro, e va bene così: quando il servizio e la città sono quello che il cliente cerca, bastano quelli.
+Il primo titolo è il più piano dei quattro, e va bene così: quando il servizio e la città sono quello che il cliente cerca, bastano quelli. È anche la forma che preferisce il secondo lettore, le cui riscritture hanno tutte un titolo con il servizio e il luogo («…a Milano, dal 2012», «…su misura a Udine») e un sottotitolo di due frasi con i dati.
 
 ## 8. In pratica
 
