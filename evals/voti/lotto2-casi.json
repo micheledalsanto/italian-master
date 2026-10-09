@@ -1,0 +1,46 @@
+{
+  "skill_name": "italian-master",
+  "nota": "Lotto 2 dei confronti alla cieca: claim commerciali corti e frasi per la hero section. Ogni richiesta chiede la stessa forma, così i due testi si confrontano riga per riga.",
+  "evals": [
+    {
+      "id": 201, "name": "hero-commercialisti",
+      "prompt": "Scrivi la hero section della home del nostro sito. Siamo uno studio di tre commercialisti a Vicenza, aperto dal 2009, seguiamo circa 200 partite IVA tra liberi professionisti e piccole imprese. Mi servono tre righe e nient'altro: titolo (massimo otto parole), sottotitolo (una frase) e testo del pulsante.",
+      "files": {}, "controlli": {}
+    },
+    {
+      "id": 202, "name": "hero-agenzia",
+      "prompt": "Scrivi la hero section della home del nostro sito. Siamo Officina Nove, agenzia di Padova, sei persone, dal 2017 facciamo siti ed e-commerce per aziende manifatturiere del Nord-Est. Mi servono tre righe e nient'altro: titolo (massimo otto parole), sottotitolo (una frase) e testo del pulsante.",
+      "files": {}, "controlli": {}
+    },
+    {
+      "id": 203, "name": "claim-cargo-bike",
+      "prompt": "Mi serve un claim per la vetrina e per il banner del sito del mio negozio di biciclette a Bologna. Vendiamo cargo bike, e da gennaio il Comune rimborsa fino a 500 euro a chi ne compra una e rottama la seconda auto. Dammi solo il claim (massimo dieci parole) e una riga di supporto.",
+      "files": {}, "controlli": {}
+    },
+    {
+      "id": 204, "name": "hero-app-padel",
+      "prompt": "Scrivi la hero section della pagina di presentazione della nostra app. Si chiama Rete e serve a prenotare campi da padel: si vede quali campi sono liberi vicino a te, si prenota e si paga dall'app, e si può dividere il costo con gli altri giocatori. Mi servono tre righe e nient'altro: titolo (massimo otto parole), sottotitolo (una frase) e testo del pulsante.",
+      "files": {}, "controlli": {}
+    },
+    {
+      "id": 205, "name": "hero-fisioterapia",
+      "prompt": "Scrivi la hero section della home del sito del nostro studio di fisioterapia a Treviso. Siamo quattro fisioterapisti, riceviamo su appuntamento dal lunedì al sabato, e ci occupiamo soprattutto di riabilitazione dopo interventi e di mal di schiena. Mi servono tre righe e nient'altro: titolo (massimo otto parole), sottotitolo (una frase) e testo del pulsante.",
+      "files": {}, "controlli": {}
+    },
+    {
+      "id": 206, "name": "claim-corso-pane",
+      "prompt": "Mi serve un claim per la locandina e per il post del corso serale di panificazione del nostro forno, a Torino. Quattro lezioni il giovedì sera, otto posti, 120 euro. Dammi solo il claim (massimo dieci parole) e una riga di supporto.",
+      "files": {}, "controlli": {}
+    },
+    {
+      "id": 207, "name": "hero-designer-freelance",
+      "prompt": "Scrivi la hero section della home del mio sito personale. Sono un designer freelance, lavoro da remoto, mi occupo di UI design e UX e progetto siti e applicazioni per piccole e medie aziende. Ho cominciato nel 2015. Mi servono tre righe e nient'altro: titolo (massimo otto parole), sottotitolo (una frase) e testo del pulsante.",
+      "files": {}, "controlli": {}
+    },
+    {
+      "id": 208, "name": "hero-software-house",
+      "prompt": "Scrivi la hero section della home del nostro sito. Siamo una software house di 25 persone, nata a Bari, lavoriamo tutti da remoto dal 2020 e sviluppiamo applicazioni web su misura per aziende. Mi servono tre righe e nient'altro: titolo (massimo otto parole), sottotitolo (una frase) e testo del pulsante.",
+      "files": {}, "controlli": {}
+    }
+  ]
+}

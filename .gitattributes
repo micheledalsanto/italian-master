@@ -1,0 +1,2 @@
+# Fine riga Unix ovunque: con i fine riga di Windows il frontmatter di SKILL.md non viene letto e la skill non si carica.
+* text=auto eol=lf

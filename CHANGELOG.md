@@ -2,6 +2,17 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.7.1] - 2026-10-08
+
+### Corretto
+
+- **Con i fine riga di Windows la skill non si caricava.** Chi clonava la repo su Windows con la conversione automatica dei fine riga otteneva un `SKILL.md` che Claude Code caricava come plugin senza registrarne la skill. Un file `.gitattributes` ora fissa i fine riga Unix su tutte le piattaforme. L'installazione con npx non era toccata dal problema.
+
+### Aggiunto
+
+- In `evals/esegui.py`, l'opzione `--casi`, per eseguire un file di casi diverso da `evals.json`.
+- In `evals/voti/`, i casi e le coppie del secondo lotto di confronti alla cieca: otto richieste di claim e di hero section.
+
 ## [1.7.0] - 2026-10-08
 
 Prima versione corretta sui voti dell'autore: otto coppie di testi confrontate alla cieca, con la skill e senza. La skill è stata preferita quattro volte, ha perso due volte e ha pareggiato due. I voti e le riscritture sono in `evals/voti/`.

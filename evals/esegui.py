@@ -128,11 +128,12 @@ def main():
     parser.add_argument("--uscita", default=str(REPO / "evals" / "risultati"), help="cartella dei risultati")
     parser.add_argument("--rivaluta", action="store_true", help="rivaluta le risposte già salvate senza rieseguire")
     parser.add_argument("--mancanti", action="store_true", help="esegue solo i casi che non hanno ancora una risposta salvata")
+    parser.add_argument("--casi", default=str(REPO / "evals" / "evals.json"), help="file dei casi da eseguire (predefinito: evals/evals.json)")
     parser.add_argument("--plugin", default=str(REPO), help="cartella del plugin da provare, per esempio una copia di una versione precedente")
     parser.add_argument("--ripeti", type=int, default=1, help="quante volte eseguire ogni caso (predefinito: 1)")
     args = parser.parse_args()
 
-    casi = json.loads((REPO / "evals" / "evals.json").read_text(encoding="utf-8"))["evals"]
+    casi = json.loads(Path(args.casi).read_text(encoding="utf-8"))["evals"]
     if args.solo:
         scelti = {s.strip() for s in args.solo.split(",")}
         casi = [c for c in casi if str(c["id"]) in scelti or c["name"] in scelti]
