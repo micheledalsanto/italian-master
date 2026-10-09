@@ -137,7 +137,11 @@ Il titolo in cima a una home, con il suo sottotitolo e il pulsante, e il claim d
 
 **«Più di», non «circa».** «Seguiamo più di 150 partite IVA» promette, «circa 200» mette un limite. Il numero che si sceglie deve restare vero.
 
-**Non tutti i fatti forniti vanno nella hero.** Si mette quello che serve a far scegliere. «Da remoto» nel titolo di un designer suona forzato, perché al cliente non cambia niente.
+**Non tutti i fatti forniti vanno nella hero.** Si mette quello che serve a far scegliere. «Da remoto» nel titolo di un designer suona forzato, perché al cliente non cambia niente. Lo stesso vale per i numeri che descrivono l'azienda dall'interno: quanti dipendenti ha un'impresa di pulizie o quante persone ci sono in una classe non interessa a chi legge, a cui interessa il servizio. Contano i numeri che parlano del cliente o del risultato, come i locali che usano già un programma.
+
+**Nel titolo niente che restringa.** Un orario, un giorno, un limite («di sera», «fino a otto persone») messi nel titolo allontanano chi non ci si riconosce subito. Stanno nella descrizione, dove chi è interessato li cerca.
+
+**Il verbo dice che cosa si fa con la cosa.** Una sala pesi nuova si prova, non si va a vedere: «vieni a provarla». È il controllo sugli accostamenti di `descrivere-e-raccontare.md`, e in una riga sola un verbo sbagliato si nota di più.
 
 **Un claim deve avere una logica.** «Impasta il giovedì, porta a casa il pane» e «Il pane s'impara con le mani, non con le ricette» sono costruiti sul suono, e a rileggerli non dicono una cosa vera. Il claim secco funziona quando il vantaggio è reale e si capisce subito: «Cambia auto. Guadagna 500 euro.» Qui le frasi di tre parole, che in un articolo sono un difetto, sono la forma giusta.
 

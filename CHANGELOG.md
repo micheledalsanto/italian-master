@@ -2,6 +2,18 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.8.1] - 2026-10-08
+
+Terzo lotto di confronti alla cieca: otto claim e hero section su attività nuove, 1.8.0 contro 1.7.1. La versione nuova è stata preferita due volte, quella precedente quattro, e in due coppie nessuna delle due.
+
+### Aggiunto
+
+- In `siti.md`, tre precisazioni dette dall'autore nei voti: i numeri che descrivono l'azienda dall'interno (dipendenti, persone per classe) non vanno nella hero, perché a chi legge interessa il servizio; nel titolo niente che restringa, come un orario o un limite, che stanno nella descrizione; il verbo dice che cosa si fa con la cosa («vieni a provarla», di una sala pesi, e non «a vederla»).
+
+### Limiti noti
+
+- **Le regole ricavate dai voti non hanno ancora migliorato i risultati in modo misurabile.** Nei due lotti in cui una versione nuova è stata confrontata con quella precedente, sedici coppie in tutto, la nuova è stata preferita due volte e la precedente otto. Con un'esecuzione per caso può essere in parte caso, ma di certo non c'è la prova che la sezione sulle hero abbia fatto scrivere hero migliori.
+
 ## [1.8.0] - 2026-10-08
 
 Seconda versione corretta sui voti dell'autore: otto coppie di claim e di hero section, 1.7.0 contro 1.6.1. La versione nuova non è stata preferita in nessuna coppia, quella precedente in quattro, e in tre nessuna delle due andava bene.
