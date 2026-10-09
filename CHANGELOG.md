@@ -2,6 +2,12 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.10.3] - 2026-10-09
+
+### Modificato
+
+- L'installatore per npx è passato da `bin/` a `installer/`. La directory dei plugin non rende disponibile su Cowork e sulle app di Claude un plugin che ha una cartella `bin/` alla radice. I comandi `npx` non cambiano.
+
 ## [1.10.2] - 2026-10-09
 
 ### Aggiunto

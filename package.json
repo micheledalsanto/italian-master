@@ -1,6 +1,6 @@
 {
   "name": "italian-master",
-  "version": "1.10.2",
+  "version": "1.10.3",
   "description": "Skill per Claude, Codex e gli altri agenti che scrive, riscrive e corregge testi in italiano naturale, contro l'AI slop. Si installa con npx.",
   "keywords": [
     "claude",
@@ -27,10 +27,10 @@
   "license": "MIT",
   "author": "Michele Dal Santo <info@micheledalsanto.it> (https://www.micheledalsanto.it)",
   "bin": {
-    "italian-master": "bin/italian-master.js"
+    "italian-master": "installer/italian-master.js"
   },
   "files": [
-    "bin",
+    "installer",
     "skills",
     "CHANGELOG.md"
   ],
