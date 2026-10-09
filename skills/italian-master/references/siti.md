@@ -135,7 +135,7 @@ Il titolo in cima a una home, con il suo sottotitolo e il pulsante, e il claim d
 
 **Le parole del genere qui sono ammesse.** «Il partner ideale», «al tuo fianco», «ti accompagniamo nel tuo percorso», «passione», «i segreti del buon pane» nel corpo di una pagina sono le frasi che ogni sito ha e che non distinguono nessuno (vedi la sezione 4). In un titolo o in un claim sono il registro che il lettore si aspetta, a una condizione: sotto ci deve essere una riga di fatti che le regga. Titolo caldo, sottotitolo concreto.
 
-**«Più di», non «circa».** «Seguiamo più di 150 partite IVA» promette, «circa 200» mette un limite. Il numero che si sceglie deve restare vero.
+**«Più di», non «circa», quando il dato è approssimato.** Se la richiesta dice «circa 200 partite IVA», «seguiamo più di 150 partite IVA» promette, mentre «circa 200» mette un limite. Vale solo per i dati che sono già una stima, e il numero scelto deve restare vero. Un dato esatto resta esatto: da «600 impianti installati» non si ricava «oltre 600», che è un impianto in più di quelli veri. Un secondo lettore, a cui la skill aveva dato proprio «oltre 600», lo ha segnato come un dato non rispettato.
 
 **Non tutti i fatti forniti vanno nella hero.** Si mette quello che serve a far scegliere. «Da remoto» nel titolo di un designer suona forzato, perché al cliente non cambia niente. Lo stesso vale per i numeri che descrivono l'azienda dall'interno: quanti dipendenti ha un'impresa di pulizie o quante persone ci sono in una classe non interessa a chi legge, a cui interessa il servizio. Contano i numeri che parlano del cliente o del risultato, come i locali che usano già un programma.
 

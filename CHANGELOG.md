@@ -2,6 +2,14 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.8.2] - 2026-10-08
+
+Quarto lotto di confronti alla cieca, valutato da un secondo lettore: otto claim e hero section, 1.8.1 contro 1.6.1. Quattro preferenze per parte. Le sue risposte sono in `evals/voti/lotto4-voti-secondo-lettore.md`.
+
+### Corretto
+
+- **«Più di» vale solo per i dati approssimati.** La regola della 1.8.0 («più di», non «circa») ha fatto scrivere «oltre 600 impianti» dove la richiesta diceva 600, e il secondo lettore lo ha segnato come un dato non rispettato. Ora la sezione sulle hero dice che un dato esatto resta esatto.
+
 ## [1.8.1] - 2026-10-08
 
 Terzo lotto di confronti alla cieca: otto claim e hero section su attività nuove, 1.8.0 contro 1.7.1. La versione nuova è stata preferita due volte, quella precedente quattro, e in due coppie nessuna delle due.
