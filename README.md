@@ -11,13 +11,13 @@
 
 Una skill per scrivere in italiano come scrive chi la lingua la conosce bene, senza AI slop. Funziona con Claude, con Codex e con gli altri agenti che leggono le Agent Skills.
 
-*An agent skill (Claude, Codex) for natural Italian writing: grammar, syntax, tone, idioms, headlines. The skill and its documentation are in Italian. [English summary below](#english).*
+*An agent skill (Claude, Codex) for natural Italian writing: grammar, syntax, tone, verb tenses, idioms, headlines. The skill is written in Italian. [Read this README in English](README.en.md).*
 
 ## Il problema
 
 Chi chiede a un modello un testo in italiano riceve quasi sempre una pagina senza errori che nessun italiano scriverebbe. Comincia con «In un mondo sempre più», mette tre aggettivi dove ne basterebbe uno, ha le maiuscole a ogni parola del titolo e le lineette lunghe dell'inglese. Se poi gli si chiede di essere più asciutto, il modello passa a frasette di cinque parole con una battuta in fondo, e il testo si riconosce lo stesso.
 
-Questa skill dà al modello quello che sa un buon redattore: dove si sbaglia davvero la grammatica, come si costruisce un periodo che non suona tradotto, quando dare del tu, del lei o del voi, come si fa un titolo. Gli chiede anche di non aggiungere niente ai fatti che riceve, per cui un testo con pochi dati esce più corto e sotto dice che cosa manca. Le indicazioni vengono da testi veri, letti e contati: giornali, siti di aziende e di agenzie, saggi, lettere.
+Questa skill dà al modello quello che sa un buon redattore: dove si sbaglia davvero la grammatica, come si costruisce un periodo che non suona tradotto, quando dare del tu, del lei o del voi, come si fa un titolo, quale tempo verbale vuole un racconto. Gli chiede anche di non aggiungere niente ai fatti che riceve, per cui un testo con pochi dati esce più corto e sotto dice che cosa manca. Le indicazioni vengono da testi veri, letti e contati: giornali, siti di aziende e di agenzie, saggi, lettere.
 
 ## Prima e dopo
 
@@ -222,6 +222,7 @@ Lo script non riconosce i testi generati e non vede i fatti inventati. Segnala a
 | [`references/connettivi.md`](skills/italian-master/references/connettivi.md) | I connettivi e le parole che misurano, con le frequenze nei giornali e nei testi generati |
 | [`references/attacchi-e-chiusure.md`](skills/italian-master/references/attacchi-e-chiusure.md) | Come cominciano e come finiscono gli articoli veri, con esempi costruiti |
 | [`references/impronte.md`](skills/italian-master/references/impronte.md) | I segni grammaticali che restano dopo aver tolto le formule, e i falsi allarmi |
+| [`references/tempi-verbali.md`](skills/italian-master/references/tempi-verbali.md) | I tempi verbali in ventidue libri di generi diversi: il tempo di base di ogni genere, sfondo e primo piano, antefatto, futuro nel passato, e gli errori di chi traduce |
 | [`references/ai-slop.md`](skills/italian-master/references/ai-slop.md) | Catalogo dei segnali di scrittura artificiale in italiano, con le alternative |
 | [`references/sintassi-stile.md`](skills/italian-master/references/sintassi-stile.md) | Antilingua, nominalizzazioni, frase, capoverso, logica |
 | [`references/calchi.md`](skills/italian-master/references/calchi.md) | Calchi dall'inglese, falsi amici, anglicismi |
@@ -245,7 +246,7 @@ L'agente legge sempre `SKILL.md` e apre gli altri file solo quando servono.
 
 ## Da dove vengono le regole
 
-Dall'Accademia della Crusca e da Treccani per la norma, e dalla tradizione della scrittura chiara per lo stile (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). Le misure vengono da quasi due milioni di parole lette e contate: articoli di otto testate italiane online, dieci siti di aziende ed enti, dodici siti di agenzie digitali, tredici newsletter, le stringhe di otto applicazioni, racconti fantastici, lettere, saggi, fiabe e opere d'autore di pubblico dominio. L'elenco completo è in [`fonti.md`](skills/italian-master/references/fonti.md).
+Dall'Accademia della Crusca e da Treccani per la norma, e dalla tradizione della scrittura chiara per lo stile (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). Le misure vengono da circa quattro milioni e mezzo di parole scaricate e contate: articoli di otto testate italiane online, dieci siti di aziende ed enti, dodici siti di agenzie digitali, tredici newsletter, le stringhe di otto applicazioni, racconti fantastici, lettere, saggi, fiabe, romanzi, memorie, teatro e altre opere di pubblico dominio. L'elenco completo è in [`fonti.md`](skills/italian-master/references/fonti.md).
 
 La skill non contiene testi altrui. Giornali e siti non sono nominati e nessuna loro frase è riportata: gli esempi sono scritti apposta, con fatti inventati. Le sole citazioni testuali sono brevi passi di opere uscite prima del 1930.
 
@@ -262,39 +263,8 @@ Segnalazioni, correzioni e nuovi esempi sono benvenuti. Vedi [`CONTRIBUTING.md`]
 
 ## Versioni
 
-La versione corrente è la 1.9.3. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
+La versione corrente è la 1.10.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
 
 ## Licenza
 
 [MIT](LICENSE).
-
----
-
-<a name="english"></a>
-
-## English
-
-Italian master is an agent skill that makes Claude, Codex and other Agent Skills-compatible agents write Italian the way a skilled native writer does. It targets the patterns that make generated Italian text instantly recognisable: English calques, Title Case headings, em dashes, automatic triads, «non è solo X, è Y» constructions, inflated vocabulary, bureaucratic phrasing.
-
-It covers grammar and spelling doubts, punctuation and typography conventions, syntax and logic, register (tu/lei/voi), idioms and proverbs with their English equivalents, headlines and email subject lines, website copy, interface microcopy, newsletters and formal letters, and a workflow for learning a voice from reference texts. It only uses the facts given in the request, and tone and audience can be set once in a configuration file. A small Python linter flags the most common tells.
-
-Install with npx (copies the skill to `~/.claude/skills`):
-
-```bash
-npx github:micheledalsanto/italian-master
-```
-
-Or as a Claude Code plugin:
-
-```
-/plugin marketplace add micheledalsanto/italian-master
-/plugin install italian-master@italian-master
-```
-
-Install in Codex (copies the skill to `~/.agents/skills`):
-
-```bash
-npx github:micheledalsanto/italian-master --codex
-```
-
-The skill triggers on any request whose output is Italian text, including requests written in English.

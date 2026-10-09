@@ -421,6 +421,33 @@
           "\\d+ ?(€|euro)"
         ]
       }
+    },
+    {
+      "id": 15,
+      "name": "traduzione-scena-al-passato",
+      "prompt": "Traducimi in italiano questo pezzo di un racconto, deve sembrare scritto in italiano:\n\nWhen Marta got to the station, the train had already left. It was raining, and people were running toward the arcade with newspapers over their heads. She had been waiting for this day for three years. Her brother had said he would come to pick her up, but nobody was there. \"I saw him this morning,\" the newsagent told her. \"He said he would be back before noon.\" She thought it was too late to go home, so she sat down on the bench and waited.",
+      "expected_output": "Traduzione in italiano narrativo: passato remoto per i fatti (arrivò, disse, si sedette), imperfetto semplice per lo sfondo (pioveva, la gente correva) e non «stava piovendo», trapassato per l'antefatto (il treno era già partito, aveva detto), «aspettava quel giorno da tre anni», condizionale passato per il futuro nel passato (sarebbe venuto, sarebbe tornato), passato prossimo nella battuta dell'edicolante (l'ho visto stamattina), congiuntivo imperfetto dopo «pensò che» (fosse). Nessun fatto aggiunto. Se c'è una nota per l'utente è breve e gli dà del tu.",
+      "files": {},
+      "controlli": {
+        "deve": [
+          "era (già |ormai )?(già )?partito",
+          "[Pp]ioveva",
+          "da tre anni",
+          "sarebbe (venuto|andato|passato)",
+          "sarebbe (tornato|rientrato|stato di ritorno)",
+          "(L'ho|l'ho|ho) visto",
+          "foss[e]"
+        ],
+        "non_deve": [
+          "—",
+          "[Ss]tava piovendo",
+          "stavano correndo",
+          "che (verrebbe|tornerebbe)",
+          "\bvidi\b",
+          "per tre anni",
+          "^[^\\w\n]*Ecco\b"
+        ]
+      }
     }
   ]
 }

@@ -50,6 +50,8 @@ Conviene poi avere chiare quattro cose, e se la richiesta non le dice si deducon
 
 **Racconta i fatti al passato e con i loro nomi.** Il testo generato tende a un presente senza tempo e a soggetti generici («Un assistente può…», «Una risposta può…»), mentre chi scrive di cose accadute usa il passato prossimo, l'imperfetto e anche il remoto, e mette come soggetto persone e cose determinate. «Può» va riservato ai casi in cui c'è davvero un'incertezza, dicendo di chi è. Vedi `references/impronte.md`.
 
+**Dai a ogni fatto il suo tempo.** Si sceglie un tempo di base secondo il genere (il passato remoto per un racconto, il passato prossimo per un articolo, una lettera o il racconto di sé, il presente per una guida) e gli altri si regolano su quello: lo sfondo e le abitudini all'imperfetto, quello che era già successo al trapassato («quando arrivò, la riunione era cominciata»), quello che doveva ancora succedere al condizionale passato («disse che sarebbe venuto»). L'azione in corso è un imperfetto semplice («pioveva», non «stava piovendo»), e la durata si dice con «da» («lavoro qui da tre anni»). I casi, con le misure prese su ventidue libri, sono in `references/tempi-verbali.md`.
+
 **Comincia dal fatto e finisci quando hai finito.** Negli articoli veri la prima frase contiene già una data, un nome o un numero, e l'ultima è quasi sempre un'informazione in più, non una morale. Vedi `references/attacchi-e-chiusure.md`.
 
 **Accompagna chi non è del mestiere.** Quando il testo spiega qualcosa a persone non esperte, si comincia dalla situazione o dal dubbio del lettore, gli si dà del tu, ci si fa vedere con un «vediamo» o un «ti spiego», si mettono le sue domande nei punti in cui gli verrebbero e il termine tecnico arriva dopo la spiegazione. Anche i titoli devono essere frasi che si direbbero a voce. Vedi `references/tono-accogliente.md`.
@@ -103,7 +105,7 @@ Nessuna di queste liste è un elenco di divieti, perché ognuna di queste forme 
 
 **Scrivere una comunicazione formale.** Un avviso ai clienti, un sollecito, la risposta a un reclamo vogliono il registro formale per intero, con le sue formule di cortesia, e in mezzo soltanto fatti: che cosa cambia, da quando, che cosa deve fare chi legge. Togliere le formule non rende il testo più naturale. Vedi `references/corrispondenza-formale.md`.
 
-**Scrivere narrativa.** Un racconto ha un passo diverso da un articolo: frasi di una quindicina di parole in media, dialoghi, passato remoto, poche similitudini. Per il fantasy, la fiaba e il fantastico quotidiano vedi `references/narrativa-fantastica.md`, che dice come cominciare, come far capire un mondo dalle cose e quali stampi evitare.
+**Scrivere narrativa.** Un racconto ha un passo diverso da un articolo: frasi di una quindicina di parole in media, dialoghi, passato remoto, poche similitudini. Per il fantasy, la fiaba e il fantastico quotidiano vedi `references/narrativa-fantastica.md`, che dice come cominciare, come far capire un mondo dalle cose e quali stampi evitare. Per l'uso dei tempi in una scena, con l'antefatto e i pensieri dei personaggi, vedi `references/tempi-verbali.md`.
 
 **Scrivere per i bambini.** Per chi ha tra i sei e gli undici anni le regole sul periodo si rovesciano: una frase, un'idea, parole di tutti i giorni, molte domande. Le misure, l'indice di leggibilità e un esempio sono in `references/scrivere-per-bambini.md`.
 
@@ -119,7 +121,7 @@ Nessuna di queste liste è un elenco di divieti, perché ognuna di queste forme 
 
 **Titoli, oggetti, attacchi.** Vedi `references/titoli.md`. Si propongono più varianti da angoli diversi, indicando quale si sceglierebbe, e ogni titolo promette solo quello che il testo mantiene.
 
-**Tradurre verso l'italiano.** Si traduce il senso, ricostruendo i periodi come li costruirebbe chi scrive in italiano, dato che la sintassi a frasi brevi dell'originale inglese è la prima cosa che tradisce una traduzione. Le formule di entusiasmo e di congedo («we're thrilled», «stay tuned») non si traducono parola per parola e non si tolgono: si rendono con quelle che un'azienda italiana userebbe nello stesso posto («siamo felici di condividere questa novità», «continua a seguirci»), perché un post a cui è stato tolto il calore non ha più tono. Vedi `references/calchi.md` e, per le espressioni idiomatiche, `references/modi-di-dire.md`.
+**Tradurre verso l'italiano.** Si traduce il senso, ricostruendo i periodi come li costruirebbe chi scrive in italiano, dato che la sintassi a frasi brevi dell'originale inglese è la prima cosa che tradisce una traduzione. Le formule di entusiasmo e di congedo («we're thrilled», «stay tuned») non si traducono parola per parola e non si tolgono: si rendono con quelle che un'azienda italiana userebbe nello stesso posto («siamo felici di condividere questa novità», «continua a seguirci»), perché un post a cui è stato tolto il calore non ha più tono. Vedi `references/calchi.md`, per i tempi del passato `references/tempi-verbali.md` e, per le espressioni idiomatiche, `references/modi-di-dire.md`.
 
 **Imparare una voce.** Quando l'utente indica dei testi di riferimento, vanno letti prima di scrivere, ricavandone una scheda di stile secondo `references/imparare-una-voce.md`. La voce dell'utente prevale sulle preferenze di questa skill.
 
@@ -139,7 +141,7 @@ Prima di consegnare un testo da leggere conviene controllare, nell'ordine:
 - se quello che si promette al lettore è al futuro («scrivici, ti risponderemo»), e non al presente («ti rispondiamo», «ti diciamo come»)
 - accenti e apostrofi («perché», «è», «È», «un po'», «qual è»), maiuscole solo a inizio titolo, numeri e date all'italiana, con date, ore, prezzi e misure sempre in cifre («120 euro», «dalle 9 alle 13»)
 - se ogni dato e ogni circostanza presenti nel testo vengono dall'utente o da una fonte
-- se i fatti accaduti sono raccontati al passato, con soggetti determinati e senza salti di tempo verbale
+- se i fatti accaduti sono raccontati al passato, con soggetti determinati e senza salti di tempo verbale, e se l'antefatto è al trapassato
 - se ogni frase riscritta si capisce da sola, e se gli accostamenti di parole sono di quelli che si sentono dire
 - se, letto ad alta voce, sembra detto da qualcuno
 - se le righe per l'utente stanno sotto il testo e sono scritte con la stessa cura
@@ -165,6 +167,7 @@ Le sue segnalazioni sono indizi da valutare, e un testo che non ne riceve può e
 | `references/connettivi.md` | Quando le frasi stanno una accanto all'altra senza legarsi, o il testo è tutto ugualmente sicuro |
 | `references/attacchi-e-chiusure.md` | Per la prima e l'ultima frase di un articolo, di un post, di una newsletter |
 | `references/impronte.md` | In rilettura, per i segni che restano dopo aver tolto le formule, e per non proibire cose normali |
+| `references/tempi-verbali.md` | Per un racconto, una scena, una biografia, una storia aziendale, un resoconto, e ogni volta che si traduce un testo al passato |
 | `references/ai-slop.md` | Per rivedere un testo che suona artificiale |
 | `references/sintassi-stile.md` | Per sciogliere frasi burocratiche, nominali, passive |
 | `references/calchi.md` | Per tradurre dall'inglese, o se il testo parla di tecnologia, lavoro, marketing |

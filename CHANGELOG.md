@@ -2,6 +2,22 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.10.0] - 2026-10-09
+
+Lo studio dei tempi verbali su ventidue libri di generi diversi, e il README anche in inglese.
+
+### Aggiunto
+
+- **`references/tempi-verbali.md`.** Come usano i tempi un giallo, due romanzi d'avventura, un romanzo d'appendice, romanzi e novelle, due commedie, un reportage, diari e memorie, una storia letteraria, una biografia, un manuale di buone maniere e un carteggio: circa due milioni e mezzo di parole scaricate da Liber Liber, di cui 770.000 analizzate verbo per verbo. Il file dà il tempo di base di ogni genere, la distinzione tra primo piano e sfondo, il trapassato per l'antefatto, il condizionale passato per il futuro nel passato, i pensieri dei personaggi, la durata con «da», i quattro casi in cui il presente entra in un racconto al passato, e una tabella degli errori tipici del testo generato o tradotto.
+- In `SKILL.md`, il capoverso «Dai a ogni fatto il suo tempo», la riga nella tabella dei riferimenti e il rimando dalla narrativa e dalla traduzione.
+- Un caso di prova, `traduzione-scena-al-passato`: una scena in inglese che richiede trapassato, imperfetto semplice, «da tre anni», condizionale passato e passato prossimo nella battuta. Passa due volte su due.
+- `README.en.md`, la versione inglese completa del README. Sostituisce il riassunto in fondo al README italiano.
+
+### Note
+
+- Nelle due prove la skill ha tradotto con i tempi giusti senza aprire il nuovo riferimento, perché per un passo breve le è bastato il capoverso di `SKILL.md`. Il caso quindi controlla il risultato e non verifica che il riferimento venga letto.
+- I libri sono tutti usciti tra il 1870 e il 1926. Per l'uso di oggi il file rimanda alle misure già fatte sui giornali e sui racconti contemporanei.
+
 ## [1.9.3] - 2026-10-09
 
 ### Aggiunto

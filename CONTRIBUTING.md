@@ -17,6 +17,7 @@ Questa skill migliora se chi scrive in italiano per mestiere ci mette le mani.
 3. Se aggiungi una formula allo script, provala su un testo vero e controlla che non scatti su frasi innocenti.
 4. Descrivi nella pull request che cosa hai cambiato e perché.
 5. Aggiungi una riga al `CHANGELOG.md`, sotto la prossima versione.
+6. Se cambi il `README.md`, riporta la modifica anche in `README.en.md`, che è la sua versione inglese.
 
 ## Criteri
 
