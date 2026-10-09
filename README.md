@@ -1,5 +1,14 @@
 # Italian master
 
+[![Versione](https://img.shields.io/github/package-json/v/micheledalsanto/italian-master?label=versione&color=2ea44f)](CHANGELOG.md)
+[![Licenza MIT](https://img.shields.io/github/license/micheledalsanto/italian-master?label=licenza&color=blue)](LICENSE)
+[![Stelle](https://img.shields.io/github/stars/micheledalsanto/italian-master?label=stelle&style=flat&color=e3b341)](https://github.com/micheledalsanto/italian-master/stargazers)
+![Lingua: italiano](https://img.shields.io/badge/lingua-italiano-008C45)
+![Claude Code](https://img.shields.io/badge/Claude_Code-plugin_e_skill-D97757)
+![Codex](https://img.shields.io/badge/Codex-skill-555555)
+![Node 18 o successivo](https://img.shields.io/badge/node-%E2%89%A5_18-339933?logo=nodedotjs&logoColor=white)
+![Python 3.8 o successivo](https://img.shields.io/badge/python-%E2%89%A5_3.8-3776AB?logo=python&logoColor=white)
+
 Una skill per scrivere in italiano come scrive chi la lingua la conosce bene, senza AI slop. Funziona con Claude, con Codex e con gli altri agenti che leggono le Agent Skills.
 
 *An agent skill (Claude, Codex) for natural Italian writing: grammar, syntax, tone, idioms, headlines. The skill and its documentation are in Italian. [English summary below](#english).*
@@ -253,7 +262,7 @@ Segnalazioni, correzioni e nuovi esempi sono benvenuti. Vedi [`CONTRIBUTING.md`]
 
 ## Versioni
 
-La versione corrente è la 1.9.2. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
+La versione corrente è la 1.9.3. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
 
 ## Licenza
 

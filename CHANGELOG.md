@@ -2,6 +2,12 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.9.3] - 2026-10-09
+
+### Aggiunto
+
+- In testa al README, le etichette con versione, licenza, stelle, lingua, agenti e requisiti. Versione e licenza sono lette dalla repo e si aggiornano da sole.
+
 ## [1.9.2] - 2026-10-09
 
 Il README riletto con la skill e con `controlla.py`.
