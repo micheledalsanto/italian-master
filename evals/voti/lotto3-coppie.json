@@ -1,0 +1,61 @@
+{
+ "lotto": 3,
+ "coppie": [
+  {
+   "id": "l3-01",
+   "etichetta": "Richiesta",
+   "originale": "Scrivi la hero section della home del sito del nostro studio dentistico a Verona. Siamo tre dentisti e due igieniste, lo studio è aperto dal 1998, facciamo anche ortodonzia per bambini e riceviamo fino alle 20.",
+   "a": "#### Dentisti a Verona, per tutta la famiglia\n\nSiamo tre dentisti e due igieniste, a Verona dal 1998: ci occupiamo anche di ortodonzia per i più piccoli e riceviamo fino alle 20.\n\n*Pulsante:* Prenota una visita",
+   "b": "#### Il tuo sorriso, a Verona dal 1998\n\nTre dentisti e due igieniste, con l'ortodonzia pediatrica e aperti fino alle 20 per chi lavora tutto il giorno.\n\n*Pulsante:* Prenota la tua visita"
+  },
+  {
+   "id": "l3-02",
+   "etichetta": "Richiesta",
+   "originale": "Scrivi la hero section della home del nostro sito. Siamo uno studio di architettura di Bergamo, quattro architetti, dal 2011 ci occupiamo di ristrutturazioni di case e appartamenti, dal progetto alla direzione dei lavori.",
+   "a": "#### Ristrutturazioni a Bergamo: quattro architetti al tuo fianco\n\nDal 2011 seguiamo ristrutturazioni di case e appartamenti, dal progetto alla direzione dei lavori.\n\n*Pulsante:* Raccontaci il tuo progetto",
+   "b": "#### Ristrutturiamo case e appartamenti a Bergamo dal 2011\n\nQuattro architetti seguono il tuo progetto dal disegno alla direzione dei lavori.\n\n*Pulsante:* Raccontaci la tua casa"
+  },
+  {
+   "id": "l3-03",
+   "etichetta": "Richiesta",
+   "originale": "Mi serve un claim per il volantino e per il banner del sito della nostra palestra a Modena. A settembre il primo mese è gratis per chi si iscrive entro il 15, e abbiamo aperto la sala pesi nuova.",
+   "a": "#### Il tuo settembre in palestra, gratis a Modena.\n\nIscriviti entro il 15 e il primo mese non lo paghi: ti aspetta anche la nuova sala pesi.",
+   "b": "#### Il primo mese è gratis. Iscriviti entro il 15 settembre.\n\nAbbiamo aperto anche la nuova sala pesi: vieni a vederla a Modena."
+  },
+  {
+   "id": "l3-04",
+   "etichetta": "Richiesta",
+   "originale": "Scrivi la hero section della pagina di presentazione del nostro software. Si chiama Tavolo ed è un gestionale per ristoranti: prenotazioni, comande dal tablet e chiusura di cassa in un unico programma. Lo usano 340 locali in Italia.",
+   "a": "#### Prenotazioni, comande e cassa in un programma\n\nLo scelgono già 340 locali in Italia, che con Tavolo prendono le comande dal tablet e chiudono la cassa senza cambiare programma.\n\n*Pulsante:* Scopri come funziona",
+   "b": "#### Il ristorante si gestisce da un solo programma\n\nCon Tavolo prendi le prenotazioni, mandi le comande dal tablet e chiudi la cassa a fine serata, tutto nello stesso programma: lo usano già 340 locali in Italia.\n\n*Pulsante:* Richiedi una demo"
+  },
+  {
+   "id": "l3-05",
+   "etichetta": "Richiesta",
+   "originale": "Scrivi la hero section della home del sito del nostro agriturismo sulle colline di Asolo. Abbiamo sei camere, il ristorante cucina con i prodotti del nostro orto e siamo aperti da marzo a novembre.",
+   "a": "#### Dormi e mangia sulle colline di Asolo\n\nSei camere e un ristorante che porta in tavola l'orto di casa, aperti da marzo a novembre.\n\n*Pulsante:* Prenota il soggiorno",
+   "b": "#### Tra le colline di Asolo, l'agriturismo con l'orto in tavola\n\nSei camere e una cucina che segue le stagioni dell'orto, da marzo a novembre.\n\n*Pulsante:* Scopri le camere"
+  },
+  {
+   "id": "l3-06",
+   "etichetta": "Richiesta",
+   "originale": "Mi serve un claim per i manifesti e per il post dei corsi serali della nostra scuola di inglese a Brescia. I corsi cominciano il 6 ottobre, classi di otto persone al massimo, insegnanti madrelingua.",
+   "a": "#### Inglese vero, otto persone, un insegnante madrelingua.\n\nDal 6 ottobre, in classi da massimo otto persone e con insegnanti madrelingua, a Brescia.",
+   "b": "#### Impara l'inglese di sera, in classi fino a otto persone.\n\nCon insegnanti madrelingua, le lezioni iniziano il 6 ottobre."
+  },
+  {
+   "id": "l3-07",
+   "etichetta": "Richiesta",
+   "originale": "Scrivi la hero section della home del mio sito personale. Sono una fotografa di matrimoni, lavoro in Toscana dal 2014 e ho fotografato più di 200 matrimoni.",
+   "a": "#### Fotografo matrimoni in Toscana dal 2014\n\nPiù di duecento coppie, in tutta la Toscana, mi hanno affidato il racconto del loro matrimonio.\n\n*Pulsante:* Guarda i matrimoni",
+   "b": "#### Fotografie di matrimonio che raccontano il vostro giorno\n\nFotografo matrimoni in tutta la Toscana dal 2014 e ho già raccontato più di 200 storie d'amore.\n\n*Pulsante:* Guarda i matrimoni"
+  },
+  {
+   "id": "l3-08",
+   "etichetta": "Richiesta",
+   "originale": "Scrivi la hero section della home del nostro sito. Siamo un'impresa di pulizie di Trento, 40 dipendenti, dal 2003 puliamo uffici, condomini e studi medici.",
+   "a": "#### Pulizie per uffici, condomini e studi medici\n\nSiamo 40 persone e puliamo a Trento dal 2003.\n\n*Pulsante:* Richiedi un preventivo",
+   "b": "#### Puliamo uffici, condomini e studi medici dal 2003\n\nSiamo un'impresa di pulizie di Trento, oggi quaranta dipendenti.\n\n*Pulsante:* Richiedi un preventivo"
+  }
+ ]
+}
