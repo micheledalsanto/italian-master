@@ -24,7 +24,7 @@ La sezione sulle hero e sui claim riscritta dopo il parere di un secondo lettore
 
 ## [1.8.2] - 2026-10-08
 
-Quarto lotto di confronti alla cieca, valutato da un secondo lettore: otto claim e hero section, 1.8.1 contro 1.6.1. Quattro preferenze per parte. Le sue risposte sono in `evals/voti/lotto4-voti-secondo-lettore.md`.
+Quarto lotto di confronti alla cieca, valutato da un secondo lettore: otto claim e hero section, 1.8.1 contro 1.6.1. Quattro preferenze per parte.
 
 ### Corretto
 
@@ -49,7 +49,6 @@ Seconda versione corretta sui voti dell'autore: otto coppie di claim e di hero s
 ### Aggiunto
 
 - In `siti.md`, la sezione **«Claim e hero section»**, ricavata dai voti e dalle riscritture dell'autore. Il titolo parla al cliente e dice che cosa trova, con il «tu» dentro, e i dati dell'attività stanno nel sottotitolo. Le parole calde del genere («il partner ideale», «al tuo fianco», «passione») sono ammesse nel titolo e nel claim se sotto c'è una riga di fatti. «Più di» al posto di «circa». Non tutti i fatti forniti vanno usati. Un claim deve avere una logica, e quello secco funziona quando il vantaggio è reale. Con quattro riscritture dell'autore come modelli.
-- I casi del terzo lotto di confronti, su otto attività diverse.
 
 ### Modificato
 
@@ -64,11 +63,10 @@ Seconda versione corretta sui voti dell'autore: otto coppie di claim e di hero s
 ### Aggiunto
 
 - In `evals/esegui.py`, l'opzione `--casi`, per eseguire un file di casi diverso da `evals.json`.
-- In `evals/voti/`, i casi e le coppie del secondo lotto di confronti alla cieca: otto richieste di claim e di hero section.
 
 ## [1.7.0] - 2026-10-08
 
-Prima versione corretta sui voti dell'autore: otto coppie di testi confrontate alla cieca, con la skill e senza. La skill è stata preferita quattro volte, ha perso due volte e ha pareggiato due. I voti e le riscritture sono in `evals/voti/`.
+Prima versione corretta sui voti dell'autore: otto coppie di testi confrontate alla cieca, con la skill e senza. La skill è stata preferita quattro volte, ha perso due volte e ha pareggiato due.
 
 ### Modificato
 

@@ -10,3 +10,6 @@ reports/
 
 # Risposte dei casi di prova
 evals/risultati/
+
+# Voti e coppie dei confronti alla cieca: restano in locale
+evals/voti/
