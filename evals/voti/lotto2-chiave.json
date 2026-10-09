@@ -1,0 +1,48 @@
+{
+  "lotto": 2,
+  "nuova": "1.7.0",
+  "vecchia": "1.6.1",
+  "modello": "sonnet",
+  "coppie": {
+    "l2-01": {
+      "caso": "hero-commercialisti",
+      "a": "nuova",
+      "b": "vecchia"
+    },
+    "l2-02": {
+      "caso": "hero-agenzia",
+      "a": "vecchia",
+      "b": "nuova"
+    },
+    "l2-03": {
+      "caso": "claim-cargo-bike",
+      "a": "vecchia",
+      "b": "nuova"
+    },
+    "l2-04": {
+      "caso": "hero-app-padel",
+      "a": "nuova",
+      "b": "vecchia"
+    },
+    "l2-05": {
+      "caso": "hero-fisioterapia",
+      "a": "nuova",
+      "b": "vecchia"
+    },
+    "l2-06": {
+      "caso": "claim-corso-pane",
+      "a": "nuova",
+      "b": "vecchia"
+    },
+    "l2-07": {
+      "caso": "hero-designer-freelance",
+      "a": "nuova",
+      "b": "vecchia"
+    },
+    "l2-08": {
+      "caso": "hero-software-house",
+      "a": "nuova",
+      "b": "vecchia"
+    }
+  }
+}

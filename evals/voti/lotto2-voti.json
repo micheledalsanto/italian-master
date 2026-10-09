@@ -1,0 +1,39 @@
+{
+  "voti": {
+    "l2-01": {
+      "scelta": "nessuna",
+      "motivo": "Non mi piace il circa, è limitante. direi seguiamo più di 150 partite iva piuttosto che circa 200",
+      "riscrittura": "Commercialisti a Vicenza dal 2009\nSiamo tre commercialisti e seguiamo più di 150 partite IVA, tra liberi professionisti e piccole imprese.",
+      "frasi": [],
+      "quando": "2026-10-09T06:51:55.553Z"
+    },
+    "l2-02": {
+      "scelta": "nessuna",
+      "motivo": "Titolo poco naturale",
+      "riscrittura": "Il partner ideale per il tuo e-commerce\nSiamo un'agenzia di sei persone a Padova: progettiamo siti ed e-commerce per aziende manifatturiere dal 2017.",
+      "frasi": [],
+      "quando": "2026-10-09T06:52:37.978Z"
+    },
+    "l2-03": {"scelta": "a", "motivo": "Diretto ed efficace", "riscrittura": "", "frasi": [], "quando": "2026-10-09T06:53:02.413Z"},
+    "l2-04": {"scelta": "pari", "motivo": "tutti e due funzionano", "riscrittura": "", "frasi": [], "quando": "2026-10-09T06:53:18.696Z"},
+    "l2-05": {
+      "scelta": "b",
+      "motivo": "Suona più naturale il titolo",
+      "riscrittura": "**Fisioterapia a Treviso: quattro specialisti al tuo fianco**\n\nTi accompagniamo nel tuo percorso di recupero, con un'attenzione particolare alla riabilitazione post-operatoria e al trattamento del mal di schiena.\n\nRiceviamo su appuntamento dal lunedì al sabato.",
+      "frasi": [
+        {"lato": "b", "testo": "e di mal di schiena"},
+        {"lato": "b", "testo": "e riceviamo su appuntamento dal lunedì al sabato."}
+      ],
+      "quando": "2026-10-09T06:55:33.071Z"
+    },
+    "l2-06": {
+      "scelta": "nessuna",
+      "motivo": "Poco naturali e non logici",
+      "riscrittura": "Il pane buono nasce dalle mani, dalla pratica e dalla passione.\n\nTi aspettiamo nel nostro forno per quattro giovedì sera dedicati all'arte della panificazione. Un corso pratico, pensato per imparare insieme, mettere le mani in pasta e scoprire tutti i segreti del buon pane.\n\nSolo 8 posti disponibili, 120 € per l'intero corso.",
+      "frasi": [],
+      "quando": "2026-10-09T06:56:16.117Z"
+    },
+    "l2-07": {"scelta": "b", "motivo": "Molto più naturale, il \"da remoto\" sembra forzato", "riscrittura": "", "frasi": [], "quando": "2026-10-09T06:56:37.716Z"},
+    "l2-08": {"scelta": "b", "motivo": "", "riscrittura": "", "frasi": [], "quando": "2026-10-09T06:56:44.985Z"}
+  }
+}
