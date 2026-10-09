@@ -2,6 +2,16 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.6.1] - 2026-10-08
+
+### Aggiunto
+
+- In `evals/esegui.py`: l'opzione `--plugin`, per provare un'altra copia della skill e confrontare due versioni sugli stessi casi, e `--mancanti`, che riprende un giro interrotto eseguendo solo i casi senza risposta.
+
+### Corretto
+
+- L'esecutore si accorge quando il piano ha raggiunto il limite di utilizzo. Prima salvava l'avviso del limite come se fosse la risposta e continuava a lanciare sessioni: ora si ferma, segna quelle esecuzioni come non eseguite e dice come riprendere.
+
 ## [1.6.0] - 2026-10-08
 
 ### Aggiunto

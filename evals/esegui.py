@@ -5,7 +5,9 @@ Uso:
     python evals/esegui.py                      # tutti i casi
     python evals/esegui.py --solo 3,7           # solo alcuni, per id o per nome
     python evals/esegui.py --rivaluta           # non riesegue: rivaluta le risposte già salvate
+    python evals/esegui.py --mancanti           # riprende un giro interrotto
     python evals/esegui.py --solo 6 --ripeti 3  # lo stesso caso tre volte
+    python evals/esegui.py --plugin ../v1.2.0   # prova un'altra copia della skill, per confrontare due versioni
     python evals/esegui.py --modello sonnet --paralleli 4 --uscita evals/risultati
 
 Ogni caso parte in una sessione nuova di Claude Code (`claude -p`) con la skill
@@ -33,14 +35,19 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import threading
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO / "skills" / "italian-master" / "scripts"))
 import controlla  # noqa: E402
 
+# Quando il piano esaurisce l'utilizzo, la sessione risponde con un avviso al posto del testo.
+LIMITE = re.compile(r"hit your (session|usage|weekly) limit|usage limit reached", re.IGNORECASE)
+limite_raggiunto = threading.Event()
 
-def esegui_caso(caso, cartella, modello):
+
+def esegui_caso(caso, cartella, modello, plugin=REPO):
     """Lancia una sessione nuova e restituisce (risposta, strumenti usati, costo)."""
     # Fuori dalla repo, perché la sessione non erediti memoria e istruzioni di questo progetto.
     lavoro = Path(tempfile.mkdtemp(prefix="italian-master-"))
@@ -48,7 +55,7 @@ def esegui_caso(caso, cartella, modello):
         destinazione = lavoro / percorso
         destinazione.parent.mkdir(parents=True, exist_ok=True)
         destinazione.write_text(contenuto, encoding="utf-8")
-    comando = [shutil.which("claude") or "claude", "-p", "--plugin-dir", str(REPO), "--output-format", "stream-json",
+    comando = [shutil.which("claude") or "claude", "-p", "--plugin-dir", str(plugin), "--output-format", "stream-json",
                "--verbose", "--allowedTools", "Read,Glob,Grep,Skill,Write,Bash(python:*),Bash(python3:*)", "--model", modello]
     processo = subprocess.run(comando, input=caso["prompt"], capture_output=True, text=True, encoding="utf-8",
                               cwd=lavoro, timeout=900)
@@ -71,6 +78,9 @@ def esegui_caso(caso, cartella, modello):
             costo = evento.get("total_cost_usd")
     if not risposta:
         raise RuntimeError(f"nessuna risposta (codice {processo.returncode}): {processo.stderr[:300]}")
+    if LIMITE.search(risposta[:300]):
+        limite_raggiunto.set()
+        raise RuntimeError("limite di utilizzo del piano raggiunto: " + risposta.strip()[:120])
     (cartella / "risposta.md").write_text(risposta, encoding="utf-8")
     (cartella / "strumenti.json").write_text(json.dumps({"strumenti": strumenti, "costo": costo}, ensure_ascii=False),
                                              encoding="utf-8")
@@ -117,6 +127,8 @@ def main():
     parser.add_argument("--paralleli", type=int, default=4, help="sessioni in parallelo (predefinito: 4)")
     parser.add_argument("--uscita", default=str(REPO / "evals" / "risultati"), help="cartella dei risultati")
     parser.add_argument("--rivaluta", action="store_true", help="rivaluta le risposte già salvate senza rieseguire")
+    parser.add_argument("--mancanti", action="store_true", help="esegue solo i casi che non hanno ancora una risposta salvata")
+    parser.add_argument("--plugin", default=str(REPO), help="cartella del plugin da provare, per esempio una copia di una versione precedente")
     parser.add_argument("--ripeti", type=int, default=1, help="quante volte eseguire ogni caso (predefinito: 1)")
     args = parser.parse_args()
 
@@ -131,12 +143,15 @@ def main():
         cartella = uscita / caso["name"] if args.ripeti == 1 else uscita / caso["name"] / str(giro)
         cartella.mkdir(parents=True, exist_ok=True)
         try:
-            if args.rivaluta:
+            gia_fatta = (cartella / "risposta.md").exists() and not LIMITE.search((cartella / "risposta.md").read_text(encoding="utf-8")[:300])
+            if args.rivaluta or (args.mancanti and gia_fatta):
                 risposta = (cartella / "risposta.md").read_text(encoding="utf-8")
                 salvati = json.loads((cartella / "strumenti.json").read_text(encoding="utf-8"))
                 strumenti, costo = salvati["strumenti"], salvati["costo"]
+            elif limite_raggiunto.is_set():
+                raise RuntimeError("saltato: limite di utilizzo del piano raggiunto")
             else:
-                risposta, strumenti, costo = esegui_caso(caso, cartella, args.modello)
+                risposta, strumenti, costo = esegui_caso(caso, cartella, args.modello, Path(args.plugin).resolve())
         except (OSError, RuntimeError, subprocess.TimeoutExpired) as errore:
             return caso, [f"non eseguito: {errore}"], [], {}, [], None
         falliti, note, dati = valuta(caso, risposta, strumenti)
@@ -165,6 +180,8 @@ def main():
         for caso in casi:
             esiti = [r["passa"] for r in riepilogo if r["id"] == caso["id"]]
             print(f"{caso['id']:>3}. {caso['name']}: passa {sum(esiti)} volte su {len(esiti)}")
+    if limite_raggiunto.is_set():
+        print("\nIl piano ha raggiunto il limite di utilizzo: le esecuzioni rimaste sono state saltate. Riprendi con --mancanti.")
     passati = sum(r["passa"] for r in riepilogo)
     spesa = sum(r["costo"] or 0 for r in riepilogo)
     print(f"\n{passati} esecuzioni su {len(riepilogo)} passano i controlli automatici. "
