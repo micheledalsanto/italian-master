@@ -79,6 +79,14 @@ npx github:micheledalsanto/italian-master rimuovi     # uninstall
 npx github:micheledalsanto/italian-master --help      # all options (in Italian)
 ```
 
+### With skills.sh
+
+If you use the `skills` CLI from [skills.sh](https://skills.sh), which installs skills from GitHub for Claude Code, Codex, Cursor and other agents:
+
+```bash
+npx skills add micheledalsanto/italian-master
+```
+
 ### Claude Code, as a plugin
 
 Inside a Claude Code session:
@@ -232,7 +240,7 @@ Reports, corrections and new examples are welcome. See [`CONTRIBUTING.md`](CONTR
 
 ## Versions
 
-The current version is 1.10.0. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
+The current version is 1.10.1. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
 
 ## License
 

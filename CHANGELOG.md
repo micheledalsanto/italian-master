@@ -2,6 +2,16 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.10.1] - 2026-10-09
+
+### Corretto
+
+- **La descrizione in testa a `SKILL.md` è tra virgolette.** Conteneva «persone: articoli», e i due punti seguiti da uno spazio rendono non valido lo YAML per chi lo legge in modo rigoroso. Claude Code la accettava lo stesso, mentre il comando `npx skills add` di skills.sh rispondeva «No skills found», e la directory dei plugin di Anthropic blocca le skill la cui intestazione non si legge.
+
+### Aggiunto
+
+- Nei due README, l'installazione con `npx skills add micheledalsanto/italian-master`.
+
 ## [1.10.0] - 2026-10-09
 
 Lo studio dei tempi verbali su ventidue libri di generi diversi, e il README anche in inglese.
