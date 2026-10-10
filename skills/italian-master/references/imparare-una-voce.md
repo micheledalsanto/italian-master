@@ -55,6 +55,17 @@ Leggi cercando le scelte, cioè i punti in cui l'autore avrebbe potuto fare dive
 - Ironia, serietà, calore, polemica.
 - Che cosa non fa mai.
 
+## Misurare, quando si può
+
+Se i testi sono in file e si possono eseguire comandi, lo script della skill conta quello che a occhio si stima male: la persona di chi scrive e quella del lettore, la lunghezza media delle frasi e dei capoversi, la quota di frasi brevi e di periodi lunghi, la punteggiatura, i legami che l'autore usa di più e quelli che non usa mai, le parole che tornano.
+
+```bash
+python scripts/controlla.py --voce post1.md post2.md post3.md
+python scripts/controlla.py --voce post1.md post2.md post3.md --confronta bozza.md
+```
+
+Il secondo comando dice in quali misure la bozza si allontana dalla voce, e va lanciato prima di consegnare un testo scritto «con la voce di». Sotto le 1.500 parole di campione le misure sono indicative. Le cifre vanno nella scheda accanto a quello che si ricava leggendo, e non lo sostituiscono: dicono che l'autore scrive frasi di ventidue parole e non usa mai «inoltre», non perché una sua pagina si legge volentieri.
+
 ## La scheda di stile
 
 Riassumi quello che hai trovato in una scheda breve, da tenere davanti mentre scrivi. Deve contenere osservazioni verificabili, non aggettivi: «frasi di 8-15 parole, quasi mai subordinate» è utile, «stile fresco e dinamico» no.

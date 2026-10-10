@@ -2,6 +2,21 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.11.0] - 2026-10-10
+
+La voce di un autore si può misurare, il plugin ha tre comandi, e lo script ha le sue prove automatiche.
+
+### Aggiunto
+
+- **`controlla.py --voce`.** Dati i testi di un autore, stampa una scheda misurata: persona di chi scrive e del lettore, passo delle frasi e dei capoversi, domande, punteggiatura, virgolette, legami preferiti e assenti, parole che tornano. Con `--confronta bozza.md` elenca le misure in cui una bozza si allontana da quella voce, e con `--strict` esce con codice 1 se ce ne sono.
+- **Tre comandi del plugin:** `rivedi`, `voce` e `configura`, per rivedere un testo, ricavare una scheda di stile e compilare la configurazione di tono e pubblico.
+- **Prove automatiche.** Trentaquattro prove per lo script e per l'installatore, eseguite a ogni push su Linux e su Windows. Verificano anche l'intestazione di `SKILL.md`, i rimandi ai riferimenti e l'allineamento delle versioni.
+- In `imparare-una-voce.md`, la sezione su quando e come misurare.
+
+### Corretto
+
+- L'installatore non copia più i file compilati di Python che possono trovarsi nella cartella dello script.
+
 ## [1.10.3] - 2026-10-09
 
 ### Modificato

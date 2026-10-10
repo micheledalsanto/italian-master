@@ -7,6 +7,8 @@ Uso:
     cat testo.txt | python controlla.py
     python controlla.py testo.md --json
     python controlla.py testo.md --strict   # esce con codice 1 se trova qualcosa
+    python controlla.py --voce post1.md post2.md post3.md               # scheda misurata di una voce
+    python controlla.py --voce post1.md post2.md --confronta bozza.md   # e dove la bozza se ne allontana
 
 È un aiuto alla rilettura, non un giudice: un testo senza segnalazioni può
 essere pessimo, e una segnalazione può essere un falso allarme. Le spiegazioni
@@ -446,6 +448,140 @@ def analizza(testo, bambini=False):
     return esito, dati
 
 
+VUOTE = set("""a ad al alla alle allo ai agli anche ancora che chi ci come con cosa così cui da dal dalla dalle dai degli dei del
+della delle dello di dove due e ed era erano essere fa fare gli ha hanno ho i il in io la le lei lo loro lui ma mi mia mio molto ne nei
+nel nella nelle noi non nostra nostri nostro o ogni per perché più poi può qualche quando quella quelle quelli quello questa queste questi
+questo se sei si sia siamo sono sta stato su sua sue sul sulla suo suoi tra tu tua tuo tutta tutte tutti tutto un una uno vi voi è già
+solo sempre mai dopo prima ecco fatto avere quel""".split())
+
+LEGAMI = ["però", "infatti", "quindi", "perché", "anche se", "invece", "insomma", "eppure", "dunque", "cioè", "inoltre", "tuttavia",
+          "pertanto", "comunque", "del resto", "in realtà", "forse", "magari", "proprio", "quasi", "ormai", "per esempio", "ad esempio"]
+
+# Misure di una voce: (chiave, descrizione, differenza relativa che si nota, differenza minima assoluta).
+MISURE_VOCE = [
+    ("parole_per_frase", "parole per frase", 0.25, 4),
+    ("frasi_fino_a_6_parole_pct", "% di frasi fino a 6 parole", 0.5, 6),
+    ("frasi_da_30_parole_pct", "% di frasi da 30 parole in su", 0.5, 6),
+    ("parole_per_capoverso", "parole per capoverso", 0.4, 20),
+    ("virgole_per_frase", "virgole per frase", 0.35, 0.4),
+    ("due_punti_ogni_mille", "due punti ogni mille parole", 0.6, 3),
+    ("domande_pct", "% di frasi che sono domande", 0.6, 4),
+    ("esclamativi_ogni_mille", "punti esclamativi ogni mille parole", 0.6, 2),
+    ("parentesi_ogni_mille", "parentesi ogni mille parole", 0.6, 2),
+    ("punto_e_virgola_ogni_mille", "punti e virgola ogni mille parole", 0.6, 1.5),
+    ("lineette_ogni_mille", "lineette ogni mille parole", 0.6, 1.5),
+    ("frasi_che_cominciano_con_e_ma_pct", "% di frasi che cominciano con «E» o «Ma»", 0.6, 3),
+    ("io_ogni_mille", "prima persona singolare ogni mille parole", 0.6, 4),
+    ("noi_ogni_mille", "prima persona plurale ogni mille parole", 0.6, 4),
+    ("tu_ogni_mille", "«tu» al lettore ogni mille parole", 0.6, 4),
+    ("voi_ogni_mille", "«voi» al lettore ogni mille parole", 0.6, 3),
+    ("gulpease", "indice Gulpease", 0.12, 6),
+]
+
+RX_FRASE = re.compile(r"(?<=[.!?…])[\"»”]?\s+(?=[A-ZÀ-Ý«“\"])")
+
+
+def profilo_voce(testo):
+    """Misura le abitudini di scrittura di uno o più testi dello stesso autore e dello stesso genere."""
+    _, dati = analizza(testo)
+    prosa = []
+    for _, r in righe_utili(testo):
+        r = senza_markup(r)
+        prosa.append("" if re.match(r"^\s*(#{1,6}\s|\||[-*•]\s|\d+[.)]\s)", r) else re.sub(r"^\s*>\s?", "", r).replace("*", ""))
+    capoversi = [c.strip().replace("\n", " ") for c in re.split(r"\n\s*\n", "\n".join(prosa)) if conta_parole(c) >= 2]
+    frasi = [x for c in capoversi for x in RX_FRASE.split(c) if conta_parole(x) >= 1]
+    tutto = " ".join(capoversi)
+    n = conta_parole(tutto)
+    if not n or not frasi:
+        return dati
+    basso = tutto.lower().replace("’", "'")
+
+    def mille(modello):
+        return round(len(re.findall(modello, basso)) * 1000 / n, 1)
+
+    dati.update({
+        "parole_per_capoverso": round(n / len(capoversi)),
+        "domande_pct": round(100 * sum(1 for f in frasi if f.rstrip('»”" ').endswith("?")) / len(frasi)),
+        "esclamativi_ogni_mille": mille(r"!"),
+        "parentesi_ogni_mille": mille(r"\("),
+        "punto_e_virgola_ogni_mille": mille(r";"),
+        "lineette_ogni_mille": mille(r" [–—] "),
+        "frasi_che_cominciano_con_e_ma_pct": round(100 * sum(1 for f in frasi if re.match(r"[«“\"]?(?:E|Ma)\b", f)) / len(frasi)),
+        "io_ogni_mille": mille(r"\b(?:io|mi|me|mio|mia|miei|mie|ho|credo|penso|voglio|posso|devo)\b"),
+        "noi_ogni_mille": mille(r"\b(?:noi|ci|nostr[oaie])\b|\b[a-zà-ù]{2,}iamo\b"),
+        "tu_ogni_mille": mille(r"\b(?:tu|ti|te|tuo|tua|tuoi|tue)\b"),
+        "voi_ogni_mille": mille(r"\b(?:voi|vi|vostr[oaie])\b"),
+    })
+    # Il «Lei» di cortesia si riconosce solo dalla maiuscola dentro la frase.
+    dentro = re.sub(r"(?:^|(?<=[.!?:] ))[«“\"]?\w+", " ", tutto)
+    dati["lei_ogni_mille"] = round(len(re.findall(r"\b(?:Lei|La|Le|Suo|Sua|Suoi|Sue)\b", dentro)) * 1000 / n, 1)
+    basse, alte = tutto.count("«"), len(re.findall(r"[“\"]", tutto)) // 2
+    dati["virgolette"] = "basse" if basse > alte else ("alte" if alte else "nessuna")
+    conti = {}
+    for w in re.findall(r"[a-zà-ù]{4,}", basso):
+        if w not in VUOTE and w not in LEGAMI:
+            conti[w] = conti.get(w, 0) + 1
+    soglia = max(3, round(n / 400))
+    dati["parole_ricorrenti"] = [w for w, k in sorted(conti.items(), key=lambda x: -x[1]) if k >= soglia][:12]
+    legami = {l: len(re.findall(r"\b" + re.escape(l) + r"(?![a-zà-ù])", basso)) for l in LEGAMI}
+    dati["legami_preferiti"] = [l for l, k in sorted(legami.items(), key=lambda x: -x[1]) if k >= 2][:8]
+    dati["legami_assenti"] = [l for l in ("però", "infatti", "quindi", "forse", "proprio", "inoltre", "tuttavia") if not legami[l]]
+    return dati
+
+
+def stampa_voce(nomi, dati, bozza=None, nome_bozza=None):
+    """Stampa la scheda di voce e, se c'è una bozza, le misure in cui se ne allontana. Restituisce quante sono."""
+    print(f"# Scheda di voce, misurata su {len(nomi)} test{'o' if len(nomi) == 1 else 'i'} ({dati.get('parole', 0)} parole)\n")
+    if dati.get("parole", 0) < 1500:
+        print("Il campione è sotto le 1.500 parole: le misure sono indicative. Servono tre o più testi dello stesso genere.\n")
+    if "parole_per_frase" not in dati:
+        print("Testo troppo breve per misurare il passo delle frasi.")
+        return 0
+    persone = {"io": dati["io_ogni_mille"], "noi": dati["noi_ogni_mille"]}
+    lettore = {"tu": dati["tu_ogni_mille"], "voi": dati["voi_ogni_mille"], "Lei": dati["lei_ogni_mille"]}
+    chi = max(persone, key=persone.get) if max(persone.values()) >= 3 else "forma impersonale"
+    a_chi = max(lettore, key=lettore.get) if max(lettore.values()) >= 2 else "non si rivolge al lettore"
+    print(f"- Chi scrive: {chi}. Lettore: {a_chi}.")
+    print(f"- Frase: {dati['parole_per_frase']} parole in media, {dati['frasi_fino_a_6_parole_pct']}% fino a 6 parole, "
+          f"{dati['frasi_da_30_parole_pct']}% da 30 in su, {dati['virgole_per_frase']} virgole per frase.")
+    print(f"- Capoverso: {dati['parole_per_capoverso']} parole in media.")
+    print(f"- Domande: {dati['domande_pct']}% delle frasi. Frasi che cominciano con «E» o «Ma»: {dati['frasi_che_cominciano_con_e_ma_pct']}%.")
+    print(f"- Punteggiatura, ogni mille parole: {dati['due_punti_ogni_mille']} due punti, {dati['punto_e_virgola_ogni_mille']} punti e virgola, "
+          f"{dati['parentesi_ogni_mille']} parentesi, {dati['lineette_ogni_mille']} lineette, {dati['esclamativi_ogni_mille']} esclamativi. "
+          f"Virgolette: {dati['virgolette']}.")
+    print(f"- Leggibilità: Gulpease {dati['gulpease']}.")
+    if dati["legami_preferiti"]:
+        print(f"- Legami che usa di più: {', '.join(dati['legami_preferiti'])}.")
+    if dati["legami_assenti"]:
+        print(f"- Legami che non usa mai: {', '.join(dati['legami_assenti'])}.")
+    if dati["parole_ricorrenti"]:
+        print(f"- Parole che tornano: {', '.join(dati['parole_ricorrenti'])}.")
+    print("\nLe misure dicono come è fatta la voce, non perché funziona: tono, attacchi, chiusure e scelte di lessico "
+          "si ricavano leggendo (references/imparare-una-voce.md).")
+    if bozza is None:
+        return 0
+    print(f"\n## Dove {nome_bozza} si allontana dalla voce\n")
+    if "parole_per_frase" not in bozza:
+        print("La bozza è troppo breve per il confronto: servono almeno dieci frasi.")
+        return 0
+    diversi = 0
+    for chiave, nome, relativa, assoluta in MISURE_VOCE:
+        v, b = dati.get(chiave, 0), bozza.get(chiave, 0)
+        if abs(b - v) >= assoluta and abs(b - v) >= relativa * max(abs(v), 1):
+            print(f"- {nome}: nella voce {v}, nella bozza {b}")
+            diversi += 1
+    if bozza.get("virgolette") != dati.get("virgolette") and "nessuna" not in (bozza.get("virgolette"), dati.get("virgolette")):
+        print(f"- virgolette: nella voce {dati['virgolette']}, nella bozza {bozza['virgolette']}")
+        diversi += 1
+    estranei = [l for l in bozza.get("legami_preferiti", []) if l in dati.get("legami_assenti", [])]
+    if estranei:
+        print(f"- la bozza usa legami che l'autore non usa mai: {', '.join(estranei)}")
+        diversi += 1
+    if not diversi:
+        print("Nessuna differenza che si noti nelle misure. Resta da confrontare a orecchio.")
+    return diversi
+
+
 def stampa(nome, esito, dati):
     totale = sum(len(v) for v in esito.values())
     print(f"\n== {nome} ==")
@@ -486,7 +622,11 @@ def main():
     parser.add_argument("--json", action="store_true", help="stampa il risultato in JSON")
     parser.add_argument("--strict", action="store_true", help="esce con codice 1 se ci sono segnalazioni")
     parser.add_argument("--bambini", action="store_true", help="il testo è per bambini: frasi corte ammesse, si controlla la leggibilità")
+    parser.add_argument("--voce", action="store_true", help="i file sono testi dello stesso autore: stampa la scheda misurata della sua voce")
+    parser.add_argument("--confronta", metavar="BOZZA", help="con --voce: dice in che cosa la bozza si allontana dalla voce")
     args = parser.parse_args()
+    if args.confronta and not args.voce:
+        parser.error("--confronta si usa insieme a --voce")
 
     ingressi = []
     if args.file:
@@ -506,6 +646,22 @@ def main():
         except (AttributeError, ValueError):
             pass
         ingressi.append(("stdin", sys.stdin.read()))
+
+    if args.voce:
+        dati = profilo_voce("\n\n".join(testo for _, testo in ingressi))
+        bozza = None
+        if args.confronta:
+            try:
+                with open(args.confronta, encoding="utf-8-sig") as f:
+                    bozza = profilo_voce(f.read())
+            except (OSError, UnicodeDecodeError) as errore:
+                print(f"Non riesco a leggere {args.confronta}: {errore}", file=sys.stderr)
+                return 2
+        if args.json:
+            print(json.dumps({"voce": dati, "bozza": bozza}, ensure_ascii=False, indent=2))
+            return 0
+        diversi = stampa_voce([n for n, _ in ingressi], dati, bozza, args.confronta)
+        return 1 if (args.strict and diversi) else 0
 
     risultati = {}
     totale = 0

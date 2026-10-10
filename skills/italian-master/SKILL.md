@@ -123,7 +123,7 @@ Nessuna di queste liste è un elenco di divieti, perché ognuna di queste forme 
 
 **Tradurre verso l'italiano.** Si traduce il senso, ricostruendo i periodi come li costruirebbe chi scrive in italiano, dato che la sintassi a frasi brevi dell'originale inglese è la prima cosa che tradisce una traduzione. Le formule di entusiasmo e di congedo («we're thrilled», «stay tuned») non si traducono parola per parola e non si tolgono: si rendono con quelle che un'azienda italiana userebbe nello stesso posto («siamo felici di condividere questa novità», «continua a seguirci»), perché un post a cui è stato tolto il calore non ha più tono. Vedi `references/calchi.md`, per i tempi del passato `references/tempi-verbali.md` e, per le espressioni idiomatiche, `references/modi-di-dire.md`.
 
-**Imparare una voce.** Quando l'utente indica dei testi di riferimento, vanno letti prima di scrivere, ricavandone una scheda di stile secondo `references/imparare-una-voce.md`. La voce dell'utente prevale sulle preferenze di questa skill.
+**Imparare una voce.** Quando l'utente indica dei testi di riferimento, vanno letti prima di scrivere, ricavandone una scheda di stile secondo `references/imparare-una-voce.md`. Dove si possono eseguire comandi, `scripts/controlla.py --voce` misura la voce sui testi e `--confronta` dice in che cosa la bozza se ne allontana. La voce dell'utente prevale sulle preferenze di questa skill.
 
 ## Come si consegna
 

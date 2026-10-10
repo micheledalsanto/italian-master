@@ -150,6 +150,14 @@ There is nothing to invoke: the skill triggers on any request whose output is It
 
 In Claude Code you can also call it explicitly: `/italian-master:italian-master` if installed as a plugin, `/italian-master` if copied by hand.
 
+The plugin ships three commands for the longer jobs:
+
+| Command | What it does |
+| --- | --- |
+| `/italian-master:rivedi` | Revises a file or a pasted text and says what it changed |
+| `/italian-master:voce` | Builds an author's style sheet from their texts, with measurements, and compares a draft against it |
+| `/italian-master:configura` | Creates or updates the tone and audience file, asking a few questions |
+
 ## Tone and audience
 
 You decide once who you write for and in what tone, in a configuration file that the skill reads before writing.
@@ -182,6 +190,12 @@ python skills/italian-master/scripts/controlla.py bozza.md
 ```
 
 Options: `--json` for structured output, `--strict` to exit with code 1 when there are findings (useful in a pipeline), `--bambini` for texts written for children.
+
+The same script measures a voice. Given three or more texts by the same author, it prints a sheet with the writer's and the reader's grammatical person, the pace of sentences and paragraphs, punctuation, the connectives the author prefers and the ones they never use, and recurring words. With `--confronta` it says where a draft departs from that voice.
+
+```bash
+python skills/italian-master/scripts/controlla.py --voce post1.md post2.md post3.md --confronta bozza.md
+```
 
 The script does not detect generated text and does not see invented facts. It flags weak writing habits, whoever has them, and a text with no findings can still be mediocre.
 
@@ -240,7 +254,7 @@ Reports, corrections and new examples are welcome. See [`CONTRIBUTING.md`](CONTR
 
 ## Versions
 
-The current version is 1.10.3. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
+The current version is 1.11.0. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
 
 ## License
 

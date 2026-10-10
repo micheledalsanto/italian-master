@@ -160,6 +160,14 @@ Non serve invocarla, perché si attiva da sola quando chiedi un testo in italian
 
 In Claude Code puoi anche chiamarla in modo esplicito: `/italian-master:italian-master` se l'hai installata come plugin, `/italian-master` se l'hai copiata a mano. In Codex si chiama con `$italian-master`.
 
+Il plugin porta con sé tre comandi per i lavori più lunghi:
+
+| Comando | Che cosa fa |
+| --- | --- |
+| `/italian-master:rivedi` | Rivede un file o un testo incollato e dice che cosa ha cambiato |
+| `/italian-master:voce` | Ricava la scheda di stile di un autore dai suoi testi, con le misure, e la confronta con una bozza |
+| `/italian-master:configura` | Crea o aggiorna il file di tono e pubblico, con poche domande |
+
 ## Tono e pubblico
 
 Per chi scrivi e con che tono lo decidi tu, una volta, in un file di configurazione. La skill lo legge prima di scrivere.
@@ -213,6 +221,12 @@ Tipografia (2)
 ```
 
 Opzioni: `--json` per l'uscita strutturata, `--strict` per uscire con codice 1 se ci sono segnalazioni (utile in una pipeline), `--bambini` per i testi destinati ai bambini, dove le frasi corte sono giuste e si controlla la leggibilità.
+
+Lo stesso script misura una voce. Dati tre o più testi dello stesso autore, stampa una scheda con la persona di chi scrive e quella del lettore, il passo delle frasi e dei capoversi, la punteggiatura, i legami preferiti e quelli assenti, le parole che tornano. Con `--confronta` dice in quali misure una bozza si allontana da quella voce.
+
+```bash
+python skills/italian-master/scripts/controlla.py --voce post1.md post2.md post3.md --confronta bozza.md
+```
 
 Lo script non riconosce i testi generati e non vede i fatti inventati. Segnala abitudini di scrittura deboli, chiunque le abbia, e un testo che non riceve segnalazioni può essere comunque mediocre.
 
@@ -271,7 +285,7 @@ Segnalazioni, correzioni e nuovi esempi sono benvenuti. Vedi [`CONTRIBUTING.md`]
 
 ## Versioni
 
-La versione corrente è la 1.10.3. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
+La versione corrente è la 1.11.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
 
 ## Licenza
 

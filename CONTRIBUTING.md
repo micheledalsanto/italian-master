@@ -57,9 +57,19 @@ skills/italian-master/
   scripts/controlla.py   controllo automatico
 evals/evals.json         casi di prova, con i loro controlli
 evals/esegui.py          esegue i casi e valuta le risposte
+commands/                comandi del plugin: rivedi, voce, configura
+tests/                   prove automatiche dello script e dell'installatore
 ```
 
 ## Provare le modifiche
+
+Le prove automatiche dello script e dell'installatore girano a ogni push, su Linux e su Windows. In locale:
+
+```bash
+python -m unittest discover tests
+```
+
+Controllano anche che l'intestazione di `SKILL.md` resti leggibile, che ogni riferimento citato esista e abbia la sua riga nella tabella, e che la versione sia la stessa in tutti i file. Se aggiungi una formula allo script, aggiungi la prova che la fa scattare e quella di una frase innocente che non deve farla scattare.
 
 In Claude Code, dalla cartella della repo:
 

@@ -109,7 +109,8 @@ function installa(o) {
     }
     if (esisteva) fs.rmSync(dest, { recursive: true, force: true });
     fs.mkdirSync(dest, { recursive: true });
-    fs.cpSync(SORGENTE, dest, { recursive: true });
+    // I file compilati di Python restano fuori dalla copia.
+    fs.cpSync(SORGENTE, dest, { recursive: true, filter: (f) => !/__pycache__|\.pyc$/.test(f) });
     console.log(`${esisteva ? 'Skill aggiornata' : 'Skill installata'}: ${dest}`);
     console.log(`Versione ${pkg.version}, ${contaFile(dest)} file.`);
   }
