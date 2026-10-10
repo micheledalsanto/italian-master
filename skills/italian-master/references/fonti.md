@@ -35,6 +35,8 @@ Le misure e i passi commentati in `periodo.md`, `connettivi.md`, `impronte.md`, 
   - reportage, diari e memorie: Luigi Barzini, *La metà del mondo vista da un'automobile* (1908); Edmondo De Amicis, *Cuore* (1886); Giuseppe Cesare Abba, *Da Quarto al Volturno* (1891); Giuseppe Garibaldi, *Memorie*; Scipio Slataper, *Il mio Carso* (1912)
   - saggio, biografia, divulgazione e manuale: Francesco De Sanctis, *Storia della letteratura italiana* (1870); Michele Lessona, *Carlo Darwin* (1883) e *Il mare*; Matilde Serao, *Saper vivere* (1900)
   - un carteggio, le *Lettere d'amore* di Guido Gozzano e Amalia Guglielminetti, usato solo per le misure
+- **Quarantacinque articoli accademici** usciti tra il 2025 e il 2026 in nove riviste universitarie ad accesso aperto (letteratura, teoria letteraria, linguistica e didattica dell'italiano, estetica e filosofia, filosofia medievale, musicologia, diritto ecclesiastico, archeologia, storia e filosofia della scienza), estratti a caso e scaricati a ottobre 2026: circa trecentomila parole, ricavate dai PDF e quindi comprese le note. Sono descritti in `scrittura-accademica.md`, senza nomi e senza citazioni.
+- **Sessantuno pagine di tredici siti italiani** (quotidiani, tecnologia, guide pratiche, cucina, blog di agenzie), lette a ottobre 2026 per misurare titoli, descrizioni e titoletti. Sono descritte in `testi-per-la-ricerca.md`, senza nomi.
 - **Antonio Gramsci, *Lettere dal carcere*** (1926-1937), lette in una scansione disponibile in rete. Sono servite per le misure, su circa novantaseimila parole, e non sono riportate.
 - **Giornali e riviste di oggi**, letti online tra settembre e ottobre 2026: ottantasei articoli di otto testate italiane (un quotidiano online, un quotidiano di opinione, un sito di giornalismo civico, due riviste culturali, una rivista di saggi, una di tecnologia, il blog di un collettivo di scrittori), più otto pagine di un sito di ricette. Sono serviti per le misure e per descrivere le forme ricorrenti. Le testate non sono nominate e nessuna frase è riportata.
 - **Dieci siti di aziende ed enti italiani**, uno per settore, estratti a caso da un elenco di venti settori. Di ciascuno la home e fino a sette pagine interne, circa quarantamila parole in tutto. Sono descritti in `siti.md`, senza nomi.
@@ -46,7 +48,7 @@ Le misure e i passi commentati in `periodo.md`, `connettivi.md`, `impronte.md`, 
 - **Tredici canali pubblici di messaggistica** di enti, aziende e testate (circa 240 post) e la bacheca pubblica di quattro comunità italiane di un social network federato (circa 520 post), letti a ottobre 2026 per le note sui social di `registri.md`. Non è stato possibile leggere in serie i post di LinkedIn e di Instagram, che richiedono l'accesso.
 - **Testi generati**, per il confronto: gli articoli e le lezioni di un sito di divulgazione scritti con un modello, come ha confermato chi lo cura (circa 14.600 parole), e un testo scritto con la prima versione di questa skill (circa 2.000).
 
-In tutto sono circa quattro milioni e mezzo di parole, di cui 129.000 di giornalismo contemporaneo. Le misure sono fatte con conteggi semplici ed espressioni regolari, tranne quelle sui tempi verbali, e il campione di testi generati è piccolo e viene da due sole fonti. Bastano a vedere la differenza tra la prosa italiana e quella generata, non a stabilire una norma. Chi vuole allargare il campione trova molti testi liberi su Wikisource e su Liber Liber (liberliber.it).
+In tutto sono quasi cinque milioni di parole, di cui 129.000 di giornalismo contemporaneo. Le misure sono fatte con conteggi semplici ed espressioni regolari, tranne quelle sui tempi verbali, e il campione di testi generati è piccolo e viene da due sole fonti. Bastano a vedere la differenza tra la prosa italiana e quella generata, non a stabilire una norma. Chi vuole allargare il campione trova molti testi liberi su Wikisource e su Liber Liber (liberliber.it).
 
 ## Per risolvere un dubbio
 
@@ -84,6 +86,10 @@ A ottobre 2026 `grammatica.md` e `punteggiatura-tipografia.md` sono stati rilett
 - **Cecilia Robustelli, *Linee guida per l'uso del genere nel linguaggio amministrativo*** (2012), con la Crusca. Sui femminili professionali.
 
 ## Scrittura professionale e pubblica
+
+- Roberto Lesina, *Il nuovo manuale di stile*, Zanichelli: norme redazionali, citazioni, bibliografie.
+- Umberto Eco, *Come si fa una tesi di laurea*, Bompiani.
+- Google Search Central, *Guida introduttiva all'ottimizzazione per i motori di ricerca* e *Creare contenuti utili, affidabili e pensati per le persone* (developers.google.com/search).
 
 - **Luisa Carrada, *Il mestiere di scrivere*** (2008), *Lavoro, dunque scrivo!* (2012), *Guida di stile* (2017), e il blog mestierediscrivere.com. Il riferimento italiano per la scrittura di lavoro e per il web.
 - **Annamaria Testa, *Farsi capire*** (2000) e *La parola immaginata* (1988). Comunicazione e scrittura pubblicitaria. Il blog Nuovo e utile.

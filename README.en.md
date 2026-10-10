@@ -9,7 +9,7 @@
 ![Node 18 or later](https://img.shields.io/badge/node-%E2%89%A5_18-339933?logo=nodedotjs&logoColor=white)
 ![Python 3.8 or later](https://img.shields.io/badge/python-%E2%89%A5_3.8-3776AB?logo=python&logoColor=white)
 
-An agent skill that makes Claude, Codex and other Agent Skills-compatible agents write Italian the way a skilled native writer does, without AI slop.
+Italian as professionals write it, genre by genre, using only the facts it is given. An agent skill for Claude, Codex and other Agent Skills-compatible agents.
 
 *The skill itself, its reference files and the changelog are written in Italian. [Leggi questo README in italiano](README.md).*
 
@@ -18,6 +18,14 @@ An agent skill that makes Claude, Codex and other Agent Skills-compatible agents
 Ask a model for a text in Italian and you usually get a page with no mistakes that no Italian would write. It opens with «In un mondo sempre più», uses three adjectives where one would do, capitalises every word of the headline and keeps the English em dash. Ask it to be more concise and it switches to five-word sentences with a punchline at the end, which is just as easy to spot.
 
 This skill gives the model what a good Italian editor knows: where grammar really goes wrong, how to build a sentence that does not sound translated, when to use *tu*, *lei* or *voi*, how to write a headline, which verb tense a story needs. It also tells the model to add nothing to the facts it is given, so a text with little data comes out shorter and says what is missing. The guidance comes from real texts that were read and counted: newspapers, company and agency websites, essays, letters, novels.
+
+## What it is built on
+
+- **Measurements taken on Italian texts.** How long a sentence is in a newspaper, how many colons an article has, which tenses a novel uses, how a newsletter opens: the guidance comes from almost five million counted words, and each reference file says which texts it is based on.
+- **Rules by genre.** An email to a client, a website home page, an app's error message, an article and a short story need different things. A contrast or a triad that is a flaw in an article is normal in a tagline, and the skill says so case by case, with a list of false alarms.
+- **Only the facts provided.** No numbers, names, quotes or plausible circumstances added for colour. If there is little data, the text comes out shorter.
+- **Two flaws, not one.** Besides inflated slop there is the clipped kind, made of short sentences and one-liners, which appears when a model tries to avoid the first.
+- **The register of whoever signs.** A firm, a company or an institution writes formally and in full, and the skill does not mistake informality for naturalness.
 
 ## Before and after
 
@@ -225,6 +233,8 @@ The script does not detect generated text and does not see invented facts. It fl
 | [`agenzie-digitali.md`](skills/italian-master/references/agenzie-digitali.md) | How twelve digital and marketing agencies write |
 | [`narrativa-fantastica.md`](skills/italian-master/references/narrativa-fantastica.md) | Fantasy, fairy tale and everyday fantastic fiction |
 | [`scrivere-per-bambini.md`](skills/italian-master/references/scrivere-per-bambini.md) | Writing for six- to eleven-year-olds |
+| [`scrittura-accademica.md`](skills/italian-master/references/scrittura-accademica.md) | Theses, essays and journal articles: measurements on forty-five articles from nine journals, authorial person, introductions, citations, editorial conventions |
+| [`testi-per-la-ricerca.md`](skills/italian-master/references/testi-per-la-ricerca.md) | Writing for readers who arrive from a search engine: page title, description, first paragraph, headings, with measurements on sixty-one pages |
 | [`corrispondenza-formale.md`](skills/italian-master/references/corrispondenza-formale.md) | Notices, letters and communications to clients and suppliers, with six model letters |
 | [`registri.md`](skills/italian-master/references/registri.md) | *Tu*, *lei*, *voi*; email, social media, websites, public administration, fiction |
 | [`titoli.md`](skills/italian-master/references/titoli.md) | News and web headlines, email subject lines, openings |
@@ -237,7 +247,7 @@ The agent always reads `SKILL.md` and opens the other files only when they are n
 
 ## Where the rules come from
 
-From the Accademia della Crusca and Treccani for the norm, and from the Italian tradition of clear writing for style (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). The measurements come from about four and a half million words that were downloaded and counted: articles from eight Italian online publications, ten company and institution websites, twelve digital agency websites, thirteen newsletters, the strings of eight applications, fantastic fiction, letters, essays, fairy tales, novels, memoirs, plays and other public-domain works. The full list is in [`fonti.md`](skills/italian-master/references/fonti.md).
+From the Accademia della Crusca and Treccani for the norm, and from the Italian tradition of clear writing for style (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). The measurements come from almost five million words that were downloaded and counted: articles from eight Italian online publications, ten company and institution websites, twelve digital agency websites, thirteen newsletters, the strings of eight applications, academic journal articles, fantastic fiction, letters, essays, fairy tales, novels, memoirs, plays and other public-domain works. The full list is in [`fonti.md`](skills/italian-master/references/fonti.md).
 
 The skill contains no third-party text. Newspapers and websites are not named and none of their sentences is reproduced: the examples were written for the skill, with invented facts. The only verbatim quotations are short passages from works published before 1930.
 
@@ -254,7 +264,7 @@ Reports, corrections and new examples are welcome. See [`CONTRIBUTING.md`](CONTR
 
 ## Versions
 
-The current version is 1.11.1. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
+The current version is 1.12.0. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
 
 ## License
 

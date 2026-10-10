@@ -2,6 +2,16 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.12.0] - 2026-10-10
+
+Due generi nuovi: la scrittura accademica e i testi che devono farsi trovare su un motore di ricerca.
+
+### Aggiunto
+
+- **`references/scrittura-accademica.md`.** Tesi, saggi e articoli di rivista: le misure di quarantacinque articoli usciti in nove riviste universitarie (frasi di una trentina di parole, il punto e virgola, quali connettivi), chi parla, che cosa fa un'introduzione, i due sistemi di citazione, le norme editoriali più diffuse, e la regola di non scrivere mai un riferimento che l'utente non ha fornito.
+- **`references/testi-per-la-ricerca.md`.** Articoli e guide che devono farsi trovare: le misure di titoli, descrizioni e titoletti su sessantuno pagine di tredici siti italiani, la risposta nel primo capoverso, la frase cercata scritta in italiano corretto.
+- Nel README, la sezione «Su che cosa si regge», e una descrizione nuova del plugin.
+
 ## [1.11.1] - 2026-10-10
 
 Tre correzioni venute dalla lettura dei casi di prova, eseguiti due volte ciascuno.

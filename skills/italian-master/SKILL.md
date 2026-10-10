@@ -111,6 +111,10 @@ Nessuna di queste liste è un elenco di divieti, perché ognuna di queste forme 
 
 **Scrivere un claim o una hero section.** Il titolo parla al cliente e dice che cosa trova, e i dati dell'attività (persone, città, anno) stanno nel sottotitolo, una cosa per frase. Non tutti i fatti forniti vanno usati, e nessuno va ritoccato: un dato esatto resta esatto e il prodotto non fa più di quello che la richiesta dice. Le parole calde («al tuo fianco», «il partner ideale») e il «tu» nel titolo sono una scelta di chi firma: si usano se la configurazione o la richiesta lo chiedono, mai su argomenti delicati. Vedi la sezione 7 di `references/siti.md`.
 
+**Scrivere una tesi, un saggio, un articolo accademico.** Frasi lunghe, una persona scelta e tenuta («noi», «io» o l'impersonale), un'introduzione che dice oggetto, lacuna, tesi e piano, e le norme editoriali della sede. Nessun riferimento bibliografico, numero di pagina o citazione che l'utente non abbia fornito: dove manca va un segnaposto. Vedi `references/scrittura-accademica.md`.
+
+**Scrivere un articolo o una guida che devono farsi trovare.** La risposta alla domanda di chi cerca sta nelle prime frasi, il titolo della pagina ha la parola cercata all'inizio e la sola iniziale maiuscola, la descrizione dice che cosa c'è nella pagina, e la frase cercata si scrive in italiano corretto senza ripeterla a ogni riga. Vedi `references/testi-per-la-ricerca.md`.
+
 **Scrivere una newsletter.** Il numero di una newsletter è un articolo che arriva per posta: titolo di cinque o sei parole, sottotitolo che dice che cosa c'è dentro, il fatto nella prima frase, tu al singolare, una chiusura con uno o due elementi. Per quella di un negozio o di uno studio, una notizia per capoverso con quello che serve per agire. Vedi `references/newsletter.md`.
 
 **Scrivere i testi di un'interfaccia.** Pulsanti, etichette, messaggi di errore, conferme e stati vuoti sono testi di poche parole che si leggono mentre si fa altro: tu, imperativo sui comandi, nessun punto sulle etichette, e negli errori che cosa è successo e che cosa fare. Le formule che le applicazioni italiane usano davvero e i calchi da evitare sono in `references/microcopy.md`.
@@ -179,6 +183,8 @@ Le sue segnalazioni sono indizi da valutare, e un testo che non ne riceve può e
 | `references/agenzie-digitali.md` | Per il sito, i casi studio o il blog di un'agenzia, di uno studio, di un consulente o di un'azienda di servizi digitali |
 | `references/narrativa-fantastica.md` | Per un racconto, una scena o un attacco di genere fantastico: fantasy, fiaba, fantastico di paese o urbano |
 | `references/scrivere-per-bambini.md` | Quando chi legge ha tra i sei e gli undici anni: lezioni, spiegazioni, storie da leggere da soli |
+| `references/scrittura-accademica.md` | Per una tesi, un saggio, un articolo di rivista, un riassunto per un convegno: persona, introduzione, citazioni, norme editoriali |
+| `references/testi-per-la-ricerca.md` | Per un articolo di blog, una guida o una pagina che devono essere trovati su un motore di ricerca: titolo della pagina, descrizione, primo capoverso, titoletti |
 | `references/corrispondenza-formale.md` | Per avvisi, lettere e comunicazioni a clienti, fornitori, pazienti, utenti: struttura, formule, sei modelli |
 | `references/registri.md` | Per scegliere il tono di email, post, comunicazioni pubbliche, messaggi a un cliente |
 | `references/titoli.md` | Per titoli, sottotitoli, oggetti di email, attacchi |

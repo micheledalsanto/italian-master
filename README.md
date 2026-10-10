@@ -9,7 +9,7 @@
 ![Node 18 o successivo](https://img.shields.io/badge/node-%E2%89%A5_18-339933?logo=nodedotjs&logoColor=white)
 ![Python 3.8 o successivo](https://img.shields.io/badge/python-%E2%89%A5_3.8-3776AB?logo=python&logoColor=white)
 
-Una skill per scrivere in italiano come scrive chi la lingua la conosce bene, senza AI slop. Funziona con Claude, con Codex e con gli altri agenti che leggono le Agent Skills.
+L'italiano di chi scrive per mestiere, genere per genere e con i soli fatti che gli vengono dati. Una skill per Claude, per Codex e per gli altri agenti che leggono le Agent Skills.
 
 *An agent skill (Claude, Codex) for natural Italian writing: grammar, syntax, tone, verb tenses, idioms, headlines. The skill is written in Italian. [Read this README in English](README.en.md).*
 
@@ -18,6 +18,14 @@ Una skill per scrivere in italiano come scrive chi la lingua la conosce bene, se
 Chi chiede a un modello un testo in italiano riceve quasi sempre una pagina senza errori che nessun italiano scriverebbe. Comincia con «In un mondo sempre più», mette tre aggettivi dove ne basterebbe uno, ha le maiuscole a ogni parola del titolo e le lineette lunghe dell'inglese. Se poi gli si chiede di essere più asciutto, il modello passa a frasette di cinque parole con una battuta in fondo, e il testo si riconosce lo stesso.
 
 Questa skill dà al modello quello che sa un buon redattore: dove si sbaglia davvero la grammatica, come si costruisce un periodo che non suona tradotto, quando dare del tu, del lei o del voi, come si fa un titolo, quale tempo verbale vuole un racconto. Gli chiede anche di non aggiungere niente ai fatti che riceve, per cui un testo con pochi dati esce più corto e sotto dice che cosa manca. Le indicazioni vengono da testi veri, letti e contati: giornali, siti di aziende e di agenzie, saggi, lettere.
+
+## Su che cosa si regge
+
+- **Misure prese su testi italiani.** Quanto è lunga una frase in un quotidiano, quanti due punti ci sono in un articolo, quali tempi verbali usa un romanzo, come comincia una newsletter: le indicazioni vengono da quasi cinque milioni di parole contate, e ogni riferimento dice su quali testi è stato fatto.
+- **Regole per genere.** Una mail a un cliente, la home di un sito, il messaggio di errore di un'applicazione, un articolo e un racconto vogliono cose diverse. Il contrasto e la triade che in un articolo sono un difetto in un claim sono normali, e la skill lo dice caso per caso, insieme all'elenco dei falsi allarmi.
+- **Solo i fatti ricevuti.** Niente numeri, nomi, citazioni o circostanze verosimili aggiunti per dare colore. Se i dati sono pochi il testo esce più corto.
+- **Due difetti, non uno.** Oltre allo slop gonfio c'è quello asciutto, a frasette e sentenze, che nasce quando si cerca di evitare il primo.
+- **Il registro di chi firma.** Uno studio, un'azienda e un ente scrivono in modo formale e completo, e la skill non scambia l'informalità per naturalezza.
 
 ## Prima e dopo
 
@@ -256,6 +264,8 @@ Lo script non riconosce i testi generati e non vede i fatti inventati. Segnala a
 | [`references/agenzie-digitali.md`](skills/italian-master/references/agenzie-digitali.md) | Come scrivono dodici agenzie digitali e di marketing: presentazioni, casi studio, blog, inglese del mestiere |
 | [`references/narrativa-fantastica.md`](skills/italian-master/references/narrativa-fantastica.md) | Fantasy, fiaba e fantastico quotidiano: misure su ventisei racconti e quattro raccolte di fiabe, attacchi, dialoghi, stampi da evitare |
 | [`references/scrivere-per-bambini.md`](skills/italian-master/references/scrivere-per-bambini.md) | Come si scrive per chi ha tra i sei e gli undici anni: frasi, parole, modo di spiegare, indice di leggibilità |
+| [`references/scrittura-accademica.md`](skills/italian-master/references/scrittura-accademica.md) | Tesi, saggi e articoli: misure su quarantacinque articoli di nove riviste, chi parla, introduzione, citazioni, norme editoriali |
+| [`references/testi-per-la-ricerca.md`](skills/italian-master/references/testi-per-la-ricerca.md) | Scrivere per chi arriva da un motore di ricerca: titolo, descrizione, primo capoverso, titoletti, con misure su sessantuno pagine |
 | [`references/corrispondenza-formale.md`](skills/italian-master/references/corrispondenza-formale.md) | Avvisi, lettere e comunicazioni a clienti e fornitori: struttura, formule per funzione, sei lettere modello |
 | [`references/registri.md`](skills/italian-master/references/registri.md) | Tu, lei, voi; email, social, siti, pubblica amministrazione, narrativa |
 | [`references/titoli.md`](skills/italian-master/references/titoli.md) | Titoli giornalistici e web, oggetti di email, attacchi, il titolese da evitare |
@@ -268,7 +278,7 @@ L'agente legge sempre `SKILL.md` e apre gli altri file solo quando servono.
 
 ## Da dove vengono le regole
 
-Dall'Accademia della Crusca e da Treccani per la norma, e dalla tradizione della scrittura chiara per lo stile (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). Le misure vengono da circa quattro milioni e mezzo di parole scaricate e contate: articoli di otto testate italiane online, dieci siti di aziende ed enti, dodici siti di agenzie digitali, tredici newsletter, le stringhe di otto applicazioni, racconti fantastici, lettere, saggi, fiabe, romanzi, memorie, teatro e altre opere di pubblico dominio. L'elenco completo è in [`fonti.md`](skills/italian-master/references/fonti.md).
+Dall'Accademia della Crusca e da Treccani per la norma, e dalla tradizione della scrittura chiara per lo stile (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). Le misure vengono da quasi cinque milioni di parole scaricate e contate: articoli di otto testate italiane online, dieci siti di aziende ed enti, dodici siti di agenzie digitali, tredici newsletter, le stringhe di otto applicazioni, articoli di riviste accademiche, racconti fantastici, lettere, saggi, fiabe, romanzi, memorie, teatro e altre opere di pubblico dominio. L'elenco completo è in [`fonti.md`](skills/italian-master/references/fonti.md).
 
 La skill non contiene testi altrui. Giornali e siti non sono nominati e nessuna loro frase è riportata: gli esempi sono scritti apposta, con fatti inventati. Le sole citazioni testuali sono brevi passi di opere uscite prima del 1930.
 
@@ -285,7 +295,7 @@ Segnalazioni, correzioni e nuovi esempi sono benvenuti. Vedi [`CONTRIBUTING.md`]
 
 ## Versioni
 
-La versione corrente è la 1.11.1. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
+La versione corrente è la 1.12.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
 
 ## Licenza
 
