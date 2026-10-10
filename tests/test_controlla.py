@@ -51,6 +51,10 @@ class Formule(unittest.TestCase):
         esito = categorie("Qual'è il problema? Ne parliamo tra un pò, perchè ora non posso.")
         self.assertGreaterEqual(len(esito.get("Ortografia", [])), 2)
 
+    def test_promessa_al_presente(self):
+        self.assertIn("promessa al presente", note("Entro tre giorni dal sopralluogo ti mandiamo un preventivo scritto."))
+        self.assertNotIn("promessa al presente", note("Entro tre giorni dal sopralluogo ti manderemo un preventivo scritto."))
+
     def test_frase_pulita_senza_segnalazioni(self):
         self.assertEqual(categorie("Lo studio resterà chiuso dall'11 al 24 agosto e riaprirà lunedì 25."), {})
 

@@ -1,6 +1,6 @@
 {
   "name": "italian-master",
-  "version": "1.13.0",
+  "version": "1.13.1",
   "description": "Skill per Claude, Codex e gli altri agenti: l'italiano di chi scrive per mestiere, genere per genere e con i soli fatti ricevuti. Si installa con npx.",
   "keywords": [
     "claude",

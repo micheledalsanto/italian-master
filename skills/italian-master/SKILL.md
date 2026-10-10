@@ -115,7 +115,7 @@ Nessuna di queste liste è un elenco di divieti, perché ognuna di queste forme 
 
 **Scrivere un articolo o una guida che devono farsi trovare.** La risposta alla domanda di chi cerca sta nelle prime frasi, il titolo della pagina ha la parola cercata all'inizio e la sola iniziale maiuscola, la descrizione dice che cosa c'è nella pagina, e la frase cercata si scrive in italiano corretto senza ripeterla a ogni riga. Vedi `references/testi-per-la-ricerca.md`.
 
-**Scrivere la pagina di un'attività o di un servizio.** Un «Chi siamo» va in tre o quattro capoversi brevi e caldi, con una chiusura che si ricorda. La pagina che spiega un servizio («come funziona il primo incontro») è commerciale: titolo rivolto al lettore, capoversi di due o tre righe, grassetto su quello che decide, invito in fondo. Vedi la sezione 6 di `references/siti.md`, che riporta un modello scritto dall'autore.
+**Scrivere la pagina di un'attività o di un servizio.** Un «Chi siamo» va in tre o quattro capoversi brevi e caldi, con una chiusura che si ricorda. Comincia in modo piano, dal luogo, dall'anno e da chi ha cominciato, senza superlativi e senza contrasti. La pagina che spiega un servizio («come funziona il primo incontro») è commerciale e familiare: titolo rivolto al lettore, frasi di dieci o quindici parole, prezzo e durata nelle prime righe, grassetto su quello che decide, invito in fondo. Vedi la sezione 6 di `references/siti.md`, che riporta un modello scritto dall'autore.
 
 **Scrivere una newsletter.** Il numero di una newsletter è un articolo che arriva per posta: titolo di cinque o sei parole, sottotitolo che dice che cosa c'è dentro, il fatto nella prima frase, tu al singolare, una chiusura con uno o due elementi. Per quella di un negozio o di uno studio, una notizia per capoverso con quello che serve per agire. Vedi `references/newsletter.md`.
 
@@ -196,10 +196,11 @@ Le sue segnalazioni sono indizi da valutare, e un testo che non ne riceve può e
 
 ## Prima di inviare
 
-Cinque cose da guardare sulla risposta così come sta per partire, perché sono quelle che sfuggono più spesso:
+Sei cose da guardare sulla risposta così come sta per partire, perché sono quelle che sfuggono più spesso:
 
 1. la risposta comincia con il testo, e non con una riga che lo presenta
 2. non c'è nessuna lineetta lunga, nemmeno nelle note
 3. fuori dalla narrativa, ogni fatto su chi firma viene dalla richiesta, e nessuna frase commenta un dato per allungare
 4. il testo è completo per chi lo legge: quello che la richiesta nomina è spiegato, e le parti che il genere prevede ci sono
-5. le note, se ci sono, stanno sotto, sono poche righe in prosa, e mancano del tutto quando è stato chiesto solo il testo
+5. quello che chi firma farà dopo è al futuro («ti manderemo», «potrai valutarlo»), e non al presente
+6. le note, se ci sono, stanno sotto, sono poche righe in prosa, e mancano del tutto quando è stato chiesto solo il testo

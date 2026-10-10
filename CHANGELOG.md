@@ -2,6 +2,16 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.13.1] - 2026-10-10
+
+Settimo lotto di confronti alla cieca, sui tre generi rimasti indietro: tre preferenze per parte. Le due mail formali sono passate dalla parte della skill.
+
+### Modificato
+
+- **«Chi siamo»** comincia in modo piano, dal luogo, dall'anno e da chi ha cominciato. Niente superlativi, niente contrasti in apertura, nessun metodo attribuito all'attività che la richiesta non descriva. Il calore viene dal legare ogni fatto a quello che cambia per il cliente.
+- **La pagina di un servizio** ha frasi di dieci o quindici parole e un tono familiare, con prezzo e durata nelle prime righe.
+- **Le promesse al futuro**, come ha segnato l'autore in un testo della skill («ti mandiamo» per «ti manderemo»): la regola c'era già, ora è nel controllo finale di `SKILL.md` e lo script segnala anche «entro tre giorni ti mandiamo» e «ti ricontattiamo noi».
+
 ## [1.13.0] - 2026-10-10
 
 Quinto e sesto lotto di confronti alla cieca, su generi diversi dalle hero: mail formale, «Chi siamo», post, guida, racconto, newsletter, articolo, traduzione. Nel quinto la skill è stata preferita due volte su otto, con un pari. Le modifiche di questa versione vengono da lì, e nel sesto, fatto dopo le prime due, le preferenze sono state due su sei con un pari.

@@ -136,6 +136,8 @@ FORMULE = {
         (r"\b(sono|siamo) entusiast[aie] di annunciar", "calco di «thrilled to announce»: «siamo felici di condividere», oppure la notizia"),
         (r"\ba differenza d(i|ei|elle|egli) (molt|tant|altr|tutt)\w+\b.{0,40}\b(noi|non)\b", "confronto con gli altri: di' quello che hai fatto tu"),
         (r"\b(scrivici|scriveteci|contattaci|contattateci|chiamaci|chiamateci)\b[^.!?]{0,60}\b(ti|vi) (rispondiamo|diciamo|richiamiamo|mandiamo|facciamo sapere)\b", "promessa al presente: «ti risponderemo», «ti diremo»"),
+        (r"\b(entro|dopo|al termine d\w+)\b[^.!?\n]{0,50}\b(ti|vi) (mandiamo|inviamo|ricontattiamo|richiamiamo|consegniamo|facciamo (avere|sapere))\b", "promessa al presente: «ti manderemo», «vi invieremo»"),
+        (r"\b(ti|vi) (ricontattiamo|richiamiamo) noi\b", "promessa al presente: «ti ricontatteremo noi»"),
         (r"\bultimo ma non (meno importante|ultimo)\b", "«infine»"),
         (r"\b(prendere|prendi|prendo|preso) una (doccia|foto|pausa)\b", "«fare»"),
         (r"\bpag\w+ attenzione\b", "«fare attenzione», «prestare attenzione»"),
