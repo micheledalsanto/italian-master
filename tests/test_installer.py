@@ -1,6 +1,5 @@
 """Prove dell'installatore per npx. Servono Node 18 o successivo e una cartella temporanea."""
 
-import os
 import shutil
 import subprocess
 import tempfile
@@ -16,11 +15,7 @@ NODE = shutil.which("node")
 class Installatore(unittest.TestCase):
     def setUp(self):
         self.lavoro = Path(tempfile.mkdtemp(prefix="italian-master-prova-"))
-        # La home finta tiene le prove lontane dalle skill di chi le lancia. All'installatore passano
-        # solo le variabili che servono a Node per partire, e nient'altro dell'ambiente di chi lancia.
-        casa = str(self.lavoro / "home")
-        self.ambiente = {nome: os.environ[nome] for nome in ("PATH", "SystemRoot", "TEMP", "TMP") if nome in os.environ}
-        self.ambiente.update(HOME=casa, USERPROFILE=casa)
+        # Le prove installano solo nella cartella di un progetto finto, mai nella home di chi le lancia.
         (self.lavoro / "progetto").mkdir()
 
     def tearDown(self):
@@ -28,7 +23,7 @@ class Installatore(unittest.TestCase):
 
     def lancia(self, *argomenti):
         return subprocess.run([NODE, str(INSTALLATORE), *argomenti], capture_output=True, text=True, encoding="utf-8",
-                              cwd=self.lavoro / "progetto", env=self.ambiente)
+                              cwd=self.lavoro / "progetto")
 
     def test_versione(self):
         r = self.lancia("--version")
@@ -50,9 +45,10 @@ class Installatore(unittest.TestCase):
         self.assertEqual(self.lancia("--codex", "--project").returncode, 0)
         self.assertTrue((self.lavoro / "progetto" / ".agents" / "skills" / "italian-master" / "SKILL.md").exists())
 
-    def test_installazione_globale_nella_home_finta(self):
-        self.assertEqual(self.lancia().returncode, 0)
-        self.assertTrue((self.lavoro / "home" / ".claude" / "skills" / "italian-master" / "SKILL.md").exists())
+    def test_cartella_a_scelta(self):
+        altrove = self.lavoro / "altrove"
+        self.assertEqual(self.lancia("--dir", str(altrove)).returncode, 0)
+        self.assertTrue((altrove / "italian-master" / "SKILL.md").exists())
 
     def test_non_sovrascrive_una_cartella_estranea(self):
         estranea = self.lavoro / "progetto" / ".claude" / "skills" / "italian-master"
