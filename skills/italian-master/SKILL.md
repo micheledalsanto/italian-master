@@ -17,11 +17,11 @@ Valgono per qualunque testo e con qualunque tono, e sono quelle che si perdono p
 
 1. **Nel testo entrano solo i fatti che l'utente ha dato.** Non si aggiungono numeri, nomi, orari o citazioni, e nemmeno circostanze verosimili: come si è svolto un lavoro, perché una cosa è successa, chi l'ha voluta, come lavora chi firma («conosciamo ogni cliente per nome»). Se i fatti sono pochi il testo esce corto, e sotto si dice che cosa servirebbe per allungarlo.
 2. **Prima di scrivere si apre il riferimento del genere**, anche per un testo di poche righe. Quale sia lo dicono la sezione «Che cosa ti viene chiesto» e la tabella in fondo.
-3. **Si consegna il testo, e sotto poche righe.** Nessuna frase che lo annunci («Ecco la mail»), nessuna lineetta lunga né nel testo né nelle note, che sono in prosa e danno del tu a chi ha dato del tu.
+3. **Si consegna il testo, e sotto poche righe.** Il testo sta per intero nella risposta, anche quando è stato scritto in un file per controllarlo. Nessuna frase lo annuncia («Ecco la mail», «Ecco il testo rivisto»), e non c'è nessuna lineetta lunga né nel testo né nelle note, che sono in prosa e danno del tu a chi ha dato del tu. Se la richiesta chiede solo il testo, le note non si scrivono.
 
 ## Prima di scrivere
 
-**Cerca la configurazione di chi usa la skill.** Il tono e il pubblico li decide l'utente, in un file `italian-master.md` che sta nella cartella `.claude/` o `.agents/` del progetto, oppure nella stessa cartella dentro la sua home. Se c'è, leggilo prima di ogni altra cosa: dice chi legge e quanto ne sa, quale tono usare (formale, cordiale, accogliente, giornalistico, tecnico, commerciale), se dare del tu, del lei o del voi, e quali testi prendere a modello. Quello che dice la richiesta vale più della configurazione, e la configurazione vale più di quello che dedurresti da solo. Se il file manca, deduci tono e pubblico dal contesto e, sotto un testo breve, di' in una riga che cosa hai assunto. I sei toni, lo stesso avviso scritto in ciascuno e che cosa cambia secondo il pubblico sono in `references/tono-e-pubblico.md`.
+**Cerca la configurazione di chi usa la skill.** Il tono e il pubblico li decide l'utente, in un file `italian-master.md` che sta nella cartella `.claude/` o `.agents/` del progetto, oppure nella stessa cartella dentro la sua home. Se c'è quello del progetto, quello della home non si legge. Il file va letto prima di ogni altra cosa: dice chi legge e quanto ne sa, quale tono usare (formale, cordiale, accogliente, giornalistico, tecnico, commerciale), se dare del tu, del lei o del voi, e quali testi prendere a modello. Quello che dice la richiesta vale più della configurazione, e la configurazione vale più di quello che dedurresti da solo. Se il file manca, deduci tono e pubblico dal contesto e, sotto un testo breve, di' in una riga che cosa hai assunto. I sei toni, lo stesso avviso scritto in ciascuno e che cosa cambia secondo il pubblico sono in `references/tono-e-pubblico.md`.
 
 Conviene poi avere chiare quattro cose, e se la richiesta non le dice si deducono dal contesto, lasciando all'utente solo le domande da cui dipende davvero il testo.
 
@@ -185,3 +185,12 @@ Le sue segnalazioni sono indizi da valutare, e un testo che non ne riceve può e
 | `references/modi-di-dire.md` | Per usare un proverbio o un'espressione idiomatica, o tradurne una |
 | `references/imparare-una-voce.md` | Quando l'utente fornisce testi da cui imparare uno stile |
 | `references/fonti.md` | Per sapere da dove vengono queste indicazioni |
+
+## Prima di inviare
+
+Quattro cose da guardare sulla risposta così come sta per partire, perché sono quelle che sfuggono più spesso:
+
+1. la risposta comincia con il testo, e non con una riga che lo presenta
+2. non c'è nessuna lineetta lunga, nemmeno nelle note
+3. ogni fatto e ogni circostanza vengono dalla richiesta, e nessuna frase commenta un dato per allungare
+4. le note, se ci sono, stanno sotto, sono poche righe in prosa, e mancano del tutto quando è stato chiesto solo il testo

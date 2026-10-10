@@ -1,9 +1,10 @@
 ---
 description: Crea o aggiorna il file in cui la skill italian-master legge tono e pubblico
 argument-hint: "[progetto | personale]"
+disable-model-invocation: true
 ---
 
-Aiuta l'utente a compilare la configurazione della skill `italian-master`, cioè il file `italian-master.md` che dice per chi si scrive e con che tono.
+Carica prima la skill `italian-master` con lo strumento delle skill, poi aiuta l'utente a compilare la sua configurazione, cioè il file `italian-master.md` che dice per chi si scrive e con che tono.
 
 $ARGUMENTS
 

@@ -2,6 +2,21 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.11.1] - 2026-10-10
+
+Tre correzioni venute dalla lettura dei casi di prova, eseguiti due volte ciascuno.
+
+### Corretto
+
+- **I comandi del plugin non vengono più scelti dal modello al posto della skill.** Nella 1.11.0 una richiesta di revisione poteva far partire il comando `rivedi` senza caricare le regole della skill, e il testo usciva con le lineette lunghe e con «Ecco il testo rivisto». Ora i tre comandi partono solo quando li chiama l'utente, e come prima cosa caricano la skill.
+- **Il testo sta nella risposta.** Quando il testo veniva scritto in un file per passarlo allo script, la risposta poteva contenere solo le note. La terza regola ora lo dice, insieme al fatto che le note non si scrivono se la richiesta chiede solo il testo.
+- **Una sola configurazione.** Se nel progetto c'è il file di configurazione, quello personale non viene più letto.
+
+### Aggiunto
+
+- In fondo a `SKILL.md`, un controllo di quattro righe da fare sulla risposta prima di inviarla.
+- Tre casi di prova in cui la richiesta chiede solo il testo: un articolo da appunti, una pagina «Chi siamo» e la newsletter di un negozio, con i controlli sulle circostanze aggiunte e sulle note non richieste.
+
 ## [1.11.0] - 2026-10-10
 
 La voce di un autore si può misurare, il plugin ha tre comandi, e lo script ha le sue prove automatiche.

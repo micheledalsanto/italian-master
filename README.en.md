@@ -254,7 +254,7 @@ Reports, corrections and new examples are welcome. See [`CONTRIBUTING.md`](CONTR
 
 ## Versions
 
-The current version is 1.11.0. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
+The current version is 1.11.1. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
 
 ## License
 

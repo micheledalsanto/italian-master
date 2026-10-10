@@ -448,6 +448,103 @@
           "^[^\\w\n]*Ecco\b"
         ]
       }
+    },
+    {
+      "id": 16,
+      "name": "articolo-solo-testo",
+      "prompt": "Scrivi un articolo di circa 200 parole per il giornale locale da questi appunti: sabato 3 ottobre a Schio ha riaperto la biblioteca civica dopo 14 mesi di lavori; costo 1,2 milioni di euro, di cui 800 mila dalla Regione; 120 posti a sedere, prima erano 70; nuova sala ragazzi al piano terra; orario allungato fino alle 22 il giovedì; all'inaugurazione c'erano circa 300 persone; l'assessora alla cultura Marta Zanella ha detto: «In questi mesi ci hanno scritto in tanti per chiedere quando riaprivamo». Dammi solo il testo, senza note né commenti.",
+      "expected_output": "Articolo di cronaca al passato prossimo, con l'attacco sul fatto e sulla data, tutti i numeri degli appunti, la citazione attribuita all'assessora. Nessun commento che spieghi un dato («segno di quanto…»), nessuna intenzione attribuita a qualcuno, nessuna chiusura sul futuro della biblioteca: gli appunti non lo dicono. La richiesta chiede solo il testo: nessuna riga di annuncio e nessuna nota sotto.",
+      "files": {},
+      "controlli": {
+        "deve_leggere": [
+          "references/"
+        ],
+        "deve": [
+          "3 ottobre",
+          "1,2 milioni",
+          "800",
+          "\\b120\\b",
+          "\\b70\\b",
+          "Zanella",
+          "ci hanno scritto in tanti"
+        ],
+        "non_deve": [
+          "^[^\\w\\n]*Ecco\\b",
+          "^Ho (scritto|scelto|dato|tenuto|usato)\\b",
+          "^Se (hai|vuoi|preferisci)\\b.*(dimmelo|posso|cambio|correggo)",
+          "—",
+          "segno (di|che|d[ei])",
+          "punto di riferimento",
+          "banco di prova",
+          "non (è|si tratta) (solo|soltanto)",
+          "pensat[ao] (per|apposta)"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "name": "chi-siamo-solo-i-fatti",
+      "prompt": "Scrivi il testo della pagina «Chi siamo» della nostra azienda agricola. Siamo a Montalcino, dodici ettari, di cui otto a vigneto e il resto a ulivi. L'ha comprata mio nonno Aldo nel 1968, oggi la mandiamo avanti io e mia sorella Chiara. Facciamo Brunello e Rosso di Montalcino, circa 30.000 bottiglie l'anno, e olio. Dal 2015 siamo in biologico. Si può venire a visitare la cantina su prenotazione. Circa 150 parole. Dammi solo il testo, senza note né commenti.",
+      "expected_output": "Pagina in prima persona plurale con i soli fatti dati: Montalcino, dodici ettari, il nonno Aldo e il 1968, i due fratelli, i vini e le bottiglie, l'olio, il biologico dal 2015, la visita su prenotazione. Nessuna circostanza aggiunta (ulivi secolari, raccolta a mano, che cosa si fa dell'olio, come lavorava il nonno), nessuna formula da brochure. Se i fatti non bastano per 150 parole, il testo esce più corto. Solo il testo, senza note.",
+      "files": {},
+      "controlli": {
+        "deve_leggere": [
+          "references/"
+        ],
+        "deve": [
+          "Montalcino",
+          "1968",
+          "Chiara",
+          "30[.\\s]?000|trentamila",
+          "2015",
+          "prenotazione"
+        ],
+        "non_deve": [
+          "^[^\\w\\n]*Ecco\\b",
+          "^Ho (scritto|scelto|dato|tenuto|usato)\\b",
+          "^Se (hai|vuoi|preferisci)\\b.*(dimmelo|posso|cambio|correggo)",
+          "—",
+          "nel cuore d",
+          "secolar",
+          "a mano",
+          "passione",
+          "tradizione e innovazione",
+          "da generazioni",
+          "non (è|si tratta) (solo|soltanto)",
+          "eccellenz"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "name": "newsletter-negozio-solo-testo",
+      "prompt": "Scrivi il numero di ottobre della newsletter della nostra enoteca di Verona. Le notizie: sabato 17 ottobre alle 18 degustazione di sei Amaroni con il produttore Luca Ferrari, 25 euro, 20 posti, ci si prenota rispondendo alla mail; sono arrivati i vini nuovi della vendemmia 2025; da novembre siamo aperti anche la domenica mattina, dalle 10 alle 13. Diamo del tu ai clienti. Massimo 180 parole. Dammi solo il testo, senza note né commenti.",
+      "expected_output": "Newsletter di un negozio: una notizia per capoverso con quello che serve per agire (giorno, ora, prezzo, posti, come prenotare), tu al singolare, le promesse al futuro. Nessun dettaglio aggiunto sulla degustazione o sui vini, che la richiesta non descrive. Solo il testo, senza annuncio e senza note.",
+      "files": {},
+      "controlli": {
+        "deve_leggere": [
+          "references/newsletter.md"
+        ],
+        "deve": [
+          "17 ottobre",
+          "alle 18",
+          "25 euro",
+          "\\b20\\b|venti",
+          "Luca Ferrari",
+          "2025",
+          "10 alle 13"
+        ],
+        "non_deve": [
+          "^[^\\w\\n]*Ecco\\b",
+          "^Ho (scritto|scelto|dato|tenuto|usato)\\b",
+          "^Se (hai|vuoi|preferisci)\\b.*(dimmelo|posso|cambio|correggo)",
+          "—",
+          "ti (teniamo|facciamo assaggiare|rispondiamo|diciamo)",
+          "\\b(vi|vostr[oaie])\\b",
+          "imperdibil",
+          "non perdere"
+        ]
+      }
     }
   ]
 }

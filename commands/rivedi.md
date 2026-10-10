@@ -1,9 +1,10 @@
 ---
 description: Rivede un testo italiano con la skill italian-master e dice che cosa ha cambiato
 argument-hint: "[file o testo da rivedere]"
+disable-model-invocation: true
 ---
 
-Rivedi con la skill `italian-master` il testo indicato qui sotto. Se è il percorso di un file, leggilo; se non c'è niente, chiedi all'utente di incollare il testo o di indicare il file.
+Carica prima la skill `italian-master` con lo strumento delle skill e leggine le regole, poi rivedi il testo indicato qui sotto. Se è il percorso di un file, leggilo; se non c'è niente, chiedi all'utente di incollare il testo o di indicare il file.
 
 $ARGUMENTS
 

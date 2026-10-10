@@ -1,9 +1,10 @@
 ---
 description: Ricava una scheda di stile dai testi di un autore, con le misure e con la lettura
 argument-hint: "[cartella o file dei testi] [bozza da confrontare]"
+disable-model-invocation: true
 ---
 
-Ricava con la skill `italian-master` la scheda di stile dell'autore dei testi indicati qui sotto. Servono almeno due o tre testi dello stesso genere: se ce n'è uno solo, dillo e chiedine altri.
+Carica prima la skill `italian-master` con lo strumento delle skill, poi ricava la scheda di stile dell'autore dei testi indicati qui sotto. Servono almeno due o tre testi dello stesso genere: se ce n'è uno solo, dillo e chiedine altri.
 
 $ARGUMENTS
 
