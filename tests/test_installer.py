@@ -16,9 +16,11 @@ NODE = shutil.which("node")
 class Installatore(unittest.TestCase):
     def setUp(self):
         self.lavoro = Path(tempfile.mkdtemp(prefix="italian-master-prova-"))
-        # La home finta tiene le prove lontane dalle skill di chi le lancia.
-        self.ambiente = dict(os.environ, HOME=str(self.lavoro / "home"), USERPROFILE=str(self.lavoro / "home"))
-        self.ambiente.pop("CLAUDE_CONFIG_DIR", None)
+        # La home finta tiene le prove lontane dalle skill di chi le lancia. All'installatore passano
+        # solo le variabili che servono a Node per partire, e nient'altro dell'ambiente di chi lancia.
+        casa = str(self.lavoro / "home")
+        self.ambiente = {nome: os.environ[nome] for nome in ("PATH", "SystemRoot", "TEMP", "TMP") if nome in os.environ}
+        self.ambiente.update(HOME=casa, USERPROFILE=casa)
         (self.lavoro / "progetto").mkdir()
 
     def tearDown(self):
