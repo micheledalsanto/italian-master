@@ -115,9 +115,47 @@ Una regola che esce dal confronto: il «noi» funziona quando è seguito da un v
 
 **Chi siamo e storia.** È la pagina che si legge, e vuole la prosa. Funzionano le date, i nomi delle persone, i numeri verificabili (soci e quote, chilometri percorsi, anno di fondazione), gli oggetti e gli episodi. Non funziona il riassunto in tre aggettivi.
 
-La pagina di una piccola attività va in tre o quattro capoversi brevi, uno per tempo (com'è cominciata, chi c'è oggi, che cosa si fa, che cosa c'è di nuovo), e non in un blocco unico. Chi legge vuole sentire le persone: il tono è caldo, e l'ultimo capoverso dice che cosa è rimasto uguale o che cosa trova chi entra, con una frase che si ricorda. Di un forno aperto dal 1954, che oggi consegna anche ai ristoranti, l'autore di questa skill chiuderebbe così: «L'autentico spirito del forno di quartiere, però, non se ne è mai andato». Quante persone ci lavorano interessa poco a chi legge, come nella hero: si nominano i titolari, e il numero dei dipendenti si può lasciare fuori. Restano vietate le astrazioni che non si capiscono («un impasto e una fiducia che da allora non abbiamo cambiato») e i fatti inventati sull'attività.
+**Il «Chi siamo» di una piccola attività** (una scuola, un negozio, un'officina, uno studio) è una pagina commerciale quanto la home: chi la legge sta decidendo se fidarsi. A una richiesta con questi dati (una scuola di musica di Rovereto, nata nel 2006 dall'idea di due insegnanti che ci insegnano ancora, corsi di cinque strumenti per bambini dai sei anni e per adulti, il saggio di giugno al teatro comunale, la prima lezione di prova gratuita) l'autore di questa skill ha risposto così:
 
-Si comincia in modo piano, dal luogo, dall'anno e da chi ha cominciato: «La nostra scuola di musica nasce a Rovereto nel 2006, dall'idea di due insegnanti». Non si comincia con un superlativo («la scuola più accogliente di Rovereto») né con un contrasto («non è nata da un progetto imprenditoriale, ma da un'idea»), e non si attribuisce all'attività un metodo che la richiesta non descrive («senza l'ansia del voto», «seguono personalmente ogni allievo»). Il calore viene dal legare ogni fatto a quello che cambia per il cliente: l'auto di cortesia c'è perché chi lavora non resti a piedi, i corsi sono anche per chi riprende in mano uno strumento dopo anni. La chiusura evita la frase fatta («la trattiamo come fosse la nostra»).
+> # Chi siamo
+>
+> ### Dal 2006, la passione per la musica ci unisce.
+>
+> La nostra scuola di musica nasce a Rovereto nel 2006, dalla passione e dall'iniziativa di due insegnanti, **Marco Dalla Torre e Giulia Perini**. A vent'anni di distanza, sono ancora qui, con lo stesso entusiasmo e un obiettivo che non è mai cambiato: **avvicinare le persone alla musica e accompagnarle nel piacere di suonare.**
+>
+> Crediamo che non ci sia un'età giusta per iniziare a fare musica, ma solo il momento giusto per provarci.
+>
+> Per questo proponiamo **corsi di pianoforte, chitarra, violino, canto e batteria**, rivolti a bambini dai sei anni e adulti. Accogliamo chi si avvicina alla musica per la prima volta, ma anche chi desidera riprendere uno strumento lasciato da parte e riscoprire una vecchia passione.
+>
+> ### Un percorso da vivere e condividere
+>
+> Per noi, imparare a suonare significa anche acquisire fiducia, mettersi alla prova e condividere le proprie conquiste.
+>
+> Ogni giugno, il **teatro comunale di Rovereto** ospita il nostro saggio di fine anno: un'occasione speciale in cui gli allievi salgono sul palco e condividono con familiari e amici i progressi raggiunti durante l'anno.
+>
+> È un momento importante per tutta la scuola, fatto di emozioni, soddisfazioni e tanta musica.
+>
+> ### Vieni a conoscerci
+>
+> Che tu voglia avvicinarti alla musica o stia cercando un percorso per tuo figlio, saremo felici di accoglierti, ascoltare le tue esigenze e aiutarti a trovare il corso più adatto.
+>
+> **La prima lezione di prova è gratuita**, senza impegno: un'occasione per conoscere i nostri insegnanti, scoprire la scuola e iniziare a suonare.
+>
+> Ti aspettiamo!
+
+Da questo modello viene la forma del genere:
+
+- **Un sottotitolo sotto il titolo**, che unisce l'anno o il luogo a quello che l'attività fa per le persone.
+- **L'apertura piana**: dove, da quando, chi ha cominciato, con i nomi in grassetto. Subito dopo, lo scopo in una frase.
+- **Una frase di convinzione**, da sola in un capoverso («Crediamo che…»), che riguarda il cliente e prepara l'offerta.
+- **Che cosa si fa e per chi**, con il grassetto sull'elenco dei servizi e una frase che dice a chi ci si rivolge.
+- **Un titoletto e un momento concreto** della vita dell'attività (il saggio, l'auto di cortesia, la consegna), raccontato per quello che significa per chi lo vive.
+- **Un titoletto di invito**: l'accoglienza al futuro («saremo felici di accoglierti»), l'offerta in grassetto con «senza impegno», e il saluto con il punto esclamativo.
+- **Due o tre righe per capoverso**, tu al singolare, noi per chi scrive.
+
+In questa pagina «passione», «entusiasmo», «emozioni», «crediamo che» sono il registro del genere, come le parole calde di un claim. Ognuna sta accanto a un fatto della richiesta (i due insegnanti, i vent'anni, il saggio) e non lo sostituisce: è questo che le distingue dalle formule della sezione 4, dove dietro la parola non c'è niente. I fatti restano quelli dati: nel modello non c'è un numero, un nome o un metodo che la richiesta non contenga. Il numero dei dipendenti si può lasciare fuori. Restano vietati il superlativo sull'attività («la scuola più accogliente di Rovereto»), il contrasto in apertura («non è nata da un progetto imprenditoriale, ma da un'idea») e le astrazioni che non si capiscono («un impasto e una fiducia che da allora non abbiamo cambiato»).
+
+Se la configurazione o la richiesta chiedono un tono sobrio, restano la struttura e i fatti, e si tolgono la frase di convinzione e le parole calde. La pagina sulla storia di un'azienda più grande, di un ente o di una cooperativa segue invece il capoverso precedente.
 
 **Valori, missione, sostenibilità.** Sono le pagine in cui tutti e dieci i siti scrivono peggio. Se si è obbligati a farle, per ogni valore conviene dire una cosa che l'organizzazione ha fatto e che lo dimostra, con un numero o un anno, e togliere il valore dall'elenco quando non se ne trova nessuna.
 

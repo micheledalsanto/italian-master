@@ -2,6 +2,13 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.14.0] - 2026-10-10
+
+### Modificato
+
+- **Il «Chi siamo» di una piccola attività ha un modello scritto dall'autore**, ed è trattato come una pagina commerciale: sottotitolo, apertura piana con i nomi in grassetto, una frase di convinzione, che cosa si fa e per chi, un momento concreto, un invito finale. In tre lotti di confronti alla cieca era il solo genere in cui la skill non era mai stata preferita. Le parole calde («passione», «entusiasmo», «crediamo che») in questa pagina sono il registro del genere, purché stiano accanto a un fatto della richiesta; se la configurazione chiede un tono sobrio si tolgono.
+- Il caso di prova sul «Chi siamo» non vieta più «passione».
+
 ## [1.13.1] - 2026-10-10
 
 Settimo lotto di confronti alla cieca, sui tre generi rimasti indietro: tre preferenze per parte. Le due mail formali sono passate dalla parte della skill.
