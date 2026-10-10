@@ -15,7 +15,7 @@ Tra le due c'è l'italiano che si legge sui giornali fatti bene e nei libri che 
 
 Valgono per qualunque testo e con qualunque tono, e sono quelle che si perdono più facilmente.
 
-1. **Nel testo entrano solo i fatti che l'utente ha dato.** Non si aggiungono numeri, nomi, orari o citazioni, e nemmeno circostanze verosimili: come si è svolto un lavoro, perché una cosa è successa, chi l'ha voluta, come lavora chi firma («conosciamo ogni cliente per nome»). Se i fatti sono pochi il testo esce corto, e sotto si dice che cosa servirebbe per allungarlo.
+1. **I fatti sono quelli che l'utente ha dato, e il testo li sviluppa per intero.** Non si aggiungono numeri, nomi, orari o citazioni, e nemmeno circostanze verosimili su chi firma: come si è svolto un lavoro, perché una cosa è stata decisa, com'è fatto un prodotto, come lavora chi scrive («ulivi secolari», «conosciamo ogni cliente per nome»). Sviluppare un fatto dato è un'altra cosa, ed è dovuto: dire in che cosa consiste quello che la richiesta nomina, con ciò che chiunque del mestiere sa (che cosa si guarda in una valutazione fisica, che cosa cambia per chi ha un contratto in corso), mettere i passaggi e le formule che il genere prevede, rispondere alle domande che il lettore si farebbe. Un testo fedele ma magro è sbagliato quanto uno che inventa. In narrativa i dettagli si inventano, perché è il lavoro di chi racconta.
 2. **Prima di scrivere si apre il riferimento del genere**, anche per un testo di poche righe. Quale sia lo dicono la sezione «Che cosa ti viene chiesto» e la tabella in fondo.
 3. **Si consegna il testo, e sotto poche righe.** Il testo sta per intero nella risposta, anche quando è stato scritto in un file per controllarlo. Nessuna frase lo annuncia («Ecco la mail», «Ecco il testo rivisto»), e non c'è nessuna lineetta lunga né nel testo né nelle note, che sono in prosa e danno del tu a chi ha dato del tu. Se la richiesta chiede solo il testo, le note non si scrivono.
 
@@ -32,7 +32,7 @@ Conviene poi avere chiare quattro cose, e se la richiesta non le dice si deducon
 
 ## Come si scrive in italiano
 
-**Scrivi periodi, non frasette.** In un testo da leggere la frase normale ha tra le venti e le trenta parole e contiene una principale con una o due subordinate, oppure un inciso che precisa. Gli articoli di un quotidiano online ben scritto hanno in media ventisei parole per frase, e le frasi sotto le sei parole sono due su cento. La regola delle frasi brevi viene dai manuali inglesi e, applicata all'italiano, produce un testo che ha il suono di una traduzione. Per costruire un periodo che resti leggibile si mette la principale all'inizio e si allunga in coda, con le relative, le apposizioni, i gerundi e i connettivi che l'italiano mette a disposizione. Gli strumenti, con esempi presi da testi veri, sono in `references/periodo.md`, che va letto prima di qualunque testo più lungo di poche righe.
+**Scrivi periodi, non frasette.** In un testo da leggere che non sia un racconto la frase normale ha tra le venti e le trenta parole e contiene una principale con una o due subordinate, oppure un inciso che precisa. Gli articoli di un quotidiano online ben scritto hanno in media ventisei parole per frase, e le frasi sotto le sei parole sono due su cento. La regola delle frasi brevi viene dai manuali inglesi e, applicata all'italiano, produce un testo che ha il suono di una traduzione. Per costruire un periodo che resti leggibile si mette la principale all'inizio e si allunga in coda, con le relative, le apposizioni, i gerundi e i connettivi che l'italiano mette a disposizione. Gli strumenti, con esempi presi da testi veri, sono in `references/periodo.md`, che va letto prima di qualunque testo più lungo di poche righe.
 
 **Tieni la frase breve per quando serve.** Una frase di cinque parole dopo due periodi lunghi ha molta forza, mentre tre frasi brevi di fila, o una in fondo a ogni capoverso, sono soltanto un singhiozzo. In una pagina ce ne può stare una, raramente due.
 
@@ -56,7 +56,7 @@ Conviene poi avere chiare quattro cose, e se la richiesta non le dice si deducon
 
 **Accompagna chi non è del mestiere.** Quando il testo spiega qualcosa a persone non esperte, si comincia dalla situazione o dal dubbio del lettore, gli si dà del tu, ci si fa vedere con un «vediamo» o un «ti spiego», si mettono le sue domande nei punti in cui gli verrebbero e il termine tecnico arriva dopo la spiegazione. Anche i titoli devono essere frasi che si direbbero a voce. Vedi `references/tono-accogliente.md`.
 
-**Non inventare.** È la prima delle tre regole, e le circostanze verosimili sono le invenzioni più difficili da vedere, perché legano bene due fatti veri e nessuno le ha dette. Si può invece ricavare un dato da quelli forniti, come la differenza tra due numeri o il tempo passato tra due date, purché il conto torni e non richieda a sua volta un dato che manca, come l'anno di una data che ne è priva. Se serve un dato che manca, lo si chiede, oppure si scrive la frase senza. Quando il testo senza quel dato non sta in piedi, come un sollecito senza la scadenza, al suo posto va un segnaposto tra parentesi quadre, segnalato sotto il testo.
+**Non inventare, e non lasciare il testo a metà.** È la prima delle tre regole, e le circostanze verosimili sono le invenzioni più difficili da vedere, perché legano bene due fatti veri e nessuno le ha dette. La prova per distinguerle dallo sviluppo è chiedersi se la frase potrebbe essere falsa per questo cliente: «gli ulivi sono secolari» può esserlo, «durante la valutazione il fisioterapista controlla come si muove la zona che fa male» no. Una ragione è un fatto: se la richiesta non dice perché una tariffa aumenta, la lettera non lo spiega con una causa inventata, e usa la formula che il genere prevede oppure chiede. Si può invece ricavare un dato da quelli forniti, come la differenza tra due numeri o il tempo passato tra due date, purché il conto torni e non richieda a sua volta un dato che manca, come l'anno di una data che ne è priva. Se serve un dato che manca, lo si chiede, oppure si scrive la frase senza. Quando il testo senza quel dato non sta in piedi, come un sollecito senza la scadenza, al suo posto va un segnaposto tra parentesi quadre, segnalato sotto il testo.
 
 Per i passi d'autore da cui prendere il ritmo, `references/modelli.md`. Per lo scioglimento di frasi burocratiche e nominali, `references/sintassi-stile.md`.
 
@@ -103,9 +103,9 @@ Nessuna di queste liste è un elenco di divieti, perché ognuna di queste forme 
 
 **Scrivere da zero, descrivere, raccontare.** Prima di scrivere si elencano i fatti disponibili e quelli che mancano, e si decide qual è la cosa principale. Una descrizione dice nella prima frase che cos'è la cosa, e un racconto tiene lo stesso tempo verbale finché non arriva a oggi. Se i fatti non bastano per la lunghezza richiesta, il testo esce più corto e lo si dice, perché l'alternativa è allungarlo con frasi che non informano. Vedi `references/descrivere-e-raccontare.md` e, per il passo delle frasi, `references/periodo.md`.
 
-**Scrivere una comunicazione formale.** Un avviso ai clienti, un sollecito, la risposta a un reclamo vogliono il registro formale per intero, con le sue formule di cortesia, e in mezzo soltanto fatti: che cosa cambia, da quando, che cosa deve fare chi legge. Togliere le formule non rende il testo più naturale. Vedi `references/corrispondenza-formale.md`.
+**Scrivere una comunicazione formale.** Un avviso ai clienti, un sollecito, la risposta a un reclamo vogliono il registro formale per intero, con l'oggetto, le formule di cortesia e in fondo la disponibilità e il ringraziamento, e in mezzo soltanto fatti: che cosa cambia, da quando, che cosa deve fare chi legge. Togliere le formule non rende il testo più naturale. Vedi `references/corrispondenza-formale.md`.
 
-**Scrivere narrativa.** Un racconto ha un passo diverso da un articolo: frasi di una quindicina di parole in media, dialoghi, passato remoto, poche similitudini. Per il fantasy, la fiaba e il fantastico quotidiano vedi `references/narrativa-fantastica.md`, che dice come cominciare, come far capire un mondo dalle cose e quali stampi evitare. Per l'uso dei tempi in una scena, con l'antefatto e i pensieri dei personaggi, vedi `references/tempi-verbali.md`.
+**Scrivere narrativa.** Un racconto ha un passo diverso da un articolo, e le regole sul periodo qui non valgono: frasi di una quindicina di parole in media, con qualche frase breve dove l'azione stringe, capoversi di poche righe che cambiano quando cambia il gesto, il luogo o chi parla, dialoghi, passato remoto, poche similitudini. Un racconto in un blocco solo di periodi lunghi è un riassunto. I dettagli concreti (un nome, un oggetto, un odore, il numero su una porta) si inventano, e sono quelli a far vedere la scena: la richiesta dà la situazione, e chi scrive ci mette le cose. Si comincia da un gesto o da una cosa vista, e l'antefatto arriva dopo, a pezzi. Per il fantasy, la fiaba e il fantastico quotidiano vedi `references/narrativa-fantastica.md`, che dice come cominciare, come far capire un mondo dalle cose e quali stampi evitare. Per l'uso dei tempi in una scena, con l'antefatto e i pensieri dei personaggi, vedi `references/tempi-verbali.md`.
 
 **Scrivere per i bambini.** Per chi ha tra i sei e gli undici anni le regole sul periodo si rovesciano: una frase, un'idea, parole di tutti i giorni, molte domande. Le misure, l'indice di leggibilità e un esempio sono in `references/scrivere-per-bambini.md`.
 
@@ -114,6 +114,8 @@ Nessuna di queste liste è un elenco di divieti, perché ognuna di queste forme 
 **Scrivere una tesi, un saggio, un articolo accademico.** Frasi lunghe, una persona scelta e tenuta («noi», «io» o l'impersonale), un'introduzione che dice oggetto, lacuna, tesi e piano, e le norme editoriali della sede. Nessun riferimento bibliografico, numero di pagina o citazione che l'utente non abbia fornito: dove manca va un segnaposto. Vedi `references/scrittura-accademica.md`.
 
 **Scrivere un articolo o una guida che devono farsi trovare.** La risposta alla domanda di chi cerca sta nelle prime frasi, il titolo della pagina ha la parola cercata all'inizio e la sola iniziale maiuscola, la descrizione dice che cosa c'è nella pagina, e la frase cercata si scrive in italiano corretto senza ripeterla a ogni riga. Vedi `references/testi-per-la-ricerca.md`.
+
+**Scrivere la pagina di un'attività o di un servizio.** Un «Chi siamo» va in tre o quattro capoversi brevi e caldi, con una chiusura che si ricorda. La pagina che spiega un servizio («come funziona il primo incontro») è commerciale: titolo rivolto al lettore, capoversi di due o tre righe, grassetto su quello che decide, invito in fondo. Vedi la sezione 6 di `references/siti.md`, che riporta un modello scritto dall'autore.
 
 **Scrivere una newsletter.** Il numero di una newsletter è un articolo che arriva per posta: titolo di cinque o sei parole, sottotitolo che dice che cosa c'è dentro, il fatto nella prima frase, tu al singolare, una chiusura con uno o due elementi. Per quella di un negozio o di uno studio, una notizia per capoverso con quello che serve per agire. Vedi `references/newsletter.md`.
 
@@ -194,9 +196,10 @@ Le sue segnalazioni sono indizi da valutare, e un testo che non ne riceve può e
 
 ## Prima di inviare
 
-Quattro cose da guardare sulla risposta così come sta per partire, perché sono quelle che sfuggono più spesso:
+Cinque cose da guardare sulla risposta così come sta per partire, perché sono quelle che sfuggono più spesso:
 
 1. la risposta comincia con il testo, e non con una riga che lo presenta
 2. non c'è nessuna lineetta lunga, nemmeno nelle note
-3. ogni fatto e ogni circostanza vengono dalla richiesta, e nessuna frase commenta un dato per allungare
-4. le note, se ci sono, stanno sotto, sono poche righe in prosa, e mancano del tutto quando è stato chiesto solo il testo
+3. fuori dalla narrativa, ogni fatto su chi firma viene dalla richiesta, e nessuna frase commenta un dato per allungare
+4. il testo è completo per chi lo legge: quello che la richiesta nomina è spiegato, e le parti che il genere prevede ci sono
+5. le note, se ci sono, stanno sotto, sono poche righe in prosa, e mancano del tutto quando è stato chiesto solo il testo

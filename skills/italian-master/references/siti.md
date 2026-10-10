@@ -115,7 +115,25 @@ Una regola che esce dal confronto: il «noi» funziona quando è seguito da un v
 
 **Chi siamo e storia.** È la pagina che si legge, e vuole la prosa. Funzionano le date, i nomi delle persone, i numeri verificabili (soci e quote, chilometri percorsi, anno di fondazione), gli oggetti e gli episodi. Non funziona il riassunto in tre aggettivi.
 
+La pagina di una piccola attività va in tre o quattro capoversi brevi, uno per tempo (com'è cominciata, chi c'è oggi, che cosa si fa, che cosa c'è di nuovo), e non in un blocco unico. Chi legge vuole sentire le persone: il tono è caldo, e l'ultimo capoverso dice che cosa è rimasto uguale o che cosa trova chi entra, con una frase che si ricorda. Di un forno aperto dal 1954, che oggi consegna anche ai ristoranti, l'autore di questa skill chiuderebbe così: «L'autentico spirito del forno di quartiere, però, non se ne è mai andato». Quante persone ci lavorano interessa poco a chi legge, come nella hero: si nominano i titolari, e il numero dei dipendenti si può lasciare fuori. Restano vietate le astrazioni che non si capiscono («un impasto e una fiducia che da allora non abbiamo cambiato») e i fatti inventati sull'attività.
+
 **Valori, missione, sostenibilità.** Sono le pagine in cui tutti e dieci i siti scrivono peggio. Se si è obbligati a farle, per ogni valore conviene dire una cosa che l'organizzazione ha fatto e che lo dimostra, con un numero o un anno, e togliere il valore dall'elenco quando non se ne trova nessuna.
+
+**La pagina che spiega un servizio.** «Come funziona il primo incontro», «Come si prenota», «Che cosa comprende» sono pagine commerciali, e chi le legge sta decidendo se chiamare. Vogliono un titolo che parla a lui, capoversi di due o tre righe, il grassetto sulle due o tre cose che decidono (quanto costa, quanto dura, che cosa riceve) e un invito in fondo. Il dettaglio di ogni passaggio conta meno della sensazione che sia semplice. A una richiesta su come si svolge il primo incontro in uno studio di commercialisti, che dura un'ora, è gratuito, si fa in studio a Treviso o in videochiamata e finisce con un preventivo scritto, l'autore di questa skill ha risposto con questo testo:
+
+> **Aprire la tua attività? Partiamo insieme, senza impegno.**
+>
+> Il primo incontro con noi è **gratuito e dura circa un'ora**.
+>
+> Ascoltiamo la tua idea imprenditoriale, valutiamo le tue esigenze e ti aiutiamo a individuare il regime fiscale più adatto, illustrandoti vantaggi, costi e opportunità delle diverse soluzioni.
+>
+> Al termine dell'incontro riceverai un **preventivo scritto e senza impegno** per i nostri servizi di assistenza contabile e fiscale.
+>
+> **Come funziona?** Puoi incontrarci nel nostro studio a Treviso oppure scegliere una comoda videochiamata. Ti basterà avere con te un documento d'identità e il codice fiscale.
+>
+> **Prenota la tua consulenza gratuita** e inizia a costruire la tua attività con il supporto di professionisti.
+
+Ci sono cose che in un articolo sarebbero segnali («senza impegno», «comoda», il grassetto, l'invito finale) e che qui sono il registro giusto, come per i claim. I fatti sono tutti quelli della richiesta. In alternativa l'attacco può partire dal dubbio del lettore: «Se stai pensando di aprire la partita IVA e non sai da che parte iniziare, il primo passo è un incontro con noi».
 
 **Schede di prodotto e di servizio.** Una riga che dice che cos'è, poi quello che serve per decidere, cioè prezzo, condizioni, tempi, che cosa è incluso. La banca e il supermercato sono precisi sui numeri e vaghi negli aggettivi, e la parte utile è la prima.
 

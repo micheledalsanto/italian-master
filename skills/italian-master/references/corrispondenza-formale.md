@@ -36,13 +36,13 @@ Il registro formale non coincide con l'antilingua descritta in `sintassi-stile.m
 
 ## 3. Come è fatta una comunicazione
 
-1. **L'oggetto dice il fatto e la data.** «Chiusura estiva dello Studio dall'11 al 24 agosto», «Trasferimento della sede operativa dal 3 novembre». Chi legge solo l'oggetto ha già l'informazione.
+1. **L'oggetto c'è sempre, e dice il fatto e la data.** Va scritto anche quando la richiesta parla soltanto di «una mail» o di «due righe». «Chiusura estiva dello Studio dall'11 al 24 agosto», «Trasferimento della sede operativa dal 3 novembre». Chi legge solo l'oggetto ha già l'informazione.
 2. **L'apertura.** «Gentili Clienti,» a più destinatari, «Gentile dottor Bianchi,» a uno solo. Dopo la virgola si va a capo e si comincia con la minuscola.
 3. **La prima frase dà la notizia**, con la data: «desideriamo informarvi che dal 3 novembre la nostra sede operativa sarà trasferita in…».
 4. **Che cosa resta uguale**, quando serve a tranquillizzare: «La sede legale, la partita IVA e i recapiti telefonici restano invariati.»
 5. **Che cosa deve fare il destinatario**, con la scadenza e con la ragione: «invitiamo coloro che hanno adempimenti previsti durante il periodo di chiusura a contattarci entro il 31 luglio, così da consentirci di provvedere con il necessario anticipo».
 6. **A chi rivolgersi** per le urgenze o per i chiarimenti.
-7. **Il ringraziamento e i saluti**, in una riga o due.
+7. **La disponibilità, il ringraziamento e i saluti**, in una riga o due: «La ringraziamo per la comprensione e restiamo a disposizione per qualsiasi chiarimento». Non si saltano. Una lettera che si ferma all'ultima informazione e passa ai saluti suona brusca.
 8. **La firma**: la persona, l'ufficio o «Lo Staff dello Studio».
 
 Le sei lettere modello hanno da tre a cinque capoversi e stanno in una schermata. Le frasi hanno in media una ventina di parole, e quelle che tengono insieme l'invito, la scadenza e la ragione superano le trenta: è il periodo di `periodo.md`, in registro alto.
@@ -68,8 +68,8 @@ Una per funzione basta. Tre formule di ringraziamento nella stessa lettera sono 
 ## 5. A chi ci si rivolge
 
 - **A più destinatari: voi.** «Gentili Clienti, desideriamo informarvi…». È la forma delle comunicazioni a tutti i clienti, ai fornitori, ai pazienti.
-- **A una persona: lei.** «Gentile signora Conti, abbiamo ricevuto la Sua segnalazione…».
-- **Chi scrive: noi**, per lo studio o l'azienda. La forma impersonale («si comunica che») è degli enti e degli avvisi affissi.
+- **A una persona: lei.** «Gentile signora Conti, abbiamo ricevuto la Sua segnalazione…». La stessa forma va bene per una lettera mandata a molti e rivolta a ciascuno: «Gentile Paziente, La informiamo che…».
+- **Chi scrive: noi**, per lo studio o l'azienda. La forma impersonale («si comunica che») è degli enti e degli avvisi affissi: uno studio che scrive ai suoi pazienti dice «desideriamo informarvi» o «La informiamo».
 
 Le maiuscole di cortesia (Lei, La, Sua, Vi, Vostra) nelle lettere lette si trovano ancora spesso, soprattutto nella corrispondenza commerciale e con il lei. Sono una scelta di chi firma: si usano tutte o nessuna, anche dentro la parola («informarLa», «ringraziarVi»). «Clienti», «Studio», «Fornitori» con la maiuscola sono comuni in questo genere, e non vanno corretti come si farebbe in un articolo.
 
@@ -171,11 +171,13 @@ Nomi, date e importi sono inventati.
 >
 > Gentili Pazienti,
 >
-> si comunica che dal **1° ottobre** lo Studio osserverà i seguenti orari di ricevimento: il lunedì, il mercoledì e il venerdì dalle 8.30 alle 12.30; il martedì e il giovedì dalle 15.00 alle 19.00.
+> desideriamo informarvi che dal **1° ottobre** lo Studio osserverà i seguenti orari di ricevimento: il lunedì, il mercoledì e il venerdì dalle 8.30 alle 12.30; il martedì e il giovedì dalle 15.00 alle 19.00.
 >
 > Le visite continueranno a svolgersi esclusivamente su appuntamento. Le prenotazioni già fissate in orari non più previsti saranno riprogrammate dalla segreteria, che provvederà a contattare direttamente gli interessati.
 >
 > Per le richieste di ricette ripetibili resta attivo l'indirizzo di posta elettronica dello Studio.
+>
+> Ringraziandovi per la collaborazione, restiamo a disposizione per ogni chiarimento.
 >
 > Cordiali saluti
 >

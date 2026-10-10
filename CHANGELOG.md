@@ -2,6 +2,22 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.13.0] - 2026-10-10
+
+Quinto e sesto lotto di confronti alla cieca, su generi diversi dalle hero: mail formale, «Chi siamo», post, guida, racconto, newsletter, articolo, traduzione. Nel quinto la skill è stata preferita due volte su otto, con un pari. Le modifiche di questa versione vengono da lì, e nel sesto, fatto dopo le prime due, le preferenze sono state due su sei con un pari.
+
+### Modificato
+
+- **La prima regola distingue i fatti dallo sviluppo.** I fatti su chi firma restano quelli della richiesta. Spiegare in che cosa consiste quello che la richiesta nomina, mettere i passaggi e le formule che il genere prevede e rispondere alle domande del lettore è invece dovuto: nei confronti i testi tenuti ai soli dati sono usciti corretti e magri, e hanno perso.
+- **La narrativa ha le sue regole.** Capoversi brevi, frasi di una quindicina di parole, dettagli concreti inventati da chi scrive. La regola sui periodi lunghi non vale per un racconto, che prima usciva in un blocco solo.
+- **Le comunicazioni formali** hanno sempre l'oggetto e una chiusura con disponibilità e ringraziamento, e uno studio non scrive «si comunica che». La lettera modello dello studio medico è stata corretta.
+- **«Chi siamo»** in tre o quattro capoversi brevi, con tono caldo e una chiusura che si ricorda, senza il numero dei dipendenti.
+
+### Aggiunto
+
+- In `siti.md`, **la pagina che spiega un servizio**, con un modello scritto dall'autore: titolo rivolto al lettore, grassetto su quello che decide, invito finale.
+- In `registri.md`, la chiusura di un post personale, che non passa di colpo dal ringraziamento all'invito commerciale.
+
 ## [1.12.0] - 2026-10-10
 
 Due generi nuovi: la scrittura accademica e i testi che devono farsi trovare su un motore di ricerca.
