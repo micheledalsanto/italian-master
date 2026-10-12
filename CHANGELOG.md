@@ -2,6 +2,21 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.15.0] - 2026-10-12
+
+Due generi nuovi, tutti e due di vendita: la scheda di un prodotto e l'annuncio a pagamento.
+
+### Aggiunto
+
+- **`references/schede-prodotto.md`.** La pagina di un prodotto in un negozio online: le misure di 1.138 schede di dieci negozi italiani (ottanta parole in mediana, frasi di diciassette, quasi nessun esclamativo), come si compone il nome, la prima frase che dice che cosa è l'oggetto, la prosa e l'elenco dei dati, che cosa cambia quando le schede sono molte. Sapori, profumi, effetti, luoghi e tradizioni che la richiesta non dà non si scrivono.
+- **`references/annunci.md`.** Le inserzioni sui social e sui motori di ricerca: le misure di 904 inserzioni di 732 inserzionisti (sessantotto parole in mediana, frasi di otto, emoji in sette casi su dieci), la prima riga, il corpo, il titolo sotto l'immagine e il pulsante, i limiti di caratteri degli annunci di ricerca. È un genere in cui le regole sul periodo si rovesciano, e la skill lo dice. Prezzi, sconti e urgenze sono solo quelli forniti.
+- In `fonti.md`, la sezione «Pubblicità e vendita», con i manuali da cui vengono i principi ripresi e le norme delle piattaforme lette.
+- Due casi di prova, uno per genere.
+
+### Modificato
+
+- **Il README comincia dall'esempio** e presenta i riferimenti genere per genere, ognuno con i testi su cui è stato misurato, al posto dell'elenco dei file. Vale anche per la versione inglese.
+
 ## [1.14.0] - 2026-10-10
 
 ### Modificato

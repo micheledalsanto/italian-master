@@ -41,6 +41,8 @@ Le misure e i passi commentati in `periodo.md`, `connettivi.md`, `impronte.md`, 
 - **Giornali e riviste di oggi**, letti online tra settembre e ottobre 2026: ottantasei articoli di otto testate italiane (un quotidiano online, un quotidiano di opinione, un sito di giornalismo civico, due riviste culturali, una rivista di saggi, una di tecnologia, il blog di un collettivo di scrittori), più otto pagine di un sito di ricette. Sono serviti per le misure e per descrivere le forme ricorrenti. Le testate non sono nominate e nessuna frase è riportata.
 - **Dieci siti di aziende ed enti italiani**, uno per settore, estratti a caso da un elenco di venti settori. Di ciascuno la home e fino a sette pagine interne, circa quarantamila parole in tutto. Sono descritti in `siti.md`, senza nomi.
 - **Dodici siti di agenzie digitali e di marketing**, estratti a caso da un elenco di trentotto e letti a ottobre 2026: home, pagine di presentazione, casi studio e articoli del blog, circa 78.000 parole. Sono descritti in `agenzie-digitali.md`, senza nomi e senza citazioni.
+- **1.138 schede prodotto di dieci negozi online italiani**, lette a ottobre 2026 dai cataloghi pubblici: caffè, cioccolato, olio, pasta, abbigliamento per adulti e per bambini, pentole, cosmetici, gioielli, ceramiche. Circa 128.000 parole, descritte in `schede-prodotto.md` senza nomi e senza citazioni. Sono tutti negozi di produttori: mancano i grandi rivenditori e i marketplace.
+- **904 inserzioni di 732 inserzionisti**, attive in Italia a ottobre 2026 e lette nell'archivio pubblico delle inserzioni di un social network, cercando tredici parole di settori diversi. Circa 91.000 parole, descritte in `annunci.md` senza nomi e senza citazioni. L'archivio non dice quali inserzioni hanno funzionato, e gli annunci dei motori di ricerca non si possono leggere in serie.
 - **Circa cinquanta comunicazioni formali** pubblicate in rete e lette a ottobre 2026: avvisi di studi professionali, lettere di aziende a clienti e fornitori, comunicazioni di banche, avvisi di comuni e uffici pubblici, circolari scolastiche, lettere di medici e di ordini professionali. Sono descritte in `corrispondenza-formale.md`, senza nomi e senza citazioni.
 - **Dodici siti che spiegano o accompagnano**, letti a ottobre 2026 per descrivere il tono accogliente: guide pratiche, divulgazione scientifica per adulti e per ragazzi, educazione finanziaria, informazione sanitaria, un fornitore di energia, servizi di psicologia online, un'associazione di consumatori, una fondazione per la ricerca. Circa ottantamila parole, senza nomi e senza citazioni. Vedi `tono-accogliente.md`.
 - **Le stringhe di otto applicazioni a codice aperto**, scaricate a ottobre 2026 dai file di lingua italiani: tre nate in italiano, di servizi pubblici digitali, e cinque tradotte dall'inglese (un browser, un programma di messaggistica, un social network, un servizio di archiviazione, un sistema per costruire siti). Circa quindicimila stringhe e centomila parole, descritte in `microcopy.md` senza nomi e senza citazioni.
@@ -48,7 +50,7 @@ Le misure e i passi commentati in `periodo.md`, `connettivi.md`, `impronte.md`, 
 - **Tredici canali pubblici di messaggistica** di enti, aziende e testate (circa 240 post) e la bacheca pubblica di quattro comunità italiane di un social network federato (circa 520 post), letti a ottobre 2026 per le note sui social di `registri.md`. Non è stato possibile leggere in serie i post di LinkedIn e di Instagram, che richiedono l'accesso.
 - **Testi generati**, per il confronto: gli articoli e le lezioni di un sito di divulgazione scritti con un modello, come ha confermato chi lo cura (circa 14.600 parole), e un testo scritto con la prima versione di questa skill (circa 2.000).
 
-In tutto sono quasi cinque milioni di parole, di cui 129.000 di giornalismo contemporaneo. Le misure sono fatte con conteggi semplici ed espressioni regolari, tranne quelle sui tempi verbali, e il campione di testi generati è piccolo e viene da due sole fonti. Bastano a vedere la differenza tra la prosa italiana e quella generata, non a stabilire una norma. Chi vuole allargare il campione trova molti testi liberi su Wikisource e su Liber Liber (liberliber.it).
+In tutto sono circa cinque milioni di parole, di cui 129.000 di giornalismo contemporaneo. Le misure sono fatte con conteggi semplici ed espressioni regolari, tranne quelle sui tempi verbali, e il campione di testi generati è piccolo e viene da due sole fonti. Bastano a vedere la differenza tra la prosa italiana e quella generata, non a stabilire una norma. Chi vuole allargare il campione trova molti testi liberi su Wikisource e su Liber Liber (liberliber.it).
 
 ## Per risolvere un dubbio
 
@@ -98,6 +100,18 @@ A ottobre 2026 `grammatica.md` e `punteggiatura-tipografia.md` sono stati rilett
 - **Designers Italia, Guida al linguaggio della Pubblica Amministrazione.** Linee guida pubbliche per i servizi digitali, che chiedono forme dirette in seconda persona e verbi attivi. docs.italia.it
 - **Mozilla, guida di stile per la localizzazione italiana.** Le convenzioni del software tradotto: imperativo sui pulsanti, forma impersonale nelle spiegazioni, niente formule di cortesia né punti esclamativi. mozilla-l10n.github.io/styleguides/it
 - **REI, Rete per l'eccellenza dell'italiano istituzionale.** Promossa dai traduttori italiani delle istituzioni europee: materiali sulla chiarezza e sui calchi dall'inglese nei testi istituzionali.
+
+## Pubblicità e vendita
+
+I principi ripresi in `annunci.md` e in `schede-prodotto.md` sono quelli su cui questi libri concordano. Le formule a schema fisso che contengono non sono state adottate, per le ragioni dette in `annunci.md`.
+
+- **Annamaria Testa, *La parola immaginata*** (1988). Il rapporto tra il testo e l'immagine nella pubblicità italiana.
+- **Emanuele Pirella, *Il copywriter, mestiere d'arte***. La tradizione italiana del titolo e del gioco tra parole e figura.
+- **Claude C. Hopkins, *Scientific Advertising*** (1923). Il fatto preciso al posto del superlativo.
+- **David Ogilvy, *Confessions of an Advertising Man*** (1963) e *Ogilvy on Advertising* (1983). Il peso del titolo, i fatti, il testo lungo quando ha qualcosa da dire.
+- **Eugene M. Schwartz, *Breakthrough Advertising*** (1966). Quanto il lettore sa già del prodotto, e come cambia l'apertura.
+- **Robert W. Bly, *The Copywriter's Handbook*** (1985). La distinzione tra caratteristica e vantaggio.
+- **Le norme pubblicate dalle piattaforme**, lette a ottobre 2026: i limiti di caratteri degli annunci adattabili della rete di ricerca di Google Ads (support.google.com/google-ads) e la specifica dei dati di prodotto di Google Merchant Center per nome e descrizione (support.google.com/merchants).
 
 ## Giornalismo e titoli
 
