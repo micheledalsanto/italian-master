@@ -236,6 +236,6 @@ The skill contains no third-party text. Newspapers and websites are not named an
 
 Reports, corrections and new examples are welcome: the guidelines are in [`CONTRIBUTING.md`](CONTRIBUTING.md) (in Italian).
 
-The current version is 1.16.0. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
+The current version is 1.16.1. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
 
 The license is [MIT](LICENSE).

@@ -2,6 +2,16 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.16.1] - 2026-10-12
+
+Nono lotto di confronti alla cieca, sui tre generi nuovi, contro la versione precedente: le schede prodotto sono state preferite tre volte su tre, gli annunci nessuna volta su tre, i racconti una su due. Nello stesso giro sono state votate le quattro pagine «Chi siamo» rimaste dall'ottavo lotto, tutte e quattro a favore della skill.
+
+### Modificato
+
+- **Gli annunci si scrivono a frasi intere**, in due o tre capoversi brevi, con una frase che dice a che cosa serve quello che si offre e un invito finale che può accogliere («ti aspettiamo»). L'elenco resta per quando i dati sono quattro o più. Il titolo porta il luogo o il nome di chi firma, e la consegna è nell'ordine titolo, testo, descrizione, pulsante. Negli annunci di ricerca un titolo può essere una frase con il suo verbo. L'esempio è stato riscritto.
+- **Nelle schede prodotto la prosa descrive e l'elenco misura**: i dati tecnici stanno solo nell'elenco, e quello che la prosa ha già detto non vi torna. L'esempio è stato riscritto.
+- Il controllo finale di `SKILL.md` nomina anche la riga che conta le parole del testo, comparsa in testa a un racconto.
+
 ## [1.16.0] - 2026-10-12
 
 La narrativa realistica ha il suo riferimento.

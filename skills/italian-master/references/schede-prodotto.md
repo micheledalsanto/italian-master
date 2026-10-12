@@ -85,7 +85,9 @@ Le parti, nell'ordine in cui si trovano più spesso.
 
 1. **La prima frase dice che cosa è l'oggetto.** Lo nomina con il suo nome comune e ne dà la caratteristica principale: il materiale, la lavorazione, quello che contiene. Quattro schede su dieci cominciano con l'articolo e il nome («La tazza Brina è…»), e buona parte delle altre con il solo nome («Tazza da colazione in gres…»). Chi legge ha davanti una fotografia, e vuole sapere per prima cosa se sta guardando quello che cercava.
 2. **Uno o due capoversi di prosa** dicono di che cosa è fatto e come, come si usa, per chi o per quale occasione è adatto. Qui stanno le frasi di sedici o venti parole, con i loro «perché» e i loro «quindi»: una caratteristica vale di più se la frase dice anche che cosa cambia per chi compra.
-3. **Un elenco dei dati**, con un'etichetta e il suo valore su ogni riga: materiale, capacità, dimensioni, peso, contenuto della confezione, lavaggio o conservazione, luogo di produzione. È la parte che si consulta, e chi confronta due prodotti legge solo questa.
+3. **Un elenco dei dati tecnici**, con un'etichetta e il suo valore su ogni riga: materiale, capacità, dimensioni, peso, contenuto della confezione, lavaggio o conservazione. È la parte che si consulta, e chi confronta due prodotti legge solo questa.
+
+   **La prosa descrive, l'elenco misura.** Le due parti non dicono la stessa cosa due volte. Nella prosa sta quello che si racconta: che cosa è l'oggetto, come è fatto, come si usa, per chi. Nell'elenco stanno i dati che si leggono in cifre o in una parola: misure, peso, materiale, compatibilità. Un dato già detto per esteso nella prosa non torna nell'elenco, e una misura che sta nell'elenco nella prosa si dice a parole («capiente», «leggero») oppure non si dice. Nei confronti alla cieca l'autore di questa skill ha preferito tre volte su tre la scheda con la prosa e l'elenco a quella in sola prosa, e ha chiesto questa distinzione.
 4. **Le informazioni di servizio** valide per tutto il negozio, come spedizioni, resi e pagamenti, stanno in un punto fisso della pagina e non nella descrizione. Nella scheda entra solo quello che riguarda quel prodotto, come i giorni di anticipo con cui va ordinato.
 
 Per un prodotto semplice, che ha una sola cosa da dire, bastano le prime due parti: quasi sei schede su dieci sono in sola prosa.
@@ -151,17 +153,16 @@ I fatti forniti dal laboratorio: tazza da colazione «Brina», in gres, fatta al
 
 > **Tazza da colazione Brina, 350 ml**
 >
-> La tazza Brina è una tazza da colazione in gres, modellata al tornio nel nostro laboratorio di Faenza e rifinita con uno smalto bianco opaco. Contiene 350 ml, la misura giusta per un caffellatte abbondante o per una tisana, e ha un manico largo, in cui trovano posto quattro dita.
+> La tazza Brina è una tazza da colazione modellata al tornio nel nostro laboratorio di Faenza e rifinita con uno smalto bianco opaco. È capiente quanto basta per un caffellatte abbondante o per una tisana, e ha un manico largo, in cui trovano posto quattro dita.
 >
-> Ogni tazza è lavorata a mano, e per questo nessuna è identica alle altre: lo spessore del bordo e le sfumature dello smalto possono variare leggermente da un pezzo all'altro. Si può usare tutti i giorni senza particolari attenzioni, perché va sia in lavastoviglie sia nel microonde.
+> Ogni tazza è lavorata a mano, e per questo nessuna è identica alle altre: lo spessore del bordo e le sfumature dello smalto possono variare leggermente da un pezzo all'altro. È pensata per essere usata tutti i giorni, senza particolari attenzioni.
 >
 > - Materiale: gres smaltato
 > - Capacità: 350 ml
 > - Dimensioni: 9 cm di altezza, 9,5 cm di diametro
-> - Lavaggio: adatta alla lavastoviglie e al microonde
-> - Produzione: fatta a mano a Faenza
+> - Lavaggio: lavastoviglie e microonde
 
-La prosa ha due capoversi e novantasette parole, in quattro frasi che legano ciascuna un dato a quello che ne consegue. Nell'elenco tornano gli stessi dati, senza aggettivi, per chi vuole solo confrontare.
+La prosa ha due capoversi e quattro frasi, e racconta l'oggetto: dove nasce, a che cosa serve, perché ogni pezzo è diverso. I dati tecnici stanno solo nell'elenco, senza aggettivi, per chi vuole confrontare.
 
 La stessa scheda, come esce quando si arreda:
 
@@ -175,7 +176,7 @@ Qui «maestri ceramisti» e «antica tradizione» sono circostanze che il labora
 - Il nome sta in testa alla scheda, anche quando la richiesta non lo chiede: nome comune, nome proprio o caratteristica, formato. Maiuscole secondo il catalogo esistente.
 - Prima frase: che cosa è l'oggetto, chiamato con il suo nome, e di che cosa è fatto.
 - Uno o due capoversi di prosa, con frasi di sedici o venti parole che legano ogni caratteristica a quello che cambia per chi compra.
-- Sotto, l'elenco puntato dei dati con etichette fisse, quando i dati sono più di tre o quattro.
+- Sotto, l'elenco puntato dei dati tecnici con etichette fisse, quando sono più di due o tre. Niente che la prosa abbia già detto per esteso.
 - Noi per chi produce, il tu solo nei consigli d'uso, nessun esclamativo.
 - Nessun sapore, profumo, effetto, luogo o tradizione che la richiesta non dia.
 - La scheda finisce con l'ultimo dato, senza invito all'acquisto.

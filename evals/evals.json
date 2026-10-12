@@ -549,7 +549,7 @@
       "id": 19,
       "name": "scheda-prodotto-solo-testo",
       "prompt": "Scrivi la scheda prodotto per il nostro negozio online. Siamo un piccolo laboratorio di cosmetici naturali di Bolzano. Il prodotto: crema mani alla calendula, tubetto da 75 ml, 12 euro. Dentro ci sono burro di karité e olio di mandorle dolci, la calendula la coltiviamo noi. Senza profumo aggiunto. Si assorbe in fretta e non unge. Dopo l'apertura dura 6 mesi. Dammi solo il testo, senza note né commenti.",
-      "expected_output": "Scheda di un prodotto: nome con il formato, prima frase che dice che cosa è, uno o due capoversi di prosa a frasi di media lunghezza che legano le caratteristiche a quello che cambia per chi compra, elenco dei dati (formato, ingredienti dati, durata dopo l'apertura). Noi per il laboratorio, nessun esclamativo, nessun profumo, sensazione o beneficio per la pelle che la richiesta non dia, nessun invito all'acquisto in chiusura. Solo il testo.",
+      "expected_output": "Scheda di un prodotto: nome con il formato, prima frase che dice che cosa è, uno o due capoversi di prosa a frasi di media lunghezza che legano le caratteristiche a quello che cambia per chi compra, elenco dei soli dati tecnici (formato, durata dopo l'apertura), senza ripetere quello che la prosa ha già detto. Noi per il laboratorio, nessun esclamativo, nessun profumo, sensazione o beneficio per la pelle che la richiesta non dia, nessun invito all'acquisto in chiusura. Solo il testo.",
       "files": {},
       "controlli": {
         "deve_leggere": [
@@ -586,7 +586,7 @@
       "id": 20,
       "name": "annuncio-social-corso",
       "prompt": "Mi scrivi l'inserzione da sponsorizzare su Facebook e Instagram per il nostro corso? Siamo una scuola di cucina di Bologna, Il Mestolo. Il corso è di pasta fresca: quattro lezioni il giovedì sera dalle 19 alle 22, si comincia il 5 novembre, 180 euro tutto compreso, massimo 10 persone. Insegna Marta Venturi. Ci si iscrive dal sito. Sui social di solito usiamo qualche emoji. Mi servono il testo, il titolo e la descrizione.",
-      "expected_output": "Inserzione per i social: prima riga breve con il fatto o con una domanda precisa, frasi corte e a capo frequenti, un elenco di tre o quattro righe con un dato per riga (giorno e orario, data d'inizio, prezzo, posti), tu al singolare, un solo invito finale che dice di iscriversi dal sito, poche emoji in testa alle righe. Titolo di quattro o cinque parole che non ripete la prima riga, descrizione con un dato. Nessuna urgenza inventata («ultimi posti»), nessuno sconto, nessun dettaglio sul programma o sull'insegnante che la richiesta non dia, nessun hashtag.",
+      "expected_output": "Inserzione per i social: titolo con il nome della scuola o la città, testo in due o tre capoversi brevi di frasi intere (che cosa è il corso, quando, quanto costa e per quante persone, come ci si iscrive), tu al singolare, un solo invito finale che dice di iscriversi dal sito, poche emoji. Descrizione con un dato. Consegna nell'ordine titolo, testo, descrizione. Nessuna urgenza inventata («ultimi posti»), nessuno sconto, nessun dettaglio sul programma o sull'insegnante che la richiesta non dia, nessun hashtag.",
       "files": {},
       "controlli": {
         "deve_leggere": [
@@ -598,7 +598,8 @@
           "\\b10\\b|dieci",
           "Marta Venturi",
           "gioved[ìi]",
-          "19"
+          "19",
+          "Mestolo|Bologna"
         ],
         "non_deve": [
           "^[^\\w\\n]*Ecco\\b",
@@ -638,7 +639,8 @@
           "per la prima volta dopo",
           "capì che|capirono che",
           "\\w+mente\\b[^.\\n]*\\w+mente\\b[^.\\n]*\\w+mente\\b",
-          "come se [^.\\n]*(unic|ancora|mai più|per sempre|tutto)"
+          "come se [^.\\n]*(unic|ancora|mai più|per sempre|tutto)",
+          "^\\d+ parole"
         ]
       }
     }

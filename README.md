@@ -267,6 +267,6 @@ La skill non contiene testi altrui. Giornali e siti non sono nominati e nessuna 
 
 Segnalazioni, correzioni e nuovi esempi sono benvenuti: le indicazioni sono in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-La versione corrente è la 1.16.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
+La versione corrente è la 1.16.1. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
 
 La licenza è la [MIT](LICENSE).

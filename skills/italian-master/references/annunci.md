@@ -65,6 +65,8 @@ L'inserzione si legge scorrendo, tra il post di un amico e un video, e chi la in
 - **Le forme che altrove sono segnali qui sono il genere**: la domanda in apertura, i due punti, l'elenco di tre o quattro vantaggi, l'invito finale, qualche esclamativo. Il difetto è l'accumulo, e resta fermo che i fatti non si inventano.
 - **Le emoji fanno parte del genere.** Le usano sette inserzioni su dieci, in tutti i settori, compresi gli studi professionali. La mediana è quattro, e l'uso più frequente è in testa alle righe di un elenco, al posto del trattino.
 
+**Quello che si misura e quello che si preferisce.** Le misure dicono come si scrive un'inserzione in Italia, non quale piace di più. Nei confronti alla cieca l'autore di questa skill ha preferito tre volte su tre l'inserzione scritta a frasi intere, in due o tre capoversi brevi, a quella ridotta a una riga e a un elenco: la prima gli è parsa meglio strutturata e di tono migliore. Per questo la forma consigliata qui sotto è la prosa breve e calda, con l'elenco solo quando i dati sono molti. Tre coppie sono poche, e vanno prese come una direzione.
+
 Questo non vuol dire che ogni inserzione debba avere emoji ed esclamativi. Tre su dieci non hanno emoji e sei su dieci non hanno esclamativi, e sono inserzioni normali. Decide la configurazione dell'utente, poi il modo in cui quell'attività scrive già sui propri canali. Se non c'è niente da cui capirlo, per un negozio, un locale o un corso vanno bene poche emoji in testa alle righe dell'elenco e al massimo un esclamativo, e per uno studio professionale un testo senza esclamativi, con le emoji solo come segnaposto dell'elenco oppure senza.
 
 ## 4. La prima riga
@@ -84,7 +86,9 @@ L'apertura sul fastidio del lettore («Stanco di…?», «Stufa delle solite…?
 
 **Una cosa sola.** Un'inserzione parla di un prodotto, di un'offerta o di un appuntamento, e chiede di fare una cosa. Se le notizie sono tre, sono tre inserzioni.
 
-**Prima il fatto, poi i dettagli, poi l'invito.** Lo schema più diffuso tra le inserzioni lette ha tre parti: una o due frasi che dicono che cosa si offre, un elenco di tre o quattro righe brevi con i dati che servono per decidere, una riga che dice che cosa fare.
+**Prima il fatto, poi i dettagli, poi l'invito**, in due o tre capoversi brevi di frasi intere. Il primo dice che cosa si offre, a chi e da quando. Il secondo dà quello che serve per decidere, e dice in una frase a che cosa serve la cosa offerta, con ciò che vale per qualunque servizio di quel tipo: di una valutazione posturale si può dire che serve a capire da dove viene un mal di schiena, senza attribuire allo studio un metodo che non ha descritto. L'ultimo invita, con il modo per farlo. Le frasi restano brevi, dieci o quindici parole, ma sono frasi, con il soggetto e il verbo.
+
+**L'elenco è un'eccezione.** Lo schema a elenco è il più diffuso tra le inserzioni lette, e serve quando i dati sono quattro o più e non starebbero in una frase: il programma di un corso, che cosa comprende un'offerta. Con due o tre dati la prosa è più chiara e più calda.
 
 **L'elenco contiene dati.** Quasi un'inserzione su due ha un elenco di righe brevi. Quelle che funzionano da elenco mettono una cosa verificabile per riga, cioè il prezzo, la data, il luogo, che cosa è compreso. «Qualità eccellente» e «Massima professionalità» in un elenco occupano una riga e non dicono niente. L'elenco non ripete la frase che lo precede: se il testo ha già detto che cosa si offre e a quanto, nelle righe vanno gli altri dati, cioè quando, dove e a quali condizioni.
 
@@ -92,7 +96,7 @@ L'apertura sul fastidio del lettore («Stanco di…?», «Stufa delle solite…?
 
 **Tu al singolare**, in tre inserzioni su quattro, e «noi» per chi scrive. Il voi resta alle inserzioni che parlano a un gruppo, come gli sposi o i soci, e non si mescola con il tu.
 
-**L'ultima riga dice che cosa fare** e come: «Per prenotare, scrivici su WhatsApp», «Il programma completo è sul sito». Quello che succede dopo va al futuro («ti risponderemo in giornata»). L'invito è uno, e se sotto c'è già il pulsante non serve ripeterlo con le stesse parole.
+**L'ultima riga dice che cosa fare** e come: «Per prenotare, scrivici su WhatsApp», «Il programma completo è sul sito». Può chiudere con una formula di accoglienza, che in un'inserzione è al suo posto: «ti aspettiamo», «ti aspettiamo in negozio». Quello che succede dopo va al futuro («ti risponderemo in giornata»). L'invito è uno, e se sotto c'è già il pulsante non serve ripeterlo con le stesse parole.
 
 **Che cosa non serve**: gli hashtag, che ha un'inserzione su sei e che in un annuncio a pagamento non portano nessuno; le parole tutte in maiuscolo; i caratteri speciali usati per imitare il grassetto, che i lettori di schermo leggono male o saltano.
 
@@ -109,7 +113,7 @@ Sotto l'immagine ci sono un titolo, a volte una riga di descrizione, e il pulsan
 | Titoli con un punto esclamativo | 7% |
 | Titoli in forma di domanda | 3% |
 
-- **Il titolo dice l'offerta in quattro o cinque parole**: il prodotto e il prezzo, il servizio e la città, l'appuntamento e la data. Si legge accanto al pulsante, e insieme devono fare una frase: «Panettone artigianale, 32 euro» e «Prenota».
+- **Il titolo dice l'offerta in cinque o sei parole, e dice di chi è o dove**: il servizio e la città, il prodotto e il nome di chi lo fa. «Valutazione posturale gratuita a Padova», «Il panettone artigianale del Forno Bertin». Un titolo senza il luogo o il nome potrebbe essere di chiunque. Orari e condizioni stanno nella descrizione.
 - **Non ripete la prima riga del testo.** Chi guarda l'inserzione legge l'una e l'altro, e la stessa frase due volte spreca metà dello spazio.
 - **La sola iniziale maiuscola**, come in ogni titolo italiano.
 - **La descrizione**, quando c'è, aggiunge un dato: la scadenza, la zona di consegna, la condizione dell'offerta. Su molti schermi non compare, quindi niente di indispensabile sta solo lì.
@@ -120,9 +124,10 @@ Sotto l'immagine ci sono un titolo, a volte una riga di descrizione, e il pulsan
 Qui chi legge ha appena scritto che cosa cerca, e l'annuncio è fatto di pezzi brevissimi che la piattaforma combina da sé. Sulla piattaforma più diffusa i limiti dichiarati a ottobre 2026 sono questi: titoli fino a 30 caratteri, da tre a quindici, e descrizioni fino a 90 caratteri, da due a quattro. Di solito compaiono il primo titolo e la prima descrizione, mentre gli altri si aggiungono se c'è spazio, in un ordine che non si controlla.
 
 - **Ogni titolo sta in piedi da solo** e accanto a qualunque altro. Niente titoli che continuano la frase del precedente.
+- **Un titolo può essere una frase**, con il suo verbo, quando ci sta: «Tinteggiamo interni ed esterni» dice di più di «Interni ed esterni», e ha un tono.
 - **Almeno un titolo contiene le parole cercate**, scritte in italiano corretto: «Fisioterapista a Padova», non «Fisioterapista Padova prezzi». Se con la preposizione si superano i trenta caratteri si cambia la frase, non la grammatica.
 - **I titoli dicono cose diverse**: che cosa si vende, dove, un dato che distingue, il prezzo o la scadenza, l'invito. Cinque titoli che ripetono la stessa cosa con parole diverse valgono come uno.
-- **Le descrizioni sono una o due frasi complete**, con il punto, e ognuna si capisce senza l'altra.
+- **Le descrizioni sono una o due frasi complete**, con il punto, e ognuna si capisce senza l'altra. Almeno una ha per soggetto il nome dell'attività, e una finisce con un invito («Scrivici per un preventivo»).
 - **I caratteri si contano**, spazi compresi, prima di consegnare, e accanto a ogni riga si scrive il numero.
 - **Niente emoji, niente parole tutte in maiuscolo e un solo esclamativo al massimo, mai nel titolo**: le regole delle piattaforme li limitano, e un annuncio rifiutato non serve a nessuno.
 
@@ -157,35 +162,37 @@ I fatti forniti dal forno: Forno Bertin, a Treviso, dal 1987; panettone artigian
 
 L'inserzione per i social:
 
-> Il panettone del Forno Bertin si prenota da oggi.
+> **Titolo**
+> Il panettone artigianale del Forno Bertin
 >
-> Lo prepariamo dal 1987 con il lievito madre e lo lasciamo lievitare 36 ore. Pesa un chilo e costa 32 euro.
+> **Testo**
+> Da oggi puoi prenotare il panettone artigianale del Forno Bertin. Lo prepariamo dal 1987 con il lievito madre e lo lasciamo lievitare 36 ore: pesa un chilo e costa 32 euro. 🎄
 >
-> 📅 Prenotazioni fino al 10 dicembre
-> 🛍️ Ritiro in negozio a Treviso dal 15 dicembre
-> 📦 Spedizione in tutta Italia
+> Le prenotazioni sono aperte fino al 10 dicembre. Potrai ritirarlo in negozio a Treviso dal 15 dicembre, oppure riceverlo a casa, perché spediamo in tutta Italia.
 >
-> Per prenotare il tuo, scrivici su WhatsApp.
+> Per prenotare il tuo scrivici su WhatsApp: ti aspettiamo!
 >
-> Titolo: Panettone artigianale, 32 euro
-> Descrizione: Prenotazioni fino al 10 dicembre
-> Pulsante: Invia messaggio WhatsApp
+> **Descrizione**
+> Prenotazioni aperte fino al 10 dicembre
+>
+> **Pulsante**
+> Invia messaggio WhatsApp
 
-La prima riga dice che cosa c'è e da quando. Non si parla del profumo, della ricetta del nonno o delle uvette, perché il forno non ne ha parlato.
+La prima riga dice che cosa c'è e da quando, e il resto sono frasi intere, in tre capoversi. Non si parla del profumo, della ricetta del nonno o delle uvette, perché il forno non ne ha parlato.
 
 Lo stesso annuncio per un motore di ricerca, con i caratteri contati:
 
 > Titoli
 > Panettone artigianale (21)
 > Forno Bertin a Treviso (22)
-> Lievito madre, 36 ore (21)
+> Lievita 36 ore (14)
 > Panettone da 1 kg a 32 euro (27)
 > Prenota entro il 10 dicembre (28)
-> Spedizione in tutta Italia (26)
+> Spediamo in tutta Italia (24)
 >
 > Descrizioni
-> Panettone da un chilo con lievito madre, 32 euro. Ritiro in negozio dal 15 dicembre. (84)
-> Prenotazioni aperte fino al 10 dicembre. Spediamo in tutta Italia. (66)
+> Il Forno Bertin prepara il panettone con lievito madre dal 1987. Un chilo, 32 euro. (83)
+> Ritiro a Treviso dal 15 dicembre o spedizione in tutta Italia. Prenota entro il 10. (83)
 
 Ogni titolo si legge da solo e accanto a qualunque altro, e nessuno rinuncia a una preposizione per stare nei trenta caratteri: «Panettone artigianale a Treviso» ne avrebbe trentuno, e per questo il prodotto e la città stanno in due titoli diversi.
 
@@ -194,10 +201,10 @@ Ogni titolo si legge da solo e accanto a qualunque altro, e nessuno rinuncia a u
 - Chiedi o deduci dove esce l'annuncio, che cosa offre e che cosa deve fare chi lo legge. Una cosa sola.
 - Guarda come l'attività scrive già: emoji, tu o voi, esclamativi. In mancanza, poche emoji in testa alle righe e nessun esclamativo oltre il primo.
 - Prima riga sotto i 125 caratteri, con il fatto oppure con una domanda precisa.
-- Frasi brevi, a capo spesso, un elenco di tre o quattro righe con un dato per riga.
+- Due o tre capoversi brevi di frasi intere: che cosa si offre, quello che serve per decidere e a che cosa serve, l'invito. L'elenco solo con quattro dati o più.
 - Solo i prezzi, le date, gli sconti e le scadenze forniti. Nessuna urgenza che la richiesta non dichiari.
 - Un solo invito in fondo, con il modo per farlo, e le promesse al futuro.
-- Titolo di quattro o cinque parole che non ripete la prima riga, descrizione con un dato in più, pulsante scelto tra quelli veri.
-- Si consegna prima il testo, poi sotto, ciascuno con la sua etichetta, il titolo, la descrizione e il pulsante.
+- Titolo di cinque o sei parole con il luogo o il nome, che non ripete la prima riga, descrizione con un dato in più, pulsante scelto tra quelli veri.
+- Si consegna in quest'ordine, ogni parte con la sua etichetta: titolo, testo, descrizione, pulsante.
 - Per i motori di ricerca: titoli entro 30 caratteri e descrizioni entro 90, ognuno autonomo, con il conteggio scritto accanto.
 - Sotto il testo, se servono più varianti da provare, proponine due o tre che cambiano la prima riga e di' in che cosa differiscono.
