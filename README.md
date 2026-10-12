@@ -90,7 +90,7 @@ Ogni genere ha il suo riferimento, con le misure prese sui testi di quel genere.
 | Che cosa scrivi | Su che cosa è misurato | Dove sta |
 | --- | --- | --- |
 | Email, avvisi, lettere a clienti e fornitori | circa cinquanta comunicazioni formali | [`corrispondenza-formale`](skills/italian-master/references/corrispondenza-formale.md), [`registri`](skills/italian-master/references/registri.md) |
-| Home, claim, «Chi siamo», pagine di servizio | dieci siti di aziende ed enti, dodici di agenzie | [`siti`](skills/italian-master/references/siti.md), [`agenzie-digitali`](skills/italian-master/references/agenzie-digitali.md) |
+| Home, claim, giochi di parole, «Chi siamo», pagine di servizio | dieci siti di aziende ed enti, dodici di agenzie | [`giochi-di-parole`](skills/italian-master/references/giochi-di-parole.md), [`siti`](skills/italian-master/references/siti.md), [`agenzie-digitali`](skills/italian-master/references/agenzie-digitali.md) |
 | Schede prodotto | 1.138 schede di dieci negozi online | [`schede-prodotto`](skills/italian-master/references/schede-prodotto.md) |
 | Annunci a pagamento | 904 inserzioni di 732 inserzionisti | [`annunci`](skills/italian-master/references/annunci.md) |
 | Newsletter | 136 numeri di tredici newsletter | [`newsletter`](skills/italian-master/references/newsletter.md) |
@@ -267,6 +267,6 @@ La skill non contiene testi altrui. Giornali e siti non sono nominati e nessuna 
 
 Segnalazioni, correzioni e nuovi esempi sono benvenuti: le indicazioni sono in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-La versione corrente è la 1.16.1. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
+La versione corrente è la 1.17.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
 
 La licenza è la [MIT](LICENSE).

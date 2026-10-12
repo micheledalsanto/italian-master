@@ -134,6 +134,8 @@ Le condizioni perché funzioni:
 
 Se il gioco non viene in dieci minuti, non viene: fai un titolo informativo.
 
+Questa sezione riguarda il titolo di un articolo, che gioca sul doppio senso di una formula nota. Per il claim di un prodotto, dove il gioco è quasi sempre una parola storpiata perché ne faccia sentire un'altra, vedi `giochi-di-parole.md`.
+
 ## 8. Oggetti di email e newsletter
 
 - **Breve.** Dai 30 ai 50 caratteri si leggono interi anche sul telefono. Le prime tre o quattro parole sono quelle che contano.

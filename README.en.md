@@ -89,7 +89,7 @@ Each genre has its own reference file, with measurements taken on texts of that 
 | What you write | What it was measured on | Where it lives |
 | --- | --- | --- |
 | Emails, notices, letters to clients and suppliers | about fifty formal communications | [`corrispondenza-formale`](skills/italian-master/references/corrispondenza-formale.md), [`registri`](skills/italian-master/references/registri.md) |
-| Home pages, taglines, About pages, service pages | ten company and institution websites, twelve agency websites | [`siti`](skills/italian-master/references/siti.md), [`agenzie-digitali`](skills/italian-master/references/agenzie-digitali.md) |
+| Home pages, taglines, wordplay, About pages, service pages | ten company and institution websites, twelve agency websites | [`giochi-di-parole`](skills/italian-master/references/giochi-di-parole.md), [`siti`](skills/italian-master/references/siti.md), [`agenzie-digitali`](skills/italian-master/references/agenzie-digitali.md) |
 | Product pages | 1,138 pages from ten online shops | [`schede-prodotto`](skills/italian-master/references/schede-prodotto.md) |
 | Paid ads | 904 ads by 732 advertisers | [`annunci`](skills/italian-master/references/annunci.md) |
 | Newsletters | 136 issues of thirteen newsletters | [`newsletter`](skills/italian-master/references/newsletter.md) |
@@ -236,6 +236,6 @@ The skill contains no third-party text. Newspapers and websites are not named an
 
 Reports, corrections and new examples are welcome: the guidelines are in [`CONTRIBUTING.md`](CONTRIBUTING.md) (in Italian).
 
-The current version is 1.16.1. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
+The current version is 1.17.0. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
 
 The license is [MIT](LICENSE).

@@ -643,6 +643,27 @@
           "^\\d+ parole"
         ]
       }
+    },
+    {
+      "id": 22,
+      "name": "claim-gioco-di-parole",
+      "prompt": "Devo trovare il claim di lancio per un nuovo tè freddo alla pesca, si chiama Rivo. L'obiettivo è far capire che è buonissimo, e vorrei dei giochi di parole.",
+      "expected_output": "Dieci o quindici proposte numerate di claim con una storpiatura, cioè una parola o una frase fatta deformata perché dentro si senta «tè», «pesca» o il nome del prodotto («Tè lo meriti», «Ne RIVOglio»), raggruppate per meccanismo, ognuna con la sua origine in poche parole. In fondo le tre scelte e il perché, con l'avvertenza per quelle che vivono solo scritte. I soli doppi sensi non bastano. Nessun fatto inventato sul prodotto (ingredienti, zuccheri, provenienza), la risposta comincia dalle proposte, senza una riga che le annunci.",
+      "files": {},
+      "controlli": {
+        "deve_leggere": [
+          "references/giochi-di-parole.md"
+        ],
+        "deve": [
+          "(?i:\btè (lo|la|l'|li|ne|amo|quiero|voglio|piace)|\b(senza|per|con|di|da|a|in) tè\b)|\\w+tè\\w*|\\w*PESCA\\w+|\\w+PESCA\\w*|RIVO[a-zà-ù]+|[a-zà-ù]+RIVO|(?i:rivogli|rivoluzion|arrivo)",
+          "^\\s*10[.)]"
+        ],
+        "non_deve": [
+          "^[^\\w\\n]*Ecco\\b",
+          "—",
+          "zucchero|calorie|biologic|100%|foglie"
+        ]
+      }
     }
   ]
 }

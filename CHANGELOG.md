@@ -2,6 +2,13 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.17.0] - 2026-10-12
+
+### Aggiunto
+
+- **`references/giochi-di-parole.md`.** Il claim con un gioco di parole: la differenza tra il doppio senso e la storpiatura, che è quello che di solito si chiede per il lancio di un prodotto, i cinque meccanismi con cui il nome entra in un'altra parola, come si cercano incrociando le sillabe del nome con le parole del beneficio, le prove per scegliere, e la consegna in un elenco numerato con le tre proposte migliori. Nasce da una prova fatta con l'autore, in cui la skill aveva risposto con dei doppi sensi a una richiesta di storpiature.
+- Un caso di prova su un claim di lancio.
+
 ## [1.16.1] - 2026-10-12
 
 Nono lotto di confronti alla cieca, sui tre generi nuovi, contro la versione precedente: le schede prodotto sono state preferite tre volte su tre, gli annunci nessuna volta su tre, i racconti una su due. Nello stesso giro sono state votate le quattro pagine «Chi siamo» rimaste dall'ottavo lotto, tutte e quattro a favore della skill.
