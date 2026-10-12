@@ -134,6 +134,7 @@ I manuali di pubblicità, da quelli americani del Novecento a quelli italiani, c
 - **Un fatto preciso persuade più di un superlativo.** «Lievita 36 ore» si ricorda e si può verificare, «lievitazione lunghissima» no. È la stessa regola delle parole che significano qualcosa.
 - **La caratteristica va legata a quello che cambia per chi compra**, come nelle schede prodotto e nel «Chi siamo».
 - **Si scrive a una persona**, al singolare, come se la si avesse davanti.
+- **Una frase che va bene per qualunque prodotto non dice niente di questo.** Annamaria Testa ha fatto la prova con una formula da brief, cercandola in rete: la stessa promessa di un piacere «vellutato» era attribuita a un dolce, a un liquore, a una carta igienica e a un centro massaggi. La prova si può rifare su ogni frase di un annuncio o di una scheda: se cambiando il nome del prodotto la frase regge ancora, va sostituita con un fatto.
 - **Le parole e l'immagine si dividono il lavoro.** La tradizione italiana insiste su questo: il testo non descrive quello che la fotografia fa già vedere, e dice quello che dalla fotografia non si capisce.
 
 Dagli stessi manuali vengono anche le formule a schema fisso: il problema, il problema aggravato, la soluzione; l'attenzione, l'interesse, il desiderio, l'azione; l'elenco dei benefici introdotti da «Immagina di». Servono per ragionare su che cosa dire e in che ordine. Usate come stampo, e tradotte, producono le inserzioni che in italiano si riconoscono a prima vista come copiate da un corso: nelle 904 lette, «Immagina» compare in una su cento.

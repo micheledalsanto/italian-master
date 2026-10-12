@@ -96,7 +96,7 @@ Each genre has its own reference file, with measurements taken on texts of that 
 | Articles, posts, guides, headlines | eighty-six articles from eight publications, sixty-one pages from thirteen sites | [`periodo`](skills/italian-master/references/periodo.md), [`connettivi`](skills/italian-master/references/connettivi.md), [`attacchi-e-chiusure`](skills/italian-master/references/attacchi-e-chiusure.md), [`titoli`](skills/italian-master/references/titoli.md), [`testi-per-la-ricerca`](skills/italian-master/references/testi-per-la-ricerca.md), [`descrivere-e-raccontare`](skills/italian-master/references/descrivere-e-raccontare.md) |
 | Explanations for non-experts and for children | twelve sites that explain or guide | [`tono-accogliente`](skills/italian-master/references/tono-accogliente.md), [`scrivere-per-bambini`](skills/italian-master/references/scrivere-per-bambini.md) |
 | Interface copy | fifteen thousand strings from eight applications | [`microcopy`](skills/italian-master/references/microcopy.md) |
-| Fiction | twenty-two books, twenty-six short stories, four fairy-tale collections | [`narrativa-fantastica`](skills/italian-master/references/narrativa-fantastica.md), [`tempi-verbali`](skills/italian-master/references/tempi-verbali.md), [`modelli`](skills/italian-master/references/modelli.md) |
+| Fiction | twenty novels for dialogue and scene, twenty-two books for verb tenses, twenty-six short stories and four fairy-tale collections | [`narrativa`](skills/italian-master/references/narrativa.md), [`narrativa-fantastica`](skills/italian-master/references/narrativa-fantastica.md), [`tempi-verbali`](skills/italian-master/references/tempi-verbali.md), [`modelli`](skills/italian-master/references/modelli.md) |
 | Theses, essays, journal articles | forty-five articles from nine journals | [`scrittura-accademica`](skills/italian-master/references/scrittura-accademica.md) |
 | Translations into Italian | lists of calques, false friends and idioms | [`calchi`](skills/italian-master/references/calchi.md), [`modi-di-dire`](skills/italian-master/references/modi-di-dire.md) |
 | Revisions and proofreading | the Crusca and Treccani answers, and generated texts for comparison | [`ai-slop`](skills/italian-master/references/ai-slop.md), [`slop-asciutto`](skills/italian-master/references/slop-asciutto.md), [`impronte`](skills/italian-master/references/impronte.md), [`grammatica`](skills/italian-master/references/grammatica.md), [`punteggiatura-tipografia`](skills/italian-master/references/punteggiatura-tipografia.md), [`sintassi-stile`](skills/italian-master/references/sintassi-stile.md) |
@@ -236,6 +236,6 @@ The skill contains no third-party text. Newspapers and websites are not named an
 
 Reports, corrections and new examples are welcome: the guidelines are in [`CONTRIBUTING.md`](CONTRIBUTING.md) (in Italian).
 
-The current version is 1.15.0. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
+The current version is 1.16.0. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
 
 The license is [MIT](LICENSE).

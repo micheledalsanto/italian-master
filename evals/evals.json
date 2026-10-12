@@ -613,6 +613,34 @@
           "\\btorna(no)?\\b|finalmente|\\bnuov[oa] corso"
         ]
       }
+    },
+    {
+      "id": 21,
+      "name": "scena-realistica",
+      "prompt": "Scrivimi una scena breve, massimo 250 parole: due fratelli di cinquant'anni, Sandro e Paola, svuotano la casa della madre che è morta da un mese. Si deve capire che non si parlano da anni, ma nessuno dei due lo dice. Dammi solo il testo, senza note né commenti.",
+      "expected_output": "Una scena sola, in un luogo e in un momento, in terza persona al passato remoto, a scena già avviata. Battute brevi, quasi tutte con «disse» o «chiese» o senza attribuzione, qualche gesto che fa vedere qualcosa. Il silenzio tra i due si capisce dagli oggetti e da quello che non si dicono: nessuna battuta e nessuna frase del narratore lo dichiara. Capoversi brevi, nessuna similitudine a ogni frase, finale su un gesto o su una battuta, senza morale.",
+      "files": {},
+      "controlli": {
+        "deve_leggere": [
+          "references/narrativa.md"
+        ],
+        "deve": [
+          "Sandro",
+          "Paola",
+          "^\\s*[–«]"
+        ],
+        "non_deve": [
+          "^[^\\w\\n]*Ecco\\b",
+          "—",
+          "non (si|ci) parl(avano|iamo|avamo)",
+          "da (quanti|tanti|troppi) anni",
+          "silenzio carico|nodo (alla|in) gola|cuore (pesante|in gola)",
+          "per la prima volta dopo",
+          "capì che|capirono che",
+          "\\w+mente\\b[^.\\n]*\\w+mente\\b[^.\\n]*\\w+mente\\b",
+          "come se [^.\\n]*(unic|ancora|mai più|per sempre|tutto)"
+        ]
+      }
     }
   ]
 }

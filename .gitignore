@@ -13,3 +13,6 @@ evals/risultati/
 
 # Voti e coppie dei confronti alla cieca: restano in locale
 evals/voti/
+
+# File di lavoro del browser automatico
+.playwright-mcp/

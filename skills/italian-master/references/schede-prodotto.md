@@ -131,7 +131,7 @@ Quando le schede da scrivere sono molte, il difetto da evitare è quello più di
 Nei cataloghi letti:
 
 - il capoverso uguale in tutte le schede, e la descrizione breve ripetuta identica in testa a quella lunga
-- la frase di lode che vale per qualunque prodotto: «materiali di alta qualità», «risultati eccezionali», «per un'esperienza superiore»
+- la frase di lode che vale per qualunque prodotto: «materiali di alta qualità», «risultati eccezionali», «per un'esperienza superiore». La prova è cambiare il nome del prodotto: se la frase regge ancora, non sta descrivendo questo (vedi la sezione 8 di `annunci.md`)
 - «un tocco di» seguito da un nome astratto: eleganza, originalità, stile
 - le parole inglesi dove ce n'è una italiana di uso comune, e i nomi con la maiuscola a ogni parola anche nel testo
 

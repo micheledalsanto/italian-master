@@ -2,6 +2,17 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.16.0] - 2026-10-12
+
+La narrativa realistica ha il suo riferimento.
+
+### Aggiunto
+
+- **`references/narrativa.md`.** Scena e riassunto, dialogo, attribuzione delle battute, punto di vista e pensieri, personaggi, inizi e finali di capitolo. Le misure vengono da venti romanzi e raccolte di novelle usciti tra il 1879 e il 1926: il dialogo occupa poco più di un quarto del testo, una battuta ha otto parole, metà delle battute ha un verbo del dire e una volta su tre quel verbo è «dire». Con una scena di esempio e la stessa scena come esce quando i personaggi si spiegano.
+- In `fonti.md`, la sezione «Narrativa e stile» e altri titoli tra quelli sulla pubblicità.
+- Un caso di prova su una scena realistica.
+- In `annunci.md` e in `schede-prodotto.md`, la prova della frase che vale per qualunque prodotto, da un saggio di Annamaria Testa letto in rete.
+
 ## [1.15.0] - 2026-10-12
 
 Due generi nuovi, tutti e due di vendita: la scheda di un prodotto e l'annuncio a pagamento.

@@ -27,6 +27,7 @@ Le misure e i passi commentati in `periodo.md`, `connettivi.md`, `impronte.md`, 
   - Paolo Mantegazza, *Elogio della vecchiaia* (1895)
   - Alberto Savinio, *Ascolto il tuo cuore, città* (1944) e *Maupassant e «l'Altro»* (1944)
   - Vitaliano Brancati, *I fascisti invecchiano* (1946) e *Gli anni perduti* (1941)
+- **Venti romanzi e raccolte di novelle, da Wikisource**, scaricati a ottobre 2026 per lo studio del dialogo e della scena descritto in `narrativa.md`: circa un milione e seicentosessantamila parole, 417 capitoli. Sono tutti di pubblico dominio in Italia: Giovanni Verga, *I Malavoglia* (1881), *Novelle rusticane* (1883), *Mastro-don Gesualdo* (1889); Luigi Capuana, *Giacinta* (1879); Carlo Collodi, *Le avventure di Pinocchio* (1883); Antonio Fogazzaro, *Malombra* (1881) e *Piccolo mondo antico* (1895); Emilio De Marchi, *Il cappello del prete* (1888) e *Demetrio Pianelli* (1890); Gabriele D'Annunzio, *Il piacere* (1889); Federico De Roberto, *I Viceré* (1894); Italo Svevo, *Senilità* (1898) e *La coscienza di Zeno* (1923); Emilio Salgari, *Il Corsaro Nero* (1898); Grazia Deledda, *Elias Portolu* (1903), *Cenere* (1904), *Canne al vento* (1913); Luigi Pirandello, *Il fu Mattia Pascal* (1904) e *Uno, nessuno e centomila* (1926); Federigo Tozzi, *Tre croci* (1920).
 - **Narrativa fantastica**, letta a ottobre 2026 e descritta in `narrativa-fantastica.md`: ventisei racconti di autori italiani pubblicati per intero da una rivista online del settore (circa 68.000 parole, senza nomi e senza citazioni), e da Liber Liber Luigi Capuana, *Tutte le fiabe* e *Il drago e cinque altre novelle pei fanciulli*, Emma Perodi, *Le novelle della nonna* (1892-1893), Arrigo Boito, le novelle (circa 437.000 parole).
 - **Ventidue libri di generi diversi, da Liber Liber**, scaricati a ottobre 2026 per lo studio dei tempi verbali descritto in `tempi-verbali.md`: circa due milioni e mezzo di parole, di cui 770.000 analizzate verbo per verbo con un analizzatore automatico (spaCy, modello italiano), in campioni di quarantamila parole per libro. Sono tutti di pubblico dominio in Italia:
   - giallo, avventura, fantascienza e romanzo d'appendice: Emilio De Marchi, *Il cappello del prete* (1888); Emilio Salgari, *Il Corsaro Nero* (1898) e *Le meraviglie del Duemila* (1907); Carolina Invernizio, *Il bacio d'una morta* (1886)
@@ -103,15 +104,25 @@ A ottobre 2026 `grammatica.md` e `punteggiatura-tipografia.md` sono stati rilett
 
 ## Pubblicità e vendita
 
-I principi ripresi in `annunci.md` e in `schede-prodotto.md` sono quelli su cui questi libri concordano. Le formule a schema fisso che contengono non sono state adottate, per le ragioni dette in `annunci.md`.
+I principi ripresi in `annunci.md` e in `schede-prodotto.md` sono quelli su cui questi libri concordano. I libri sono indicati come letture: dove una regola viene da un testo letto per intero, la voce lo dice. Le formule a schema fisso che contengono non sono state adottate, per le ragioni dette in `annunci.md`.
 
-- **Annamaria Testa, *La parola immaginata*** (1988). Il rapporto tra il testo e l'immagine nella pubblicità italiana.
+- **Annamaria Testa, *La parola immaginata*** (1988, nuova edizione 2024), e gli altri suoi libri sulla scrittura e sulla creatività. Il rapporto tra il testo e l'immagine nella pubblicità italiana.
+- **Annamaria Testa, «Qualche nota sul mestiere di copywriter»** (2011) e **«5 consigli sulla scrittura e 5 rimedi per chi non li segue»**, letti a ottobre 2026 su nuovoeutile.it. Dal primo viene la prova della frase che vale per qualunque prodotto, ripresa in `annunci.md`. Il secondo raccomanda di decidere lo scopo e il destinatario prima di scrivere, di lasciar riposare il testo e di tagliarne poi un decimo.
+- **Valentina Falcinelli, *Testi che parlano. Il tono di voce nei testi aziendali*** (2018). Come un'azienda sceglie e tiene una voce.
+- **D&AD, *The Copy Book*** (Taschen). Annunci di copywriter inglesi e americani, ciascuno con il racconto di come lavora.
 - **Emanuele Pirella, *Il copywriter, mestiere d'arte***. La tradizione italiana del titolo e del gioco tra parole e figura.
 - **Claude C. Hopkins, *Scientific Advertising*** (1923). Il fatto preciso al posto del superlativo.
 - **David Ogilvy, *Confessions of an Advertising Man*** (1963) e *Ogilvy on Advertising* (1983). Il peso del titolo, i fatti, il testo lungo quando ha qualcosa da dire.
 - **Eugene M. Schwartz, *Breakthrough Advertising*** (1966). Quanto il lettore sa già del prodotto, e come cambia l'apertura.
 - **Robert W. Bly, *The Copywriter's Handbook*** (1985). La distinzione tra caratteristica e vantaggio.
 - **Le norme pubblicate dalle piattaforme**, lette a ottobre 2026: i limiti di caratteri degli annunci adattabili della rete di ricerca di Google Ads (support.google.com/google-ads) e la specifica dei dati di prodotto di Google Merchant Center per nome e descrizione (support.google.com/merchants).
+
+## Narrativa e stile
+
+- **Raymond Queneau, *Esercizi di stile***, nella traduzione di Umberto Eco (1983). Lo stesso episodio raccontato in novantanove modi: la prova che il registro è una scelta.
+- **Gianni Rodari, *Grammatica della fantasia*** (1973). Come nasce una storia.
+- **Vincenzo Cerami, *Consigli a un giovane scrittore*** (1996). Narrativa, cinema, teatro, radio.
+- **Italo Calvino, *Lezioni americane*** (1988), già citato sopra, per rapidità ed esattezza.
 
 ## Giornalismo e titoli
 

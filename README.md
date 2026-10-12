@@ -97,7 +97,7 @@ Ogni genere ha il suo riferimento, con le misure prese sui testi di quel genere.
 | Articoli, post, guide, titoli | ottantasei articoli di otto testate, sessantuno pagine di tredici siti | [`periodo`](skills/italian-master/references/periodo.md), [`connettivi`](skills/italian-master/references/connettivi.md), [`attacchi-e-chiusure`](skills/italian-master/references/attacchi-e-chiusure.md), [`titoli`](skills/italian-master/references/titoli.md), [`testi-per-la-ricerca`](skills/italian-master/references/testi-per-la-ricerca.md), [`descrivere-e-raccontare`](skills/italian-master/references/descrivere-e-raccontare.md) |
 | Spiegazioni per chi non è del mestiere, e per i bambini | dodici siti che spiegano o accompagnano | [`tono-accogliente`](skills/italian-master/references/tono-accogliente.md), [`scrivere-per-bambini`](skills/italian-master/references/scrivere-per-bambini.md) |
 | Testi di un'interfaccia | quindicimila stringhe di otto applicazioni | [`microcopy`](skills/italian-master/references/microcopy.md) |
-| Racconti | ventidue libri, ventisei racconti, quattro raccolte di fiabe | [`narrativa-fantastica`](skills/italian-master/references/narrativa-fantastica.md), [`tempi-verbali`](skills/italian-master/references/tempi-verbali.md), [`modelli`](skills/italian-master/references/modelli.md) |
+| Racconti | venti romanzi per dialogo e scena, ventidue libri per i tempi verbali, ventisei racconti e quattro raccolte di fiabe | [`narrativa`](skills/italian-master/references/narrativa.md), [`narrativa-fantastica`](skills/italian-master/references/narrativa-fantastica.md), [`tempi-verbali`](skills/italian-master/references/tempi-verbali.md), [`modelli`](skills/italian-master/references/modelli.md) |
 | Tesi, saggi, articoli accademici | quarantacinque articoli di nove riviste | [`scrittura-accademica`](skills/italian-master/references/scrittura-accademica.md) |
 | Traduzioni verso l'italiano | elenchi di calchi, falsi amici e modi di dire | [`calchi`](skills/italian-master/references/calchi.md), [`modi-di-dire`](skills/italian-master/references/modi-di-dire.md) |
 | Revisioni e correzioni di bozze | le risposte della Crusca e di Treccani, e testi generati per il confronto | [`ai-slop`](skills/italian-master/references/ai-slop.md), [`slop-asciutto`](skills/italian-master/references/slop-asciutto.md), [`impronte`](skills/italian-master/references/impronte.md), [`grammatica`](skills/italian-master/references/grammatica.md), [`punteggiatura-tipografia`](skills/italian-master/references/punteggiatura-tipografia.md), [`sintassi-stile`](skills/italian-master/references/sintassi-stile.md) |
@@ -267,6 +267,6 @@ La skill non contiene testi altrui. Giornali e siti non sono nominati e nessuna 
 
 Segnalazioni, correzioni e nuovi esempi sono benvenuti: le indicazioni sono in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-La versione corrente è la 1.15.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
+La versione corrente è la 1.16.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
 
 La licenza è la [MIT](LICENSE).
