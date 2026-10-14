@@ -2,7 +2,7 @@
 
 Questo file serve quando viene chiesto un claim, un titolo di campagna, un nome o un payoff «con un gioco di parole». Per il titolo di un articolo che gioca su un modo di dire vale la sezione 7 di `titoli.md`, e per il claim piano, quello che dice che cosa si trova, la sezione 7 di `siti.md`.
 
-Qui non ci sono misure. Il metodo viene dalla tradizione della pubblicità italiana, che sul gioco di parole ha costruito campagne intere, e dalle correzioni dell'autore di questa skill a una serie di proposte. Gli esempi sono scritti apposta, per prodotti inventati.
+Qui non ci sono misure. Il metodo viene dalla tradizione della pubblicità italiana, che sul gioco di parole ha costruito campagne intere, e dalle correzioni dell'autore di questa skill a una serie di proposte. Le ragioni per cui una storpiatura piace quando cambia poco sono spiegate nella sezione 7 di `mente-del-lettore.md`, e i metodi per trovare idee che non siano soltanto storpiature in `tecniche-creative.md`. Gli esempi sono scritti apposta, per prodotti inventati.
 
 ## Indice
 
@@ -51,7 +51,7 @@ Una prima idea non è un elenco. Chi chiede giochi di parole vuole poter sceglie
 
 Un gioco riuscito passa tutte queste prove.
 
-- **Cambia poco.** Una lettera, una sillaba. Più la parola è deformata, meno si riconosce quella di partenza: «Fragolosamente» si legge, «Fragolastico» costringe a fermarsi.
+- **Cambia poco.** Una lettera, una sillaba. Più la parola è deformata, meno si riconosce quella di partenza: «Fragolosamente» si legge, «Fragolastico» costringe a fermarsi. Gli esperimenti sulla novità ottimale lo confermano: una variante che lascia riconoscere l'originale piace più sia dell'originale sia di una forma del tutto nuova.
 - **Si capisce alla prima lettura**, senza spiegazione e senza la seconda riga. Se va spiegato, non funziona.
 - **La parola che si sente dice il beneficio.** «Coccolati» porta la coccola, cioè il piacere. Una storpiatura che fa solo ridere, e del prodotto non dice niente, è una battuta e non un claim.
 - **L'accento resta dov'era.** La parola nuova si pronuncia con lo stesso ritmo di quella di partenza, altrimenti l'orecchio non la ritrova.

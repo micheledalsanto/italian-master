@@ -101,6 +101,7 @@ Each genre has its own reference file, with measurements taken on texts of that 
 | Translations into Italian | lists of calques, false friends and idioms | [`calchi`](skills/italian-master/references/calchi.md), [`modi-di-dire`](skills/italian-master/references/modi-di-dire.md) |
 | Revisions and proofreading | the Crusca and Treccani answers, and generated texts for comparison | [`ai-slop`](skills/italian-master/references/ai-slop.md), [`slop-asciutto`](skills/italian-master/references/slop-asciutto.md), [`impronte`](skills/italian-master/references/impronte.md), [`grammatica`](skills/italian-master/references/grammatica.md), [`punteggiatura-tipografia`](skills/italian-master/references/punteggiatura-tipografia.md), [`sintassi-stile`](skills/italian-master/references/sintassi-stile.md) |
 | Texts in your own voice and tone | the texts you give it to read | [`imparare-una-voce`](skills/italian-master/references/imparare-una-voce.md), [`tono-e-pubblico`](skills/italian-master/references/tono-e-pubblico.md) |
+| Texts that must persuade, and ideas to find | studies on the psychology of reading, persuasion and creativity, with the state of their replications | [`mente-del-lettore`](skills/italian-master/references/mente-del-lettore.md), [`persuasione`](skills/italian-master/references/persuasione.md), [`tecniche-creative`](skills/italian-master/references/tecniche-creative.md) |
 
 ## Installing it
 
@@ -223,7 +224,7 @@ The script does not detect generated text and does not see invented facts. It fl
 
 ## Sources and limits
 
-From the Accademia della Crusca and Treccani for the norm, and from the Italian tradition of clear writing for style (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). The measurements come from about five million words that were read and counted: articles from eight Italian online publications, ten company and institution websites, twelve digital agency websites, thirteen newsletters, the product pages of ten online shops, nine hundred ads, the strings of eight applications, academic journal articles, fantastic fiction, letters, essays, fairy tales, novels, memoirs, plays and other public-domain works. The full list is in [`fonti.md`](skills/italian-master/references/fonti.md).
+From the Accademia della Crusca and Treccani for the norm, and from the Italian tradition of clear writing for style (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). The measurements come from about five million words that were read and counted: articles from eight Italian online publications, ten company and institution websites, twelve digital agency websites, thirteen newsletters, the product pages of ten online shops, nine hundred ads, the strings of eight applications, academic journal articles, fantastic fiction, letters, essays, fairy tales, novels, memoirs, plays and other public-domain works. The guidance on how readers read, how to persuade and how to find ideas comes from studies in psychology and linguistics, chosen among those that held up when replicated. The full list is in [`fonti.md`](skills/italian-master/references/fonti.md).
 
 The skill contains no third-party text. Newspapers and websites are not named and none of their sentences is reproduced: the examples were written for the skill, with invented facts. The only verbatim quotations are short passages from works published before 1930.
 
@@ -236,6 +237,6 @@ The skill contains no third-party text. Newspapers and websites are not named an
 
 Reports, corrections and new examples are welcome: the guidelines are in [`CONTRIBUTING.md`](CONTRIBUTING.md) (in Italian).
 
-The current version is 1.17.0. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
+The current version is 1.18.0. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
 
 The license is [MIT](LICENSE).

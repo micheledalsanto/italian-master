@@ -2,6 +2,23 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.18.0] - 2026-10-14
+
+La skill spiega perché le sue regole funzionano su chi legge, e ha un metodo per trovare le idee e per convincere senza ingannare.
+
+### Aggiunto
+
+- **`references/mente-del-lettore.md`.** Come legge chi legge: il noto prima del nuovo e l'ultima parola che pesa di più, la fatica dei legami lasciati aperti tra soggetto e verbo, la fluidità che fa sembrare vero quello che si legge facilmente, la concretezza, la maledizione della conoscenza, la sorpresa che lascia riconoscere il noto, la curiosità, le storie. Riporta che cosa dicono decine di migliaia di prove di titoli alternativi (contano il dettaglio concreto e la persona con un nome, non contano la brevità e il «tu»), come lavora chi scrive bene, e in che cosa lo stile dei modelli differisce da quello umano secondo uno studio del 2025.
+- **`references/persuasione.md`.** Le leve della persuasione con lo stato delle prove: la cornice, la ragione, la prova sociale, la scarsità, il dare prima di chiedere, la libertà di dire di no, il fatto preciso, il ritmo. Alcune delle più citate non hanno retto alle repliche, e il file lo dice. Una sezione elenca le forme che non si scrivono (urgenze e recensioni false, il rifiuto che colpevolizza, i costi nascosti, i primati non dimostrabili), con il riferimento al Codice del consumo.
+- **`references/tecniche-creative.md`.** Come si trovano le idee per un claim, un nome, una campagna o un racconto: perché le prime sono di tutti, prima produrre e poi giudicare, i vincoli, il binomio fantastico e la bisociazione, l'ipotesi fantastica, la deformazione delle parole, gli esercizi di stile, quindici figure retoriche con esempi costruiti, le prove per scegliere e il modo di consegnare.
+- In `SKILL.md`, la regola del noto prima del nuovo e due voci nuove, «Scrivere per convincere» e «Trovare un'idea».
+- In `fonti.md`, la sezione «Come si legge e come si scrive», con gli studi usati.
+- Due casi di prova, su una pagina di vendita che chiede urgenza e recensioni non fornite e su un payoff da trovare.
+
+### Modificato
+
+- `giochi-di-parole.md` e `titoli.md` rimandano alle prove sperimentali sulle storpiature e sui titoli.
+
 ## [1.17.0] - 2026-10-12
 
 ### Aggiunto

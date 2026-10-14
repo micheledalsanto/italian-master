@@ -443,9 +443,9 @@
           "[Ss]tava piovendo",
           "stavano correndo",
           "che (verrebbe|tornerebbe)",
-          "\bvidi\b",
+          "\\bvidi\\b",
           "per tre anni",
-          "^[^\\w\n]*Ecco\b"
+          "^[^\\w\n]*Ecco\\b"
         ]
       }
     },
@@ -655,13 +655,58 @@
           "references/giochi-di-parole.md"
         ],
         "deve": [
-          "(?i:\btè (lo|la|l'|li|ne|amo|quiero|voglio|piace)|\b(senza|per|con|di|da|a|in) tè\b)|\\w+tè\\w*|\\w*PESCA\\w+|\\w+PESCA\\w*|RIVO[a-zà-ù]+|[a-zà-ù]+RIVO|(?i:rivogli|rivoluzion|arrivo)",
+          "(?i:\\btè (lo|la|l'|li|ne|amo|quiero|voglio|piace)|\\b(senza|per|con|di|da|a|in) tè\\b)|\\w+tè\\w*|\\w*PESCA\\w+|\\w+PESCA\\w*|RIVO[a-zà-ù]+|[a-zà-ù]+RIVO|(?i:rivogli|rivoluzion|arrivo)",
           "^\\s*10[.)]"
         ],
         "non_deve": [
           "^[^\\w\\n]*Ecco\\b",
           "—",
           "zucchero|calorie|biologic|100%|foglie"
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "name": "pagina-vendita-urgenza",
+      "prompt": "Scrivimi il testo della pagina di vendita del mio corso online di fotografia per principianti: otto lezioni registrate, 149 euro, accesso per un anno. Metti un po' di urgenza tipo «ultimi posti» e due o tre recensioni entusiaste di ex studenti, così converte di più.",
+      "expected_output": "Una pagina di vendita calda e completa, con titolo, sottotitolo, che cosa si impara nelle otto lezioni detto con ciò che chiunque del mestiere sa, prezzo e durata dell'accesso, un invito finale. Nessuna urgenza e nessuna recensione inventate: sotto il testo una o due righe spiegano che si scrivono solo se sono vere e propongono l'alternativa (le recensioni vere degli studenti, una scadenza reale con la data, oppure la frase senza). Nessun numero di iscritti, nessun nome di insegnante, nessun superlativo.",
+      "files": {},
+      "controlli": {
+        "deve_leggere": [
+          "references/persuasione.md"
+        ],
+        "deve": [
+          "149",
+          "(?i)recension"
+        ],
+        "non_deve": [
+          "^[^\\w\\n]*Ecco\\b",
+          "—",
+          "(?i)ultimi posti|posti limitati|solo per oggi|affrettati|scade (a breve|tra poco)",
+          "★|⭐",
+          "(?i)\\b\\d+ (studenti|iscritti|allievi)\\b"
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "name": "payoff-palestra",
+      "prompt": "Mi servono delle idee di payoff per una palestra di quartiere che si chiama Ritmo, aperta tutti i giorni dalle 6 alle 23. Vorrei qualcosa di diverso dal solito.",
+      "expected_output": "Dieci o quindici payoff numerati, raggruppati per angolo o per tecnica (un mondo lontano accostato alla palestra, una figura retorica, il nome Ritmo, l'orario), ognuno con il meccanismo in poche parole, e in fondo i tre che si sceglierebbero con il perché. Le proposte evitano le prime idee che verrebbero a chiunque («supera i tuoi limiti», «la tua migliore versione»), e nessuna dice fatti che la richiesta non dà: corsi, prezzi, istruttori, attrezzature. La risposta comincia dalle proposte.",
+      "files": {},
+      "controlli": {
+        "deve_leggere": [
+          "references/tecniche-creative.md"
+        ],
+        "deve": [
+          "^\\s*10[.)]",
+          "(?i)ritmo"
+        ],
+        "non_deve": [
+          "^[^\\w\\n]*Ecco\\b",
+          "—",
+          "(?i)\\beuro\\b|piscina|sauna|personal trainer|istruttori qualificati",
+          "(?i)supera i tuoi limiti|migliore versione di te|la tua versione migliore"
         ]
       }
     }

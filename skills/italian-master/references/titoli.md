@@ -87,6 +87,8 @@ La curiosità funziona quando il titolo apre una domanda e il testo la chiude. I
 
 Prova pratica: il titolo regge se, dopo averlo letto, uno può dire a un altro «hai visto che…?» e finire la frase.
 
+Gli esperimenti fatti su decine di migliaia di titoli alternativi per gli stessi articoli, descritti nella sezione 10 di `mente-del-lettore.md`, confermano il peso del dettaglio concreto, dei numeri e della persona con un nome, e non confermano che il titolo debba essere breve, positivo o rivolto al lettore con il «tu».
+
 ## 6. Modelli che funzionano in italiano
 
 Sono stampi, non formule magiche. Gli esempi sono inventati.

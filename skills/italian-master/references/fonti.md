@@ -131,8 +131,40 @@ I principi ripresi in `annunci.md` e in `schede-prodotto.md` sono quelli su cui 
 - **Michele Loporcaro, *Cattive notizie*** (2005). Sulla retorica del giornalismo italiano.
 - **Ilaria Bonomi, *L'italiano giornalistico*** (2002). Storia e forme, compresa la titolazione nominale.
 
+## Come si legge e come si scrive
+
+Gli studi su cui si fondano `mente-del-lettore.md`, `persuasione.md` e `tecniche-creative.md`, letti a ottobre 2026 negli articoli originali quando erano accessibili, e altrimenti nei riassunti delle riviste e nelle rassegne che li citano. Quasi tutti sono stati fatti in inglese e su lettori americani o europei.
+
+- **George D. Gopen e Judith A. Swan, «The Science of Scientific Writing»**, *American Scientist*, 1990. La posizione iniziale della frase per il noto, quella finale per il nuovo e per ciò che si vuole far ricordare.
+- **Edward Gibson, «Linguistic complexity: locality of syntactic dependencies»**, *Cognition*, 1998; **Richard Futrell, Kyle Mahowald e Edward Gibson, «Large-scale evidence of dependency length minimization in 37 languages»**, *PNAS*, 2015. La fatica di tenere in sospeso le parole che aspettano di essere collegate.
+- **Alice Dechêne e altri, «The truth about the truth: a meta-analytic review of the truth effect»**, *Personality and Social Psychology Review*, 2010. Cinquantuno studi sull'effetto della ripetizione sulla credibilità.
+- **Matthew S. McGlone e Jessica Tofighbakhsh, «Birds of a feather flock conjointly (?): rhyme as reason in aphorisms»**, *Psychological Science*, 2000. La rima che fa sembrare vero un proverbio.
+- **Daniel M. Oppenheimer, «Consequences of erudite vernacular utilized irrespective of necessity»**, *Applied Cognitive Psychology*, 2006. Le parole difficili fanno giudicare meno intelligente chi scrive.
+- **Mark Sadoski, Ernest T. Goetz e Maximo Rodriguez, «Engaging texts: effects of concreteness on comprehensibility, interest, and recall in four text types»**, *Journal of Educational Psychology*, 2000.
+- **Grant Packard e Jonah Berger, «How concrete language shapes customer satisfaction»**, *Journal of Consumer Research*, 2021. Più di mille conversazioni di assistenza ai clienti.
+- **Elizabeth Newton**, tesi di dottorato a Stanford, 1990, sull'esperimento delle canzoni battute con le dita; **Colin Camerer, George Loewenstein e Martin Weber, «The curse of knowledge in economic settings»**, *Journal of Political Economy*, 1989.
+- **Rachel Giora e altri, «Weapons of mass distraction: optimal innovation and pleasure ratings»**, *Metaphor and Symbol*, 2004. Sei esperimenti sulla novità che lascia riconoscere il noto.
+- **Arthur Koestler, *L'atto della creazione*** (1964). La bisociazione.
+- **Edward F. McQuarrie e David Glen Mick, «Visual rhetoric in advertising»**, *Journal of Consumer Research*, 1999, e «Visual and verbal rhetorical figures under directed processing versus incidental exposure to advertising», *Journal of Consumer Research*, 2003. Le figure retoriche rendono un annuncio più gradito e più ricordato, se chi lo guarda ha gli strumenti per coglierle.
+- **George Loewenstein, «The psychology of curiosity: a review and reinterpretation»**, *Psychological Bulletin*, 1994. La curiosità come lacuna precisa.
+- **Melanie C. Green e Timothy C. Brock, «The role of transportation in the persuasiveness of public narratives»**, *Journal of Personality and Social Psychology*, 2000; **Tom van Laer e altri, «The extended transportation-imagery model»**, *Journal of Consumer Research*, 2014, una rassegna degli studi sul trasporto nelle storie.
+- **Claire E. Robertson e altri, «Negativity drives online news consumption»**, *Nature Human Behaviour*, 2023; **Kristina Gligorić e altri, «Linguistic effects on news headline success: evidence from thousands of online field experiments»**, *PLOS ONE*, 2023; **Akshina Banerjee e Oleg Urminsky, «The language that drives engagement»**, *Marketing Science*, 2025. Tre analisi delle prove di titoli alternativi fatte da un sito di notizie americano. Della terza è stata letta la versione preliminare, che gli autori avvertono potrebbe differire da quella pubblicata.
+- **Linda Flower e John R. Hayes, «A cognitive process theory of writing»**, *College Composition and Communication*, 1981; **Carl Bereiter e Marlene Scardamalia, *The Psychology of Written Composition*** (1987). Come lavora chi scrive bene, e la differenza tra dire quello che si sa e trasformarlo per chi legge.
+- **Irwin P. Levin e Gary J. Gaeth, «How consumers are affected by the framing of attribute information before and after consuming the product»**, *Journal of Consumer Research*, 1988; **Irwin P. Levin, Sandra L. Schneider e Gary J. Gaeth, «All frames are not created equal»**, *Organizational Behavior and Human Decision Processes*, 1998. La cornice.
+- **Ellen Langer, Arthur Blank e Benzion Chanowitz**, l'esperimento della fotocopiatrice, *Journal of Personality and Social Psychology*, 1978, e le repliche parziali uscite nella stessa rivista negli anni successivi, che non lo hanno confermato.
+- **Christopher J. Carpenter, «A meta-analysis of the effectiveness of the "but you are free" compliance-gaining technique»**, *Communication Studies*, 2013, e la rassegna successiva di Fillon e altri, uscita in *Meta-Psychology*, che negli studi più rigorosi non trova effetto.
+- **Robert B. Cialdini, *Le armi della persuasione*** (1984). Le leve classiche, da leggere insieme alle repliche che ne hanno ridimensionato alcune.
+- **Codice del consumo**, decreto legislativo 6 settembre 2005, n. 206, articoli 20-23 sulle pratiche commerciali scorrette, nel testo aggiornato con le norme sulle recensioni introdotte nel 2023. Letto su brocardi.it a ottobre 2026.
+- **Roger E. Beaty e Paul J. Silvia, «Why do ideas get more creative across time?»**, *Psychology of Aesthetics, Creativity, and the Arts*, 2012. L'effetto dell'ordine nella produzione di idee.
+- **Michael Diehl e Wolfgang Stroebe, «Productivity loss in brainstorming groups: toward the solution of a riddle»**, *Journal of Personality and Social Psychology*, 1987.
+- **Catrinel Haught-Tromp, «The Green Eggs and Ham hypothesis: how constraints facilitate creativity»**, *Psychology of Aesthetics, Creativity, and the Arts*, 2017.
+- **Annamaria Testa, *La trama lucente*** (2010). Che cos'è la creatività e come funziona, a partire dalla definizione di Poincaré: combinare elementi esistenti in modi nuovi e utili.
+- **Gianni Rodari, *Grammatica della fantasia*** (1973), già citato sotto, per il binomio fantastico, l'ipotesi fantastica, il prefisso arbitrario e l'errore creativo.
+- **Bice Mortara Garavelli, *Manuale di retorica*** (1988) e *Il parlar figurato* (2010). Le figure retoriche.
+
 ## Sulla scrittura generata
 
+- **Alex Reinhart e altri, «Do LLMs write like humans? Variation in grammatical and rhetorical styles»**, *PNAS*, 2025. Le continuazioni scritte da modelli diversi confrontate con i testi umani da cui partivano, su decine di caratteristiche grammaticali. È la fonte delle misure riportate nella sezione 12 di `mente-del-lettore.md`.
 - **Wikipedia, «Signs of AI writing»** (WikiProject AI Cleanup). Il catalogo più ampio di segnali, costruito su migliaia di casi. In inglese, ma gran parte dei segnali passa in italiano come calco. Avverte che è un elenco di indizi, non un divieto: quelle parole le usano anche le persone.
 - **Wikipedia in italiano, «Wikipedia:Intelligenza artificiale».** Le indicazioni della comunità italiana.
 

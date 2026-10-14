@@ -102,6 +102,7 @@ Ogni genere ha il suo riferimento, con le misure prese sui testi di quel genere.
 | Traduzioni verso l'italiano | elenchi di calchi, falsi amici e modi di dire | [`calchi`](skills/italian-master/references/calchi.md), [`modi-di-dire`](skills/italian-master/references/modi-di-dire.md) |
 | Revisioni e correzioni di bozze | le risposte della Crusca e di Treccani, e testi generati per il confronto | [`ai-slop`](skills/italian-master/references/ai-slop.md), [`slop-asciutto`](skills/italian-master/references/slop-asciutto.md), [`impronte`](skills/italian-master/references/impronte.md), [`grammatica`](skills/italian-master/references/grammatica.md), [`punteggiatura-tipografia`](skills/italian-master/references/punteggiatura-tipografia.md), [`sintassi-stile`](skills/italian-master/references/sintassi-stile.md) |
 | Testi con la tua voce e il tuo tono | i testi che le dai da leggere | [`imparare-una-voce`](skills/italian-master/references/imparare-una-voce.md), [`tono-e-pubblico`](skills/italian-master/references/tono-e-pubblico.md) |
+| Testi che devono convincere, e idee da trovare | studi di psicologia della lettura, della persuasione e della creatività, con lo stato delle repliche | [`mente-del-lettore`](skills/italian-master/references/mente-del-lettore.md), [`persuasione`](skills/italian-master/references/persuasione.md), [`tecniche-creative`](skills/italian-master/references/tecniche-creative.md) |
 
 ## Installarla
 
@@ -254,7 +255,7 @@ Lo script non riconosce i testi generati e non vede i fatti inventati. Segnala a
 
 ## Fonti e limiti
 
-Dall'Accademia della Crusca e da Treccani per la norma, e dalla tradizione della scrittura chiara per lo stile (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). Le misure vengono da circa cinque milioni di parole lette e contate: articoli di otto testate italiane online, dieci siti di aziende ed enti, dodici siti di agenzie digitali, tredici newsletter, le schede prodotto di dieci negozi online, novecento inserzioni, le stringhe di otto applicazioni, articoli di riviste accademiche, racconti fantastici, lettere, saggi, fiabe, romanzi, memorie, teatro e altre opere di pubblico dominio. L'elenco completo è in [`fonti.md`](skills/italian-master/references/fonti.md).
+Dall'Accademia della Crusca e da Treccani per la norma, e dalla tradizione della scrittura chiara per lo stile (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). Le misure vengono da circa cinque milioni di parole lette e contate: articoli di otto testate italiane online, dieci siti di aziende ed enti, dodici siti di agenzie digitali, tredici newsletter, le schede prodotto di dieci negozi online, novecento inserzioni, le stringhe di otto applicazioni, articoli di riviste accademiche, racconti fantastici, lettere, saggi, fiabe, romanzi, memorie, teatro e altre opere di pubblico dominio. Le indicazioni su come legge chi legge, su come si convince e su come si trovano le idee vengono da studi di psicologia e di linguistica, scelti tra quelli che hanno retto alle repliche. L'elenco completo è in [`fonti.md`](skills/italian-master/references/fonti.md).
 
 La skill non contiene testi altrui. Giornali e siti non sono nominati e nessuna loro frase è riportata: gli esempi sono scritti apposta, con fatti inventati. Le sole citazioni testuali sono brevi passi di opere uscite prima del 1930.
 
@@ -267,6 +268,6 @@ La skill non contiene testi altrui. Giornali e siti non sono nominati e nessuna 
 
 Segnalazioni, correzioni e nuovi esempi sono benvenuti: le indicazioni sono in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-La versione corrente è la 1.17.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
+La versione corrente è la 1.18.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
 
 La licenza è la [MIT](LICENSE).
