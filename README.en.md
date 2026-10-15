@@ -6,7 +6,7 @@
 
 **Your agent already writes Italian.<br>With Italian master it writes it like a professional.**
 
-An agent skill for Claude, Codex and other Agent Skills-compatible agents, built on five million Italian words that were read and measured.
+An agent skill for Claude, Codex and other Agent Skills-compatible agents, built on more than five million Italian words that were read and measured.
 
 [![Version](https://img.shields.io/github/package-json/v/micheledalsanto/italian-master?label=version&color=008C45)](CHANGELOG.md)
 [![Tests](https://img.shields.io/github/actions/workflow/status/micheledalsanto/italian-master/tests.yml?branch=main&label=tests)](https://github.com/micheledalsanto/italian-master/actions/workflows/tests.yml)
@@ -96,7 +96,7 @@ The skill's guidance does not come from impressions. It was drawn from Italian t
 
 | How many | What |
 | ---: | --- |
-| **5 million** | Italian words read and measured, roughly |
+| **5 million+** | Italian words read and measured |
 | **15,000** | interface strings from eight applications |
 | **1,138** | product pages from ten online shops |
 | **904** | paid ads by 732 advertisers |
@@ -279,7 +279,7 @@ The script does not detect generated text and does not notice invented facts. It
 
 ## Sources and limits
 
-For the norm the skill follows the Accademia della Crusca and Treccani, and for style the Italian tradition of clear writing (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). The measurements come from about five million words that were read and counted: articles from eight Italian online publications, ten company and institution websites, twelve digital agency websites, thirteen newsletters, the product pages of ten online shops, nine hundred ads, the strings of eight applications, academic journal articles, fantastic fiction, letters, essays, fairy tales, novels, memoirs, plays and other public-domain works. The guidance on how readers read, how to persuade and how to find ideas comes from studies in psychology and linguistics, chosen among those that held up when replicated. The full list is in [`fonti.md`](skills/italian-master/references/fonti.md).
+For the norm the skill follows the Accademia della Crusca and Treccani, and for style the Italian tradition of clear writing (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). The measurements come from more than five million words that were read and counted: articles from eight Italian online publications, ten company and institution websites, twelve digital agency websites, thirteen newsletters, the product pages of ten online shops, nine hundred ads, the strings of eight applications, academic journal articles, fantastic fiction, letters, essays, fairy tales, novels, memoirs, plays and other public-domain works. The guidance on how readers read, how to persuade and how to find ideas comes from studies in psychology and linguistics, chosen among those that held up when replicated. The full list is in [`fonti.md`](skills/italian-master/references/fonti.md).
 
 The skill contains no third-party text. Newspapers and websites are not named and none of their sentences is reproduced, because the examples were written for the skill, with invented facts. The only verbatim quotations are short passages from works published before 1930.
 
@@ -294,6 +294,6 @@ It has limits too, and they are worth stating.
 
 Reports, corrections and new examples are welcome, and the guidelines are in [`CONTRIBUTING.md`](CONTRIBUTING.md) (in Italian). If the skill is useful to you, a star on the repository helps other people find it.
 
-The current version is 1.18.4. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
+The current version is 1.18.5. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
 
 The license is [MIT](LICENSE). Italian master is created and maintained by [Michele Dal Santo](https://www.micheledalsanto.it).

@@ -6,7 +6,7 @@
 
 **Il tuo agente sa già scrivere in italiano.<br>Con Italian master lo scrive come chi lo fa per mestiere.**
 
-Una skill per Claude, Codex e gli altri agenti compatibili con le Agent Skills, costruita su cinque milioni di parole italiane lette e misurate.
+Una skill per Claude, Codex e gli altri agenti compatibili con le Agent Skills, costruita su più di cinque milioni di parole italiane lette e misurate.
 
 [![Versione](https://img.shields.io/github/package-json/v/micheledalsanto/italian-master?label=versione&color=008C45)](CHANGELOG.md)
 [![Test](https://img.shields.io/github/actions/workflow/status/micheledalsanto/italian-master/tests.yml?branch=main&label=test)](https://github.com/micheledalsanto/italian-master/actions/workflows/tests.yml)
@@ -96,7 +96,7 @@ Le indicazioni della skill non nascono da un'impressione. Sono state ricavate da
 
 | Quanti | Che cosa |
 | ---: | --- |
-| **5 milioni** | parole italiane lette e misurate, circa |
+| **oltre 5 milioni** | parole italiane lette e misurate |
 | **15.000** | stringhe di interfaccia di otto applicazioni |
 | **1.138** | schede prodotto di dieci negozi online |
 | **904** | inserzioni a pagamento di 732 inserzionisti |
@@ -310,7 +310,7 @@ Lo script non riconosce i testi generati e non si accorge dei fatti inventati. S
 
 ## Fonti e limiti
 
-Per la norma la skill segue l'Accademia della Crusca e Treccani, per lo stile la tradizione italiana della scrittura chiara (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). Le misure vengono da circa cinque milioni di parole lette e contate: articoli di otto testate italiane online, dieci siti di aziende ed enti, dodici siti di agenzie digitali, tredici newsletter, le schede prodotto di dieci negozi online, novecento inserzioni, le stringhe di otto applicazioni, articoli di riviste accademiche, racconti fantastici, lettere, saggi, fiabe, romanzi, memorie, teatro e altre opere di pubblico dominio. Le indicazioni su come legge chi legge, su come si convince e su come si trovano le idee vengono da studi di psicologia e di linguistica, scelti tra quelli che hanno retto alle repliche. L'elenco completo è in [`fonti.md`](skills/italian-master/references/fonti.md).
+Per la norma la skill segue l'Accademia della Crusca e Treccani, per lo stile la tradizione italiana della scrittura chiara (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). Le misure vengono da più di cinque milioni di parole lette e contate: articoli di otto testate italiane online, dieci siti di aziende ed enti, dodici siti di agenzie digitali, tredici newsletter, le schede prodotto di dieci negozi online, novecento inserzioni, le stringhe di otto applicazioni, articoli di riviste accademiche, racconti fantastici, lettere, saggi, fiabe, romanzi, memorie, teatro e altre opere di pubblico dominio. Le indicazioni su come legge chi legge, su come si convince e su come si trovano le idee vengono da studi di psicologia e di linguistica, scelti tra quelli che hanno retto alle repliche. L'elenco completo è in [`fonti.md`](skills/italian-master/references/fonti.md).
 
 La skill non contiene testi altrui. Giornali e siti non sono nominati e nessuna loro frase è riportata, perché gli esempi sono scritti apposta, con fatti inventati. Le sole citazioni testuali sono brevi passi di opere uscite prima del 1930.
 
@@ -325,6 +325,6 @@ Ci sono anche dei limiti, ed è giusto dirli.
 
 Segnalazioni, correzioni e nuovi esempi sono i benvenuti, e le indicazioni per proporli sono in [`CONTRIBUTING.md`](CONTRIBUTING.md). Se la skill ti è utile, una stella alla repo aiuta altre persone a trovarla.
 
-La versione corrente è la 1.18.4. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
+La versione corrente è la 1.18.5. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
 
 La licenza è la [MIT](LICENSE). Italian master è ideata e curata da [Michele Dal Santo](https://www.micheledalsanto.it).

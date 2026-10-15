@@ -51,7 +51,7 @@ Le misure e i passi commentati in `periodo.md`, `connettivi.md`, `impronte.md`, 
 - **Tredici canali pubblici di messaggistica** di enti, aziende e testate (circa 240 post) e la bacheca pubblica di quattro comunità italiane di un social network federato (circa 520 post), letti a ottobre 2026 per le note sui social di `registri.md`. Non è stato possibile leggere in serie i post di LinkedIn e di Instagram, che richiedono l'accesso.
 - **Testi generati**, per il confronto: gli articoli e le lezioni di un sito di divulgazione scritti con un modello, come ha confermato chi lo cura (circa 14.600 parole), e un testo scritto con la prima versione di questa skill (circa 2.000).
 
-In tutto sono circa cinque milioni di parole, di cui 129.000 di giornalismo contemporaneo. Le misure sono fatte con conteggi semplici ed espressioni regolari, tranne quelle sui tempi verbali, e il campione di testi generati è piccolo e viene da due sole fonti. Bastano a vedere la differenza tra la prosa italiana e quella generata, non a stabilire una norma. Chi vuole allargare il campione trova molti testi liberi su Wikisource e su Liber Liber (liberliber.it).
+In tutto sono più di cinque milioni di parole, di cui 129.000 di giornalismo contemporaneo. Le misure sono fatte con conteggi semplici ed espressioni regolari, tranne quelle sui tempi verbali, e il campione di testi generati è piccolo e viene da due sole fonti. Bastano a vedere la differenza tra la prosa italiana e quella generata, non a stabilire una norma. Chi vuole allargare il campione trova molti testi liberi su Wikisource e su Liber Liber (liberliber.it).
 
 ## Per risolvere un dubbio
 
