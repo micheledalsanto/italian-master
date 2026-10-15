@@ -69,7 +69,7 @@ Le prove automatiche dello script e dell'installatore girano a ogni push, su Lin
 python -m unittest discover tests
 ```
 
-Controllano anche che l'intestazione di `SKILL.md` resti leggibile, che ogni riferimento citato esista e abbia la sua riga nella tabella, e che la versione sia la stessa in tutti i file. Un'altra prova guarda quello che stai mettendo nel commit: i cataloghi di plugin rifiutano un commit che contenga file di servizio del sistema operativo (`.DS_Store`, `Thumbs.db`, `__MACOSX`), collegamenti simbolici, sottomoduli, file speciali, file troppo grandi o fine riga di Windows, e la prova li segnala prima che partano. Se aggiungi una formula allo script, aggiungi la prova che la fa scattare e quella di una frase innocente che non deve farla scattare.
+Controllano anche che l'intestazione di `SKILL.md` resti leggibile, che ogni riferimento citato esista e abbia la sua riga nella tabella, e che la versione sia la stessa in tutti i file. Un'altra prova guarda quello che stai mettendo nel commit, perché il catalogo dei plugin non apre un commit che contenga file di servizio del sistema operativo (`.DS_Store`, `Thumbs.db`, `desktop.ini`, `__MACOSX`), collegamenti simbolici, sottomoduli, file speciali, nomi riservati su Windows, file oltre i 256 KiB, fine riga di Windows o un `.gitattributes` che riscrive il contenuto dei file, e quando si ferma non dice quale sia la causa. La prova la nomina prima che il commit parta. Se aggiungi una formula allo script, aggiungi la prova che la fa scattare e quella di una frase innocente che non deve farla scattare.
 
 In Claude Code, dalla cartella della repo:
 

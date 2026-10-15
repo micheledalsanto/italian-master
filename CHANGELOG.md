@@ -2,6 +2,16 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.18.3] - 2026-10-15
+
+### Rimosso
+
+- **`.gitattributes`.** Conteneva `* text=auto eol=lf`, la regola che imponeva i fine riga Unix. Il catalogo dei plugin non apre un commit il cui `.gitattributes` contenga attributi che riscrivono il contenuto dei file (`text`, `eol`, `filter`, Git LFS, `export-ignore`, `export-subst`), e si fermava senza dire quale fosse la causa. I fine riga restano Unix: li tiene a posto la prova automatica, che li controlla nell'indice a ogni push.
+
+### Modificato
+
+- **`tests/test_pacchetto.py` controlla tutte le cause per cui il catalogo rifiuta un commit:** gli attributi che riscrivono i file, i nomi riservati su Windows e i nomi che differiscono solo per le maiuscole, il limite dei 256 KiB per file e dei 512 file, oltre ai file di servizio del sistema operativo, ai collegamenti simbolici, ai sottomoduli e ai fine riga già controllati.
+
 ## [1.18.2] - 2026-10-15
 
 ### Aggiunto
