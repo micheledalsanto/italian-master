@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src=".claude-plugin/icon.png" alt="Italian master" width="120">
+<img src=".github/banner.png" alt="Italian master" width="100%">
 
 # Italian master
 
@@ -294,6 +294,6 @@ It has limits too, and they are worth stating.
 
 Reports, corrections and new examples are welcome, and the guidelines are in [`CONTRIBUTING.md`](CONTRIBUTING.md) (in Italian). If the skill is useful to you, a star on the repository helps other people find it.
 
-The current version is 1.18.3. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
+The current version is 1.18.4. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
 
 The license is [MIT](LICENSE). Italian master is created and maintained by [Michele Dal Santo](https://www.micheledalsanto.it).

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src=".claude-plugin/icon.png" alt="Italian master" width="120">
+<img src=".github/banner.png" alt="Italian master" width="100%">
 
 # Italian master
 
@@ -325,6 +325,6 @@ Ci sono anche dei limiti, ed è giusto dirli.
 
 Segnalazioni, correzioni e nuovi esempi sono i benvenuti, e le indicazioni per proporli sono in [`CONTRIBUTING.md`](CONTRIBUTING.md). Se la skill ti è utile, una stella alla repo aiuta altre persone a trovarla.
 
-La versione corrente è la 1.18.3. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
+La versione corrente è la 1.18.4. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
 
 La licenza è la [MIT](LICENSE). Italian master è ideata e curata da [Michele Dal Santo](https://www.micheledalsanto.it).

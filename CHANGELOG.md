@@ -2,6 +2,12 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.18.4] - 2026-10-15
+
+### Modificato
+
+- Il README, in italiano e in inglese, si apre con un banner (`.github/banner.png`) al posto dell'icona. La stessa immagine fa da anteprima della repo quando il link viene condiviso.
+
 ## [1.18.3] - 2026-10-15
 
 ### Rimosso
