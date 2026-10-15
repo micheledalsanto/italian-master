@@ -1,7 +1,17 @@
 __pycache__/
 *.pyc
+
+# File di servizio del sistema operativo: i cataloghi di plugin rifiutano il commit che li contiene
 .DS_Store
 Thumbs.db
+desktop.ini
+__MACOSX/
+._*
+.AppleDouble
+.Spotlight-V100
+.Trashes
+$RECYCLE.BIN/
+
 *.skill
 *.zip
 italian-master-workspace/

@@ -58,7 +58,7 @@ skills/italian-master/
 evals/evals.json         casi di prova, con i loro controlli
 evals/esegui.py          esegue i casi e valuta le risposte
 commands/                comandi del plugin: rivedi, voce, configura
-tests/                   prove automatiche dello script e dell'installatore
+tests/                   prove automatiche dello script, dell'installatore e del pacchetto
 ```
 
 ## Provare le modifiche
@@ -69,7 +69,7 @@ Le prove automatiche dello script e dell'installatore girano a ogni push, su Lin
 python -m unittest discover tests
 ```
 
-Controllano anche che l'intestazione di `SKILL.md` resti leggibile, che ogni riferimento citato esista e abbia la sua riga nella tabella, e che la versione sia la stessa in tutti i file. Se aggiungi una formula allo script, aggiungi la prova che la fa scattare e quella di una frase innocente che non deve farla scattare.
+Controllano anche che l'intestazione di `SKILL.md` resti leggibile, che ogni riferimento citato esista e abbia la sua riga nella tabella, e che la versione sia la stessa in tutti i file. Un'altra prova guarda quello che stai mettendo nel commit: i cataloghi di plugin rifiutano un commit che contenga file di servizio del sistema operativo (`.DS_Store`, `Thumbs.db`, `__MACOSX`), collegamenti simbolici, sottomoduli, file speciali, file troppo grandi o fine riga di Windows, e la prova li segnala prima che partano. Se aggiungi una formula allo script, aggiungi la prova che la fa scattare e quella di una frase innocente che non deve farla scattare.
 
 In Claude Code, dalla cartella della repo:
 

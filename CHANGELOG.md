@@ -2,6 +2,13 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.18.2] - 2026-10-15
+
+### Aggiunto
+
+- **`tests/test_pacchetto.py`.** Controlla quello che entra nel commit, perché i cataloghi di plugin rifiutano un commit che contenga file di servizio del sistema operativo (`.DS_Store`, `Thumbs.db`, `desktop.ini`, `__MACOSX`, i doppioni `._*` di macOS), collegamenti simbolici, sottomoduli o file speciali, file troppo grandi e fine riga di Windows. Le prove girano a ogni push, su Linux e su Windows, e leggono l'indice: in locale segnalano il file prima che venga pubblicato.
+- Nel `.gitignore`, i file di servizio che restavano fuori elenco: `desktop.ini`, `__MACOSX/`, `._*`, `.AppleDouble`, `.Spotlight-V100`, `.Trashes`, `$RECYCLE.BIN/`.
+
 ## [1.18.1] - 2026-10-15
 
 ### Modificato
