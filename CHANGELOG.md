@@ -2,6 +2,12 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.18.1] - 2026-10-15
+
+### Modificato
+
+- **README riscritto**, in italiano e in inglese. Si apre con il logo, una promessa breve e i badge (versione, test, licenza, agenti supportati, requisiti); l'installazione con un solo comando arriva subito dopo l'esempio della mail, e una tabella riassume i numeri dei testi misurati. Le frasi che suonavano tradotte o restavano senza verbo sono state riscritte.
+
 ## [1.18.0] - 2026-10-14
 
 La skill spiega perché le sue regole funzionano su chi legge, e ha un metodo per trovare le idee e per convincere senza ingannare.

@@ -1,17 +1,43 @@
+<div align="center">
+
+<img src=".claude-plugin/icon.png" alt="Italian master" width="120">
+
 # Italian master
 
-[![Versione](https://img.shields.io/github/package-json/v/micheledalsanto/italian-master?label=versione&color=2ea44f)](CHANGELOG.md)
-[![Licenza MIT](https://img.shields.io/github/license/micheledalsanto/italian-master?label=licenza&color=blue)](LICENSE)
+**Il tuo agente sa già scrivere in italiano.<br>Con Italian master lo scrive come chi lo fa per mestiere.**
 
-L'italiano di chi scrive per mestiere, genere per genere e con i soli fatti che gli vengono dati. Una skill per Claude, per Codex e per gli altri agenti che leggono le Agent Skills.
+Una skill per Claude, Codex e gli altri agenti compatibili con le Agent Skills, costruita su cinque milioni di parole italiane lette e misurate.
+
+[![Versione](https://img.shields.io/github/package-json/v/micheledalsanto/italian-master?label=versione&color=008C45)](CHANGELOG.md)
+[![Test](https://img.shields.io/github/actions/workflow/status/micheledalsanto/italian-master/tests.yml?branch=main&label=test)](https://github.com/micheledalsanto/italian-master/actions/workflows/tests.yml)
+[![Licenza MIT](https://img.shields.io/github/license/micheledalsanto/italian-master?label=licenza&color=CD212A)](LICENSE)
+<br>
+[![Claude Code](https://img.shields.io/badge/Claude_Code-skill_e_plugin-D97757?logo=claude&logoColor=white)](#claude-code-come-plugin)
+[![Codex](https://img.shields.io/badge/Codex-skill-000000?logo=openai&logoColor=white)](#codex-e-altri-agenti)
+[![Agent Skills](https://img.shields.io/badge/Agent_Skills-compatibile-555555)](#tutti-i-modi-per-installarla)
+[![Lingua](https://img.shields.io/badge/lingua-italiano-008C45)](#fonti-e-limiti)
+<br>
+[![Node](https://img.shields.io/badge/node-%E2%89%A518-339933?logo=nodedotjs&logoColor=white)](#provala-subito)
+[![Python](https://img.shields.io/badge/python-%E2%89%A53.8-3776AB?logo=python&logoColor=white)](#il-correttore-da-riga-di-comando)
+[![Stelle](https://img.shields.io/github/stars/micheledalsanto/italian-master?label=stelle&style=social)](https://github.com/micheledalsanto/italian-master/stargazers)
+
+[Provala subito](#provala-subito) · [La stessa mail, tre volte](#la-stessa-mail-scritta-tre-volte) · [Che cosa sa fare](#chiedile-quello-che-chiederesti-a-un-redattore) · [Installazione](#tutti-i-modi-per-installarla) · [English](README.en.md)
+
+</div>
 
 *An agent skill (Claude, Codex) for natural Italian writing: grammar, syntax, tone, verb tenses, idioms, headlines. The skill is written in Italian. [Read this README in English](README.en.md).*
 
-## La stessa richiesta, tre risposte
+## Corretto, eppure finto
 
-La richiesta è la stessa per tutti e tre i testi: una mail per dire ai clienti di uno studio che la chiusura estiva va dall'11 al 24 agosto, che chi ha adempimenti in quel periodo deve farsi sentire entro il 31 luglio e che per le urgenze risponde Paola al cellulare.
+Chiedi a un modello linguistico un testo in italiano e riceverai quasi sempre una pagina senza errori che nessun italiano avrebbe scritto. Si apre con un mondo «sempre più connesso», mette tre aggettivi dove ne bastava uno, scrive i titoli con le maiuscole a ogni parola e prende in prestito dall'inglese le lineette lunghe. Se poi gli chiedi di essere più asciutto, il modello cade nel difetto opposto e risponde a frasette di cinque parole chiuse da una battuta, che si riconoscono come generate esattamente come le prime.
 
-Senza la skill:
+Italian master dà al modello quello che un buon redattore impara in anni di mestiere: dove la grammatica si sbaglia davvero, come si costruisce un periodo che non sembri tradotto, quando si dà del tu, del lei o del voi, come si scrive un titolo e quale tempo verbale regge un racconto. Soprattutto, gli insegna a lavorare con i fatti che riceve, senza inventarne altri per riempire la pagina.
+
+## La stessa mail, scritta tre volte
+
+La richiesta è identica per tutti e tre i testi: una mail con cui uno studio professionale comunica ai clienti la chiusura estiva dall'11 al 24 agosto, chiede a chi ha adempimenti in quel periodo di farsi sentire entro il 31 luglio e indica Paola, al cellulare, come riferimento per le urgenze.
+
+**Il modello da solo**
 
 > **Oggetto: Aggiornamento Importante Sulla Nostra Chiusura Estiva**
 >
@@ -19,7 +45,7 @@ Senza la skill:
 >
 > speriamo che questa email ti trovi bene! In un periodo dell'anno in cui il riposo diventa fondamentale, desideriamo informarLa che il nostro team si prenderà una meritata pausa — per tornare più carico che mai. Non si tratta solo di una chiusura: è un'occasione per ricaricare le energie, rinnovarci e offrirti un servizio ancora migliore.
 
-Senza la skill, chiedendo di essere più asciutti:
+**Il modello da solo, quando gli si chiede di essere più asciutto**
 
 > **Oggetto: Ad agosto chiudiamo. Ecco cosa cambia.**
 >
@@ -27,7 +53,7 @@ Senza la skill, chiedendo di essere più asciutti:
 >
 > Niente panico: le urgenze restano coperte. Il resto può aspettare. A settembre si riparte.
 
-Con la skill:
+**Il modello con Italian master**
 
 > **Oggetto: Chiusura estiva dello Studio dall'11 al 24 agosto**
 >
@@ -45,47 +71,76 @@ Con la skill:
 >
 > Lo Staff dello Studio
 
-Il primo testo dà del tu e del lei nella stessa frase e non riporta nessuno dei dati della richiesta. Il secondo dice le date, ma con il tono di uno slogan, e non spiega al cliente che cosa deve fare. Il terzo è la comunicazione che uno studio manda davvero ai suoi clienti: registro formale, date, scadenza per le pratiche, contatto per le urgenze.
+Il primo testo passa dal tu al lei nella stessa frase e non contiene nemmeno uno dei dati richiesti. Il secondo riporta le date, ma con il tono di uno slogan, e non dice al cliente che cosa deve fare. Il terzo è la comunicazione che uno studio manda davvero ai suoi clienti, con il registro formale, le date, la scadenza per le pratiche e il contatto per le urgenze.
 
-## Perché succede
+## Provala subito
 
-Chi chiede a un modello un testo in italiano riceve quasi sempre una pagina senza errori che nessun italiano scriverebbe. Comincia con «In un mondo sempre più», mette tre aggettivi dove ne basterebbe uno, ha le maiuscole a ogni parola del titolo e le lineette lunghe dell'inglese. Se poi gli si chiede di essere più asciutto, il modello passa a frasette di cinque parole con una battuta in fondo, e il testo si riconosce lo stesso.
+Se hai Node 18 o successivo, basta un comando, e non serve clonare la repo:
 
-Questa skill dà al modello quello che sa un buon redattore: dove si sbaglia davvero la grammatica, come si costruisce un periodo che non suona tradotto, quando dare del tu, del lei o del voi, come si fa un titolo, quale tempo verbale vuole un racconto. Gli chiede anche di non aggiungere niente ai fatti che riceve, per cui un testo con pochi dati esce più corto e sotto dice che cosa manca. Le indicazioni vengono da testi veri, letti e contati: giornali, siti di aziende e di agenzie, saggi, lettere.
+```bash
+npx github:micheledalsanto/italian-master
+```
 
-## Come lavora
+La skill viene copiata in `~/.claude/skills/italian-master`, dove Claude Code la trova da solo. Per Codex aggiungi `--codex`, e quando esce una versione nuova ti basta rilanciare lo stesso comando. Se preferisci il plugin di Claude Code, dentro una sessione scrivi:
 
-- **Misure prese su testi italiani.** Quanto è lunga una frase in un quotidiano, quanti due punti ci sono in un articolo, quali tempi verbali usa un romanzo, come comincia una newsletter: le indicazioni vengono da circa cinque milioni di parole contate, e ogni riferimento dice su quali testi è stato fatto.
-- **Regole per genere.** Una mail a un cliente, la home di un sito, il messaggio di errore di un'applicazione, un articolo e un racconto vogliono cose diverse. Il contrasto e la triade che in un articolo sono un difetto in un claim sono normali, e la skill lo dice caso per caso, insieme all'elenco dei falsi allarmi.
-- **Solo i fatti ricevuti.** Niente numeri, nomi, citazioni o circostanze verosimili aggiunti per dare colore. Se i dati sono pochi il testo esce più corto.
-- **Due difetti, non uno.** Oltre allo slop gonfio c'è quello asciutto, a frasette e sentenze, che nasce quando si cerca di evitare il primo.
-- **Il registro di chi firma.** Uno studio, un'azienda e un ente scrivono in modo formale e completo, e la skill non scambia l'informalità per naturalezza.
+```
+/plugin marketplace add micheledalsanto/italian-master
+/plugin install italian-master@italian-master
+```
 
-## Che cosa le puoi chiedere
+Le altre strade, da skills.sh a Claude.ai, sono descritte più sotto, in [Tutti i modi per installarla](#tutti-i-modi-per-installarla).
 
-Non serve invocarla, perché si attiva da sola quando chiedi un testo in italiano, come in questi esempi.
+## Misurata su testi veri
+
+Le indicazioni della skill non nascono da un'impressione. Sono state ricavate da testi italiani letti e contati uno per uno, e ogni file di riferimento dice su quali.
+
+| Quanti | Che cosa |
+| ---: | --- |
+| **5 milioni** | parole italiane lette e misurate, circa |
+| **15.000** | stringhe di interfaccia di otto applicazioni |
+| **1.138** | schede prodotto di dieci negozi online |
+| **904** | inserzioni a pagamento di 732 inserzionisti |
+| **136** | numeri di tredici newsletter |
+| **86** | articoli di otto testate online |
+| **45** | articoli di nove riviste accademiche |
+| **14** | generi di testo, ciascuno con le sue regole |
+
+Quanto è lunga in media una frase di quotidiano, quanti due punti ci sono in un articolo, quali tempi verbali usa un romanzo, come si apre una newsletter: sono misure, e la skill le usa come un redattore usa l'orecchio.
+
+## Che cosa la rende diversa
+
+- **Regole diverse per ogni genere.** Una mail a un cliente, la home di un sito, il messaggio di errore di un'app, un articolo e un racconto chiedono cose diverse. Il contrasto e la triade, che in un articolo sono difetti, in un claim funzionano benissimo, e la skill lo sa: distingue caso per caso e conosce i falsi allarmi.
+- **Nessun fatto inventato.** Numeri, nomi, citazioni e dettagli verosimili non vengono aggiunti per dare colore. Se i dati sono pochi, il testo esce più breve e in fondo la skill indica che cosa manca.
+- **Due difetti da evitare.** Accanto allo slop gonfio, fatto di enfasi e di aggettivi, c'è quello asciutto, a frasette e sentenze, che nasce proprio dal tentativo di evitare il primo. La skill li riconosce entrambi.
+- **Il registro di chi firma.** Uno studio, un'azienda o un ente scrivono in modo formale e completo, e la skill non confonde l'informalità con la naturalezza.
+- **La tua voce.** Se le dai da leggere i tuoi testi, ne ricava una scheda di stile con le misure e scrive i prossimi come li scriveresti tu.
+
+## Chiedile quello che chiederesti a un redattore
+
+Non serve invocarla, perché si attiva da sola ogni volta che chiedi un testo in italiano. Qualche esempio:
 
 - «Riscrivi questa pagina "Chi siamo", suona finta.»
 - «Dammi dieci titoli per questo articolo, niente clickbait.»
 - «Scrivi una mail di sollecito all'architetto Ferraris, ci diamo del lei.»
 - «Scrivi la hero section della home: siamo una falegnameria di Udine, facciamo mobili su misura dal 1961.»
+- «Trovami un claim per il lancio di questo prodotto, con un gioco di parole sul nome.»
 - «Correggi solo gli errori, non toccare lo stile.»
 - «Traduci questo post in italiano, non deve sembrare una traduzione.»
 - «Leggi questi tre numeri della mia newsletter e scrivi il prossimo con la stessa voce.»
 
-In Claude Code puoi anche chiamarla in modo esplicito: `/italian-master:italian-master` se l'hai installata come plugin, `/italian-master` se l'hai copiata a mano. In Codex si chiama con `$italian-master`.
+In Claude Code puoi anche richiamarla in modo esplicito, con `/italian-master:italian-master` se l'hai installata come plugin e con `/italian-master` se l'hai copiata a mano. In Codex si richiama con `$italian-master`.
 
-Il plugin porta con sé tre comandi per i lavori più lunghi:
+Per i lavori più lunghi il plugin aggiunge tre comandi:
 
 | Comando | Che cosa fa |
 | --- | --- |
-| `/italian-master:rivedi` | Rivede un file o un testo incollato e dice che cosa ha cambiato |
-| `/italian-master:voce` | Ricava la scheda di stile di un autore dai suoi testi, con le misure, e la confronta con una bozza |
-| `/italian-master:configura` | Crea o aggiorna il file di tono e pubblico, con poche domande |
+| `/italian-master:rivedi` | Rivede un file o un testo incollato e spiega che cosa ha cambiato |
+| `/italian-master:voce` | Ricava dai testi di un autore la sua scheda di stile, con le misure, e la confronta con una bozza |
+| `/italian-master:configura` | Crea o aggiorna, con poche domande, il file del tono e del pubblico |
 
-### Genere per genere
+### Quattordici generi, ognuno con le sue regole
 
-Ogni genere ha il suo riferimento, con le misure prese sui testi di quel genere. L'agente legge sempre [`SKILL.md`](skills/italian-master/SKILL.md) e apre gli altri file solo quando servono.
+Ogni genere ha un file di riferimento, con le misure prese sui testi di quel genere. L'agente legge sempre [`SKILL.md`](skills/italian-master/SKILL.md) e apre gli altri file solo quando gli servono, così il contesto resta leggero.
 
 | Che cosa scrivi | Su che cosa è misurato | Dove sta |
 | --- | --- | --- |
@@ -102,31 +157,31 @@ Ogni genere ha il suo riferimento, con le misure prese sui testi di quel genere.
 | Traduzioni verso l'italiano | elenchi di calchi, falsi amici e modi di dire | [`calchi`](skills/italian-master/references/calchi.md), [`modi-di-dire`](skills/italian-master/references/modi-di-dire.md) |
 | Revisioni e correzioni di bozze | le risposte della Crusca e di Treccani, e testi generati per il confronto | [`ai-slop`](skills/italian-master/references/ai-slop.md), [`slop-asciutto`](skills/italian-master/references/slop-asciutto.md), [`impronte`](skills/italian-master/references/impronte.md), [`grammatica`](skills/italian-master/references/grammatica.md), [`punteggiatura-tipografia`](skills/italian-master/references/punteggiatura-tipografia.md), [`sintassi-stile`](skills/italian-master/references/sintassi-stile.md) |
 | Testi con la tua voce e il tuo tono | i testi che le dai da leggere | [`imparare-una-voce`](skills/italian-master/references/imparare-una-voce.md), [`tono-e-pubblico`](skills/italian-master/references/tono-e-pubblico.md) |
-| Testi che devono convincere, e idee da trovare | studi di psicologia della lettura, della persuasione e della creatività, con lo stato delle repliche | [`mente-del-lettore`](skills/italian-master/references/mente-del-lettore.md), [`persuasione`](skills/italian-master/references/persuasione.md), [`tecniche-creative`](skills/italian-master/references/tecniche-creative.md) |
+| Testi che devono convincere, e idee da trovare | studi di psicologia della lettura, della persuasione e della creatività, con l'esito delle repliche | [`mente-del-lettore`](skills/italian-master/references/mente-del-lettore.md), [`persuasione`](skills/italian-master/references/persuasione.md), [`tecniche-creative`](skills/italian-master/references/tecniche-creative.md) |
 
-## Installarla
+## Tutti i modi per installarla
 
 ### Con npx
 
-È il modo più rapido, e non richiede di clonare la repo. Serve Node 18 o successivo.
+È il modo più rapido, perché non richiede di clonare la repo. Serve Node 18 o successivo.
 
 ```bash
 npx github:micheledalsanto/italian-master
 ```
 
-Il comando copia la skill in `~/.claude/skills/italian-master`, dove Claude Code la trova da solo, e rilanciato la aggiorna.
+Il comando copia la skill in `~/.claude/skills/italian-master`, dove Claude Code la trova da solo, e se lo rilanci la aggiorna. Le opzioni sono queste:
 
 ```bash
 npx github:micheledalsanto/italian-master --codex     # per Codex (~/.agents/skills)
 npx github:micheledalsanto/italian-master --tutti     # per Claude Code e per Codex
 npx github:micheledalsanto/italian-master --project   # solo nel progetto corrente (.claude/skills, o .agents/skills con --codex)
-npx github:micheledalsanto/italian-master rimuovi     # la toglie
+npx github:micheledalsanto/italian-master rimuovi     # la disinstalla
 npx github:micheledalsanto/italian-master --help      # tutte le opzioni
 ```
 
 ### Con skills.sh
 
-Chi usa il comando `skills` di [skills.sh](https://skills.sh), che installa le skill da GitHub per Claude Code, Codex, Cursor e altri agenti, può fare così:
+Se usi il comando `skills` di [skills.sh](https://skills.sh), che installa le skill da GitHub per Claude Code, Codex, Cursor e altri agenti, ti basta scrivere:
 
 ```bash
 npx skills add micheledalsanto/italian-master
@@ -148,14 +203,14 @@ claude plugin marketplace add micheledalsanto/italian-master
 claude plugin install italian-master@italian-master
 ```
 
-Per installarla da una copia locale della repo, senza passare da GitHub, al posto di `micheledalsanto/italian-master` si indica il percorso della cartella:
+Per installarla da una copia locale della repo, senza passare da GitHub, al posto di `micheledalsanto/italian-master` indica il percorso della cartella:
 
 ```bash
 claude plugin marketplace add ./italian-master
 claude plugin install italian-master@italian-master
 ```
 
-Per provarla in una sola sessione senza installarla: `claude --plugin-dir ./italian-master`.
+Per provarla in una sola sessione, senza installarla, c'è `claude --plugin-dir ./italian-master`.
 
 ### Claude Code, a mano
 
@@ -166,11 +221,11 @@ git clone https://github.com/micheledalsanto/italian-master.git
 cp -r italian-master/skills/italian-master ~/.claude/skills/
 ```
 
-Per usarla solo in un progetto, copiala in `.claude/skills/` dentro il progetto.
+Se ti serve solo in un progetto, copiala in `.claude/skills/` dentro quel progetto.
 
 ### Codex e altri agenti
 
-Codex cerca le skill in `.agents/skills`, nella cartella del progetto e nella home. Con npx:
+Codex cerca le skill nella cartella `.agents/skills`, sia nel progetto sia nella home. Con npx:
 
 ```bash
 npx github:micheledalsanto/italian-master --codex             # ~/.agents/skills/italian-master
@@ -184,7 +239,7 @@ git clone https://github.com/micheledalsanto/italian-master.git
 mkdir -p ~/.agents/skills && cp -r italian-master/skills/italian-master ~/.agents/skills/
 ```
 
-Riavvia Codex. La skill si attiva da sola quando chiedi un testo in italiano, e si chiama in modo esplicito con `$italian-master` oppure da `/skills`. La cartella `.agents/skills` è letta anche da altri agenti che seguono lo stesso formato, e per una cartella diversa c'è `--dir`.
+Poi riavvia Codex. La skill si attiva da sola quando chiedi un testo in italiano, e puoi richiamarla in modo esplicito con `$italian-master` oppure da `/skills`. La cartella `.agents/skills` è letta anche dagli altri agenti che seguono lo stesso formato, e se te ne serve una diversa c'è l'opzione `--dir`.
 
 ### Claude.ai e app desktop
 
@@ -193,7 +248,7 @@ Riavvia Codex. La skill si attiva da sola quando chiedi un testo in italiano, e 
 
 ## Tono e pubblico, decisi da te
 
-Per chi scrivi e con che tono lo decidi tu, una volta, in un file di configurazione. La skill lo legge prima di scrivere.
+Per chi scrivi e con quale tono lo decidi tu, una volta sola, in un file di configurazione che la skill legge prima di scrivere.
 
 ```bash
 npx github:micheledalsanto/italian-master configura            # per tutti i tuoi progetti (~/.claude/italian-master.md)
@@ -201,22 +256,22 @@ npx github:micheledalsanto/italian-master configura --project  # solo per il pro
 npx github:micheledalsanto/italian-master configura --codex    # per Codex (~/.agents/italian-master.md)
 ```
 
-Il comando crea un modello da compilare. Le voci sono queste, e quelle che lasci vuote la skill le decide dal contesto della richiesta.
+Il comando crea un modello da compilare con le voci che seguono. Quelle che lasci vuote, la skill le ricava dal contesto della richiesta.
 
 | Voce | Che cosa ci scrivi |
 | --- | --- |
-| Pubblico | Chi legge e quanto ne sa: esperti, del settore ma non tecnici, non esperti, misto, bambini (con l'età) |
+| Pubblico | Chi legge e quanto ne sa: esperti, persone del settore ma non tecniche, non esperti, pubblico misto, bambini (con l'età) |
 | Tono | Formale, cordiale, accogliente, giornalistico, tecnico o commerciale, oppure una descrizione tua |
 | Persona | Tu, lei o voi per il lettore; noi, io o la forma impersonale per chi scrive |
-| Lingua | Quanto inglese, parole da usare e da evitare |
+| Lingua | Quanto inglese ammettere, quali parole usare e quali evitare |
 | Testi di riferimento | I testi da cui la skill deve imparare la tua voce |
-| Tipi di testo | Le eccezioni: «newsletter: accogliente, tu», «comunicazioni ai clienti: formale, voi» |
+| Tipi di testo | Le eccezioni, per esempio «newsletter: accogliente, tu» oppure «comunicazioni ai clienti: formale, voi» |
 
-Quello che chiedi in una singola richiesta vale più della configurazione, e se ci sono sia il file del progetto sia quello personale vale il primo. Il file sta fuori dalla cartella della skill, quindi un aggiornamento non lo tocca. Se hai installato la skill a mano o su Claude.ai, copia il modello da [`assets/italian-master.md`](skills/italian-master/assets/italian-master.md), oppure incolla le tue scelte nelle istruzioni del progetto.
+Quello che chiedi in una singola richiesta prevale sulla configurazione, e se esistono sia il file del progetto sia quello personale vale il primo. Il file sta fuori dalla cartella della skill, per cui gli aggiornamenti non lo toccano. Se hai installato la skill a mano o su Claude.ai, copia il modello da [`assets/italian-master.md`](skills/italian-master/assets/italian-master.md), oppure incolla le tue scelte nelle istruzioni del progetto.
 
-## Controllare un testo da riga di comando
+## Il correttore da riga di comando
 
-`controlla.py` cerca in un testo le formule, gli errori e i segnali tipografici più comuni, e ne misura il passo (parole per frase, frasi brevi, periodi lunghi, virgole, due punti) confrontandolo con quello di giornali e riviste. Calcola anche l'indice di leggibilità Gulpease. Usa solo la libreria standard e richiede Python 3.8 o successivo.
+`controlla.py` cerca in un testo le formule fatte, gli errori e i segnali tipografici più comuni, e ne misura il passo (parole per frase, frasi brevi, periodi lunghi, virgole, due punti) confrontandolo con quello di giornali e riviste. Calcola anche l'indice di leggibilità Gulpease. Usa solo la libreria standard e richiede Python 3.8 o successivo.
 
 ```bash
 python skills/italian-master/scripts/controlla.py bozza.md
@@ -243,31 +298,33 @@ Tipografia (2)
 4 segnalazioni (63 ogni mille parole). Sono indizi: decide chi scrive.
 ```
 
-Opzioni: `--json` per l'uscita strutturata, `--strict` per uscire con codice 1 se ci sono segnalazioni (utile in una pipeline), `--bambini` per i testi destinati ai bambini, dove le frasi corte sono giuste e si controlla la leggibilità.
+Tra le opzioni ci sono `--json` per avere un'uscita strutturata, `--strict` per uscire con codice 1 quando ci sono segnalazioni (utile in una pipeline) e `--bambini` per i testi destinati ai bambini, nei quali le frasi corte sono giuste e conta la leggibilità.
 
-Lo stesso script misura una voce. Dati tre o più testi dello stesso autore, stampa una scheda con la persona di chi scrive e quella del lettore, il passo delle frasi e dei capoversi, la punteggiatura, i legami preferiti e quelli assenti, le parole che tornano. Con `--confronta` dice in quali misure una bozza si allontana da quella voce.
+Lo stesso script sa anche misurare la voce di un autore. Se gli dai tre o più testi della stessa persona, stampa una scheda con la persona di chi scrive e quella del lettore, il passo delle frasi e dei capoversi, la punteggiatura, i legami preferiti e quelli che non usa mai, le parole che tornano. Con `--confronta` indica in quali misure una bozza si allontana da quella voce.
 
 ```bash
 python skills/italian-master/scripts/controlla.py --voce post1.md post2.md post3.md --confronta bozza.md
 ```
 
-Lo script non riconosce i testi generati e non vede i fatti inventati. Segnala abitudini di scrittura deboli, chiunque le abbia, e un testo che non riceve segnalazioni può essere comunque mediocre.
+Lo script non riconosce i testi generati e non si accorge dei fatti inventati. Segnala le abitudini di scrittura deboli, chiunque le abbia, e anche un testo senza segnalazioni può essere mediocre.
 
 ## Fonti e limiti
 
-Dall'Accademia della Crusca e da Treccani per la norma, e dalla tradizione della scrittura chiara per lo stile (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). Le misure vengono da circa cinque milioni di parole lette e contate: articoli di otto testate italiane online, dieci siti di aziende ed enti, dodici siti di agenzie digitali, tredici newsletter, le schede prodotto di dieci negozi online, novecento inserzioni, le stringhe di otto applicazioni, articoli di riviste accademiche, racconti fantastici, lettere, saggi, fiabe, romanzi, memorie, teatro e altre opere di pubblico dominio. Le indicazioni su come legge chi legge, su come si convince e su come si trovano le idee vengono da studi di psicologia e di linguistica, scelti tra quelli che hanno retto alle repliche. L'elenco completo è in [`fonti.md`](skills/italian-master/references/fonti.md).
+Per la norma la skill segue l'Accademia della Crusca e Treccani, per lo stile la tradizione italiana della scrittura chiara (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). Le misure vengono da circa cinque milioni di parole lette e contate: articoli di otto testate italiane online, dieci siti di aziende ed enti, dodici siti di agenzie digitali, tredici newsletter, le schede prodotto di dieci negozi online, novecento inserzioni, le stringhe di otto applicazioni, articoli di riviste accademiche, racconti fantastici, lettere, saggi, fiabe, romanzi, memorie, teatro e altre opere di pubblico dominio. Le indicazioni su come legge chi legge, su come si convince e su come si trovano le idee vengono da studi di psicologia e di linguistica, scelti tra quelli che hanno retto alle repliche. L'elenco completo è in [`fonti.md`](skills/italian-master/references/fonti.md).
 
-La skill non contiene testi altrui. Giornali e siti non sono nominati e nessuna loro frase è riportata: gli esempi sono scritti apposta, con fatti inventati. Le sole citazioni testuali sono brevi passi di opere uscite prima del 1930.
+La skill non contiene testi altrui. Giornali e siti non sono nominati e nessuna loro frase è riportata, perché gli esempi sono scritti apposta, con fatti inventati. Le sole citazioni testuali sono brevi passi di opere uscite prima del 1930.
 
-- È italiano d'Italia. Non copre l'italiano della Svizzera né le varietà regionali, se non per qualche cenno.
-- La lingua cambia: quello che oggi è un calco domani sarà nei dizionari. Dove l'uso è in movimento la skill lo dice.
-- I segnali dell'AI slop cambiano con i modelli. Il catalogo va tenuto aggiornato, ed è il motivo per cui la repo è pubblica.
-- La skill lavora sui fatti che riceve. Se la richiesta ne dà pochi il testo esce corto, e nessuna regola lo riempie al posto di chi ha qualcosa da dire.
+Ci sono anche dei limiti, ed è giusto dirli.
+
+- È l'italiano d'Italia. Non copre l'italiano della Svizzera né le varietà regionali, se non con qualche cenno.
+- La lingua cambia, e quello che oggi è un calco domani potrebbe essere nei dizionari. Dove l'uso è in movimento, la skill lo segnala.
+- I segnali dell'AI slop cambiano insieme ai modelli. Il catalogo va tenuto aggiornato, ed è anche per questo che la repo è pubblica.
+- La skill lavora sui fatti che riceve. Se la richiesta ne contiene pochi, il testo esce corto, e nessuna regola può riempirlo al posto di chi ha qualcosa da dire.
 
 ## Contribuire, versioni, licenza
 
-Segnalazioni, correzioni e nuovi esempi sono benvenuti: le indicazioni sono in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+Segnalazioni, correzioni e nuovi esempi sono i benvenuti, e le indicazioni per proporli sono in [`CONTRIBUTING.md`](CONTRIBUTING.md). Se la skill ti è utile, una stella alla repo aiuta altre persone a trovarla.
 
-La versione corrente è la 1.18.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
+La versione corrente è la 1.18.1. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
 
-La licenza è la [MIT](LICENSE).
+La licenza è la [MIT](LICENSE). Italian master è ideata e curata da [Michele Dal Santo](https://www.micheledalsanto.it).

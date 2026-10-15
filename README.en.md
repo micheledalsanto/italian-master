@@ -1,17 +1,43 @@
+<div align="center">
+
+<img src=".claude-plugin/icon.png" alt="Italian master" width="120">
+
 # Italian master
 
-[![Version](https://img.shields.io/github/package-json/v/micheledalsanto/italian-master?label=version&color=2ea44f)](CHANGELOG.md)
-[![MIT license](https://img.shields.io/github/license/micheledalsanto/italian-master?label=license&color=blue)](LICENSE)
+**Your agent already writes Italian.<br>With Italian master it writes it like a professional.**
 
-Italian as professionals write it, genre by genre, using only the facts it is given. An agent skill for Claude, Codex and other Agent Skills-compatible agents.
+An agent skill for Claude, Codex and other Agent Skills-compatible agents, built on five million Italian words that were read and measured.
+
+[![Version](https://img.shields.io/github/package-json/v/micheledalsanto/italian-master?label=version&color=008C45)](CHANGELOG.md)
+[![Tests](https://img.shields.io/github/actions/workflow/status/micheledalsanto/italian-master/tests.yml?branch=main&label=tests)](https://github.com/micheledalsanto/italian-master/actions/workflows/tests.yml)
+[![MIT license](https://img.shields.io/github/license/micheledalsanto/italian-master?label=license&color=CD212A)](LICENSE)
+<br>
+[![Claude Code](https://img.shields.io/badge/Claude_Code-skill_%26_plugin-D97757?logo=claude&logoColor=white)](#claude-code-as-a-plugin)
+[![Codex](https://img.shields.io/badge/Codex-skill-000000?logo=openai&logoColor=white)](#codex-and-other-agents)
+[![Agent Skills](https://img.shields.io/badge/Agent_Skills-compatible-555555)](#every-way-to-install-it)
+[![Language](https://img.shields.io/badge/language-Italian-008C45)](#sources-and-limits)
+<br>
+[![Node](https://img.shields.io/badge/node-%E2%89%A518-339933?logo=nodedotjs&logoColor=white)](#try-it-now)
+[![Python](https://img.shields.io/badge/python-%E2%89%A53.8-3776AB?logo=python&logoColor=white)](#the-command-line-checker)
+[![Stars](https://img.shields.io/github/stars/micheledalsanto/italian-master?style=social)](https://github.com/micheledalsanto/italian-master/stargazers)
+
+[Try it now](#try-it-now) · [One email, three times](#one-email-written-three-times) · [What it can do](#ask-it-what-you-would-ask-an-editor) · [Installation](#every-way-to-install-it) · [Italiano](README.md)
+
+</div>
 
 *The skill itself, its reference files and the changelog are written in Italian. [Leggi questo README in italiano](README.md).*
 
-## One request, three answers
+## Correct, and still fake
 
-All three texts answer the same request: an email telling the clients of a professional firm that the office is closed from 11 to 24 August, that anyone with deadlines in that period should get in touch by 31 July, and that Paola answers her mobile for urgent matters.
+Ask a language model for a text in Italian and you will almost always get a page with no mistakes that no Italian would have written. It opens on a world that is «sempre più connesso», uses three adjectives where one would do, capitalises every word of the headline and borrows the em dash from English. Ask it to be more concise and it falls into the opposite flaw, answering in five-word sentences closed by a punchline, which are just as easy to spot as generated.
 
-Without the skill:
+Italian master gives the model what a good Italian editor learns over years of work: where grammar really goes wrong, how to build a sentence that does not sound translated, when to use *tu*, *lei* or *voi*, how to write a headline and which verb tense a story needs. Above all, it teaches the model to work with the facts it is given, without inventing new ones to fill the page.
+
+## One email, written three times
+
+All three texts answer the same request: an email in which a professional firm tells its clients that the office is closed from 11 to 24 August, asks anyone with deadlines in that period to get in touch by 31 July, and names Paola, on her mobile, as the contact for urgent matters.
+
+**The model on its own**
 
 > **Oggetto: Aggiornamento Importante Sulla Nostra Chiusura Estiva**
 >
@@ -19,7 +45,7 @@ Without the skill:
 >
 > speriamo che questa email ti trovi bene! In un periodo dell'anno in cui il riposo diventa fondamentale, desideriamo informarLa che il nostro team si prenderà una meritata pausa — per tornare più carico che mai. Non si tratta solo di una chiusura: è un'occasione per ricaricare le energie, rinnovarci e offrirti un servizio ancora migliore.
 
-Without the skill, after asking for something more concise:
+**The model on its own, asked to be more concise**
 
 > **Oggetto: Ad agosto chiudiamo. Ecco cosa cambia.**
 >
@@ -27,7 +53,7 @@ Without the skill, after asking for something more concise:
 >
 > Niente panico: le urgenze restano coperte. Il resto può aspettare. A settembre si riparte.
 
-With the skill:
+**The model with Italian master**
 
 > **Oggetto: Chiusura estiva dello Studio dall'11 al 24 agosto**
 >
@@ -45,46 +71,75 @@ With the skill:
 >
 > Lo Staff dello Studio
 
-The first text mixes the informal *tu* and the formal *Lei* in one sentence, a calque of English "you", and contains none of the facts in the request. The second gives the dates, but in the voice of a slogan, and does not tell clients what they have to do. The third is what an Italian firm actually sends: formal register, dates, the deadline, a contact for urgent matters.
+The first text switches from the informal *tu* to the formal *Lei* in the same sentence, a calque of English "you", and contains none of the facts in the request. The second gives the dates, but in the voice of a slogan, and does not tell clients what they have to do. The third is what an Italian firm actually sends its clients, with the formal register, the dates, the deadline and a contact for urgent matters.
 
-## Why it happens
+## Try it now
 
-Ask a model for a text in Italian and you usually get a page with no mistakes that no Italian would write. It opens with «In un mondo sempre più», uses three adjectives where one would do, capitalises every word of the headline and keeps the English em dash. Ask it to be more concise and it switches to five-word sentences with a punchline at the end, which is just as easy to spot.
+If you have Node 18 or later, one command is enough, with no need to clone the repository:
 
-This skill gives the model what a good Italian editor knows: where grammar really goes wrong, how to build a sentence that does not sound translated, when to use *tu*, *lei* or *voi*, how to write a headline, which verb tense a story needs. It also tells the model to add nothing to the facts it is given, so a text with little data comes out shorter and says what is missing. The guidance comes from real texts that were read and counted: newspapers, company and agency websites, essays, letters, novels.
+```bash
+npx github:micheledalsanto/italian-master
+```
 
-## How it works
+The skill is copied to `~/.claude/skills/italian-master`, where Claude Code picks it up automatically. Add `--codex` for Codex, and run the same command again whenever a new version comes out. If you prefer the Claude Code plugin, type this inside a session:
 
-- **Measurements taken on Italian texts.** How long a sentence is in a newspaper, how many colons an article has, which tenses a novel uses, how a newsletter opens: the guidance comes from about five million counted words, and each reference file says which texts it is based on.
-- **Rules by genre.** An email to a client, a website home page, an app's error message, an article and a short story need different things. A contrast or a triad that is a flaw in an article is normal in a tagline, and the skill says so case by case, with a list of false alarms.
-- **Only the facts provided.** No numbers, names, quotes or plausible circumstances added for colour. If there is little data, the text comes out shorter.
-- **Two flaws, not one.** Besides inflated slop there is the clipped kind, made of short sentences and one-liners, which appears when a model tries to avoid the first.
+```
+/plugin marketplace add micheledalsanto/italian-master
+/plugin install italian-master@italian-master
+```
+
+The other routes, from skills.sh to Claude.ai, are described below in [Every way to install it](#every-way-to-install-it).
+
+## Measured on real texts
+
+The skill's guidance does not come from impressions. It was drawn from Italian texts that were read and counted one by one, and each reference file says which.
+
+| How many | What |
+| ---: | --- |
+| **5 million** | Italian words read and measured, roughly |
+| **15,000** | interface strings from eight applications |
+| **1,138** | product pages from ten online shops |
+| **904** | paid ads by 732 advertisers |
+| **136** | issues of thirteen newsletters |
+| **86** | articles from eight online publications |
+| **45** | articles from nine academic journals |
+| **14** | text genres, each with its own rules |
+
+How long the average sentence is in a newspaper, how many colons an article has, which tenses a novel uses, how a newsletter opens: these are measurements, and the skill uses them the way an editor uses their ear.
+
+## What sets it apart
+
+- **Different rules for each genre.** An email to a client, a website home page, an app's error message, an article and a short story need different things. A contrast or a triad, which are flaws in an article, work perfectly well in a tagline, and the skill knows it: it decides case by case and knows the false alarms.
+- **No invented facts.** Numbers, names, quotes and plausible details are never added for colour. If there is little data, the text comes out shorter and the skill lists what is missing at the end.
+- **Two flaws to avoid.** Besides inflated slop, made of emphasis and adjectives, there is the clipped kind, made of short sentences and one-liners, which appears precisely when a model tries to avoid the first. The skill recognises both.
 - **The register of whoever signs.** A firm, a company or an institution writes formally and in full, and the skill does not mistake informality for naturalness.
+- **Your voice.** Give it your own texts to read and it builds a measured style sheet from them, so that it can write the next ones the way you would.
 
-## What you can ask for
+## Ask it what you would ask an editor
 
 There is nothing to invoke: the skill triggers on any request whose output is Italian text, including requests written in English. A few examples:
 
 - "Rewrite this About page in Italian, it sounds fake."
 - "Give me ten Italian headlines for this article, no clickbait."
 - "Write a payment reminder to architetto Ferraris, we use the formal *lei*."
+- "Find a launch tagline for this product, with a pun on its name."
 - "Translate this post into Italian, it must not read like a translation."
 - «Correggi solo gli errori, non toccare lo stile.»
 - «Leggi questi tre numeri della mia newsletter e scrivi il prossimo con la stessa voce.»
 
-In Claude Code you can also call it explicitly: `/italian-master:italian-master` if installed as a plugin, `/italian-master` if copied by hand.
+In Claude Code you can also call it explicitly, with `/italian-master:italian-master` if installed as a plugin and with `/italian-master` if copied by hand. In Codex it is called with `$italian-master`.
 
-The plugin ships three commands for the longer jobs:
+For the longer jobs the plugin adds three commands:
 
 | Command | What it does |
 | --- | --- |
-| `/italian-master:rivedi` | Revises a file or a pasted text and says what it changed |
+| `/italian-master:rivedi` | Revises a file or a pasted text and explains what it changed |
 | `/italian-master:voce` | Builds an author's style sheet from their texts, with measurements, and compares a draft against it |
 | `/italian-master:configura` | Creates or updates the tone and audience file, asking a few questions |
 
-### Genre by genre
+### Fourteen genres, each with its own rules
 
-Each genre has its own reference file, with measurements taken on texts of that genre. The agent always reads [`SKILL.md`](skills/italian-master/SKILL.md) and opens the other files only when they are needed.
+Each genre has its own reference file, with measurements taken on texts of that genre. The agent always reads [`SKILL.md`](skills/italian-master/SKILL.md) and opens the other files only when it needs them, so the context stays light.
 
 | What you write | What it was measured on | Where it lives |
 | --- | --- | --- |
@@ -101,19 +156,19 @@ Each genre has its own reference file, with measurements taken on texts of that 
 | Translations into Italian | lists of calques, false friends and idioms | [`calchi`](skills/italian-master/references/calchi.md), [`modi-di-dire`](skills/italian-master/references/modi-di-dire.md) |
 | Revisions and proofreading | the Crusca and Treccani answers, and generated texts for comparison | [`ai-slop`](skills/italian-master/references/ai-slop.md), [`slop-asciutto`](skills/italian-master/references/slop-asciutto.md), [`impronte`](skills/italian-master/references/impronte.md), [`grammatica`](skills/italian-master/references/grammatica.md), [`punteggiatura-tipografia`](skills/italian-master/references/punteggiatura-tipografia.md), [`sintassi-stile`](skills/italian-master/references/sintassi-stile.md) |
 | Texts in your own voice and tone | the texts you give it to read | [`imparare-una-voce`](skills/italian-master/references/imparare-una-voce.md), [`tono-e-pubblico`](skills/italian-master/references/tono-e-pubblico.md) |
-| Texts that must persuade, and ideas to find | studies on the psychology of reading, persuasion and creativity, with the state of their replications | [`mente-del-lettore`](skills/italian-master/references/mente-del-lettore.md), [`persuasione`](skills/italian-master/references/persuasione.md), [`tecniche-creative`](skills/italian-master/references/tecniche-creative.md) |
+| Texts that must persuade, and ideas to find | studies on the psychology of reading, persuasion and creativity, with the outcome of their replications | [`mente-del-lettore`](skills/italian-master/references/mente-del-lettore.md), [`persuasione`](skills/italian-master/references/persuasione.md), [`tecniche-creative`](skills/italian-master/references/tecniche-creative.md) |
 
-## Installing it
+## Every way to install it
 
 ### With npx
 
-The quickest way, with no need to clone the repository. Requires Node 18 or later.
+The quickest way, since there is no need to clone the repository. Requires Node 18 or later.
 
 ```bash
 npx github:micheledalsanto/italian-master
 ```
 
-The command copies the skill to `~/.claude/skills/italian-master`, where Claude Code picks it up automatically. Run it again to update.
+The command copies the skill to `~/.claude/skills/italian-master`, where Claude Code picks it up automatically, and running it again updates it. These are the options:
 
 ```bash
 npx github:micheledalsanto/italian-master --codex     # for Codex (~/.agents/skills)
@@ -147,7 +202,7 @@ claude plugin marketplace add micheledalsanto/italian-master
 claude plugin install italian-master@italian-master
 ```
 
-To install from a local copy of the repository, pass the folder path instead of `micheledalsanto/italian-master`. To try it for a single session without installing: `claude --plugin-dir ./italian-master`.
+To install from a local copy of the repository, pass the folder path instead of `micheledalsanto/italian-master`. To try it for a single session without installing it, use `claude --plugin-dir ./italian-master`.
 
 ### Claude Code, by hand
 
@@ -156,11 +211,11 @@ git clone https://github.com/micheledalsanto/italian-master.git
 cp -r italian-master/skills/italian-master ~/.claude/skills/
 ```
 
-For a single project, copy it to `.claude/skills/` inside the project.
+For a single project, copy it to `.claude/skills/` inside that project.
 
 ### Codex and other agents
 
-Codex looks for skills in `.agents/skills`, in the project folder and in the home directory.
+Codex looks for skills in the `.agents/skills` folder, both in the project and in the home directory. With npx:
 
 ```bash
 npx github:micheledalsanto/italian-master --codex             # ~/.agents/skills/italian-master
@@ -174,7 +229,7 @@ git clone https://github.com/micheledalsanto/italian-master.git
 mkdir -p ~/.agents/skills && cp -r italian-master/skills/italian-master ~/.agents/skills/
 ```
 
-Restart Codex. The skill can be called explicitly with `$italian-master` or from `/skills`. Other agents that follow the same format read `.agents/skills` too, and `--dir` installs to any other folder.
+Then restart Codex. The skill triggers on its own when you ask for Italian text, and you can call it explicitly with `$italian-master` or from `/skills`. Other agents that follow the same format read `.agents/skills` too, and `--dir` installs to any other folder.
 
 ### Claude.ai and the desktop app
 
@@ -191,20 +246,20 @@ npx github:micheledalsanto/italian-master configura --project  # current project
 npx github:micheledalsanto/italian-master configura --codex    # for Codex (~/.agents/italian-master.md)
 ```
 
-The command creates a template to fill in. The template is in Italian, and whatever you leave empty the skill works out from the request.
+The command creates a template to fill in, in Italian, with the entries below. Whatever you leave empty, the skill works out from the request.
 
 | Entry | What goes in it |
 | --- | --- |
-| Pubblico (audience) | Who reads and how much they know: experts, people in the field but not technical, non-experts, mixed, children (with their age) |
+| Pubblico (audience) | Who reads and how much they know: experts, people in the field but not technical, non-experts, a mixed audience, children (with their age) |
 | Tono (tone) | Formal, cordial, welcoming, journalistic, technical or commercial, or your own description |
 | Persona (person) | *Tu*, *lei* or *voi* for the reader; *noi*, *io* or the impersonal form for the writer |
-| Lingua (language) | How much English, words to use and to avoid |
+| Lingua (language) | How much English to allow, which words to use and which to avoid |
 | Testi di riferimento (reference texts) | The texts the skill should learn your voice from |
-| Tipi di testo (text types) | Exceptions: «newsletter: accogliente, tu», «comunicazioni ai clienti: formale, voi» |
+| Tipi di testo (text types) | Exceptions, for example «newsletter: accogliente, tu» or «comunicazioni ai clienti: formale, voi» |
 
-What you ask for in a single request overrides the configuration, and a project file overrides the personal one. The file lives outside the skill folder, so updates do not touch it. If you installed the skill by hand or on Claude.ai, copy the template from [`assets/italian-master.md`](skills/italian-master/assets/italian-master.md).
+What you ask for in a single request overrides the configuration, and a project file overrides the personal one. The file lives outside the skill folder, so updates do not touch it. If you installed the skill by hand or on Claude.ai, copy the template from [`assets/italian-master.md`](skills/italian-master/assets/italian-master.md), or paste your choices into the project instructions.
 
-## Checking a text from the command line
+## The command-line checker
 
 `controlla.py` looks for the most common stock phrases, errors and typographic tells in a text, and measures its pace (words per sentence, short sentences, long periods, commas, colons) against Italian newspapers and magazines. It also computes the Gulpease readability index. It uses only the standard library and needs Python 3.8 or later. Its output is in Italian.
 
@@ -212,31 +267,33 @@ What you ask for in a single request overrides the configuration, and a project 
 python skills/italian-master/scripts/controlla.py bozza.md
 ```
 
-Options: `--json` for structured output, `--strict` to exit with code 1 when there are findings (useful in a pipeline), `--bambini` for texts written for children.
+The options include `--json` for structured output, `--strict` to exit with code 1 when there are findings (useful in a pipeline) and `--bambini` for texts written for children, where short sentences are right and readability is what counts.
 
-The same script measures a voice. Given three or more texts by the same author, it prints a sheet with the writer's and the reader's grammatical person, the pace of sentences and paragraphs, punctuation, the connectives the author prefers and the ones they never use, and recurring words. With `--confronta` it says where a draft departs from that voice.
+The same script can also measure an author's voice. Given three or more texts by the same person, it prints a sheet with the writer's and the reader's grammatical person, the pace of sentences and paragraphs, punctuation, the connectives the author prefers and the ones they never use, and recurring words. With `--confronta` it shows where a draft departs from that voice.
 
 ```bash
 python skills/italian-master/scripts/controlla.py --voce post1.md post2.md post3.md --confronta bozza.md
 ```
 
-The script does not detect generated text and does not see invented facts. It flags weak writing habits, whoever has them, and a text with no findings can still be mediocre.
+The script does not detect generated text and does not notice invented facts. It flags weak writing habits, whoever has them, and even a text with no findings can be mediocre.
 
 ## Sources and limits
 
-From the Accademia della Crusca and Treccani for the norm, and from the Italian tradition of clear writing for style (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). The measurements come from about five million words that were read and counted: articles from eight Italian online publications, ten company and institution websites, twelve digital agency websites, thirteen newsletters, the product pages of ten online shops, nine hundred ads, the strings of eight applications, academic journal articles, fantastic fiction, letters, essays, fairy tales, novels, memoirs, plays and other public-domain works. The guidance on how readers read, how to persuade and how to find ideas comes from studies in psychology and linguistics, chosen among those that held up when replicated. The full list is in [`fonti.md`](skills/italian-master/references/fonti.md).
+For the norm the skill follows the Accademia della Crusca and Treccani, and for style the Italian tradition of clear writing (Calvino, Eco, Serianni, Sabatini, Castellani Pollidori, Carrada). The measurements come from about five million words that were read and counted: articles from eight Italian online publications, ten company and institution websites, twelve digital agency websites, thirteen newsletters, the product pages of ten online shops, nine hundred ads, the strings of eight applications, academic journal articles, fantastic fiction, letters, essays, fairy tales, novels, memoirs, plays and other public-domain works. The guidance on how readers read, how to persuade and how to find ideas comes from studies in psychology and linguistics, chosen among those that held up when replicated. The full list is in [`fonti.md`](skills/italian-master/references/fonti.md).
 
-The skill contains no third-party text. Newspapers and websites are not named and none of their sentences is reproduced: the examples were written for the skill, with invented facts. The only verbatim quotations are short passages from works published before 1930.
+The skill contains no third-party text. Newspapers and websites are not named and none of their sentences is reproduced, because the examples were written for the skill, with invented facts. The only verbatim quotations are short passages from works published before 1930.
+
+It has limits too, and they are worth stating.
 
 - It is the Italian of Italy. It does not cover Swiss Italian or regional varieties, except in passing.
-- Language changes: today's calque will be in tomorrow's dictionaries. Where usage is shifting, the skill says so.
-- The tells of AI slop change with the models. The catalogue has to be kept up to date, which is why the repository is public.
+- Language changes, and today's calque may be in tomorrow's dictionaries. Where usage is shifting, the skill says so.
+- The tells of AI slop change along with the models. The catalogue has to be kept up to date, which is one reason the repository is public.
 - The skill works with the facts it is given. If the request has few, the text comes out short, and no rule can fill it in for someone who has nothing to say.
 
 ## Contributing, versions, license
 
-Reports, corrections and new examples are welcome: the guidelines are in [`CONTRIBUTING.md`](CONTRIBUTING.md) (in Italian).
+Reports, corrections and new examples are welcome, and the guidelines are in [`CONTRIBUTING.md`](CONTRIBUTING.md) (in Italian). If the skill is useful to you, a star on the repository helps other people find it.
 
-The current version is 1.18.0. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
+The current version is 1.18.1. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
 
-The license is [MIT](LICENSE).
+The license is [MIT](LICENSE). Italian master is created and maintained by [Michele Dal Santo](https://www.micheledalsanto.it).
