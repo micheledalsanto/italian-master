@@ -6,7 +6,7 @@ Le regole sono state ricavate da testi letti e contati e dalla tradizione degli 
 
 ## I testi letti e misurati
 
-Le misure e i passi commentati in `periodo.md`, `connettivi.md`, `impronte.md`, `attacchi-e-chiusure.md` e `modelli.md` vengono da testi scaricati e contati, e letti in ampi estratti, non da ricordi.
+Le misure e i passi commentati nei file di riferimento vengono da testi scaricati e contati, e letti in ampi estratti, non da ricordi. Ogni file dice su quali testi si fonda.
 
 - **Opere d'autore, da Wikisource** (it.wikisource.org). Sono tutte di pubblico dominio in Italia. Quelle di Pavese non lo sono ancora in tutti i paesi, e per questo sono state usate solo per le misure:
   - Cesare Pavese, *La luna e i falò* (1950), *Paesi tuoi* (1941), *La bella estate* (1949), *Il mestiere di vivere* (anni 1938 e 1946)
@@ -49,6 +49,8 @@ Le misure e i passi commentati in `periodo.md`, `connettivi.md`, `impronte.md`, 
 - **Le stringhe di otto applicazioni a codice aperto**, scaricate a ottobre 2026 dai file di lingua italiani: tre nate in italiano, di servizi pubblici digitali, e cinque tradotte dall'inglese (un browser, un programma di messaggistica, un social network, un servizio di archiviazione, un sistema per costruire siti). Circa quindicimila stringhe e centomila parole, descritte in `microcopy.md` senza nomi e senza citazioni.
 - **Tredici newsletter italiane**, d'autore e di redazione, lette a ottobre 2026 dagli archivi pubblici: 136 numeri e circa trecentomila parole, descritti in `newsletter.md` senza nomi e senza citazioni.
 - **Tredici canali pubblici di messaggistica** di enti, aziende e testate (circa 240 post) e la bacheca pubblica di quattro comunità italiane di un social network federato (circa 520 post), letti a ottobre 2026 per le note sui social di `registri.md`. Non è stato possibile leggere in serie i post di LinkedIn e di Instagram, che richiedono l'accesso.
+- **Testi per i bambini**: tre lezioni scritte per un bambino di otto anni e corrette da un lettore madrelingua, e una decina di articoli di una rivista di scienza per ragazzi, letti a ottobre 2026. Sono descritti in `scrivere-per-bambini.md`, senza nomi. È un campione piccolo, e il file lo dice.
+- **Le correzioni di un lettore madrelingua** ai testi scritti con la skill (presentazioni, pagine di servizio, mail ai clienti, schede prodotto, annunci), raccolte a ottobre 2026, anche in confronti alla cieca con i testi del modello senza skill. Sono la fonte di molte indicazioni di `descrivere-e-raccontare.md` e del registro formale di `corrispondenza-formale.md`.
 - **Testi generati**, per il confronto: gli articoli e le lezioni di un sito di divulgazione scritti con un modello, come ha confermato chi lo cura (circa 14.600 parole), e un testo scritto con la prima versione di questa skill (circa 2.000).
 
 In tutto sono più di cinque milioni di parole, di cui 129.000 di giornalismo contemporaneo. Le misure sono fatte con conteggi semplici ed espressioni regolari, tranne quelle sui tempi verbali, e il campione di testi generati è piccolo e viene da due sole fonti. Bastano a vedere la differenza tra la prosa italiana e quella generata, non a stabilire una norma. Chi vuole allargare il campione trova molti testi liberi su Wikisource e su Liber Liber (liberliber.it).
@@ -77,6 +79,7 @@ A ottobre 2026 `grammatica.md` e `punteggiatura-tipografia.md` sono stati rilett
 - **Ornella Castellani Pollidori, *La lingua di plastica*** (1995). Le formule prefabbricate, i «plastismi».
 - **Giuseppe Antonelli, *Comunque anche Leopardi diceva le parolacce*** (2014) e *Volgare eloquenza* (2017). Sull'italiano di oggi senza nostalgie.
 - **Beppe Severgnini, *L'italiano. Lezioni semiserie*** (2007). Divulgativo, pratico.
+- **Pietro Lucisano e Maria Emanuela Piemontese, «Gulpease: una formula per la predizione della difficoltà dei testi in lingua italiana»**, *Scuola e città*, 1988. L'indice di leggibilità costruito per l'italiano, usato in `scrivere-per-bambini.md` e calcolato da `controlla.py`.
 
 ## Grammatica e norma
 
@@ -85,15 +88,13 @@ A ottobre 2026 `grammatica.md` e `punteggiatura-tipografia.md` sono stati rilett
 - **Francesco Sabatini, «L'italiano dell'uso medio»** (1985). Il saggio che ha descritto l'italiano neostandard, quello che si scrive davvero.
 - **Gaetano Berruto, *Sociolinguistica dell'italiano contemporaneo*** (1987). Le varietà e i registri.
 - **Bice Mortara Garavelli, *Prontuario di punteggiatura*** (2003). Il manuale sulla punteggiatura italiana.
-- **Roberto Lesina, *Il nuovo manuale di stile*** (1994). Norme redazionali: virgolette, maiuscole, numeri, abbreviazioni.
+- **Roberto Lesina, *Il nuovo manuale di stile*** (1994). Norme redazionali: virgolette, maiuscole, numeri, abbreviazioni, citazioni e bibliografie.
 - **Cecilia Robustelli, *Linee guida per l'uso del genere nel linguaggio amministrativo*** (2012), con la Crusca. Sui femminili professionali.
 
 ## Scrittura professionale e pubblica
 
-- Roberto Lesina, *Il nuovo manuale di stile*, Zanichelli: norme redazionali, citazioni, bibliografie.
-- Umberto Eco, *Come si fa una tesi di laurea*, Bompiani.
-- Google Search Central, *Guida introduttiva all'ottimizzazione per i motori di ricerca* e *Creare contenuti utili, affidabili e pensati per le persone* (developers.google.com/search).
-
+- **Umberto Eco, *Come si fa una tesi di laurea*** (1977). La struttura di una tesi, le citazioni, le note. Per `scrittura-accademica.md`.
+- **Google Search Central, *Guida introduttiva all'ottimizzazione per i motori di ricerca*** e *Creare contenuti utili, affidabili e pensati per le persone* (developers.google.com/search). Per `testi-per-la-ricerca.md`.
 - **Luisa Carrada, *Il mestiere di scrivere*** (2008), *Lavoro, dunque scrivo!* (2012), *Guida di stile* (2017), e il blog mestierediscrivere.com. Il riferimento italiano per la scrittura di lavoro e per il web.
 - **Annamaria Testa, *Farsi capire*** (2000) e *La parola immaginata* (1988). Comunicazione e scrittura pubblicitaria. Il blog Nuovo e utile.
 - **Michele Cortelazzo e Federica Pellegrino, *Guida alla scrittura istituzionale*** (2003). Riscrivere il burocratese.
@@ -159,7 +160,7 @@ Gli studi su cui si fondano `mente-del-lettore.md`, `persuasione.md` e `tecniche
 - **Michael Diehl e Wolfgang Stroebe, «Productivity loss in brainstorming groups: toward the solution of a riddle»**, *Journal of Personality and Social Psychology*, 1987.
 - **Catrinel Haught-Tromp, «The Green Eggs and Ham hypothesis: how constraints facilitate creativity»**, *Psychology of Aesthetics, Creativity, and the Arts*, 2017.
 - **Annamaria Testa, *La trama lucente*** (2010). Che cos'è la creatività e come funziona, a partire dalla definizione di Poincaré: combinare elementi esistenti in modi nuovi e utili.
-- **Gianni Rodari, *Grammatica della fantasia*** (1973), già citato sotto, per il binomio fantastico, l'ipotesi fantastica, il prefisso arbitrario e l'errore creativo.
+- **Gianni Rodari, *Grammatica della fantasia*** (1973), già citato sopra, per il binomio fantastico, l'ipotesi fantastica, il prefisso arbitrario e l'errore creativo.
 - **Bice Mortara Garavelli, *Manuale di retorica*** (1988) e *Il parlar figurato* (2010). Le figure retoriche.
 
 ## Sulla scrittura generata

@@ -2,6 +2,13 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.18.6] - 2026-10-15
+
+### Modificato
+
+- **`fonti.md` aggiornato.** Tra i testi misurati entrano le lezioni e gli articoli su cui si fonda `scrivere-per-bambini.md` e le correzioni di un lettore madrelingua da cui vengono molte indicazioni di `descrivere-e-raccontare.md` e di `corrispondenza-formale.md`. Si aggiunge l'articolo di Lucisano e Piemontese sull'indice Gulpease. L'introduzione non elenca più solo cinque file, la sezione sulla scrittura professionale non ripete il manuale di Lesina e ha le voci nello stesso formato delle altre, e la *Grammatica della fantasia* è «già citata sopra», non «sotto».
+- Il README, in italiano e in inglese, riporta le stesse fonti nuove nella tabella dei generi e in «Fonti e limiti».
+
 ## [1.18.5] - 2026-10-15
 
 ### Modificato
