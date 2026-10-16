@@ -109,7 +109,7 @@ Quanto è lunga in media una frase di quotidiano, quanti due punti ci sono in un
 
 ## Messa alla prova contro Claude da solo
 
-<img src=".github/benchmark.svg" alt="Grafico: con la skill il testo è giudicato migliore nell'83% dei confronti con la versione 1.10.0, nel 79% con la 1.13.0, nel 75% con la 1.15.0 e nel 92% con la 1.18.6" width="100%">
+<img src=".github/benchmark.svg" alt="Grafico: con la skill il testo è giudicato migliore nell'83% dei confronti con la versione 1.10.0, nel 79% con la 1.13.0, nel 75% con la 1.15.0, nel 92% con la 1.18.6 e nel 90% con la 1.20.0" width="100%">
 
 Ogni versione della skill viene messa alla prova su dodici richieste fisse, sempre le stesse: una landing da riscrivere, un sollecito di pagamento, una traduzione, un articolo da scrivere a partire da appunti, una spiegazione per una bambina, l'attacco di un racconto, una guida a un servizio pubblico, i testi di un'interfaccia, una pagina «Chi siamo», una scheda prodotto, una scena e un claim. Ogni richiesta viene eseguita due volte con la skill e due volte senza. Ogni coppia di testi passa poi a una sessione separata di Claude, che non sa quale dei due sia stato scritto con la skill e sceglie il migliore.
 
@@ -119,13 +119,14 @@ Ogni versione della skill viene messa alla prova su dodici richieste fisse, semp
 | 1.13.0 | 19 su 24 | 22 su 24 | 1,8 |
 | 1.15.0 | 18 su 24 | 22 su 24 | 0,8 |
 | 1.18.6 | 22 su 24 | 17 su 24 | 1,6 |
+| 1.20.0 | 21 su 24, 1 pari | 22 su 24 | 1,8 |
 | Claude senza skill | | | 1,7 |
 
 I numeri dicono alcune cose con sicurezza e altre no.
 
 - **In tutte le versioni misurate il testo scritto con la skill è giudicato migliore in almeno tre confronti su quattro.** Le differenze tra una versione e l'altra, invece, sono troppo piccole per concludere che una versione scriva meglio della precedente. Messo davanti a due testi equivalenti, entrambi di Claude senza skill, il giudice ha dato il 39% anziché il 50%, e la fascia grigia del grafico mostra proprio questo margine.
 - **Il vantaggio non sta nelle formule.** Il correttore ne trova poche anche nei testi di Claude senza skill. I giudizi premiano la skill soprattutto perché non inventa fatti, mantiene il registro richiesto e scrive in modo concreto.
-- **La skill non si attiva sempre da sola.** Con la versione 1.18.6 si è attivata in 17 sessioni su 24; nelle altre Claude ha scritto senza, e il confronto le ha contate ugualmente.
+- **La skill non si attiva sempre da sola.** Con la versione 1.18.6 si è attivata in 17 sessioni su 24; nelle altre Claude ha scritto senza, e il confronto le ha contate ugualmente. Nella 1.20.0 la descrizione della skill nomina anche narrativa, testi per bambini, claim e pagine «Chi siamo», e le attivazioni sono salite a 22 su 24.
 - **Il giudice è un modello linguistico, e i casi sono stati scritti insieme alla skill.** I numeri indicano la direzione del lavoro, ma non sono una misura indipendente della qualità. Le prime versioni (1.0 e 1.5) non compaiono perché le versioni attuali di Claude Code non riescono a caricarle.
 
 Lo script è [`evals/benchmark.py`](evals/benchmark.py), e chiunque può rieseguirlo: le istruzioni sono in [`CONTRIBUTING.md`](CONTRIBUTING.md).
@@ -337,17 +338,17 @@ Per la norma la skill segue l'Accademia della Crusca e Treccani, per lo stile la
 
 La skill non contiene testi altrui. Giornali e siti non sono nominati e nessuna loro frase è riportata, perché gli esempi sono scritti apposta, con fatti inventati. Le sole citazioni testuali sono brevi passi di opere uscite prima del 1930.
 
-Ci sono anche dei limiti, ed è giusto dirli.
+La skill ha anche alcuni limiti, che conviene conoscere prima di usarla.
 
-- È l'italiano d'Italia. Non copre l'italiano della Svizzera né le varietà regionali, se non con qualche cenno.
-- La lingua cambia, e quello che oggi è un calco domani potrebbe essere nei dizionari. Dove l'uso è in movimento, la skill lo segnala.
-- I segnali dell'AI slop cambiano insieme ai modelli. Il catalogo va tenuto aggiornato, ed è anche per questo che la repo è pubblica.
-- La skill lavora sui fatti che riceve. Se la richiesta ne contiene pochi, il testo esce corto, e nessuna regola può riempirlo al posto di chi ha qualcosa da dire.
+- **Riguarda l'italiano d'Italia.** L'italiano della Svizzera e le varietà regionali compaiono soltanto in qualche indicazione puntuale.
+- **Segue una lingua che cambia.** Un calco che oggi conviene evitare potrebbe entrare domani nei dizionari. Dove l'uso non è ancora stabile, la skill lo segnala anziché correggere.
+- **Insegue un bersaglio mobile.** I segnali dei testi generati cambiano insieme ai modelli, e il catalogo delle formule va aggiornato con regolarità. È uno dei motivi per cui la repo è pubblica e accoglie volentieri le segnalazioni.
+- **Lavora sui fatti che riceve.** La skill non aggiunge dati per allungare un testo: se la richiesta ne contiene pochi, il testo resta breve, e in fondo è indicato quali informazioni servirebbero per completarlo.
 
 ## Contribuire, versioni, licenza
 
 Segnalazioni, correzioni e nuovi esempi sono i benvenuti, e le indicazioni per proporli sono in [`CONTRIBUTING.md`](CONTRIBUTING.md). Se la skill ti è utile, una stella alla repo aiuta altre persone a trovarla.
 
-La versione corrente è la 1.19.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
+La versione corrente è la 1.20.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
 
 La licenza è la [MIT](LICENSE). Italian master è ideata e curata da [Michele Dal Santo](https://www.micheledalsanto.it).

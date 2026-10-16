@@ -2,6 +2,13 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.20.0] - 2026-10-16
+
+### Modificato
+
+- **La descrizione della skill nomina i generi in cui non si attivava.** Nel benchmark la 1.18.6 si attivava in 17 sessioni su 24 e non scattava mai sulla spiegazione per una bambina né sulla scena realistica. La descrizione ora elenca anche pagine «Chi siamo», claim, slogan e nomi, racconti, scene e altra narrativa, testi e spiegazioni per bambini, ed è più corta (879 caratteri anziché 939). Nella 1.20.0 le attivazioni salgono a 22 su 24, e il testo con la skill è giudicato migliore in 21 confronti su 24, con un pari.
+- Il README, in italiano e in inglese, aggiunge la 1.20.0 al grafico e alla tabella del benchmark, e riscrive i limiti della skill in «Fonti e limiti».
+
 ## [1.19.0] - 2026-10-16
 
 ### Aggiunto

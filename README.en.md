@@ -109,7 +109,7 @@ How long the average sentence is in a newspaper, how many colons an article has,
 
 ## Tested against Claude on its own
 
-<img src=".github/benchmark.en.svg" alt="Chart: with the skill the text is judged better in 83% of comparisons with version 1.10.0, 79% with 1.13.0, 75% with 1.15.0 and 92% with 1.18.6" width="100%">
+<img src=".github/benchmark.en.svg" alt="Chart: with the skill the text is judged better in 83% of comparisons with version 1.10.0, 79% with 1.13.0, 75% with 1.15.0, 92% with 1.18.6 and 90% with 1.20.0" width="100%">
 
 Every version of the skill is tested on twelve fixed requests, always the same ones: a landing page to rewrite, a payment reminder, a translation, an article written from notes, an explanation for a young girl, the opening of a story, a guide to a public service, interface copy, an "about us" page, a product page, a scene and a tagline. Each request runs twice with the skill and twice without. Each pair of texts then goes to a separate Claude session, which does not know which one used the skill, and picks the better one.
 
@@ -119,13 +119,14 @@ Every version of the skill is tested on twelve fixed requests, always the same o
 | 1.13.0 | 19 of 24 | 22 of 24 | 1.8 |
 | 1.15.0 | 18 of 24 | 22 of 24 | 0.8 |
 | 1.18.6 | 22 of 24 | 17 of 24 | 1.6 |
+| 1.20.0 | 21 of 24, 1 tie | 22 of 24 | 1.8 |
 | Claude without the skill | | | 1.7 |
 
 The numbers support some conclusions and not others.
 
 - **In every version measured, the text written with the skill is judged better in at least three comparisons out of four.** The differences between versions, however, are too small to say that one version writes better than the previous one. Shown two equivalent texts, both by Claude without the skill, the judge gave 39% instead of 50%, and the grey band in the chart shows exactly that margin.
 - **The advantage is not in the formulas.** The checker finds few of them even in Claude's texts without the skill. The judgments favour the skill mainly because it does not invent facts, keeps the requested register and writes concretely.
-- **The skill does not always trigger on its own.** With version 1.18.6 it triggered in 17 sessions out of 24; in the others Claude wrote without it, and the comparison still counted them.
+- **The skill does not always trigger on its own.** With version 1.18.6 it triggered in 17 sessions out of 24; in the others Claude wrote without it, and the comparison still counted them. In 1.20.0 the skill's description also names fiction, writing for children, taglines and "about us" pages, and triggers rose to 22 out of 24.
 - **The judge is a language model, and the cases were written alongside the skill.** The numbers show the direction of the work, but they are not an independent measure of quality. The first versions (1.0 and 1.5) are missing because current versions of Claude Code cannot load them.
 
 The script is [`evals/benchmark.py`](evals/benchmark.py), and anyone can rerun it: instructions are in [`CONTRIBUTING.md`](CONTRIBUTING.md) (in Italian).
@@ -306,17 +307,17 @@ For the norm the skill follows the Accademia della Crusca and Treccani, and for 
 
 The skill contains no third-party text. Newspapers and websites are not named and none of their sentences is reproduced, because the examples were written for the skill, with invented facts. The only verbatim quotations are short passages from works published before 1930.
 
-It has limits too, and they are worth stating.
+The skill also has a few limits, which are worth knowing before using it.
 
-- It is the Italian of Italy. It does not cover Swiss Italian or regional varieties, except in passing.
-- Language changes, and today's calque may be in tomorrow's dictionaries. Where usage is shifting, the skill says so.
-- The tells of AI slop change along with the models. The catalogue has to be kept up to date, which is one reason the repository is public.
-- The skill works with the facts it is given. If the request has few, the text comes out short, and no rule can fill it in for someone who has nothing to say.
+- **It covers the Italian of Italy.** Swiss Italian and regional varieties appear only in a few specific notes.
+- **It follows a language that changes.** A calque best avoided today may enter the dictionaries tomorrow. Where usage is not yet settled, the skill points it out instead of correcting it.
+- **It chases a moving target.** The tells of generated text change along with the models, and the catalogue of formulas needs regular updates. That is one reason the repository is public and welcomes reports.
+- **It works with the facts it is given.** The skill does not add data to lengthen a text: if the request contains few facts, the text stays short, and at the end it lists the information needed to complete it.
 
 ## Contributing, versions, license
 
 Reports, corrections and new examples are welcome, and the guidelines are in [`CONTRIBUTING.md`](CONTRIBUTING.md) (in Italian). If the skill is useful to you, a star on the repository helps other people find it.
 
-The current version is 1.19.0. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
+The current version is 1.20.0. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
 
 The license is [MIT](LICENSE). Italian master is created and maintained by [Michele Dal Santo](https://www.micheledalsanto.it).

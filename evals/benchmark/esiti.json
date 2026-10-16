@@ -59,6 +59,21 @@
       "attivazioni": 17,
       "completa": true,
       "caricata": true
+    },
+    {
+      "versione": "1.20.0",
+      "commit": "9cf0f68",
+      "data": "2026-10-16",
+      "vittorie": 21,
+      "pari": 1,
+      "sconfitte": 2,
+      "giudizi": 24,
+      "quota": 0.896,
+      "formule_ogni_mille": 1.84,
+      "risposte": 24,
+      "attivazioni": 22,
+      "completa": true,
+      "caricata": true
     }
   ],
   "modello": "sonnet",
