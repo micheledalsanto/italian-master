@@ -21,7 +21,7 @@ Una skill per Claude, Codex e gli altri agenti compatibili con le Agent Skills, 
 [![Python](https://img.shields.io/badge/python-%E2%89%A53.8-3776AB?logo=python&logoColor=white)](#il-correttore-da-riga-di-comando)
 [![Stelle](https://img.shields.io/github/stars/micheledalsanto/italian-master?label=stelle&style=social)](https://github.com/micheledalsanto/italian-master/stargazers)
 
-[Provala subito](#provala-subito) · [La stessa mail, tre volte](#la-stessa-mail-scritta-tre-volte) · [Che cosa sa fare](#chiedile-quello-che-chiederesti-a-un-redattore) · [Installazione](#tutti-i-modi-per-installarla) · [English](README.en.md)
+[Provala subito](#provala-subito) · [La stessa mail, tre volte](#la-stessa-mail-scritta-tre-volte) · [Che cosa sa fare](#chiedile-quello-che-chiederesti-a-un-redattore) · [Messa alla prova](#messa-alla-prova-contro-claude-da-solo) · [Installazione](#tutti-i-modi-per-installarla) · [English](README.en.md)
 
 </div>
 
@@ -106,6 +106,29 @@ Le indicazioni della skill non nascono da un'impressione. Sono state ricavate da
 | **14** | generi di testo, ciascuno con le sue regole |
 
 Quanto è lunga in media una frase di quotidiano, quanti due punti ci sono in un articolo, quali tempi verbali usa un romanzo, come si apre una newsletter: sono misure, e la skill le usa come un redattore usa l'orecchio.
+
+## Messa alla prova contro Claude da solo
+
+<img src=".github/benchmark.svg" alt="Grafico: con la skill il testo è giudicato migliore nell'83% dei confronti con la versione 1.10.0, nel 79% con la 1.13.0, nel 75% con la 1.15.0 e nel 92% con la 1.18.6" width="100%">
+
+Ogni versione della skill viene messa alla prova su dodici richieste fisse, sempre le stesse: una landing da riscrivere, un sollecito di pagamento, una traduzione, un articolo da scrivere a partire da appunti, una spiegazione per una bambina, l'attacco di un racconto, una guida a un servizio pubblico, i testi di un'interfaccia, una pagina «Chi siamo», una scheda prodotto, una scena e un claim. Ogni richiesta viene eseguita due volte con la skill e due volte senza. Ogni coppia di testi passa poi a una sessione separata di Claude, che non sa quale dei due sia stato scritto con la skill e sceglie il migliore.
+
+| Versione | Testo migliore con la skill | Skill attivata | Formule ogni mille parole |
+| --- | ---: | ---: | ---: |
+| 1.10.0 | 20 confronti su 24 | 22 sessioni su 24 | 2,0 |
+| 1.13.0 | 19 su 24 | 22 su 24 | 1,8 |
+| 1.15.0 | 18 su 24 | 22 su 24 | 0,8 |
+| 1.18.6 | 22 su 24 | 17 su 24 | 1,6 |
+| Claude senza skill | | | 1,7 |
+
+I numeri dicono alcune cose con sicurezza e altre no.
+
+- **In tutte le versioni misurate il testo scritto con la skill è giudicato migliore in almeno tre confronti su quattro.** Le differenze tra una versione e l'altra, invece, sono troppo piccole per concludere che una versione scriva meglio della precedente. Messo davanti a due testi equivalenti, entrambi di Claude senza skill, il giudice ha dato il 39% anziché il 50%, e la fascia grigia del grafico mostra proprio questo margine.
+- **Il vantaggio non sta nelle formule.** Il correttore ne trova poche anche nei testi di Claude senza skill. I giudizi premiano la skill soprattutto perché non inventa fatti, mantiene il registro richiesto e scrive in modo concreto.
+- **La skill non si attiva sempre da sola.** Con la versione 1.18.6 si è attivata in 17 sessioni su 24; nelle altre Claude ha scritto senza, e il confronto le ha contate ugualmente.
+- **Il giudice è un modello linguistico, e i casi sono stati scritti insieme alla skill.** I numeri indicano la direzione del lavoro, ma non sono una misura indipendente della qualità. Le prime versioni (1.0 e 1.5) non compaiono perché le versioni attuali di Claude Code non riescono a caricarle.
+
+Lo script è [`evals/benchmark.py`](evals/benchmark.py), e chiunque può rieseguirlo: le istruzioni sono in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Che cosa la rende diversa
 
@@ -325,6 +348,6 @@ Ci sono anche dei limiti, ed è giusto dirli.
 
 Segnalazioni, correzioni e nuovi esempi sono i benvenuti, e le indicazioni per proporli sono in [`CONTRIBUTING.md`](CONTRIBUTING.md). Se la skill ti è utile, una stella alla repo aiuta altre persone a trovarla.
 
-La versione corrente è la 1.18.6. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
+La versione corrente è la 1.19.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
 
 La licenza è la [MIT](LICENSE). Italian master è ideata e curata da [Michele Dal Santo](https://www.micheledalsanto.it).

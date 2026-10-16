@@ -57,6 +57,8 @@ skills/italian-master/
   scripts/controlla.py   controllo automatico
 evals/evals.json         casi di prova, con i loro controlli
 evals/esegui.py          esegue i casi e valuta le risposte
+evals/benchmark.py       confronta le versioni della skill con Claude senza skill
+evals/benchmark/         casi fissi del benchmark e numeri aggregati
 commands/                comandi del plugin: rivedi, voce, configura
 tests/                   prove automatiche dello script, dell'installatore e del pacchetto
 ```
@@ -87,3 +89,12 @@ python evals/esegui.py --rivaluta   # rivaluta le risposte già salvate, senza r
 ```
 
 I controlli automatici trovano gli errori certi (un dato che manca, una formula rimasta, la skill che non si è attivata). Se il testo è buono lo dice solo la lettura: le risposte sono in `evals/risultati/`, e vanno confrontate con il risultato atteso di ogni caso. Quando una prova mostra un difetto che si ripete, aggiungi il controllo al caso prima di correggere la skill, così la correzione si può verificare.
+
+Per una versione nuova si può aggiornare anche il benchmark del README. Lo script esegue i dodici casi fissi di `evals/benchmark/casi.json` con la skill e senza, fa giudicare ogni coppia alla cieca da una sessione separata e ridisegna il grafico:
+
+```bash
+python evals/benchmark.py HEAD          # la cartella di lavoro
+python evals/benchmark.py v1.18.6 HEAD  # anche una versione precedente, per confronto
+```
+
+Le risposte e i giudizi restano in `evals/risultati/benchmark/` e si riusano, quindi un giro interrotto riprende da dove si era fermato. Nella repo vanno solo `evals/benchmark/esiti.json` e `.github/benchmark.svg`. I casi fissi non si modificano, altrimenti le versioni smettono di essere confrontabili.

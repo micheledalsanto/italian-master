@@ -2,6 +2,19 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.19.0] - 2026-10-16
+
+### Aggiunto
+
+- **Benchmark contro Claude senza skill (`evals/benchmark.py`).** Dodici casi fissi, copiati da `evals.json` in `evals/benchmark/casi.json`, vengono eseguiti due volte con la skill e due volte senza. Ogni coppia di risposte va a una sessione separata che non sa quale delle due abbia usato la skill e sceglie la migliore. Lo script misura anche le formule segnalate da `controlla.py` ogni mille parole e quante volte la skill si è attivata. Riusa le risposte già salvate, quindi un giro interrotto dal limite di utilizzo riprende da dove si era fermato, e segnala le versioni che Claude Code non riesce a caricare. Nella repo vanno solo i numeri aggregati (`evals/benchmark/esiti.json`) e il grafico.
+- **Il README, in italiano e in inglese, ha una sezione «Messa alla prova contro Claude da solo»** con il grafico (`.github/benchmark.svg`, chiaro e scuro), la tabella delle versioni 1.10.0, 1.13.0, 1.15.0 e 1.18.6 e i limiti della misura. Con la skill il testo è giudicato migliore in 18-22 confronti su 24. La fascia del grafico mostra il rumore del giudice, misurato su 48 confronti tra due testi di Claude senza skill: 39% anziché 50%.
+- Prove automatiche del benchmark e del grafico (`tests/test_benchmark.py`), che non lanciano sessioni.
+
+### Modificato
+
+- `evals/esegui.py` può aprire una sessione senza plugin, che fa da termine di paragone.
+- `CONTRIBUTING.md` spiega come aggiornare il benchmark.
+
 ## [1.18.6] - 2026-10-15
 
 ### Modificato

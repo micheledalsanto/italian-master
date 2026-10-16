@@ -1,0 +1,81 @@
+{
+  "versioni": [
+    {
+      "versione": "1.10.0",
+      "commit": "29be826",
+      "data": "2026-10-09",
+      "vittorie": 20,
+      "pari": 0,
+      "sconfitte": 4,
+      "giudizi": 24,
+      "quota": 0.833,
+      "formule_ogni_mille": 1.99,
+      "risposte": 24,
+      "attivazioni": 22,
+      "completa": true,
+      "caricata": true
+    },
+    {
+      "versione": "1.13.0",
+      "commit": "a0d3a2d",
+      "data": "2026-10-10",
+      "vittorie": 19,
+      "pari": 0,
+      "sconfitte": 5,
+      "giudizi": 24,
+      "quota": 0.792,
+      "formule_ogni_mille": 1.77,
+      "risposte": 24,
+      "attivazioni": 22,
+      "completa": true,
+      "caricata": true
+    },
+    {
+      "versione": "1.15.0",
+      "commit": "b121f61",
+      "data": "2026-10-12",
+      "vittorie": 18,
+      "pari": 0,
+      "sconfitte": 6,
+      "giudizi": 24,
+      "quota": 0.75,
+      "formule_ogni_mille": 0.77,
+      "risposte": 24,
+      "attivazioni": 22,
+      "completa": true,
+      "caricata": true
+    },
+    {
+      "versione": "1.18.6",
+      "commit": "fba5b57",
+      "data": "2026-10-15",
+      "vittorie": 22,
+      "pari": 0,
+      "sconfitte": 2,
+      "giudizi": 24,
+      "quota": 0.917,
+      "formule_ogni_mille": 1.64,
+      "risposte": 24,
+      "attivazioni": 17,
+      "completa": true,
+      "caricata": true
+    }
+  ],
+  "modello": "sonnet",
+  "giudice": "opus",
+  "casi": 12,
+  "ripetizioni": 2,
+  "senza": {
+    "formule_ogni_mille": 1.72,
+    "risposte": 24
+  },
+  "aggiornato": "2026-10-16",
+  "rumore": {
+    "nota": "Le versioni 1.0.0 e 1.5.0 non si caricano nelle versioni attuali di Claude Code (descrizione senza virgolette), quindi questi confronti mettono Claude senza skill contro Claude senza skill: il risultato atteso è il 50%, la distanza è il rumore del giudice.",
+    "giudizi": 48,
+    "vittorie": 18,
+    "pari": 1,
+    "sconfitte": 29,
+    "quota": 0.385
+  }
+}

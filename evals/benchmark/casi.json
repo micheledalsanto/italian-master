@@ -1,0 +1,80 @@
+{
+  "nota": "Casi fissi del benchmark, copiati da evals.json il 16 ottobre 2026. Non si modificano: altrimenti le versioni non sono più confrontabili.",
+  "evals": [
+    {
+      "id": 1,
+      "name": "riscrittura-landing",
+      "prompt": "Mi sistemi questo testo per la home del sito? Suona finto ma non so dire perché. Siamo uno studio di tre commercialisti a Vicenza, aperto dal 2009, seguiamo circa 200 partite IVA.\n\n\"Nel panorama fiscale odierno, sempre più complesso, il nostro studio rappresenta molto più di un semplice consulente: è un vero e proprio partner strategico. Che tu sia un libero professionista o una PMI, offriamo una vasta gamma di soluzioni personalizzate, garantendo competenza, affidabilità e trasparenza. Non si tratta solo di numeri — si tratta di persone. Assicurati di contattarci per sbloccare il pieno potenziale della tua attività!\"",
+      "expected_output": "Testo riscritto in italiano naturale che usa i fatti forniti (tre commercialisti, Vicenza, 2009, 200 partite IVA), senza le formule dell'originale, con tu coerente, più una breve nota su che cosa è cambiato. Nessun dato inventato."
+    },
+    {
+      "id": 3,
+      "name": "email-formale-sollecito",
+      "prompt": "Scrivimi una mail per sollecitare il pagamento di una fattura. Fattura n. 47 del 12 giugno, 1840 euro, scaduta il 12 luglio. Il cliente è l'architetto Paolo Ferraris, ci diamo del lei, è la prima volta che ritarda e ci tengo a non rovinare il rapporto.",
+      "expected_output": "Email breve con oggetto preciso, apertura «Gentile architetto Ferraris,» o simile, lei coerente, richiesta chiara con i dati della fattura in formato italiano (1.840 euro o 1.840,00 €, date all'italiana), tono fermo e cortese, chiusura «Cordiali saluti» o simile, senza formule burocratiche né calchi. La scadenza per il pagamento non è stata indicata: non va inventata, ma lasciata come segnaposto e segnalata. Le note all'utente gli danno del tu."
+    },
+    {
+      "id": 4,
+      "name": "traduzione-post-linkedin",
+      "prompt": "Translate this into Italian for our LinkedIn page, it should sound like an Italian wrote it, not a translation:\n\n\"We're thrilled to announce that our team has grown! At the end of the day, it's not just about hiring great people — it's about building a culture where everyone can thrive. Make sure to check out our open roles and feel free to reach out. Stay tuned for more exciting news!\"",
+      "expected_output": "Post in italiano che rende il senso senza calchi («alla fine della giornata», «assicurati di», «sentiti libero», «resta sintonizzato», «eccitati»), senza lineette lunghe, senza falso contrasto meccanico, con un registro credibile per LinkedIn in Italia."
+    },
+    {
+      "id": 6,
+      "name": "articolo-da-appunti",
+      "prompt": "Scrivimi un articolo di 400 parole circa per il blog della nostra associazione, da questi appunti. Sabato 3 ottobre abbiamo riaperto la biblioteca di quartiere di via Bixio a Parma, chiusa da marzo 2024 per l'allagamento del seminterrato. I lavori sono costati 180mila euro, 120mila dal Comune e 60mila raccolti con una sottoscrizione tra 900 abitanti. All'inaugurazione c'erano circa 300 persone e l'assessora alla cultura Marta Ferrari, che ha detto: \"Questa biblioteca l'ha salvata il quartiere, noi abbiamo solo firmato\". Si sono persi 2.400 libri su 11.000, ne sono stati ricomprati o donati 1.900. Nuovo orario: dal martedì al sabato, 9-19. La presidente dell'associazione è Lucia Gatti, bibliotecaria in pensione.",
+      "expected_output": "Articolo in prosa italiana da leggere: attacco con il fatto, la data e il luogo; periodi articolati (media sopra le 18 parole per frase, qualche frase oltre le 30), verbi al passato, la citazione dell'assessora riportata e attribuita, tutti i numeri degli appunti e nessun dato inventato; connettivi e parole di misura; nessuna apertura sul valore della cultura, nessuna chiusura con morale, nessuna raffica di frasi brevi né due punti a effetto. Gli appunti non dicono chi ha promosso la sottoscrizione né chi ha donato i libri: l'articolo non lo dice. Se i fatti non bastano per 400 parole, esce più corto e lo segnala. Nessuna frase che commenta un dato per allungare («segno che…», «una cifra che racconta da sola…»)."
+    },
+    {
+      "id": 8,
+      "name": "spiegazione-per-bambina",
+      "prompt": "Mia figlia ha 8 anni e mi ha chiesto perché il mare è salato. Mi scrivi una spiegazione che possa leggere da sola? Una paginetta, non di più.",
+      "expected_output": "Testo per una bambina di otto anni: frasi corte, un'idea per frase, parole di tutti i giorni, domande rivolte a lei, un paragone con una cosa che conosce, indice Gulpease da 80 in su. Niente vezzeggiativi a pioggia né punti esclamativi in fila, niente morale finale. Il contenuto è corretto (i fiumi portano al mare i sali delle rocce, l'acqua evapora e il sale resta).",
+      "controlli": {
+        "bambini": true
+      }
+    },
+    {
+      "id": 9,
+      "name": "attacco-racconto-fantasy",
+      "prompt": "Scrivimi l'attacco di un racconto fantasy, 300 parole circa. La protagonista fa la traghettatrice su un fiume che un giorno all'anno scorre al contrario. Niente prologo epico.",
+      "expected_output": "Scena che comincia da un personaggio che fa una cosa, o dalla regola impossibile detta come un fatto. Il mondo si capisce dagli oggetti e dalle battute, senza capoverso di storia del mondo. Passato remoto o comunque un tempo solo, dialogo con «disse», al massimo una o due similitudini, nessun nome con l'apostrofo, nessuna maiuscola ai nomi comuni, nessuna frase a effetto in fondo a ogni capoverso, nessun «brivido lungo la schiena». Si consegna il testo senza commenti lunghi."
+    },
+    {
+      "id": 13,
+      "name": "guida-accogliente-isee",
+      "prompt": "Scrivi per il sito del nostro CAF una spiegazione di che cos'è l'ISEE e a che cosa serve, per chi non l'ha mai fatto. 300 parole circa.",
+      "expected_output": "Spiegazione in tono accogliente: comincia dalla situazione o dal dubbio del lettore, gli dà del tu, spiega prima di nominare i termini tecnici (DSU dopo la spiegazione), anticipa una o due domande, titoli che si direbbero a voce. Niente «è importante sottolineare», niente rassicurazioni ripetute, nessuna soglia o importo inventato, un invito finale preciso al CAF."
+    },
+    {
+      "id": 14,
+      "name": "microcopy-eliminazione-account",
+      "prompt": "Mi servono i testi per la schermata di eliminazione dell'account della nostra app. Si chiama Rete e serve a prenotare campi da padel. Chi elimina l'account perde lo storico delle prenotazioni e il credito residuo, e le prenotazioni future vengono annullate. Mi servono titolo, testo, i due pulsanti e il messaggio di errore se l'eliminazione non riesce.",
+      "expected_output": "Stringhe consegnate con il nome dell'elemento accanto: titolo in forma di domanda con il verbo dell'azione («Vuoi eliminare il tuo account?»), testo che dice le tre conseguenze fornite, due pulsanti che ripetono i verbi («Elimina l'account», «Annulla» o «Torna indietro») e non «Sì» e «No», errore che dice che l'account non è stato eliminato e che cosa fare. Tu coerente, maiuscola solo alla prima parola, nessun punto esclamativo, nessun «Sei sicuro», «Ops», «per favore», «con successo». Il credito è una variabile, non una cifra inventata."
+    },
+    {
+      "id": 17,
+      "name": "chi-siamo-solo-i-fatti",
+      "prompt": "Scrivi il testo della pagina «Chi siamo» della nostra azienda agricola. Siamo a Montalcino, dodici ettari, di cui otto a vigneto e il resto a ulivi. L'ha comprata mio nonno Aldo nel 1968, oggi la mandiamo avanti io e mia sorella Chiara. Facciamo Brunello e Rosso di Montalcino, circa 30.000 bottiglie l'anno, e olio. Dal 2015 siamo in biologico. Si può venire a visitare la cantina su prenotazione. Circa 150 parole. Dammi solo il testo, senza note né commenti.",
+      "expected_output": "Pagina commerciale in prima persona plurale, con sottotitolo, capoversi brevi, tono caldo e invito finale, e con i soli fatti dati: Montalcino, dodici ettari, il nonno Aldo e il 1968, i due fratelli, i vini e le bottiglie, l'olio, il biologico dal 2015, la visita su prenotazione. Nessuna circostanza aggiunta sull'azienda (ulivi secolari, raccolta a mano, che cosa si fa dell'olio, come lavorava il nonno), nessun superlativo. Solo il testo, senza note."
+    },
+    {
+      "id": 19,
+      "name": "scheda-prodotto-solo-testo",
+      "prompt": "Scrivi la scheda prodotto per il nostro negozio online. Siamo un piccolo laboratorio di cosmetici naturali di Bolzano. Il prodotto: crema mani alla calendula, tubetto da 75 ml, 12 euro. Dentro ci sono burro di karité e olio di mandorle dolci, la calendula la coltiviamo noi. Senza profumo aggiunto. Si assorbe in fretta e non unge. Dopo l'apertura dura 6 mesi. Dammi solo il testo, senza note né commenti.",
+      "expected_output": "Scheda di un prodotto: nome con il formato, prima frase che dice che cosa è, uno o due capoversi di prosa a frasi di media lunghezza che legano le caratteristiche a quello che cambia per chi compra, elenco dei soli dati tecnici (formato, durata dopo l'apertura), senza ripetere quello che la prosa ha già detto. Noi per il laboratorio, nessun esclamativo, nessun profumo, sensazione o beneficio per la pelle che la richiesta non dia, nessun invito all'acquisto in chiusura. Solo il testo."
+    },
+    {
+      "id": 21,
+      "name": "scena-realistica",
+      "prompt": "Scrivimi una scena breve, massimo 250 parole: due fratelli di cinquant'anni, Sandro e Paola, svuotano la casa della madre che è morta da un mese. Si deve capire che non si parlano da anni, ma nessuno dei due lo dice. Dammi solo il testo, senza note né commenti.",
+      "expected_output": "Una scena sola, in un luogo e in un momento, in terza persona al passato remoto, a scena già avviata. Battute brevi, quasi tutte con «disse» o «chiese» o senza attribuzione, qualche gesto che fa vedere qualcosa. Il silenzio tra i due si capisce dagli oggetti e da quello che non si dicono: nessuna battuta e nessuna frase del narratore lo dichiara. Capoversi brevi, nessuna similitudine a ogni frase, finale su un gesto o su una battuta, senza morale."
+    },
+    {
+      "id": 22,
+      "name": "claim-gioco-di-parole",
+      "prompt": "Devo trovare il claim di lancio per un nuovo tè freddo alla pesca, si chiama Rivo. L'obiettivo è far capire che è buonissimo, e vorrei dei giochi di parole.",
+      "expected_output": "Dieci o quindici proposte numerate di claim con una storpiatura, cioè una parola o una frase fatta deformata perché dentro si senta «tè», «pesca» o il nome del prodotto («Tè lo meriti», «Ne RIVOglio»), raggruppate per meccanismo, ognuna con la sua origine in poche parole. In fondo le tre scelte e il perché, con l'avvertenza per quelle che vivono solo scritte. I soli doppi sensi non bastano. Nessun fatto inventato sul prodotto (ingredienti, zuccheri, provenienza), la risposta comincia dalle proposte, senza una riga che le annunci."
+    }
+  ]
+}

@@ -68,8 +68,10 @@ def esegui_caso(caso, cartella, modello, plugin=REPO):
     if not neutra.exists():
         neutra.parent.mkdir(parents=True, exist_ok=True)
         neutra.write_text(NEUTRA, encoding="utf-8")
-    comando = [shutil.which("claude") or "claude", "-p", "--plugin-dir", str(plugin), "--output-format", "stream-json",
-               "--verbose", "--allowedTools", "Read,Glob,Grep,Skill,Write,Bash(python:*),Bash(python3:*)", "--model", modello]
+    # Senza plugin la sessione è Claude da solo: è il termine di paragone del benchmark.
+    comando = [shutil.which("claude") or "claude", "-p", *(["--plugin-dir", str(plugin)] if plugin else []),
+               "--output-format", "stream-json", "--verbose",
+               "--allowedTools", "Read,Glob,Grep,Skill,Write,Bash(python:*),Bash(python3:*)", "--model", modello]
     processo = subprocess.run(comando, input=caso["prompt"], capture_output=True, text=True, encoding="utf-8",
                               cwd=lavoro, timeout=900)
     (cartella / "sessione.jsonl").write_text(processo.stdout, encoding="utf-8")
