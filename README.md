@@ -29,7 +29,7 @@ Una skill per Claude, Codex e gli altri agenti compatibili con le Agent Skills, 
 
 ## Corretto, eppure finto
 
-Chiedi a un modello linguistico un testo in italiano e riceverai quasi sempre una pagina senza errori che nessun italiano avrebbe scritto. Si apre con un mondo «sempre più connesso», mette tre aggettivi dove ne bastava uno, scrive i titoli con le maiuscole a ogni parola e prende in prestito dall'inglese le lineette lunghe. Se poi gli chiedi di essere più asciutto, il modello cade nel difetto opposto e risponde a frasette di cinque parole chiuse da una battuta, che si riconoscono come generate esattamente come le prime.
+Chiedi a un modello linguistico un testo in italiano e riceverai quasi sempre una pagina senza errori che nessun italiano avrebbe scritto. Si apre con un mondo «sempre più connesso», mette tre aggettivi dove ne bastava uno, scrive i titoli con le maiuscole a ogni parola e prende in prestito dall'inglese le lineette lunghe. Se poi gli chiedi di essere più sintetico, il modello cade nel difetto opposto e risponde a frasette di cinque parole chiuse da una battuta, che si riconoscono come generate esattamente come le prime.
 
 Italian master dà al modello quello che un buon redattore impara in anni di mestiere: dove la grammatica si sbaglia davvero, come si costruisce un periodo che non sembri tradotto, quando si dà del tu, del lei o del voi, come si scrive un titolo e quale tempo verbale regge un racconto. Soprattutto, gli insegna a lavorare con i fatti che riceve, senza inventarne altri per riempire la pagina.
 
@@ -45,7 +45,7 @@ La richiesta è identica per tutti e tre i testi: una mail con cui uno studio pr
 >
 > speriamo che questa email ti trovi bene! In un periodo dell'anno in cui il riposo diventa fondamentale, desideriamo informarLa che il nostro team si prenderà una meritata pausa — per tornare più carico che mai. Non si tratta solo di una chiusura: è un'occasione per ricaricare le energie, rinnovarci e offrirti un servizio ancora migliore.
 
-**Il modello da solo, quando gli si chiede di essere più asciutto**
+**Il modello da solo, quando gli si chiede di essere più sintetico**
 
 > **Oggetto: Ad agosto chiudiamo. Ecco cosa cambia.**
 >
@@ -111,7 +111,7 @@ Quanto è lunga in media una frase di quotidiano, quanti due punti ci sono in un
 
 <img src=".github/benchmark.svg" alt="Grafico: con la skill il testo è giudicato migliore nell'83% dei confronti con la versione 1.10.0, nel 79% con la 1.13.0, nel 75% con la 1.15.0, nel 92% con la 1.18.6 e nel 90% con la 1.20.0" width="100%">
 
-Ogni versione della skill viene messa alla prova su dodici richieste fisse, sempre le stesse: una landing da riscrivere, un sollecito di pagamento, una traduzione, un articolo da scrivere a partire da appunti, una spiegazione per una bambina, l'attacco di un racconto, una guida a un servizio pubblico, i testi di un'interfaccia, una pagina «Chi siamo», una scheda prodotto, una scena e un claim. Ogni richiesta viene eseguita due volte con la skill e due volte senza. Ogni coppia di testi passa poi a una sessione separata di Claude, che non sa quale dei due sia stato scritto con la skill e sceglie il migliore.
+Ogni versione della skill viene messa alla prova su dodici richieste fisse, sempre le stesse: una landing page da riscrivere, un sollecito di pagamento, una traduzione, un articolo da scrivere a partire da appunti, una spiegazione per una bambina, l'incipit di un racconto, una guida a un servizio pubblico, i testi di un'interfaccia, una pagina «Chi siamo», una scheda prodotto, una scena e un claim. Ogni richiesta viene eseguita due volte con la skill e due volte senza. Ogni coppia di testi passa poi a una sessione separata di Claude, che non sa quale dei due sia stato scritto con la skill e sceglie il migliore.
 
 | Versione | Testo migliore con la skill | Skill attivata | Formule ogni mille parole |
 | --- | ---: | ---: | ---: |
@@ -133,9 +133,9 @@ Lo script è [`evals/benchmark.py`](evals/benchmark.py), e chiunque può riesegu
 
 ## Che cosa la rende diversa
 
-- **Regole diverse per ogni genere.** Una mail a un cliente, la home di un sito, il messaggio di errore di un'app, un articolo e un racconto chiedono cose diverse. Il contrasto e la triade, che in un articolo sono difetti, in un claim funzionano benissimo, e la skill lo sa: distingue caso per caso e conosce i falsi allarmi.
+- **Regole diverse per ogni genere.** Una mail a un cliente, la home di un sito, il messaggio di errore di un'app, un articolo e un racconto chiedono cose diverse. Le contrapposizioni a effetto e le serie di tre aggettivi, che in un articolo sono difetti, in un claim funzionano benissimo, e la skill lo sa: distingue caso per caso e conosce i falsi allarmi.
 - **Nessun fatto inventato.** Numeri, nomi, citazioni e dettagli verosimili non vengono aggiunti per dare colore. Se i dati sono pochi, il testo esce più breve e in fondo la skill indica che cosa manca.
-- **Due difetti da evitare.** Accanto allo slop gonfio, fatto di enfasi e di aggettivi, c'è quello asciutto, a frasette e sentenze, che nasce proprio dal tentativo di evitare il primo. La skill li riconosce entrambi.
+- **Due difetti da evitare.** Accanto allo slop enfatico, carico di aggettivi, c'è quello sintetico, fatto di frasette e di sentenze, che nasce proprio dal tentativo di evitare il primo. La skill li riconosce entrambi.
 - **Il registro di chi firma.** Uno studio, un'azienda o un ente scrivono in modo formale e completo, e la skill non confonde l'informalità con la naturalezza.
 - **La tua voce.** Se le dai da leggere i tuoi testi, ne ricava una scheda di stile con le misure e scrive i prossimi come li scriveresti tu.
 
@@ -295,7 +295,7 @@ Quello che chiedi in una singola richiesta prevale sulla configurazione, e se es
 
 ## Il correttore da riga di comando
 
-`controlla.py` cerca in un testo le formule fatte, gli errori e i segnali tipografici più comuni, e ne misura il passo (parole per frase, frasi brevi, periodi lunghi, virgole, due punti) confrontandolo con quello di giornali e riviste. Calcola anche l'indice di leggibilità Gulpease. Usa solo la libreria standard e richiede Python 3.8 o successivo.
+`controlla.py` cerca in un testo le formule fatte, gli errori e i segnali tipografici più comuni, e ne misura il ritmo (parole per frase, frasi brevi, periodi lunghi, virgole, due punti) confrontandolo con quello di giornali e riviste. Calcola anche l'indice di leggibilità Gulpease. Usa solo la libreria standard e richiede Python 3.8 o successivo.
 
 ```bash
 python skills/italian-master/scripts/controlla.py bozza.md
@@ -324,7 +324,7 @@ Tipografia (2)
 
 Tra le opzioni ci sono `--json` per avere un'uscita strutturata, `--strict` per uscire con codice 1 quando ci sono segnalazioni (utile in una pipeline) e `--bambini` per i testi destinati ai bambini, nei quali le frasi corte sono giuste e conta la leggibilità.
 
-Lo stesso script sa anche misurare la voce di un autore. Se gli dai tre o più testi della stessa persona, stampa una scheda con la persona di chi scrive e quella del lettore, il passo delle frasi e dei capoversi, la punteggiatura, i legami preferiti e quelli che non usa mai, le parole che tornano. Con `--confronta` indica in quali misure una bozza si allontana da quella voce.
+Lo stesso script sa anche misurare la voce di un autore. Se gli dai tre o più testi della stessa persona, stampa una scheda con la persona di chi scrive e quella del lettore, la lunghezza delle frasi e dei capoversi, la punteggiatura, i connettivi preferiti e quelli che non usa mai, le parole che tornano. Con `--confronta` indica in quali misure una bozza si allontana da quella voce.
 
 ```bash
 python skills/italian-master/scripts/controlla.py --voce post1.md post2.md post3.md --confronta bozza.md
