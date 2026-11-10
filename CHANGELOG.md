@@ -2,6 +2,12 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.20.1] - 2026-11-10
+
+### Corretto
+
+- I due grafici del benchmark nel README (`.github/benchmark.svg` e `.github/benchmark.en.svg`) sono scritti su più righe. Su una riga sola, con il foglio di stile dentro, il controllo automatico della directory dei plugin non riusciva a leggerli e teneva la versione in attesa di revisione. Il disegno non cambia.
+
 ## [1.20.0] - 2026-10-16
 
 ### Modificato
