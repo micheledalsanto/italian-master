@@ -78,7 +78,7 @@ Il primo testo passa dal tu al lei nella stessa frase e non contiene nemmeno uno
 Se hai Node 18 o successivo, basta un comando, e non serve clonare la repo:
 
 ```bash
-npx github:micheledalsanto/italian-master
+npx github:micheledalsanto/italian-master#completo
 ```
 
 La skill viene copiata in `~/.claude/skills/italian-master`, dove Claude Code la trova da solo. Per Codex aggiungi `--codex`, e quando esce una versione nuova ti basta rilanciare lo stesso comando. Se preferisci il plugin di Claude Code, dentro una sessione scrivi:
@@ -109,7 +109,6 @@ Quanto è lunga in media una frase di quotidiano, quanti due punti ci sono in un
 
 ## Messa alla prova contro Claude da solo
 
-
 Ogni versione della skill viene messa alla prova su dodici richieste fisse, sempre le stesse: una landing page da riscrivere, un sollecito di pagamento, una traduzione, un articolo da scrivere a partire da appunti, una spiegazione per una bambina, l'incipit di un racconto, una guida a un servizio pubblico, i testi di un'interfaccia, una pagina «Chi siamo», una scheda prodotto, una scena e un claim. Ogni richiesta viene eseguita due volte con la skill e due volte senza. Ogni coppia di testi passa poi a una sessione separata di Claude, che non sa quale dei due sia stato scritto con la skill e sceglie il migliore.
 
 | Versione | Testo migliore con la skill | Skill attivata | Formule ogni mille parole |
@@ -128,7 +127,7 @@ I numeri dicono alcune cose con sicurezza e altre no.
 - **La skill non si attiva sempre da sola.** Con la versione 1.18.6 si è attivata in 17 sessioni su 24; nelle altre Claude ha scritto senza, e il confronto le ha contate ugualmente. Nella 1.20.0 la descrizione della skill nomina anche narrativa, testi per bambini, claim e pagine «Chi siamo», e le attivazioni sono salite a 22 su 24.
 - **Il giudice è un modello linguistico, e i casi sono stati scritti insieme alla skill.** I numeri indicano la direzione del lavoro, ma non sono una misura indipendente della qualità. Le prime versioni (1.0 e 1.5) non compaiono perché le versioni attuali di Claude Code non riescono a caricarle.
 
-Lo script è [`evals/benchmark.py`](evals/benchmark.py), e chiunque può rieseguirlo: le istruzioni sono in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+Lo script è [`evals/benchmark.py`](https://github.com/micheledalsanto/italian-master/blob/completo/evals/benchmark.py), e chiunque può rieseguirlo: le istruzioni sono in [`CONTRIBUTING.md`](https://github.com/micheledalsanto/italian-master/blob/completo/CONTRIBUTING.md).
 
 ## Che cosa la rende diversa
 
@@ -189,17 +188,17 @@ Ogni genere ha un file di riferimento, con le misure prese sui testi di quel gen
 È il modo più rapido, perché non richiede di clonare la repo. Serve Node 18 o successivo.
 
 ```bash
-npx github:micheledalsanto/italian-master
+npx github:micheledalsanto/italian-master#completo
 ```
 
 Il comando copia la skill in `~/.claude/skills/italian-master`, dove Claude Code la trova da solo, e se lo rilanci la aggiorna. Le opzioni sono queste:
 
 ```bash
-npx github:micheledalsanto/italian-master --codex     # per Codex (~/.agents/skills)
-npx github:micheledalsanto/italian-master --tutti     # per Claude Code e per Codex
-npx github:micheledalsanto/italian-master --project   # solo nel progetto corrente (.claude/skills, o .agents/skills con --codex)
-npx github:micheledalsanto/italian-master rimuovi     # la disinstalla
-npx github:micheledalsanto/italian-master --help      # tutte le opzioni
+npx github:micheledalsanto/italian-master#completo --codex     # per Codex (~/.agents/skills)
+npx github:micheledalsanto/italian-master#completo --tutti     # per Claude Code e per Codex
+npx github:micheledalsanto/italian-master#completo --project   # solo nel progetto corrente (.claude/skills, o .agents/skills con --codex)
+npx github:micheledalsanto/italian-master#completo rimuovi     # la disinstalla
+npx github:micheledalsanto/italian-master#completo --help      # tutte le opzioni
 ```
 
 ### Con skills.sh
@@ -251,8 +250,8 @@ Se ti serve solo in un progetto, copiala in `.claude/skills/` dentro quel proget
 Codex cerca le skill nella cartella `.agents/skills`, sia nel progetto sia nella home. Con npx:
 
 ```bash
-npx github:micheledalsanto/italian-master --codex             # ~/.agents/skills/italian-master
-npx github:micheledalsanto/italian-master --codex --project   # ./.agents/skills/italian-master
+npx github:micheledalsanto/italian-master#completo --codex             # ~/.agents/skills/italian-master
+npx github:micheledalsanto/italian-master#completo --codex --project   # ./.agents/skills/italian-master
 ```
 
 Oppure a mano:
@@ -274,9 +273,9 @@ Poi riavvia Codex. La skill si attiva da sola quando chiedi un testo in italiano
 Per chi scrivi e con quale tono lo decidi tu, una volta sola, in un file di configurazione che la skill legge prima di scrivere.
 
 ```bash
-npx github:micheledalsanto/italian-master configura            # per tutti i tuoi progetti (~/.claude/italian-master.md)
-npx github:micheledalsanto/italian-master configura --project  # solo per il progetto corrente (.claude/italian-master.md)
-npx github:micheledalsanto/italian-master configura --codex    # per Codex (~/.agents/italian-master.md)
+npx github:micheledalsanto/italian-master#completo configura            # per tutti i tuoi progetti (~/.claude/italian-master.md)
+npx github:micheledalsanto/italian-master#completo configura --project  # solo per il progetto corrente (.claude/italian-master.md)
+npx github:micheledalsanto/italian-master#completo configura --codex    # per Codex (~/.agents/italian-master.md)
 ```
 
 Il comando crea un modello da compilare con le voci che seguono. Quelle che lasci vuote, la skill le ricava dal contesto della richiesta.
@@ -293,6 +292,12 @@ Il comando crea un modello da compilare con le voci che seguono. Quelle che lasc
 Quello che chiedi in una singola richiesta prevale sulla configurazione, e se esistono sia il file del progetto sia quello personale vale il primo. Il file sta fuori dalla cartella della skill, per cui gli aggiornamenti non lo toccano. Se hai installato la skill a mano o su Claude.ai, copia il modello da [`assets/italian-master.md`](skills/italian-master/assets/italian-master.md), oppure incolla le tue scelte nelle istruzioni del progetto.
 
 ## Il correttore da riga di comando
+
+Il correttore, l'installatore per npx, il benchmark e i test stanno nel ramo [`completo`](https://github.com/micheledalsanto/italian-master/tree/completo) della repo. Il ramo `main` contiene solo la skill, perché la directory dei plugin di Anthropic non accetta script. Per usare il correttore si clona quel ramo:
+
+```bash
+git clone -b completo https://github.com/micheledalsanto/italian-master.git
+```
 
 `controlla.py` cerca in un testo le formule fatte, gli errori e i segnali tipografici più comuni, e ne misura il ritmo (parole per frase, frasi brevi, periodi lunghi, virgole, due punti) confrontandolo con quello di giornali e riviste. Calcola anche l'indice di leggibilità Gulpease. Usa solo la libreria standard e richiede Python 3.8 o successivo.
 
@@ -346,7 +351,7 @@ La skill ha anche alcuni limiti, che conviene conoscere prima di usarla.
 
 ## Contribuire, versioni, licenza
 
-Segnalazioni, correzioni e nuovi esempi sono i benvenuti, e le indicazioni per proporli sono in [`CONTRIBUTING.md`](CONTRIBUTING.md). Se la skill ti è utile, una stella alla repo aiuta altre persone a trovarla.
+Segnalazioni, correzioni e nuovi esempi sono i benvenuti, e le indicazioni per proporli sono in [`CONTRIBUTING.md`](https://github.com/micheledalsanto/italian-master/blob/completo/CONTRIBUTING.md). Se la skill ti è utile, una stella alla repo aiuta altre persone a trovarla.
 
 La versione corrente è la 1.20.0. Le modifiche sono elencate nel [CHANGELOG](CHANGELOG.md).
 

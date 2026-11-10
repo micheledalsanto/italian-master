@@ -78,7 +78,7 @@ The first text switches from the informal *tu* to the formal *Lei* in the same s
 If you have Node 18 or later, one command is enough, with no need to clone the repository:
 
 ```bash
-npx github:micheledalsanto/italian-master
+npx github:micheledalsanto/italian-master#completo
 ```
 
 The skill is copied to `~/.claude/skills/italian-master`, where Claude Code picks it up automatically. Add `--codex` for Codex, and run the same command again whenever a new version comes out. If you prefer the Claude Code plugin, type this inside a session:
@@ -109,7 +109,6 @@ How long the average sentence is in a newspaper, how many colons an article has,
 
 ## Tested against Claude on its own
 
-
 Every version of the skill is tested on twelve fixed requests, always the same ones: a landing page to rewrite, a payment reminder, a translation, an article written from notes, an explanation for a young girl, the opening of a story, a guide to a public service, interface copy, an "about us" page, a product page, a scene and a tagline. Each request runs twice with the skill and twice without. Each pair of texts then goes to a separate Claude session, which does not know which one used the skill, and picks the better one.
 
 | Version | Text better with the skill | Skill triggered | Formulas per thousand words |
@@ -128,7 +127,7 @@ The numbers support some conclusions and not others.
 - **The skill does not always trigger on its own.** With version 1.18.6 it triggered in 17 sessions out of 24; in the others Claude wrote without it, and the comparison still counted them. In 1.20.0 the skill's description also names fiction, writing for children, taglines and "about us" pages, and triggers rose to 22 out of 24.
 - **The judge is a language model, and the cases were written alongside the skill.** The numbers show the direction of the work, but they are not an independent measure of quality. The first versions (1.0 and 1.5) are missing because current versions of Claude Code cannot load them.
 
-The script is [`evals/benchmark.py`](evals/benchmark.py), and anyone can rerun it: instructions are in [`CONTRIBUTING.md`](CONTRIBUTING.md) (in Italian).
+The script is [`evals/benchmark.py`](https://github.com/micheledalsanto/italian-master/blob/completo/evals/benchmark.py), and anyone can rerun it: instructions are in [`CONTRIBUTING.md`](https://github.com/micheledalsanto/italian-master/blob/completo/CONTRIBUTING.md) (in Italian).
 
 ## What sets it apart
 
@@ -188,17 +187,17 @@ Each genre has its own reference file, with measurements taken on texts of that 
 The quickest way, since there is no need to clone the repository. Requires Node 18 or later.
 
 ```bash
-npx github:micheledalsanto/italian-master
+npx github:micheledalsanto/italian-master#completo
 ```
 
 The command copies the skill to `~/.claude/skills/italian-master`, where Claude Code picks it up automatically, and running it again updates it. These are the options:
 
 ```bash
-npx github:micheledalsanto/italian-master --codex     # for Codex (~/.agents/skills)
-npx github:micheledalsanto/italian-master --tutti     # for both Claude Code and Codex
-npx github:micheledalsanto/italian-master --project   # current project only (.claude/skills, or .agents/skills with --codex)
-npx github:micheledalsanto/italian-master rimuovi     # uninstall
-npx github:micheledalsanto/italian-master --help      # all options (in Italian)
+npx github:micheledalsanto/italian-master#completo --codex     # for Codex (~/.agents/skills)
+npx github:micheledalsanto/italian-master#completo --tutti     # for both Claude Code and Codex
+npx github:micheledalsanto/italian-master#completo --project   # current project only (.claude/skills, or .agents/skills with --codex)
+npx github:micheledalsanto/italian-master#completo rimuovi     # uninstall
+npx github:micheledalsanto/italian-master#completo --help      # all options (in Italian)
 ```
 
 ### With skills.sh
@@ -241,8 +240,8 @@ For a single project, copy it to `.claude/skills/` inside that project.
 Codex looks for skills in the `.agents/skills` folder, both in the project and in the home directory. With npx:
 
 ```bash
-npx github:micheledalsanto/italian-master --codex             # ~/.agents/skills/italian-master
-npx github:micheledalsanto/italian-master --codex --project   # ./.agents/skills/italian-master
+npx github:micheledalsanto/italian-master#completo --codex             # ~/.agents/skills/italian-master
+npx github:micheledalsanto/italian-master#completo --codex --project   # ./.agents/skills/italian-master
 ```
 
 Or by hand:
@@ -264,9 +263,9 @@ Then restart Codex. The skill triggers on its own when you ask for Italian text,
 You decide once who you write for and in what tone, in a configuration file that the skill reads before writing.
 
 ```bash
-npx github:micheledalsanto/italian-master configura            # for all your projects (~/.claude/italian-master.md)
-npx github:micheledalsanto/italian-master configura --project  # current project only (.claude/italian-master.md)
-npx github:micheledalsanto/italian-master configura --codex    # for Codex (~/.agents/italian-master.md)
+npx github:micheledalsanto/italian-master#completo configura            # for all your projects (~/.claude/italian-master.md)
+npx github:micheledalsanto/italian-master#completo configura --project  # current project only (.claude/italian-master.md)
+npx github:micheledalsanto/italian-master#completo configura --codex    # for Codex (~/.agents/italian-master.md)
 ```
 
 The command creates a template to fill in, in Italian, with the entries below. Whatever you leave empty, the skill works out from the request.
@@ -283,6 +282,12 @@ The command creates a template to fill in, in Italian, with the entries below. W
 What you ask for in a single request overrides the configuration, and a project file overrides the personal one. The file lives outside the skill folder, so updates do not touch it. If you installed the skill by hand or on Claude.ai, copy the template from [`assets/italian-master.md`](skills/italian-master/assets/italian-master.md), or paste your choices into the project instructions.
 
 ## The command-line checker
+
+The checker, the npx installer, the benchmark and the tests live in the [`completo`](https://github.com/micheledalsanto/italian-master/tree/completo) branch. The `main` branch holds only the skill, because Anthropic's plugin directory does not accept scripts. To use the checker, clone that branch:
+
+```bash
+git clone -b completo https://github.com/micheledalsanto/italian-master.git
+```
 
 `controlla.py` looks for the most common stock phrases, errors and typographic tells in a text, and measures its pace (words per sentence, short sentences, long periods, commas, colons) against Italian newspapers and magazines. It also computes the Gulpease readability index. It uses only the standard library and needs Python 3.8 or later. Its output is in Italian.
 
@@ -315,7 +320,7 @@ The skill also has a few limits, which are worth knowing before using it.
 
 ## Contributing, versions, license
 
-Reports, corrections and new examples are welcome, and the guidelines are in [`CONTRIBUTING.md`](CONTRIBUTING.md) (in Italian). If the skill is useful to you, a star on the repository helps other people find it.
+Reports, corrections and new examples are welcome, and the guidelines are in [`CONTRIBUTING.md`](https://github.com/micheledalsanto/italian-master/blob/completo/CONTRIBUTING.md) (in Italian). If the skill is useful to you, a star on the repository helps other people find it.
 
 The current version is 1.20.0. Changes are listed in the [CHANGELOG](CHANGELOG.md) (in Italian).
 

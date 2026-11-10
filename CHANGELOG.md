@@ -2,6 +2,13 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.20.2] - 2026-11-10
+
+### Modificato
+
+- **Il ramo `main` contiene solo la skill.** La directory dei plugin di Anthropic accetta da chi non è un'organizzazione verificata solo file Markdown, di testo, JSON, YAML e immagini. Il correttore `controlla.py`, l'installatore per npx, il benchmark e i test sono passati nel ramo `completo`, e in questa versione i controlli che faceva lo script si fanno rileggendo il testo.
+- L'installazione con npx ora si fa con `npx github:micheledalsanto/italian-master#completo`.
+
 ## [1.20.1] - 2026-11-10
 
 ### Corretto
