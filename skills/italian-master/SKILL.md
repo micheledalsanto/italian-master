@@ -141,7 +141,7 @@ Nessuna di queste liste è un elenco di divieti, perché ognuna di queste forme 
 
 **Tradurre verso l'italiano.** Si traduce il senso, ricostruendo i periodi come li costruirebbe chi scrive in italiano, dato che la sintassi a frasi brevi dell'originale inglese è la prima cosa che tradisce una traduzione. Le formule di entusiasmo e di congedo («we're thrilled», «stay tuned») non si traducono parola per parola e non si tolgono: si rendono con quelle che un'azienda italiana userebbe nello stesso posto («siamo felici di condividere questa novità», «continua a seguirci»), perché un post a cui è stato tolto il calore non ha più tono. Vedi `references/calchi.md`, per i tempi del passato `references/tempi-verbali.md` e, per le espressioni idiomatiche, `references/modi-di-dire.md`.
 
-**Imparare una voce.** Quando l'utente indica dei testi di riferimento, vanno letti prima di scrivere, ricavandone una scheda di stile secondo `references/imparare-una-voce.md`. Dove si possono eseguire comandi, `scripts/controlla.py --voce` misura la voce sui testi e `--confronta` dice in che cosa la bozza se ne allontana. La voce dell'utente prevale sulle preferenze di questa skill.
+**Imparare una voce.** Quando l'utente indica dei testi di riferimento, vanno letti prima di scrivere, ricavandone una scheda di stile secondo `references/imparare-una-voce.md`. La voce dell'utente prevale sulle preferenze di questa skill.
 
 ## Come si consegna
 
@@ -164,13 +164,7 @@ Prima di consegnare un testo da leggere conviene controllare, nell'ordine:
 - se, letto ad alta voce, sembra detto da qualcuno
 - se le righe per l'utente stanno sotto il testo e sono scritte con la stessa cura
 
-Lo script `scripts/controlla.py` segnala le formule più comuni, le lineette lunghe e le frasi di annuncio, e misura il passo delle frasi confrontandolo con quello dei testi veri. Dove è possibile eseguirlo va lanciato sulla risposta intera, note comprese, perché le righe aggiunte dopo il controllo sono quelle in cui tornano le lineette e le frasi di annuncio:
-
-```bash
-python scripts/controlla.py risposta.md
-```
-
-Le sue segnalazioni sono indizi da valutare, e un testo che non ne riceve può essere comunque mediocre. Lo script non vede i fatti inventati, che si controllano rileggendo il testo con la richiesta dell'utente accanto.
+In questa versione della skill lo script `controlla.py` non c'è. Dove i riferimenti lo nominano, le misure che descrivono si stimano rileggendo il testo, e i fatti inventati si cercano rileggendolo con la richiesta dell'utente accanto.
 
 ## Quando leggere i riferimenti
 

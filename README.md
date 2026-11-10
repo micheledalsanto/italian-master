@@ -109,7 +109,6 @@ Quanto è lunga in media una frase di quotidiano, quanti due punti ci sono in un
 
 ## Messa alla prova contro Claude da solo
 
-<img src=".github/benchmark.svg" alt="Grafico: con la skill il testo è giudicato migliore nell'83% dei confronti con la versione 1.10.0, nel 79% con la 1.13.0, nel 75% con la 1.15.0, nel 92% con la 1.18.6 e nel 90% con la 1.20.0" width="100%">
 
 Ogni versione della skill viene messa alla prova su dodici richieste fisse, sempre le stesse: una landing page da riscrivere, un sollecito di pagamento, una traduzione, un articolo da scrivere a partire da appunti, una spiegazione per una bambina, l'incipit di un racconto, una guida a un servizio pubblico, i testi di un'interfaccia, una pagina «Chi siamo», una scheda prodotto, una scena e un claim. Ogni richiesta viene eseguita due volte con la skill e due volte senza. Ogni coppia di testi passa poi a una sessione separata di Claude, che non sa quale dei due sia stato scritto con la skill e sceglie il migliore.
 

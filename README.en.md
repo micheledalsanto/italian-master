@@ -109,7 +109,6 @@ How long the average sentence is in a newspaper, how many colons an article has,
 
 ## Tested against Claude on its own
 
-<img src=".github/benchmark.en.svg" alt="Chart: with the skill the text is judged better in 83% of comparisons with version 1.10.0, 79% with 1.13.0, 75% with 1.15.0, 92% with 1.18.6 and 90% with 1.20.0" width="100%">
 
 Every version of the skill is tested on twelve fixed requests, always the same ones: a landing page to rewrite, a payment reminder, a translation, an article written from notes, an explanation for a young girl, the opening of a story, a guide to a public service, interface copy, an "about us" page, a product page, a scene and a tagline. Each request runs twice with the skill and twice without. Each pair of texts then goes to a separate Claude session, which does not know which one used the skill, and picks the better one.
 
