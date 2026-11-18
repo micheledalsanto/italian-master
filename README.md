@@ -8,8 +8,8 @@
 
 Una skill per Claude, Codex e gli altri agenti compatibili con le Agent Skills, costruita su più di cinque milioni di parole italiane lette e misurate.
 
-[![Versione](https://img.shields.io/github/package-json/v/micheledalsanto/italian-master?label=versione&color=008C45)](CHANGELOG.md)
-[![Test](https://img.shields.io/github/actions/workflow/status/micheledalsanto/italian-master/tests.yml?branch=main&label=test)](https://github.com/micheledalsanto/italian-master/actions/workflows/tests.yml)
+[![Versione](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmicheledalsanto%2Fitalian-master%2Fmain%2F.claude-plugin%2Fplugin.json&query=%24.version&prefix=v&label=versione&color=008C45)](CHANGELOG.md)
+[![Test](https://img.shields.io/github/actions/workflow/status/micheledalsanto/italian-master/tests.yml?branch=completo&label=test)](https://github.com/micheledalsanto/italian-master/actions/workflows/tests.yml)
 [![Licenza MIT](https://img.shields.io/github/license/micheledalsanto/italian-master?label=licenza&color=CD212A)](LICENSE)
 <br>
 [![Claude Code](https://img.shields.io/badge/Claude_Code-skill_e_plugin-D97757?logo=claude&logoColor=white)](#claude-code-come-plugin)

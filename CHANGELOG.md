@@ -2,6 +2,12 @@
 
 Le modifiche rilevanti di questa skill, versione per versione. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/) e i numeri di versione seguono il [versionamento semantico](https://semver.org/lang/it/).
 
+## [1.20.3] - 2026-11-18
+
+### Corretto
+
+- I badge del README mostravano «missing»: la versione ora si legge da `.claude-plugin/plugin.json` e lo stato dei test dal ramo `completo`, dove stanno `package.json` e il workflow.
+
 ## [1.20.2] - 2026-11-10
 
 ### Modificato
