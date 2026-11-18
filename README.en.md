@@ -9,7 +9,6 @@
 An agent skill for Claude, Codex and other Agent Skills-compatible agents, built on more than five million Italian words that were read and measured.
 
 [![Version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmicheledalsanto%2Fitalian-master%2Fmain%2F.claude-plugin%2Fplugin.json&query=%24.version&prefix=v&label=version&color=008C45)](CHANGELOG.md)
-[![Tests](https://img.shields.io/github/actions/workflow/status/micheledalsanto/italian-master/tests.yml?branch=completo&label=tests)](https://github.com/micheledalsanto/italian-master/actions/workflows/tests.yml)
 [![MIT license](https://img.shields.io/github/license/micheledalsanto/italian-master?label=license&color=CD212A)](LICENSE)
 <br>
 [![Claude Code](https://img.shields.io/badge/Claude_Code-skill_%26_plugin-D97757?logo=claude&logoColor=white)](#claude-code-as-a-plugin)
